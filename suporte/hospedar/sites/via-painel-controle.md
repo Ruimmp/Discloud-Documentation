@@ -4,10 +4,10 @@ description: >-
   controle? Confira logo abaixo!
 ---
 
-# via Painel de Controle (em breve)
+# 🎛 via Painel de Controle (em breve)
 
 {% hint style="danger" %}
-#### O painel de controle ainda não está disponível no momento
+#### O painel de controle da Discloud V2 ainda não está disponível no momento
 {% endhint %}
 
 {% content-ref url="../bots/discord.md" %}

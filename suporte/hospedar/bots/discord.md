@@ -4,7 +4,7 @@ description: >-
   Confira logo abaixo!
 ---
 
-# via Discord
+# 🔌 via Discord
 
 ## :cloud: Antes de Hospedar
 
