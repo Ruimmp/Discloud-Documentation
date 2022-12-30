@@ -1,12 +1,6 @@
----
-description: >-
-  Não quer usar o website para hospedar e fazer alterações em sua aplicação?
-  Confira logo abaixo!
----
-
 # 🔌 via Discord
 
-## :cloud: Antes de Hospedar
+## :cloud:Antes de Hospedar
 
 Antes de hospedar recomendo consultar a documentação da linguagem utilizada pelo seu bot.
 
@@ -14,11 +8,11 @@ Antes de hospedar recomendo consultar a documentação da linguagem utilizada pe
 [linguagens](../../linguagens/)
 {% endcontent-ref %}
 
-### :robot: Hospedando o Seu Bot
+### :robot:Hospedando o Seu Bot
 
 Se você estiver com o cargo `Verified pt-br`, significa que você se registrou com sucesso na **DisCloud**.&#x20;
 
-#### 1. Para hospedar, entre no canal de texto `🤎┃commands-v2` e digite `.up`.
+#### 1. Para hospedar, entre no canal de texto `commands-v2` e digite `.up` ( ou `.upc` para usar o [discloud.config](broken-reference)).
 
 ![](../../../.gitbook/assets/up.png)
 
@@ -33,6 +27,11 @@ Se você estiver com o cargo `Verified pt-br`, significa que você se registrou 
 #### 3. Digite o nome ou caminho do seu arquivo principal.
 
 ![](../../../.gitbook/assets/up-main.png)
+
+{% hint style="info" %}
+Se o seu arquivo principal estiver dentro de uma **subpasta**, por favor indique o caminho completo.\
+Exemplo: `src/index.js`
+{% endhint %}
 
 {% content-ref url="../../faq/arquivo-principal.md" %}
 [arquivo-principal.md](../../faq/arquivo-principal.md)
@@ -56,6 +55,6 @@ Se você estiver com o cargo `Verified pt-br`, significa que você se registrou 
 
 #### Envie as suas aplicações mais rapidamente!
 
-{% content-ref url="../../faq/discloud.config.md" %}
-[discloud.config.md](../../faq/discloud.config.md)
+{% content-ref url="../../../discloud.config/configurar/" %}
+[configurar](../../../discloud.config/configurar/)
 {% endcontent-ref %}

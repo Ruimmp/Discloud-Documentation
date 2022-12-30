@@ -12,14 +12,14 @@ description: Hospede e gerencie a sua aplicação sem sair do seu VSCode!
 
 #### 2. Configure o seu `discloud.config`
 
-{% content-ref url="../../faq/discloud.config.md" %}
-[discloud.config.md](../../faq/discloud.config.md)
+{% content-ref url="../../../discloud.config/configurar/" %}
+[configurar](../../../discloud.config/configurar/)
 {% endcontent-ref %}
 
 ## :jigsaw:Instalando a Extensão
 
-&#x20;                                 [`VSCode Marketplace`](https://marketplace.visualstudio.com/items?itemName=discloud.discloud)        |        [`Open VSX Registry`](https://open-vsx.org/extension/Discloud/discloud)  \
-&#x20;                                               VSCode                              VSCodium, Code OSS
+&#x20;     [`VSCode Marketplace`](https://marketplace.visualstudio.com/items?itemName=discloud.discloud)        |        [`Open VSX Registry`](https://open-vsx.org/extension/Discloud/discloud)  \
+&#x20;                    VSCode                              VSCodium, Code OSS
 
 <figure><img src="../../../.gitbook/assets/install-discloud-vscode-extention.png" alt=""><figcaption></figcaption></figure>
 
@@ -32,7 +32,7 @@ description: Hospede e gerencie a sua aplicação sem sair do seu VSCode!
 ### :cloud:Hospedando com a Extensão
 
 {% hint style="info" %}
-Certifique-se de ter o arquivo [discloud.config](../../faq/discloud.config.md#exemplo-para-bot), antes de prosseguir
+Certifique-se de ter o arquivo [discloud.config](../../../discloud.config/configurar/#exemplo-para-bot), antes de prosseguir
 {% endhint %}
 
 <figure><img src="../../../.gitbook/assets/discloud-extention-upload.png" alt=""><figcaption><p>Fazendo o Upload pela Extensão</p></figcaption></figure>

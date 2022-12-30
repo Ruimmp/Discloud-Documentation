@@ -2,7 +2,7 @@
 description: Aprenda a hospedar seu bot em JavaScript na DisCloud
 ---
 
-# 📦 JavaScript
+# 🟨 JavaScript
 
 ## :file\_folder: Arquivos
 
@@ -45,6 +45,10 @@ Escolha o método para hospedar seu Bot na Discloud:
 
 {% content-ref url="../../hospedar/bots/discord.md" %}
 [discord.md](../../hospedar/bots/discord.md)
+{% endcontent-ref %}
+
+{% content-ref url="../../hospedar/bots/vscode.md" %}
+[vscode.md](../../hospedar/bots/vscode.md)
 {% endcontent-ref %}
 
 ## :earth\_americas: Hospedando o Seu Site

@@ -1,20 +1,22 @@
 # Table of contents
 
-* [Bem-Vindo](README.md)
+* [👋 Bem-Vindo](README.md)
 
 ## Suporte
 
-* [☁ Como Hospedar](suporte/hospedar/README.md)
-  * [🌎 Sites](suporte/hospedar/sites/README.md)
-    * [🎛 via Painel de Controle (em breve)](suporte/hospedar/sites/via-painel-controle.md)
-    * [🔌 via Discord](suporte/hospedar/sites/discord.md)
-    * [🧩 via VSCode](suporte/hospedar/sites/vscode.md)
+* [☁ Hospedar](suporte/hospedar/README.md)
   * [🤖 Bots](suporte/hospedar/bots/README.md)
     * [🎛 via Painel de Controle (em breve)](suporte/hospedar/bots/via-painel-controle.md)
     * [🔌 via Discord](suporte/hospedar/bots/discord.md)
     * [🧩 via VSCode](suporte/hospedar/bots/vscode.md)
+    * [⌨ DisCloud CLI](suporte/hospedar/bots/cli.md)
+  * [🌎 Sites](suporte/hospedar/sites/README.md)
+    * [🎛 via Painel de Controle (em breve)](suporte/hospedar/sites/via-painel-controle.md)
+    * [🔌 via Discord](suporte/hospedar/sites/discord.md)
+    * [🧩 via VSCode](suporte/hospedar/sites/vscode.md)
+    * [⌨ DisCloud CLI](suporte/hospedar/sites/cli.md)
 * [⌨ Linguagens](suporte/linguagens/README.md)
-  * [📦 JavaScript](suporte/linguagens/javascript/README.md)
+  * [🟨 JavaScript](suporte/linguagens/javascript/README.md)
     * [📄 Criar o package.json](suporte/linguagens/javascript/criar-package.json.md)
   * [🐍 Python](suporte/linguagens/python/README.md)
     * [📄 Criar o requirements.txt](suporte/linguagens/python/criar-requirements.txt.md)
@@ -32,30 +34,42 @@
   * [Banco de Dados](suporte/integracao/banco-de-dados/README.md)
     * [MongoDB Atlas (mLab)](suporte/integracao/banco-de-dados/mlab-mongodb-atlas.md)
 * [❓ Perguntas Frequentes (FAQ)](suporte/faq/README.md)
-  * [Como compactar (zipar) os meus arquivos?](suporte/faq/zip.md)
-  * [Como utilizar o arquivo discloud.config?](suporte/faq/discloud.config.md)
-  * [DisCloud ModMail (Ticket)](suporte/faq/ticket.md)
-  * [Como fazer um Commit?](suporte/faq/commit.md)
-  * [Como pegar o ID do meu Bot?](suporte/faq/id-bot.md)
   * [Qual o arquivo principal?](suporte/faq/arquivo-principal.md)
-  * [Como reportar um infrator?](suporte/faq/report.md)
-  * [Porque meu bot não fica on?](suporte/faq/naoficaon.md)
+  * [Como obter o ID do meu Bot?](suporte/faq/id-bot.md)
+  * [Como Compactar?](suporte/faq/zip.md)
+  * [Commit](suporte/faq/commit.md)
   * [Bot muito pesado](suporte/faq/botpesado.md)
-  * ["Você já possui uma conta registrada no sistema"](suporte/faq/2acc.md)
-  * [A host aceita o arquivo .env?](suporte/faq/env.md)
+  * [DisCloud ModMail (Ticket)](suporte/faq/ticket.md)
+  * [Como reportar um infrator?](suporte/faq/report.md)
   * [Porque não consigo acessar o meu site?](suporte/faq/porque-nao-consigo-acessar-o-meu-site.md)
+  * [A host aceita o arquivo .env?](suporte/faq/env.md)
+  * ["Você já possui uma conta registrada no sistema"](suporte/faq/2acc.md)
 * [⚒ Comandos](suporte/comandos/README.md)
   * [api](suporte/comandos/api.md)
 * [🤲 Doações](suporte/doacoes.md)
 
+## discloud.config
+
+* [⚙ Configurar](discloud.config/configurar/README.md)
+  * [📦 APT (Instale Pacotes)](discloud.config/configurar/create.md)
+  * [🏗 VERSION (Alterne entre Versões)](discloud.config/configurar/versions.md)
+
+## 🖥 ambiente local
+
+* [⚙ Instalar](ambiente-local/instalar/README.md)
+  * [🟨 JavaScript (nodejs)](ambiente-local/instalar/javascript.md)
+  * [🐍 Python](ambiente-local/instalar/python.md)
+  * [💎 Ruby](ambiente-local/instalar/ruby.md)
+  * [🦀 Rust](ambiente-local/instalar/rust.md)
+
 ## API
 
 * [📡 Usar a API](api/usar-a-api.md)
-* [📝 Rotas (Canal do Discord)](https://discord.com/channels/584490943034425391/1011279647041921204)
+* [🔗 Rotas](https://discloud.github.io/apidoc/)
 
 ## Sobre
 
-* [Discloud Brand](sobre/discloud-brand/README.md)
+* [🎨 DisCloud Brand](sobre/discloud-brand/README.md)
   * [Origem do Nome](sobre/discloud-brand/origem-do-nome.md)
   * [Identidade Visual](sobre/discloud-brand/identidade-visual.md)
   * [Site](https://discloudbot.com/)

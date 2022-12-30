@@ -4,7 +4,10 @@ Caso você veja algum infrator violando nossas regras, você pode reportá-lo ut
 
 ### <img src="../../.gitbook/assets/ticket-logo.webp" alt="" data-size="line"> Ticket
 
-Para enviar seu relatório pelo [Ticket](ticket.md) forneça as seguintes informações: • ID do Infrator; • Descrição do Relatório; • Prova.
+Para enviar seu relatório pelo [Ticket](ticket.md) forneça as seguintes informações: \
+• **ID do Infrator**; \
+• **Descrição do Relatório**; \
+• **Prova**.
 
 {% content-ref url="ticket.md" %}
 [ticket.md](ticket.md)

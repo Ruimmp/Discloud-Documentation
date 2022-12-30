@@ -11,7 +11,7 @@ Alguns softwares de criação de bots, como o **Discord Bot Maker** e **Discord 
 ## :thinking: Como saber meu arquivo principal?
 
 {% tabs %}
-{% tab title="📦 JavaScript" %}
+{% tab title="🟨 JavaScript" %}
 ### JavaScript
 
 * O arquivo principal é aquele que você usa para ligar seu bot:

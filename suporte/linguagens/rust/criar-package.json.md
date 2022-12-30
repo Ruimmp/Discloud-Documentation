@@ -28,75 +28,9 @@ Modifique **botrs** para o nome do seu projeto seguindo a estrutura **snake\_cas
 Você precisa do **Rust e Cargo** instalado no seu computador, caso não esteja instalado siga as instruções abaixo.
 {% endhint %}
 
-### Instale o Rust e Cargo no seu computador
-
-> **cargo** - Gerenciador de pacotes oficial do **Rust**
-
-> Selecione o seu Sistema Operacional
-
-{% tabs %}
-{% tab title="🪟 Windows" %}
-### Instalação do Rust e Cargo
-
-### [Baixe o Rust Aqui](https://static.rust-lang.org/rustup/dist/i686-pc-windows-gnu/rustup-init.exe)
-
-> [Outros metodos de instalação](https://forge.rust-lang.org/infra/other-installation-methods.html)
-
-![](../../../.gitbook/assets/rust-win.png)
-
-### Verifique a Instalação do Rust
-
-Abra o **cmd** ou **PowerShell** e digite**:**
-
-```
-rustc --version
-```
-
-### Verifique a Instalação do Cargo
-
-Abra o **cmd** ou **PowerShell** e digite:
-
-```
-cargo --version
-```
-
-{% hint style="success" %}
-Se retornar a versão de ambos então está instalado corretamente!
-{% endhint %}
-{% endtab %}
-
-{% tab title="🐧 Linux" %}
-### Instalação do Rust e Cargo
-
-### <img src="../../../.gitbook/assets/ubuntu.png" alt="" data-size="line"> <img src="../../../.gitbook/assets/fedora.png" alt="" data-size="line"> <img src="../../../.gitbook/assets/arch.png" alt="" data-size="line">&#x20;
-
-Se estiver qualquer distro **Linux**, **Mac OS**, ou outro **Unix-like**, execute o seguinte comando no seu Terminal
-
-```shell
-curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-```
-
-### Verifique a Instalação do Rust
-
-Digite no Terminal o seguinte comando.
-
-```shell
-rustc --version
-```
-
-### Verifique a Instalação do Cargo
-
-Digite no Terminal o seguinte comando.
-
-```shell
-cargo --version
-```
-
-{% hint style="success" %}
-Se retornar a versão de ambos então está instalado corretamente!
-{% endhint %}
-{% endtab %}
-{% endtabs %}
+{% content-ref url="../../../ambiente-local/instalar/rust.md" %}
+[rust.md](../../../ambiente-local/instalar/rust.md)
+{% endcontent-ref %}
 
 ### Colocando dependências no seu `Cargo.toml`
 

@@ -2,9 +2,7 @@
 description: Seja Bem-vindo a documentação oficial da DisCloud.
 ---
 
-# Bem-Vindo
-
-![](.gitbook/assets/discloud-search.gif)
+# 👋 Bem-Vindo
 
 ## 📜 Sobre Esta Documentação
 

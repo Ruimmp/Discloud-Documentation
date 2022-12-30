@@ -1,9 +1,3 @@
----
-description: >-
-  Não quer usar o website para hospedar e fazer alterações em sua aplicação?
-  Confira logo abaixo!
----
-
 # 🔌 via Discord
 
 ## :cloud: Antes de Hospedar
@@ -26,7 +20,7 @@ Consulte a documentação da linguagem utilizada pelo seu site.
 
 Se você estiver com o cargo `Verified pt-br`, significa que você se registrou com sucesso na **DisCloud**.&#x20;
 
-Para hospedar, entre no canal de texto `🤎┃commands-v2` e digite `.upsite`.
+Para hospedar, entre no canal de texto `commands-v2` e digite `.upsite` ( ou `.upc` para usar o [discloud.config](broken-reference)).
 
 ![](../../../.gitbook/assets/upsite.png)
 
@@ -40,8 +34,8 @@ Dentro desse chat aparecerá as instruções que deverão ser preenchidas corret
 
 #### Envie as suas aplicações mais rapidamente!
 
-{% content-ref url="../../faq/discloud.config.md" %}
-[discloud.config.md](../../faq/discloud.config.md)
+{% content-ref url="../../../discloud.config/configurar/" %}
+[configurar](../../../discloud.config/configurar/)
 {% endcontent-ref %}
 
 ### :mag\_right: Problemas Comuns

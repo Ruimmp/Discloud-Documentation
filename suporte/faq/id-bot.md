@@ -1,12 +1,12 @@
-# Como pegar o ID do meu Bot?
+# Como obter o ID do meu Bot?
+
+## <img src="../../.gitbook/assets/DiscordLogo1.png" alt="" data-size="line"> Pelo Discord
 
 ## :gear: Ativando Modo Desenvolvedor
 
 É bem simples, ative o modo desenvolvedor no seu Discord indo em `Configurações >> Avançado` e ative o **Modo desenvolvedor**.
 
-![](<../../.gitbook/assets/image (13).png>)
-
-## <img src="../../.gitbook/assets/DiscordLogo1.png" alt="" data-size="line"> Pelo Discord
+![](../../.gitbook/assets/discord-developermode.png)
 
 Aperte com o botão direito em cima do nome do seu bot e na última opção aparecerá o botão **Copiar ID**.
 

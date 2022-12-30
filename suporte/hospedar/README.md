@@ -1,10 +1,4 @@
----
-description: >-
-  Não sabe hospedar ou fazer alterações em sua aplicação em nosso website?
-  Confira logo abaixo!
----
-
-# ☁ Como Hospedar
+# ☁ Hospedar
 
 ## ✍ Registro
 
@@ -16,7 +10,23 @@ O primeiro passo é fazer o seu **registro**. Entre no site da [DisCloud](https:
 Recomendamos você ler os [Termos de Serviço](broken-reference) e [Política de Uso](broken-reference) antes de hospedar seu bot na DisCloud para evitar a suspensão da sua conta de nossos serviços ou problemas relacionados.
 {% endhint %}
 
-### :earth\_americas: Hospedar Sites
+## ****:robot: **Hospedar Bots**
+
+Escolha um método para hospedar o seu bot:
+
+{% content-ref url="sites/via-painel-controle.md" %}
+[via-painel-controle.md](sites/via-painel-controle.md)
+{% endcontent-ref %}
+
+{% content-ref url="bots/discord.md" %}
+[discord.md](bots/discord.md)
+{% endcontent-ref %}
+
+{% content-ref url="bots/vscode.md" %}
+[vscode.md](bots/vscode.md)
+{% endcontent-ref %}
+
+## :earth\_americas: Hospedar Sites
 
 Escolha um método para hospedar o seu site:
 
@@ -28,14 +38,6 @@ Escolha um método para hospedar o seu site:
 [discord.md](sites/discord.md)
 {% endcontent-ref %}
 
-### ****:robot: **Hospedar Bots**
-
-Escolha um método para hospedar o seu bot:
-
-{% content-ref url="sites/via-painel-controle.md" %}
-[via-painel-controle.md](sites/via-painel-controle.md)
-{% endcontent-ref %}
-
-{% content-ref url="bots/discord.md" %}
-[discord.md](bots/discord.md)
+{% content-ref url="sites/vscode.md" %}
+[vscode.md](sites/vscode.md)
 {% endcontent-ref %}

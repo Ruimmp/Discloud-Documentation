@@ -63,12 +63,12 @@ Você pode importar o código a cima em aplicativos como o [Insomnia](https://in
 
 ## Fazer o upload de um projeto com a API
 
-<figure><img src="../.gitbook/assets/discloud-api-up.png" alt=""><figcaption></figcaption></figure>
-
 ### :pencil:Requisitos
 
-* O seu arquivo .zip deve incluir o [discloud.config](../suporte/faq/discloud.config.md)
-* O seu arquivo .zip deve ter um tamanho `<=100MB`
+* O seu arquivo `.zip` deve incluir o [discloud.config](../discloud.config/configurar/)
+* O seu arquivo `.zip` deve ter um tamanho `<=100MB`
+
+<figure><img src="../.gitbook/assets/discloud-api-up.png" alt=""><figcaption></figcaption></figure>
 
 {% code title="Shell" %}
 ```shell

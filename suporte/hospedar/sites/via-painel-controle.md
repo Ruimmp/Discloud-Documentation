@@ -13,3 +13,7 @@ description: >-
 {% content-ref url="../bots/discord.md" %}
 [discord.md](../bots/discord.md)
 {% endcontent-ref %}
+
+{% content-ref url="vscode.md" %}
+[vscode.md](vscode.md)
+{% endcontent-ref %}

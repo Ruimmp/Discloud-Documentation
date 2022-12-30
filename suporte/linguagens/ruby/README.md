@@ -99,8 +99,8 @@ end
 
 #### Exemplo `discloud.config` para `Rails`
 
-{% content-ref url="../../faq/discloud.config.md" %}
-[discloud.config.md](../../faq/discloud.config.md)
+{% content-ref url="../../../discloud.config/configurar/" %}
+[configurar](../../../discloud.config/configurar/)
 {% endcontent-ref %}
 
 {% code title="discloud.config" %}
