@@ -20,12 +20,14 @@ Este recurso só está disponível para os planos pagos.
 
 <figure><img src="../../.gitbook/assets/git-cmd-discord.png" alt=""><figcaption><p>Comando .git no canal de comandos</p></figcaption></figure>
 
+{% tabs %}
+{% tab title="Github" %}
+## URL do Repositório
+
 Entre na DM do bot da DisCloud e cole a URL do repositório para a sua aplicação.
 
 <figure><img src="../../.gitbook/assets/git-url.png" alt=""><figcaption><p>Colando o URL do repositorio</p></figcaption></figure>
 
-{% tabs %}
-{% tab title="Github" %}
 ## Configure o Token de Acesso ([Abrir Github](https://github.com/settings/personal-access-tokens/new))
 
 É importante que o acesso esteja para todos os repositórios _(principalmente se você desejar ativar a sincronização para mais de 1 aplicação)_
