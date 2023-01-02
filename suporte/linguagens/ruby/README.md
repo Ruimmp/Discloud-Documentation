@@ -46,6 +46,14 @@ Escolha o método para hospedar seu Bot na Discloud:
 [discord.md](../../hospedar/bots/discord.md)
 {% endcontent-ref %}
 
+{% content-ref url="../../hospedar/bots/vscode.md" %}
+[vscode.md](../../hospedar/bots/vscode.md)
+{% endcontent-ref %}
+
+{% content-ref url="../../hospedar/bots/cli.md" %}
+[cli.md](../../hospedar/bots/cli.md)
+{% endcontent-ref %}
+
 ## :earth\_americas: Hospedando o Seu Site
 
 {% hint style="info" %}

@@ -11,25 +11,22 @@ coverY: 683.9595959595961
 
 Para obter o seu token use o comando [api](../suporte/comandos/api.md).
 
+<figure><img src="../.gitbook/assets/api-cmd.png" alt=""><figcaption></figcaption></figure>
+
 ## Começar
 
-<figure><img src="../.gitbook/assets/insomnia-discloudapi-user.png" alt=""><figcaption></figcaption></figure>
+[Acesse as rotas da API](https://discloud.github.io/apidoc/)\
+Clique em `Authorize` e cole o seu Token da API
 
-### Comece a usar a API
+<figure><img src="../.gitbook/assets/api-login.png" alt=""><figcaption><p>Colocando o token</p></figcaption></figure>
 
-{% code title="Shell" %}
-```shell
-curl --request GET \
-  --url https://api.discloud.app/v2/user \
-  --header 'api-token: DISCLOUD_TOKEN'
-```
-{% endcode %}
+## Comece a usar a API
 
-{% hint style="info" %}
-Renomeie `DISCLOUD_TOKEN` com o seu token
-{% endhint %}
+exemplo com a rota `/user`
 
-Você pode importar o código a cima em aplicativos como o [Insomnia](https://insomnia.rest/download) ou [Postman](https://www.postman.com/downloads/), e a partir deles testar e gerar códigos para a linguagem que desejar
+<figure><img src="../.gitbook/assets/api-getuser-example.png" alt=""><figcaption><p>Exemplo da responta da rota /user</p></figcaption></figure>
+
+Você pode importar o código `curl` em aplicativos como o [Insomnia](https://insomnia.rest/download) ou [Postman](https://www.postman.com/downloads/), e a partir deles gerar o código para a linguagem que desejar
 
 > Exemplos:
 
@@ -61,22 +58,9 @@ Você pode importar o código a cima em aplicativos como o [Insomnia](https://in
 {% endtab %}
 {% endtabs %}
 
-## Fazer o upload de um projeto com a API
-
-### :pencil:Requisitos
+Exemplo com a rota `/upload`
 
 * O seu arquivo `.zip` deve incluir o [discloud.config](../discloud.config/configurar/)
 * O seu arquivo `.zip` deve ter um tamanho `<=100MB`
 
-<figure><img src="../.gitbook/assets/discloud-api-up.png" alt=""><figcaption></figcaption></figure>
-
-{% code title="Shell" %}
-```shell
-curl --request POST \
-  --url https://api.discloud.app/v2/upload \
-  --header 'Content-Type: multipart/form-data' \
-  --header 'api-token: DISCLOUD_TOKEN' \
-  --header 'content-type: multipart/form-data; boundary=---011000010111000001101001' \
-  --form file=@/home/diogo/Documents/bot/Archive.zip
-```
-{% endcode %}
+<figure><img src="../.gitbook/assets/api-upload-example.png" alt=""><figcaption></figcaption></figure>

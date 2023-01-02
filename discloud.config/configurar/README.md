@@ -8,7 +8,7 @@ Detalhes para cada opção
 
 ![](../../.gitbook/assets/discloud-config-pt.png)
 
-> Consulte a lista de opções para: [VERSION](./#versoes-disponiveis-no-version), [APT](./#pacotes-disponiveis-no-apt)
+> Consulte a lista de opções para: [VERSION](versions.md), [APT](create.md)
 
 > Se estiver fazendo um `bot` ou um `site` pode se basear nos exemplos abaixo:
 

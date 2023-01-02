@@ -28,6 +28,6 @@ Selecione os arquivos e pastas, clique com o botão direto do mouse, `DisCloud >
 
 Através da nossa integração com o **Github** e **Gitlab** você tem a facilidade e rapidez de atualizar suas aplicações da DisCloud sincronizadas com seu repositório Git.
 
-{% content-ref url="../integracao/github-e-gitlab/" %}
-[github-e-gitlab](../integracao/github-e-gitlab/)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}

@@ -4,6 +4,8 @@
 
 ## **Como Usar?**
 
+#### Entre no canal de texto `#🔌・commands` e digite `.api`
+
 <figure><img src="../../.gitbook/assets/api-cmd.png" alt=""><figcaption></figcaption></figure>
 
 #### O seu token será enviado para a sua DM.

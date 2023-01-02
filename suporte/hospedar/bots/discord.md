@@ -10,9 +10,9 @@ Antes de hospedar recomendo consultar a documentação da linguagem utilizada pe
 
 ### :robot:Hospedando o Seu Bot
 
-Se você estiver com o cargo `Verified pt-br`, significa que você se registrou com sucesso na **DisCloud**.&#x20;
+Se você estiver com o cargo `Verified pt-br`, significa que você se registou com sucesso na **DisCloud**.&#x20;
 
-#### 1. Para hospedar, entre no canal de texto `commands-v2` e digite `.up` ( ou `.upc` para usar o [discloud.config](broken-reference)).
+#### 1. Para hospedar, entre no canal de texto `#🔌・commands` e digite `.up`( ou `.upc` para usar o [discloud.config](broken-reference)).
 
 ![](../../../.gitbook/assets/up.png)
 

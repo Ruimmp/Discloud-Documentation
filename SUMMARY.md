@@ -28,9 +28,8 @@
   * [🦀 Rust](suporte/linguagens/rust/README.md)
     * [📄 Criar o Cargo.toml](suporte/linguagens/rust/criar-package.json.md)
 * [⛓ Integrações](suporte/integracao/README.md)
+  * [Github e Gitlab](suporte/integracao/github.md)
   * [Lavalink](suporte/integracao/lavalink.md)
-  * [GitHub e GitLab](suporte/integracao/github-e-gitlab/README.md)
-    * [Como usar o Github](suporte/integracao/github-e-gitlab/como-usar-o-github.md)
   * [Banco de Dados](suporte/integracao/banco-de-dados/README.md)
     * [MongoDB Atlas (mLab)](suporte/integracao/banco-de-dados/mlab-mongodb-atlas.md)
 * [❓ Perguntas Frequentes (FAQ)](suporte/faq/README.md)
@@ -46,6 +45,7 @@
   * ["Você já possui uma conta registrada no sistema"](suporte/faq/2acc.md)
 * [⚒ Comandos](suporte/comandos/README.md)
   * [api](suporte/comandos/api.md)
+  * [git](suporte/comandos/git.md)
 * [🤲 Doações](suporte/doacoes.md)
 
 ## discloud.config
@@ -72,7 +72,6 @@
 * [🎨 DisCloud Brand](sobre/discloud-brand/README.md)
   * [Origem do Nome](sobre/discloud-brand/origem-do-nome.md)
   * [Identidade Visual](sobre/discloud-brand/identidade-visual.md)
-  * [Site](https://discloudbot.com/)
 
 ## 📜 Jurídico
 

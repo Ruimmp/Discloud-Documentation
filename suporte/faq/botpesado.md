@@ -5,7 +5,7 @@
 Verifique se as seguintes **pastas** e **arquivos** se encontram no seu projeto e remova-os:
 
 * **pasta** `node_modules` (apenas disponível em projetos [JavaScript](../linguagens/javascript/#arquivos), não é necessária e a **DisCloud** irá baixar todos os módulos necessários por conta própria)
-* **pasta** `.git` (Não é necessário na **DisCloud**, esta pasta contém todas as informações necessárias para o controle de versão do [Git](../integracao/github-e-gitlab/), pode ser necessário manter localmente se você trabalhar com [Git](../integracao/github-e-gitlab/).
+* **pasta** `.git` (Não é necessário na **DisCloud**, esta pasta contém todas as informações necessárias para o controle de versão do [Git](broken-reference), pode ser necessário manter localmente se você trabalhar com [Git](broken-reference).
 * **arquivos** `ffmpeg` (você pode instalar o ffmpeg na DisCloud consulte [aqui](../../discloud.config/configurar/create.md))
 
 ## :file\_folder: O projeto continua pesado

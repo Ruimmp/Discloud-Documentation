@@ -9,11 +9,3 @@ description: >-
 {% hint style="danger" %}
 #### O painel de controle da Discloud V2 ainda não está disponível no momento
 {% endhint %}
-
-{% content-ref url="../sites/discord.md" %}
-[discord.md](../sites/discord.md)
-{% endcontent-ref %}
-
-{% content-ref url="vscode.md" %}
-[vscode.md](vscode.md)
-{% endcontent-ref %}
