@@ -6,12 +6,12 @@
 
 * [☁ Hospedar](suporte/hospedar/README.md)
   * [🤖 Bots](suporte/hospedar/bots/README.md)
-    * [🎛 via Painel de Controle (em breve)](suporte/hospedar/bots/via-painel-controle.md)
+    * [🎛 via Painel de Controle (em breve)](suporte/hospedar/bots/dashboard.md)
     * [🔌 via Discord](suporte/hospedar/bots/discord.md)
     * [🧩 via VSCode](suporte/hospedar/bots/vscode.md)
     * [⌨ DisCloud CLI](suporte/hospedar/bots/cli.md)
   * [🌎 Sites](suporte/hospedar/sites/README.md)
-    * [🎛 via Painel de Controle (em breve)](suporte/hospedar/sites/via-painel-controle.md)
+    * [🎛 via Painel de Controle (em breve)](suporte/hospedar/sites/dashboard.md)
     * [🔌 via Discord](suporte/hospedar/sites/discord.md)
     * [🧩 via VSCode](suporte/hospedar/sites/vscode.md)
     * [⌨ DisCloud CLI](suporte/hospedar/sites/cli.md)
@@ -51,13 +51,13 @@
 ## discloud.config
 
 * [⚙ Configurar](discloud.config/configurar/README.md)
-  * [📦 APT (Instale Pacotes)](discloud.config/configurar/create.md)
-  * [🏗 VERSION (Alterne entre Versões)](discloud.config/configurar/versions.md)
+  * [📦 APT (Instale Pacotes)](discloud.config/configurar/apt.md)
+  * [🏗 VERSION (Alterne entre Versões)](discloud.config/configurar/version.md)
 
 ## 🖥 ambiente local
 
 * [⚙ Instalar](ambiente-local/instalar/README.md)
-  * [🟨 JavaScript (nodejs)](ambiente-local/instalar/javascript.md)
+  * [🟨 JavaScript (nodejs)](ambiente-local/instalar/nodejs.md)
   * [🐍 Python](ambiente-local/instalar/python.md)
   * [💎 Ruby](ambiente-local/instalar/ruby.md)
   * [🦀 Rust](ambiente-local/instalar/rust.md)

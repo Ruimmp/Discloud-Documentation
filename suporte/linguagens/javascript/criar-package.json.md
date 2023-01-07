@@ -18,8 +18,8 @@ npm init -y
 Você precisa do **NodeJS e npm** instalado no seu computador, caso não esteja instalado siga as instruções abaixo.
 {% endhint %}
 
-{% content-ref url="../../../ambiente-local/instalar/javascript.md" %}
-[javascript.md](../../../ambiente-local/instalar/javascript.md)
+{% content-ref url="../../../ambiente-local/instalar/nodejs.md" %}
+[nodejs.md](../../../ambiente-local/instalar/nodejs.md)
 {% endcontent-ref %}
 
 ### Colocando dependências no seu `package.json`

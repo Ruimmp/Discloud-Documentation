@@ -68,8 +68,8 @@ VERSION=current
 {% endtabs %}
 
 {% hint style="danger" %}
-A versão `suja`, é uma versão pesada, pois fornece mais pacotes [APT](create.md) pré instalados por padrão, recomendamos que utilize apenas em ultimo recurso.
+A versão `suja`, é uma versão pesada, pois fornece mais pacotes [APT](apt.md) pré instalados por padrão, recomendamos que utilize apenas em ultimo recurso.
 
 \
-A maioria das aplicações não necessita desta versão, se faltar algum pacote, por favor consulte a [nossa lista APT](create.md), e instale o pacote em falta.
+A maioria das aplicações não necessita desta versão, se faltar algum pacote, por favor consulte a [nossa lista APT](apt.md), e instale o pacote em falta.
 {% endhint %}

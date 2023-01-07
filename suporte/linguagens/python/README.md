@@ -37,8 +37,8 @@ Para mais detalhes sobre como **Compactar os seus Arquivos** de acordo com o seu
 Escolha o método para hospedar seu Bot na Discloud:
 {% endhint %}
 
-{% content-ref url="../../hospedar/bots/via-painel-controle.md" %}
-[via-painel-controle.md](../../hospedar/bots/via-painel-controle.md)
+{% content-ref url="../../hospedar/bots/dashboard.md" %}
+[dashboard.md](../../hospedar/bots/dashboard.md)
 {% endcontent-ref %}
 
 {% content-ref url="../../hospedar/bots/discord.md" %}

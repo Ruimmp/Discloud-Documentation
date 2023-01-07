@@ -20,7 +20,7 @@ A DisCloud mantém oficialmente **2 projetos CLI** em **2 linguagens diferentes*
 {% tab title="🟨JavaScript" %}
 ## 1. Download
 
-> Necessita do [NodeJS](../../../ambiente-local/instalar/javascript.md) instalado
+> Necessita do [NodeJS](../../../ambiente-local/instalar/nodejs.md) instalado
 
 ### Windows / Linux
 
