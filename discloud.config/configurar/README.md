@@ -15,7 +15,7 @@ Detalhes para cada opção
 {% tabs %}
 {% tab title="🤖 Exemplo para Bot" %}
 {% hint style="info" %}
-Para hospedar um bot precisa de `100MB` de ram no mínimo
+Para hospedar um bot precisa de **100MB** de RAM no mínimo
 {% endhint %}
 
 {% code title="discloud.config" %}
@@ -34,7 +34,7 @@ APT=tools
 
 {% tab title="🌎 Exemplo para Site" %}
 {% hint style="info" %}
-Para hospedar um site precisa de `512MB` de ram no mínimo
+Para hospedar um site precisa de **512MB** de RAM no mínimo, e um [Plano Platina](https://discloudbot.com/plans)
 {% endhint %}
 
 {% code title="discloud.config" %}
