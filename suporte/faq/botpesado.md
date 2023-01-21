@@ -16,10 +16,4 @@ Verifique se as seguintes **pastas** e **arquivos** se encontram no seu projeto 
 
 Se o arquivo `.zip` do seu projeto tiver um tamanho `<=100mb` pode fazer o Upload pela nossa API
 
-<figure><img src="../../.gitbook/assets/discloud-api-up.png" alt=""><figcaption><p>Examplo com Insomnia</p></figcaption></figure>
-
-#### [Transfer.sh](https://transfer.sh/)
-
-Se o arquivo `.zip` do seu projeto tiver um tamanho `>=100mb` pode fazer o Upload pelo [Transfer.sh](https://transfer.sh/)
-
-<figure><img src="../../.gitbook/assets/transfer.sh-example.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/api-upload-example.png" alt=""><figcaption><p>Exemplo pelo site das rotas da nossa Api </p></figcaption></figure>

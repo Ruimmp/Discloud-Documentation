@@ -28,4 +28,4 @@ Um dos objetivos primários da **DisCloud Docs** é cobrir todos os aspectros ne
 > ****• <img src=".gitbook/assets/GitHub-logo.png" alt=":Twitter:" data-size="line"> **`Github:`** [**https://github.com/discloud**](https://github.com/discloud)                                                                      \
 > • <img src=".gitbook/assets/226235.png" alt=":Twitter:" data-size="line"> **`Twitter:`** [**https://twitter.com/discloudbot**](https://twitter.com/discloudbot)\
 > • <img src=".gitbook/assets/408757.png" alt=":YouTube:" data-size="line"> **`YouTube:`** [**https://youtube.com/c/pedroricardor**](https://youtube.com/c/pedroricardor)\
-> • <img src=".gitbook/assets/Discord-Logo-Color.png" alt="" data-size="line"> **`Discord:`** [**https://discord.gg/CvxevT5**](https://discord.gg/CvxevT5)
+> • <img src=".gitbook/assets/Discord-Logo-Color.png" alt="" data-size="line"> **`Discord:`** [**https://discord.gg/rJBJqkHppW**](https://discord.gg/rJBJqkHppW)****
