@@ -24,7 +24,7 @@ Un des objectifs principaux de **DisCloud Docs** est de couvrir tous les aspects
 
 > • <img src=".gitbook/assets/842457709378535434.png" alt=":DiscordStaff:" data-size="line"> **`Tech Support:`** [Ticket](suporte/faq/ticket.md), support@discloudbot.com\
 > • <img src="https://cdn.discordapp.com/emojis/606720108164939776.png?v=1" alt=":TrustSafety:" data-size="line"> **`Trust & Safety:`** [Ticket](suporte/faq/ticket.md), abuse@discloudbot.com\
-> • <img src=".gitbook/assets/Instagram_icon (1).png" alt=":Twitter:" data-size="line"> **`Instagram:`** [**https://www.instagram.com/discloudbot/**](https://www.instagram.com/discloudbot/)\*\*\*\*\
+> • <img src=".gitbook/assets/Instagram_icon (1).png" alt=":Twitter:" data-size="line"> **`Instagram:`** [**https://www.instagram.com/discloudbot/**](https://www.instagram.com/discloudbot/)\
 > **•** <img src=".gitbook/assets/GitHub-Mark-Light-120px-plus.png" alt=":Twitter:" data-size="line"> ** `Github:` ** [**https://github.com/discloud**](https://github.com/discloud)\
 > **•** <img src=".gitbook/assets/226235.png" alt=":Twitter:" data-size="line"> ** `Twitter:` ** [**https://twitter.com/discloudbot**](https://twitter.com/discloudbot)\
 > **•** <img src=".gitbook/assets/408757.png" alt=":YouTube:" data-size="line"> ** `YouTube:` ** [**https://youtube.com/c/pedroricardor**](https://youtube.com/c/pedroricardor)\
