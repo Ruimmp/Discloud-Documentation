@@ -14,7 +14,7 @@
 
 ### Como resetar o meu token?
 
-Digite novamente o comando e obtenha o seu novo token, os tokens criados anteriormente ficaram **inválidos e não poderão ser usados**.
+Digite novamente o comando e obtenha o seu novo token, os tokens criados anteriormente ficarão **inválidos e não poderão ser usados**.
 
 {% hint style="danger" %}
 **Não revele o token para ninguém**, se isso acontecer você deve resetar o mais rápido possivel.
