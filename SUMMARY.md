@@ -41,7 +41,6 @@
   * [DisCloud ModMail (Ticket)](suporte/faq/ticket.md)
   * [Como reportar um infrator?](suporte/faq/report.md)
   * [Porque não consigo acessar o meu site?](suporte/faq/porque-nao-consigo-acessar-o-meu-site.md)
-  * [A host aceita o arquivo .env?](suporte/faq/env.md)
   * ["Você já possui uma conta registrada no sistema"](suporte/faq/2acc.md)
 * [⚒ Comandos](suporte/comandos/README.md)
   * [api](suporte/comandos/api.md)
