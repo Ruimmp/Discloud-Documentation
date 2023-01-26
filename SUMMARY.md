@@ -1,10 +1,10 @@
 # Table of contents
 
-* [👋 Bem-Vindo](README.md)
+* [👋 Bienvenue](README.md)
 
 ## Suporte
 
-* [☁ Hospedar](suporte/hospedar/README.md)
+* [☁ Hébergeur](suporte/hospedar/README.md)
   * [🤖 Bots](suporte/hospedar/bots/README.md)
     * [🎛 via Painel de Controle (em breve)](suporte/hospedar/bots/dashboard.md)
     * [🔌 via Discord](suporte/hospedar/bots/discord.md)
@@ -15,7 +15,7 @@
     * [🔌 via Discord](suporte/hospedar/sites/discord.md)
     * [🧩 via VSCode](suporte/hospedar/sites/vscode.md)
     * [⌨ DisCloud CLI](suporte/hospedar/sites/cli.md)
-* [⌨ Linguagens](suporte/linguagens/README.md)
+* [⌨ Langues](suporte/linguagens/README.md)
   * [🟨 JavaScript](suporte/linguagens/javascript/README.md)
     * [📄 Criar o package.json](suporte/linguagens/javascript/criar-package.json.md)
   * [🐍 Python](suporte/linguagens/python/README.md)
@@ -27,8 +27,8 @@
   * [🐘 Php](suporte/linguagens/php.md)
   * [🦀 Rust](suporte/linguagens/rust/README.md)
     * [📄 Criar o Cargo.toml](suporte/linguagens/rust/criar-package.json.md)
-* [⛓ Integrações](suporte/integracao/README.md)
-  * [Github e Gitlab](suporte/integracao/github.md)
+* [⛓ Intégrations](suporte/integracao/README.md)
+  * [Github et Gitlab](suporte/integracao/github.md)
   * [Lavalink](suporte/integracao/lavalink.md)
   * [Banco de Dados](suporte/integracao/banco-de-dados/README.md)
     * [MongoDB Atlas (mLab)](suporte/integracao/banco-de-dados/mlab-mongodb-atlas.md)
