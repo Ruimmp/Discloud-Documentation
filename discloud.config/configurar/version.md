@@ -23,6 +23,7 @@ VERSION=current
 | Versões Disponíveis |
 | ------------------- |
 | latest              |
+| 3.10                |
 | 3.9.10              |
 | 2.7.18              |
 | suja                |
