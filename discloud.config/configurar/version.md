@@ -68,9 +68,11 @@ VERSION=current
 {% endtab %}
 {% endtabs %}
 
-[^1]: versão mais recente do Node.js disponível
 
-[^2]: Versão estável mais recente do Node.js disponível (LTS)
+
+[^1]: Versão **estável** mais recente do Node.js disponível (**LTS**) <mark style="color:green;">(recomendado)</mark>
+
+[^2]: versão mais recente do Node.js disponível
 
 [^3]: A versão **suja** é a versão "latest", mas é mais pesada devido ao grande número de pacotes [APT](apt.md#pacotes-disponiveis) já pré-instalados, incluindo pacotes não estão listados. \
     \
@@ -78,14 +80,14 @@ VERSION=current
     \
     Se necessitar de um pacote específico, consulte nossa [lista de pacotes APT](apt.md#pacotes-disponiveis) e instale-o individualmente, se o pacote pretendido não estiver disponível, por favor contacte o suporte para adicionar
 
-[^4]: versão mais recente do Python
+[^4]: Versão **estável** mais recente do **Python** <mark style="color:green;">(recomendado)</mark>
 
-[^5]: versão mais recente do Java
+[^5]: Versão **estável** mais recente do **Openjdk** <mark style="color:green;">(recomendado)</mark>
 
-[^6]: versão mais recente do Ruby
+[^6]: Versão **estável** mais recente do **Ruby** <mark style="color:green;">(recomendado)</mark>
 
-[^7]: versão mais recente do Golang
+[^7]: versão mais recente do **Go** <mark style="color:green;">(recomendado)</mark>
 
-[^8]: versão mais recente do Php
+[^8]: versão mais recente do **Php** <mark style="color:green;">(recomendado)</mark>
 
-[^9]: versão mais recente do Rust
+[^9]: versão mais recente do **Rust** <mark style="color:green;">(recomendado)</mark>
