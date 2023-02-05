@@ -32,7 +32,7 @@ VERSION=current
 {% tab title="☕ Java" %}
 | Versões Disponíveis |
 | ------------------- |
-| latest              |
+| latest[^5]          |
 | 18.x.x              |
 | 17.x.x              |
 | 16.x.x              |
@@ -41,7 +41,7 @@ VERSION=current
 {% tab title="💎 Ruby" %}
 | Versões Disponíveis |
 | ------------------- |
-| latest              |
+| latest[^6]          |
 | 3.1.0               |
 | 2.7.5               |
 {% endtab %}
@@ -49,7 +49,7 @@ VERSION=current
 {% tab title="🐿️ Go" %}
 | Versões Disponíveis |
 | ------------------- |
-| latest              |
+| latest[^7]          |
 | 1.17.6              |
 | 1.16.13             |
 {% endtab %}
@@ -57,13 +57,13 @@ VERSION=current
 {% tab title="🐘 Php" %}
 | Versões Disponíveis |
 | ------------------- |
-| latest              |
+| latest[^8]          |
 {% endtab %}
 
 {% tab title="🦀 Rust" %}
 | Versões Disponíveis |
 | ------------------- |
-| latest              |
+| latest[^9]          |
 | suja                |
 {% endtab %}
 {% endtabs %}
@@ -76,6 +76,16 @@ VERSION=current
     \
     No entanto, recomendamos usá-la apenas como último recurso. A maioria das aplicações não precisa desta versão. \
     \
-    Se necessitar de um pacote específico, consulte nossa [lista de pacotes APT](https://chat.openai.com/apt.md) e instale-o individualmente, se o pacote pretendido não estiver disponível, por favor contacte o suporte para adicionar
+    Se necessitar de um pacote específico, consulte nossa [lista de pacotes APT](apt.md#pacotes-disponiveis) e instale-o individualmente, se o pacote pretendido não estiver disponível, por favor contacte o suporte para adicionar
 
 [^4]: versão mais recente do Python
+
+[^5]: versão mais recente do Java
+
+[^6]: versão mais recente do Ruby
+
+[^7]: versão mais recente do Golang
+
+[^8]: versão mais recente do Php
+
+[^9]: versão mais recente do Rust
