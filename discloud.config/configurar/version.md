@@ -16,13 +16,13 @@ VERSION=current
 
 {% tabs %}
 {% tab title=" 🟨 JavaScript" %}
-<table><thead><tr><th>Versões Disponíveis</th><th data-hidden></th></tr></thead><tbody><tr><td>latest</td><td></td></tr><tr><td>current</td><td></td></tr><tr><td>16.13.2</td><td></td></tr><tr><td>14.18.3</td><td></td></tr><tr><td>suja</td><td></td></tr></tbody></table>
+<table><thead><tr><th>Versões Disponíveis</th><th data-hidden></th></tr></thead><tbody><tr><td><a data-footnote-ref href="#user-content-fn-1">latest</a></td><td></td></tr><tr><td><a data-footnote-ref href="#user-content-fn-2">current</a></td><td></td></tr><tr><td>16.13.2</td><td></td></tr><tr><td>14.18.3</td><td></td></tr><tr><td><a data-footnote-ref href="#user-content-fn-3">suja</a></td><td></td></tr></tbody></table>
 {% endtab %}
 
 {% tab title="🐍 Python" %}
 | Versões Disponíveis |
 | ------------------- |
-| latest              |
+| latest[^4]          |
 | 3.10                |
 | 3.9.10              |
 | 2.7.18              |
@@ -68,9 +68,10 @@ VERSION=current
 {% endtab %}
 {% endtabs %}
 
-{% hint style="danger" %}
-A versão `suja`, é uma versão pesada, pois fornece mais pacotes [APT](apt.md) pré instalados por padrão, recomendamos que utilize apenas em ultimo recurso.
+[^1]: versão mais recente do Node.js disponível
 
-\
-A maioria das aplicações não necessita desta versão, se faltar algum pacote, por favor consulte a [nossa lista APT](apt.md), e instale o pacote em falta.
-{% endhint %}
+[^2]: Versão estável mais recente do Node.js
+
+[^3]: A versão **suja** é a versão "latest", mas é mais pesada devido ao grande número de pacotes [APT](https://chat.openai.com/apt.md) já pré-instalados, incluindo os que não estão listados. No entanto, recomendamos usá-la apenas como último recurso. A maioria das aplicações não precisa desta versão. Se necessitar de um pacote específico, consulte nossa [lista de pacotes APT](https://chat.openai.com/apt.md) e instale-o individualmente, se o pacote pretendido não estiver disponível, por favor contacte o suporte para adicionar
+
+[^4]: versão mais recente do Python
