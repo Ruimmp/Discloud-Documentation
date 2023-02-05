@@ -70,8 +70,12 @@ VERSION=current
 
 [^1]: versão mais recente do Node.js disponível
 
-[^2]: Versão estável mais recente do Node.js
+[^2]: Versão estável mais recente do Node.js disponível (LTS)
 
-[^3]: A versão **suja** é a versão "latest", mas é mais pesada devido ao grande número de pacotes [APT](https://chat.openai.com/apt.md) já pré-instalados, incluindo os que não estão listados. No entanto, recomendamos usá-la apenas como último recurso. A maioria das aplicações não precisa desta versão. Se necessitar de um pacote específico, consulte nossa [lista de pacotes APT](https://chat.openai.com/apt.md) e instale-o individualmente, se o pacote pretendido não estiver disponível, por favor contacte o suporte para adicionar
+[^3]: A versão **suja** é a versão "latest", mas é mais pesada devido ao grande número de pacotes [APT](https://chat.openai.com/apt.md) já pré-instalados, incluindo pacotes não estão listados. \
+    \
+    No entanto, recomendamos usá-la apenas como último recurso. A maioria das aplicações não precisa desta versão. \
+    \
+    Se necessitar de um pacote específico, consulte nossa [lista de pacotes APT](https://chat.openai.com/apt.md) e instale-o individualmente, se o pacote pretendido não estiver disponível, por favor contacte o suporte para adicionar
 
 [^4]: versão mais recente do Python
