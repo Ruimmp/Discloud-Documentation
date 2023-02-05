@@ -9,32 +9,27 @@
 
 Na linha **APT**, adicione o pacote `puppeteer` separado por vírgula e espaço após os pacotes já existentes, como no exemplo abaixo.
 
-{% code title="discloud.config" %}
-```typescript
-...
-APT=tools, puppeteer
-...
-```
-{% endcode %}
+<pre class="language-typescript" data-title="discloud.config"><code class="lang-typescript">...
+<strong>APT=tools, puppeteer
+</strong>...
+</code></pre>
 
 ## :gear:Configure o Puppeteer
 
 Para garantir o funcionamento correto do **Puppeteer** em um container, é necessário adicionar o argumento `--no-sandbox` na instrução `puppeteer.launch();`, como demonstrado no exemplo a seguir:
 
-```javascript
-const browser = await puppeteer.launch({
-  args: ['--no-sandbox']
-});
-```
+<pre class="language-javascript"><code class="lang-javascript">const browser = await puppeteer.launch({
+<strong>  args: ['--no-sandbox']
+</strong>});
+</code></pre>
 
 ## <img src="https://wwebjs.dev/logo.png" alt="" data-size="line"> Configure o [whatsapp-web.js](https://wwebjs.dev/guide/#installation-on-no-gui-systems)
 
 Como o whatsapp-web.js utiliza o **Puppetter**, é necessário adicionar o argumento `--no-sandbox` às opções do puppetter, como no exemplo a seguir:
 
-```javascript
-const client = new Client({
+<pre class="language-javascript"><code class="lang-javascript">const client = new Client({
 	puppeteer: {
-		args: ['--no-sandbox'],
-	}
+<strong>		args: ['--no-sandbox'],
+</strong>	}
 });
-```
+</code></pre>
