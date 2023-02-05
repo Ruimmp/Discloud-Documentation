@@ -40,7 +40,7 @@
   * [Bot muito pesado](suporte/faq/botpesado.md)
   * [DisCloud ModMail (Ticket)](suporte/faq/ticket.md)
   * [Como reportar um infrator?](suporte/faq/report.md)
-  * [Configurar o Puppeteer](suporte/faq/configurar-o-puppeteer.md)
+  * [Configurar o Puppeteer](suporte/faq/puppeteer.md)
   * [Porque não consigo acessar o meu site?](suporte/faq/porque-nao-consigo-acessar-o-meu-site.md)
   * ["Você já possui uma conta registrada no sistema"](suporte/faq/2acc.md)
 * [⚒ Comandos](suporte/comandos/README.md)
