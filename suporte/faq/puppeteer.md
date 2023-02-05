@@ -17,7 +17,7 @@ APT=tools, puppeteer
 ```
 {% endcode %}
 
-## :gear:Configure o Puppetter
+## :gear:Configure o Puppeteer
 
 Para garantir o funcionamento correto do **Puppeteer** em um container, é necessário adicionar o argumento `--no-sandbox` na instrução `puppeteer.launch();`, como demonstrado no exemplo a seguir:
 
