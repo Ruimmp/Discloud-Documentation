@@ -72,7 +72,7 @@ VERSION=current
 
 [^2]: Versão estável mais recente do Node.js disponível (LTS)
 
-[^3]: A versão **suja** é a versão "latest", mas é mais pesada devido ao grande número de pacotes [APT](https://chat.openai.com/apt.md) já pré-instalados, incluindo pacotes não estão listados. \
+[^3]: A versão **suja** é a versão "latest", mas é mais pesada devido ao grande número de pacotes [APT](apt.md#pacotes-disponiveis) já pré-instalados, incluindo pacotes não estão listados. \
     \
     No entanto, recomendamos usá-la apenas como último recurso. A maioria das aplicações não precisa desta versão. \
     \
