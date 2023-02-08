@@ -70,6 +70,8 @@ VERSION=current
 
 
 
+
+
 [^1]: Versão **estável** mais recente do Node.js disponível (**LTS**) <mark style="color:green;">(recomendado)</mark>
 
 [^2]: versão mais recente do Node.js disponível
@@ -80,7 +82,7 @@ VERSION=current
     \
     Se necessitar de um pacote específico, consulte nossa [lista de pacotes APT](apt.md#pacotes-disponiveis) e instale-o individualmente, se o pacote pretendido não estiver disponível, por favor contacte o suporte para adicionar
 
-[^4]: Versão **estável** mais recente do **Pythons** <mark style="color:green;">(recomendado)</mark>
+[^4]: Versão **estável** mais recente do **Python** <mark style="color:green;">(recomendado)</mark>
 
 [^5]: Versão **estável** mais recente do **Openjdk** <mark style="color:green;">(recomendado)</mark>
 
