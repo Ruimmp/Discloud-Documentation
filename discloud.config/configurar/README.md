@@ -21,7 +21,7 @@ Para hospedar um bot precisa de **100MB** de RAM no mínimo
 {% code title="discloud.config" %}
 ```tsconfig
 NAME=Meubot
-AVATAR=https://...
+AVATAR=https://i.imgur.com/bWhx7OT.png
 TYPE=bot
 MAIN=index.js
 RAM=100
@@ -40,7 +40,7 @@ Para hospedar um site precisa de **512MB** de RAM no mínimo, e um [Plano Platin
 {% code title="discloud.config" %}
 ```tsconfig
 NAME=MeuSite
-AVATAR=https://...
+AVATAR=https://i.imgur.com/bWhx7OT.png
 ID=subdomain
 TYPE=site
 MAIN=index.js
