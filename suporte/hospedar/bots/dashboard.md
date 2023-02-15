@@ -24,6 +24,10 @@ Para importar o seu **plano atual** e **aplicativos** já hospedados, siga as in
 
 ## :robot:Hospedar o seu bot
 
+{% content-ref url="../../linguagens/" %}
+[linguagens](../../linguagens/)
+{% endcontent-ref %}
+
 > 1. **Remova (ou não inclua no .zip) as seguintes pastas/arquivos** nos seguintes projetos:\
 >    :yellow\_square:[JavaScript](../../linguagens/javascript/): remova `node_modules`, `.npm` e `package-lock.json`\
 >    :snake:[Python](../../linguagens/python/): remova `venv` e `.cache`\
