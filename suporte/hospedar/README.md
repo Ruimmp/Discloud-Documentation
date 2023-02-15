@@ -1,4 +1,4 @@
-# ☁ Hospedar
+# ☁ Como Hospedar
 
 ## ✍ Registro
 
@@ -14,8 +14,8 @@ Recomendamos você ler os [Termos de Serviço](broken-reference) e [Política de
 
 Escolha um método para hospedar o seu bot:
 
-{% content-ref url="sites/dashboard.md" %}
-[dashboard.md](sites/dashboard.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 {% content-ref url="bots/discord.md" %}
