@@ -6,12 +6,10 @@
 
 * [☁ Como Hospedar](suporte/hospedar/README.md)
   * [🤖 Bots](suporte/hospedar/bots/README.md)
-    * [🎛 via Painel de Controle](suporte/hospedar/bots/dashboard.md)
     * [🔌 via Discord](suporte/hospedar/bots/discord.md)
     * [🧩 via VSCode](suporte/hospedar/bots/vscode.md)
     * [⌨ DisCloud CLI](suporte/hospedar/bots/cli.md)
   * [🌎 Sites](suporte/hospedar/sites/README.md)
-    * [🎛 via Painel de Controle](suporte/hospedar/sites/dashboard.md)
     * [🔌 via Discord](suporte/hospedar/sites/discord.md)
     * [🧩 via VSCode](suporte/hospedar/sites/vscode.md)
     * [⌨ DisCloud CLI](suporte/hospedar/sites/cli.md)

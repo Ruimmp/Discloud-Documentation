@@ -1,43 +1,39 @@
+---
+description: >-
+  Não sabe como hospedar a sua aplicação no nosso Painel de Controle? Veja as
+  instruções abaixo!
+---
+
 # ☁ Como Hospedar
 
-## ✍ Registro
+## :bust\_in\_silhouette:Registro
 
-O primeiro passo é fazer o seu **registro**. Entre no site da [DisCloud](https://discloudbot.com) e clique no botão **Entrar**
+Para realizar o seu registro na [**Discloud**](https://discloudbot.com/login), faça o ‘login’ através da sua conta [Github](https://github.com/).
 
-![](../../.gitbook/assets/login.gif)
+<figure><img src="../../.gitbook/assets/discloud-dash-login.png" alt=""><figcaption></figcaption></figure>
+
+## <img src="../../.gitbook/assets/DiscordLogo1.png" alt="" data-size="line">Integrar com uma conta Discord (opcional)
 
 {% hint style="info" %}
-Recomendamos você ler os [Termos de Serviço](broken-reference) e [Política de Uso](broken-reference) antes de hospedar seu bot na DisCloud para evitar a suspensão da sua conta de nossos serviços ou problemas relacionados.
+Não é possível criar **novos registros** usando uma conta Discord. No entanto, você pode integrá-la a uma conta Github para importar seu plano atual e aplicativos existentes.
 {% endhint %}
 
-## ****:robot: **Hospedar Bots**
+Para importar o seu **plano atual** e **aplicativos** já hospedados, siga as instruções abaixo.
 
-Escolha um método para hospedar o seu bot:
+<figure><img src="../../.gitbook/assets/discloud-dash-discord-integration.png" alt=""><figcaption><p>Clique no aviso em amarelo para integrar a sua conta Discord</p></figcaption></figure>
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+## :cloud:Hospedar as suas apps
+
+{% content-ref url="../linguagens/" %}
+[linguagens](../linguagens/)
 {% endcontent-ref %}
 
-{% content-ref url="bots/discord.md" %}
-[discord.md](bots/discord.md)
-{% endcontent-ref %}
+> 1. **Remova (ou não inclua no .zip) as seguintes pastas/arquivos** nos seguintes projetos:\
+>    :yellow\_square:[JavaScript](../linguagens/javascript/): remova `node_modules`, `.npm` e `package-lock.json`\
+>    :snake:[Python](../linguagens/python/): remova `venv` e `.cache`\
+>    ``outros: `.git`
+> 2. **Coloque o arquivo** [discloud.config](broken-reference) na raiz do seu projeto e não se esqueça de incluir no .zip
 
-{% content-ref url="bots/vscode.md" %}
-[vscode.md](bots/vscode.md)
-{% endcontent-ref %}
+<figure><img src="../../.gitbook/assets/dash-drop-file.png" alt=""><figcaption><p>Arraste o .zip com o seu projeto</p></figcaption></figure>
 
-## :earth\_americas: Hospedar Sites
-
-Escolha um método para hospedar o seu site:
-
-{% content-ref url="bots/dashboard.md" %}
-[dashboard.md](bots/dashboard.md)
-{% endcontent-ref %}
-
-{% content-ref url="sites/discord.md" %}
-[discord.md](sites/discord.md)
-{% endcontent-ref %}
-
-{% content-ref url="sites/vscode.md" %}
-[vscode.md](sites/vscode.md)
-{% endcontent-ref %}
+<figure><img src="../../.gitbook/assets/dash-send-zip.png" alt=""><figcaption></figcaption></figure>
