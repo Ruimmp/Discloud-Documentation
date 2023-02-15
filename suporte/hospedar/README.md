@@ -37,3 +37,17 @@ Para importar o seu **plano atual** e **aplicativos** já hospedados, siga as in
 <figure><img src="../../.gitbook/assets/dash-drop-file.png" alt=""><figcaption><p>Arraste o .zip com o seu projeto</p></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/dash-send-zip.png" alt=""><figcaption></figcaption></figure>
+
+## :link:Outros Métodos
+
+:robot:Para Bots:
+
+> * :electric\_plug:[via Discord](bots/discord.md)
+> * :jigsaw:[via VSCode](bots/vscode.md)
+> * :keyboard:[via DisCloud CLI](bots/cli.md)
+
+:earth\_americas:Para Sites:
+
+> * :electric\_plug:[via Discord](sites/discord.md)
+> * :jigsaw:[via VSCode](sites/vscode.md)
+> * :keyboard:[via DisCloud CLI](sites/cli.md)
