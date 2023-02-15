@@ -34,6 +34,10 @@ Para importar o seu **plano atual** e **aplicativos** já hospedados, siga as in
 >    ``outros: `.git`
 > 2. **Coloque o arquivo** [discloud.config](broken-reference) na raiz do seu projeto e não se esqueça de incluir no .zip
 
+{% hint style="info" %}
+Para hospedar sites consulte os [requisitos](sites/#requisitos)
+{% endhint %}
+
 <figure><img src="../../.gitbook/assets/dash-drop-file.png" alt=""><figcaption><p>Arraste o .zip com o seu projeto</p></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/dash-send-zip.png" alt=""><figcaption></figcaption></figure>
