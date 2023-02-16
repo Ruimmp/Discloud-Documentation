@@ -46,9 +46,9 @@
   * [git](suporte/comandos/git.md)
 * [🤲 Doações](suporte/doacoes.md)
 
-## discloud.config
+## Configurar <a href="#discloud.config" id="discloud.config"></a>
 
-* [⚙ Configurar](discloud.config/configurar/README.md)
+* [⚙ discloud.config](discloud.config/configurar/README.md)
   * [📦 APT (Instale Pacotes)](discloud.config/configurar/apt.md)
   * [🏗 VERSION (Alterne entre Versões)](discloud.config/configurar/version.md)
 
