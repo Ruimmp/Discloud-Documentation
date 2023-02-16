@@ -24,15 +24,38 @@ Para importar o seu **plano atual** e **aplicativos** já hospedados, siga as in
 
 ## :cloud:Hospedar as suas apps
 
+#### 1- Acesse o seu painel de controle
+
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Acesse o painel de controle após o seu login no site</p></figcaption></figure>
+
+#### 2- Botão para hospedar nova aplicação
+
+<figure><img src="../../.gitbook/assets/3.png" alt=""><figcaption><p>Clique no botão indicado para hospedar uma nova aplicação</p></figcaption></figure>
+
+#### 3- Crie um arquivo .zip&#x20;
+
 {% content-ref url="../linguagens/" %}
 [linguagens](../linguagens/)
 {% endcontent-ref %}
 
-> 1. **Remova (ou não inclua no .zip) as seguintes pastas/arquivos** nos seguintes projetos:\
->    :yellow\_square:[JavaScript](../linguagens/javascript/): remova `node_modules`, `.npm` e `package-lock.json`\
->    :snake:[Python](../linguagens/python/): remova `venv` e `.cache`\
->    ``outros: `.git`
-> 2. **Coloque o arquivo** [discloud.config](broken-reference) na raiz do seu projeto e não se esqueça de incluir no .zip
+{% content-ref url="../faq/zip.md" %}
+[zip.md](../faq/zip.md)
+{% endcontent-ref %}
+
+> **Remova (ou não inclua no .zip) as seguintes pastas/arquivos** nos seguintes projetos:\
+> :yellow\_square:[JavaScript](../linguagens/javascript/): remova `node_modules`, `.npm` e `package-lock.json`\
+> :snake:[Python](../linguagens/python/): remova `venv` e `.cache`\
+> ``outros: `.git`
+
+{% hint style="danger" %}
+**Coloque o arquivo** [discloud.config](broken-reference) na raiz do seu projeto e não se esqueça de incluir no .zip\
+\
+Sem esse arquivo seu upload não vai funcionar!!
+{% endhint %}
+
+{% content-ref url="../../discloud.config/configurar/" %}
+[configurar](../../discloud.config/configurar/)
+{% endcontent-ref %}
 
 {% hint style="info" %}
 Para hospedar sites consulte os [requisitos](sites/#requisitos)
