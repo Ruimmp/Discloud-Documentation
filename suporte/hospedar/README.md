@@ -6,23 +6,21 @@ description: >-
 
 # ☁ Como Hospedar
 
-## :bust\_in\_silhouette:Registro
+## :bust\_in\_silhouette: Faça seu registro em nosso site
 
 Para realizar o seu registro na [**Discloud**](https://discloudbot.com/login), faça o ‘login’ através da sua conta [Github](https://github.com/).
 
 <figure><img src="../../.gitbook/assets/discloud-dash-login.png" alt=""><figcaption></figcaption></figure>
 
-## :cloud:Hospedar os seus apps
-
-#### 1- Acesse o seu painel de controle
+## 2- Acesse o seu painel de controle
 
 <figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Acesse o painel de controle após o seu login no site</p></figcaption></figure>
 
-#### 2- Clique no botão para hospedar nova aplicação
+## 3- Clique no botão para hospedar nova aplicação
 
 <figure><img src="../../.gitbook/assets/3.png" alt=""><figcaption><p>Clique no botão indicado para hospedar uma nova aplicação</p></figcaption></figure>
 
-#### 3- Crie um arquivo .zip&#x20;
+## 4- Crie um arquivo .zip&#x20;
 
 {% content-ref url="../linguagens/" %}
 [linguagens](../linguagens/)
