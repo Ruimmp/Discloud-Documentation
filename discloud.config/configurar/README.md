@@ -59,11 +59,11 @@ Coloque o `discloud.config` na raiz do seu projeto e não se esqueça de incluir
 
 ![](../../.gitbook/assets/vscode-discloud.config.png)
 
-## :cloud: Fazendo o Upload
+## :cloud: Fazendo o upload pelo site
 
 Com o seu [.zip ](../../suporte/faq/zip.md)criado com o `discloud.config` chegou a hora do Upload, para utilizar é muito simples!
 
 > * No canal de comandos digite `.upconfig` (ou abreviação `.upc`)
 > * Entre no canal que o bot acabou de criar e coloque o seu .zip
 
-![](../../.gitbook/assets/pr-upc.gif)
+<figure><img src="../../.gitbook/assets/g.gif" alt=""><figcaption><p>upload pelo site</p></figcaption></figure>
