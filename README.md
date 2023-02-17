@@ -4,7 +4,7 @@ description: Seja Bem-vindo a documentação oficial da DisCloud.
 
 # 👋 Bem-Vindo
 
-## 📜 Sobre Esta Documentação
+## <img src=".gitbook/assets/discloud_book.png" alt="" data-size="line"> Sobre Esta Documentação
 
 ### Objetivos
 

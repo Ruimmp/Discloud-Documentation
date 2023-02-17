@@ -20,23 +20,19 @@ Para realizar o seu registro na [**Discloud**](https://discloudbot.com/login), c
 
 <figure><img src="../../.gitbook/assets/3.png" alt=""><figcaption><p>Clique no botão indicado para hospedar uma nova aplicação</p></figcaption></figure>
 
-## 4- Crie um arquivo .zip&#x20;
+## 4- Crie um arquivo .zip
+
+> **Remova (ou não inclua no .zip) as seguintes pastas/arquivos** nos seguintes projetos:\
+> :yellow\_square:[JavaScript](../linguagens/javascript/): remova `node_modules`, `.npm` e `package-lock.json`\
+> :snake:[Python](../linguagens/python/): remova `venv` e `.cache`\
+> \`\`outros: `.git`
 
 {% content-ref url="../linguagens/" %}
 [linguagens](../linguagens/)
 {% endcontent-ref %}
 
-{% content-ref url="../faq/zip.md" %}
-[zip.md](../faq/zip.md)
-{% endcontent-ref %}
-
-> **Remova (ou não inclua no .zip) as seguintes pastas/arquivos** nos seguintes projetos:\
-> :yellow\_square:[JavaScript](../linguagens/javascript/): remova `node_modules`, `.npm` e `package-lock.json`\
-> :snake:[Python](../linguagens/python/): remova `venv` e `.cache`\
-> ``outros: `.git`
-
 {% hint style="danger" %}
-**Coloque o arquivo** [discloud.config](broken-reference) na raiz do seu projeto e não se esqueça de incluir no .zip\
+**Coloque o arquivo** [discloud.config](../../discloud.config/configurar/#exemplo-para-bot) na raiz do seu projeto e não se esqueça de incluir no .zip\
 \
 Sem esse arquivo seu upload não vai funcionar!!
 {% endhint %}
@@ -44,6 +40,8 @@ Sem esse arquivo seu upload não vai funcionar!!
 {% content-ref url="../../discloud.config/configurar/" %}
 [configurar](../../discloud.config/configurar/)
 {% endcontent-ref %}
+
+## :cloud:Hospedar os seus Apps
 
 {% hint style="info" %}
 Para hospedar sites consulte os [requisitos](sites/#requisitos)
