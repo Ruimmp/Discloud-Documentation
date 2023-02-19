@@ -9,7 +9,7 @@ description: >-
 
 ### :dollar: Métodos de Pagamento
 
-<table><thead><tr><th>Método de Pagamento</th><th data-type="checkbox">Disponível via Site</th><th data-type="checkbox">Disponível via Ticket</th></tr></thead><tbody><tr><td><img src="../.gitbook/assets/PayPal.png" alt="" data-size="line"> PayPal</td><td>true</td><td>true</td></tr><tr><td><img src="../.gitbook/assets/MercadoPago.png" alt="" data-size="line"> Mercado Pago</td><td>true</td><td>true</td></tr><tr><td><img src="../.gitbook/assets/pix.png" alt="" data-size="line"> Pix</td><td>false</td><td>true</td></tr></tbody></table>
+<table><thead><tr><th>Método de Pagamento</th><th data-type="checkbox">Disponível via Site</th><th data-type="checkbox">Disponível via Ticket</th></tr></thead><tbody><tr><td><img src="../.gitbook/assets/Stripe wordmark - blurple (small).png" alt="" data-size="line">Stripe</td><td>true</td><td>false</td></tr><tr><td><img src="../.gitbook/assets/PayPal.png" alt="" data-size="line"> PayPal</td><td>false</td><td>true</td></tr><tr><td><img src="../.gitbook/assets/MercadoPago.png" alt="" data-size="line"> Mercado Pago</td><td>false</td><td>true</td></tr><tr><td><img src="../.gitbook/assets/pix.png" alt="" data-size="line"> Pix</td><td>false</td><td>true</td></tr></tbody></table>
 
 ### <img src="../.gitbook/assets/discloudlogo (1).png" alt="" data-size="line"> Comprar via Site
 
