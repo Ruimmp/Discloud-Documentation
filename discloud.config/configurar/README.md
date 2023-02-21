@@ -17,8 +17,8 @@ Para hospedar um bot precisa de **100MB** de RAM no mínimo
 <pre class="language-tsconfig" data-title="discloud.config"><code class="lang-tsconfig"><a data-footnote-ref href="#user-content-fn-1">NAME=Meubot</a>
 <a data-footnote-ref href="#user-content-fn-2">AVATAR=https://i.imgur.com/bWhx7OT.png</a>
 <a data-footnote-ref href="#user-content-fn-3">TYPE=bot</a>
-<a data-footnote-ref href="#user-content-fn-4">MAIN=index.js</a>
-<a data-footnote-ref href="#user-content-fn-5">RAM=100</a>
+<strong><a data-footnote-ref href="#user-content-fn-4">MAIN=index.js</a>
+</strong><a data-footnote-ref href="#user-content-fn-5">RAM=100</a>
 <a data-footnote-ref href="#user-content-fn-6">AUTORESTART=false</a>
 <a data-footnote-ref href="#user-content-fn-7">VERSION=latest</a>
 <a data-footnote-ref href="#user-content-fn-8">APT=tools</a>
@@ -32,10 +32,10 @@ Para hospedar um site precisa de **512MB** de RAM no mínimo, e um [Plano Platin
 
 <pre class="language-tsconfig" data-title="discloud.config"><code class="lang-tsconfig"><a data-footnote-ref href="#user-content-fn-9">NAME=MeuSite</a>
 <a data-footnote-ref href="#user-content-fn-10">AVATAR=https://i.imgur.com/bWhx7OT.png</a>
-<a data-footnote-ref href="#user-content-fn-11">ID=subdomain</a>
-<a data-footnote-ref href="#user-content-fn-12">TYPE=site</a>
-<a data-footnote-ref href="#user-content-fn-13">MAIN=index.js</a>
-<a data-footnote-ref href="#user-content-fn-14">RAM=512</a>
+<strong><a data-footnote-ref href="#user-content-fn-11">ID=subdomain</a>
+</strong><a data-footnote-ref href="#user-content-fn-12">TYPE=site</a>
+<strong><a data-footnote-ref href="#user-content-fn-13">MAIN=index.js</a>
+</strong><a data-footnote-ref href="#user-content-fn-14">RAM=512</a>
 <a data-footnote-ref href="#user-content-fn-15">AUTORESTART=false</a>
 <a data-footnote-ref href="#user-content-fn-16">VERSION=latest</a>
 <a data-footnote-ref href="#user-content-fn-17">APT=tools</a>
