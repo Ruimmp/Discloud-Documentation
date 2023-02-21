@@ -1,14 +1,10 @@
-# ⚙ Configurar
+# ⚙ discloud.config
 
 O `discloud.config` é um arquivo de configurações, que agiliza o processo de upload de suas aplicações para a DisCloud.
 
 ## :gear: Como Utilizar
 
-Detalhes para cada opção
-
-![](../../.gitbook/assets/discloud-config-pt.png)
-
-> Consulte a lista de opções para: [VERSION](version.md), [APT](apt.md)
+Consulte a lista de opções para: [VERSION](version.md), [APT](apt.md)
 
 > Se estiver fazendo um `bot` ou um `site` pode se basear nos exemplos abaixo:
 
@@ -18,18 +14,15 @@ Detalhes para cada opção
 Para hospedar um bot precisa de **100MB** de RAM no mínimo
 {% endhint %}
 
-{% code title="discloud.config" %}
-```tsconfig
-NAME=Meubot
-AVATAR=https://i.imgur.com/bWhx7OT.png
-TYPE=bot
-MAIN=index.js
-RAM=100
-AUTORESTART=false
-VERSION=latest
-APT=tools
-```
-{% endcode %}
+<pre class="language-tsconfig" data-title="discloud.config"><code class="lang-tsconfig"><a data-footnote-ref href="#user-content-fn-1">NAME=Meubot</a>
+<a data-footnote-ref href="#user-content-fn-2">AVATAR=https://i.imgur.com/bWhx7OT.png</a>
+<a data-footnote-ref href="#user-content-fn-3">TYPE=bot</a>
+<a data-footnote-ref href="#user-content-fn-4">MAIN=index.js</a>
+<a data-footnote-ref href="#user-content-fn-5">RAM=100</a>
+<a data-footnote-ref href="#user-content-fn-6">AUTORESTART=false</a>
+<a data-footnote-ref href="#user-content-fn-7">VERSION=latest</a>
+<a data-footnote-ref href="#user-content-fn-8">APT=tools</a>
+</code></pre>
 {% endtab %}
 
 {% tab title="🌎 Exemplo para Site" %}
@@ -37,19 +30,16 @@ APT=tools
 Para hospedar um site precisa de **512MB** de RAM no mínimo, e um [Plano Platina](https://discloudbot.com/plans)
 {% endhint %}
 
-{% code title="discloud.config" %}
-```tsconfig
-NAME=MeuSite
-AVATAR=https://i.imgur.com/bWhx7OT.png
-ID=subdomain
-TYPE=site
-MAIN=index.js
-RAM=512
-AUTORESTART=false
-VERSION=latest
-APT=tools
-```
-{% endcode %}
+<pre class="language-tsconfig" data-title="discloud.config"><code class="lang-tsconfig"><a data-footnote-ref href="#user-content-fn-9">NAME=MeuSite</a>
+<a data-footnote-ref href="#user-content-fn-10">AVATAR=https://i.imgur.com/bWhx7OT.png</a>
+<a data-footnote-ref href="#user-content-fn-11">ID=subdomain</a>
+<a data-footnote-ref href="#user-content-fn-12">TYPE=site</a>
+<a data-footnote-ref href="#user-content-fn-13">MAIN=index.js</a>
+<a data-footnote-ref href="#user-content-fn-14">RAM=512</a>
+<a data-footnote-ref href="#user-content-fn-15">AUTORESTART=false</a>
+<a data-footnote-ref href="#user-content-fn-16">VERSION=latest</a>
+<a data-footnote-ref href="#user-content-fn-17">APT=tools</a>
+</code></pre>
 {% endtab %}
 {% endtabs %}
 
@@ -64,3 +54,37 @@ Coloque o `discloud.config` na raiz do seu projeto e não se esqueça de incluir
 Com o seu [.zip ](../../suporte/faq/zip.md)criado com o `discloud.config` chegou a hora do Upload, para utilizar é muito simples!
 
 <figure><img src="../../.gitbook/assets/g.gif" alt=""><figcaption><p>upload pelo site</p></figcaption></figure>
+
+[^1]: Nome da sua aplicação. <mark style="color:green;">(optional)</mark>
+
+[^2]: URL com uma imagem para a sua aplicação (deve terminal em `.png` ou `.jpg`). <mark style="color:green;">(opcional)</mark>
+
+[^3]: Tipo de aplicação `bot` ou `site`
+
+[^4]: Nome ou caminho para o arquivo principal. Ex: `index.js` ou `src/index.js` <mark style="color:red;">(obrigatório mudar)</mark>
+
+[^5]: Quantidade de memoria **RAM** em `MB`
+
+[^6]: Reinício automático em caso de falhas na sua aplicação coloque `true` para ativar. Apenas [Plano Platina](https://discloudbot.com/plans) ou superior. <mark style="color:green;">(optional)</mark>
+
+[^7]: Mude a [versão](version.md#versoes-disponiveis) utilizada na imagem do container da sua app.
+
+[^8]: Instale pacotes [apt](apt.md#pacotes-disponiveis) no container da sua aplicação.
+
+[^9]: Nome da sua aplicação <mark style="color:green;">(optional)</mark>
+
+[^10]: URL com uma imagem para a sua aplicação (deve terminal em `.png` ou `.jpg`) <mark style="color:green;">(opcional)</mark>
+
+[^11]: Subdomínio que será usado por sua aplicação, não se esqueça de [registrá-lo](../../suporte/hospedar/sites/) antes. <mark style="color:red;">(obrigatório mudar)</mark>
+
+[^12]: Tipo de aplicação `bot` ou `site`
+
+[^13]: Nome ou caminho para o arquivo principal. Ex: `index.js` ou `src/index.js` <mark style="color:red;">(obrigatório mudar)</mark>
+
+[^14]: Quantidade de memoria **RAM** em `MB`.
+
+[^15]: Reinício automático em caso de falhas na sua aplicação coloque `true` para ativar. Apenas [Plano Platina](https://discloudbot.com/plans) ou superior. <mark style="color:green;">(optional)</mark>
+
+[^16]: Mude a [versão](version.md#versoes-disponiveis) utilizada na imagem do container da sua app.
+
+[^17]: Instale pacotes [apt](apt.md#pacotes-disponiveis) no container da sua aplicação.
