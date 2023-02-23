@@ -72,7 +72,11 @@
   * [Origem do Nome](sobre/discloud-brand/origem-do-nome.md)
   * [Identidade Visual](sobre/discloud-brand/identidade-visual.md)
 
+## 🔗 Links
+
+* [🌎 Website](https://discloudbot.com/)
+* [📊 DisCloud Status](https://status.discloudbot.com/)
+
 ## 📜 Jurídico
 
-* [Termos de Serviço](https://discloudbot.com/legal/terms)
-* [Política de Uso](https://discloudbot.com/legal/policy)
+* [📄 Termos de Serviço (TOS)](https://discloudbot.com/legal)
