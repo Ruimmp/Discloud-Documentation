@@ -1,4 +1,4 @@
-# Lavalink
+# 🎧 Lavalink
 
 ## Como hospedar o Lavalink?
 
@@ -10,7 +10,7 @@ Os requisitos para hospedar o Lavalink são os mesmo que hospedar um site, pode 
 
 ## Introdução
 
-1. Baixe o `Lavalink.jar` ([versão principal](https://ci.fredboat.com/viewLog.html?buildId=lastSuccessful\&buildTypeId=Lavalink\_Build\&tab=artifacts\&guest=1) ou [versão dev](https://ci.fredboat.com/viewLog.html?buildTypeId=Lavalink\_Build\&buildId=lastSuccessful\&buildBranch=refs%2Fheads%2Fdev\&tab=artifacts\&guest=1))
+1. Baixe o [Lavalink.jar](https://github.com/freyacodes/Lavalink/releases)
 2. Crie um arquivo chamado `application.yml` ([exemplo](https://github.com/freyacodes/Lavalink/blob/master/LavalinkServer/application.yml.example)) para configurar o lavalink
 3. No arquivo `application.yml` sete `port` para **`8080`**
 4. Configure com uma password forte para que ninguém use o seu **Lavalink**
