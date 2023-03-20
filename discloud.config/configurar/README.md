@@ -21,7 +21,7 @@ Para hospedar um bot precisa de **100MB** de RAM no mínimo
 </strong><a data-footnote-ref href="#user-content-fn-5">RAM=100</a>
 <a data-footnote-ref href="#user-content-fn-6">AUTORESTART=false</a>
 <a data-footnote-ref href="#user-content-fn-7">VERSION=latest</a>
-<a data-footnote-ref href="#user-content-fn-8">APT=tools</a>
+<a data-footnote-ref href="#user-content-fn-8">APT=</a>tools
 </code></pre>
 {% endtab %}
 
@@ -38,7 +38,7 @@ Para hospedar um site precisa de **512MB** de RAM no mínimo, e um [Plano Platin
 </strong><a data-footnote-ref href="#user-content-fn-14">RAM=512</a>
 <a data-footnote-ref href="#user-content-fn-15">AUTORESTART=false</a>
 <a data-footnote-ref href="#user-content-fn-16">VERSION=latest</a>
-<a data-footnote-ref href="#user-content-fn-17">APT=tools</a>
+<a data-footnote-ref href="#user-content-fn-17">APT=</a>tools
 </code></pre>
 {% endtab %}
 {% endtabs %}
