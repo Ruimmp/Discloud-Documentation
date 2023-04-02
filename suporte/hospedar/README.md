@@ -14,7 +14,7 @@ Para realizar o seu registro na [**Discloud**](https://discloudbot.com/login), c
 
 ## 2- Acesse o seu painel de controle
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Acesse o painel de controle após o seu login no site</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (3).png" alt=""><figcaption><p>Acesse o painel de controle após o seu login no site</p></figcaption></figure>
 
 ## 3- Clique no botão para hospedar sua aplicação
 

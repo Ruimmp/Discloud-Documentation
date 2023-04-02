@@ -2,7 +2,7 @@
 
 O **APT (Advanced package tool**), faz referência ao instalador de pacotes utilizado em distribuições Linux baseadas em Debian ou Ubuntu.\
 \
-Na **DisCloud**, você pode adicionar alguns pacotes listados abaixo no container da sua aplicação em caso de necessidade.
+Na **DisCloud**, você pode adicionar alguns destes pacotes no container da sua aplicação em caso de necessidade.
 
 ## :gear: Como Utilizar
 
@@ -12,11 +12,12 @@ Consulte o pacote[^1] necessário para o seu projeto e coloque em `APT=`
 Se você necessitar de utilizar mais de **1 pacote**, separe por `vírgulas e espaços`, como no exemplo abaixo
 {% endhint %}
 
-```typescript
-...
-APT=tools, ffmpeg
-...
-```
+<pre class="language-typescript" data-title="discloud.config"><code class="lang-typescript">...
+<strong>APT=tools, ffmpeg
+</strong>...
+</code></pre>
+
+> Observação: Os `...` apenas indicam continuidade de outras opções anteriores ou posteriores à linha APT, que não são revelantes e mencionados nesta página.
 
 ### Pacotes disponíveis
 

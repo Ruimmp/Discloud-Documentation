@@ -1,6 +1,7 @@
 # ⚙ discloud.config
 
-O `discloud.config` é um arquivo de configurações, que agiliza o processo de upload de suas aplicações para a DisCloud.
+O `discloud.config` é um arquivo de configurações, que agiliza o processo de upload de suas aplicações para a DisCloud.\
+Com este ficheiro você pode configurar facilmente cada app que enviar para DisCloud.
 
 ## :gear: Como Utilizar
 
@@ -23,6 +24,10 @@ Para hospedar um bot precisa de **100MB** de RAM no mínimo
 <a data-footnote-ref href="#user-content-fn-7">VERSION=latest</a>
 <a data-footnote-ref href="#user-content-fn-8">APT=</a>tools
 </code></pre>
+
+> Observação: As opções de `NOME` e `AVATAR` são para personalizar o nome e a imagem do seu app. Elas serão exibidas na dashboard, ou no Discord através de comandos do nosso bot (por exemplo: `.app`, `.status`).
+
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Exemplo na dashboard</p></figcaption></figure>
 {% endtab %}
 
 {% tab title="🌎 Exemplo para Site" %}

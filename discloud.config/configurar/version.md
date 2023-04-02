@@ -4,15 +4,21 @@ Altere a versão da linguagem da sua aplicação sempre que necessário, seja da
 
 ## :gear: Como Utilizar
 
+Consulte as [versões disponíveis](version.md#versoes-disponiveis) conforme a linguagem da sua app, e coloque em `VERSION=`
+
+{% code title="discloud.config" %}
 ```typescript
 ...
 VERSION=current
 ...
 ```
+{% endcode %}
+
+> Observação: Os `...` apenas indicam continuidade de outras opções anteriores ou posteriores à linha VERSION, que não são revelantes e mencionados nesta página.
 
 ### Versões disponíveis
 
-> Selecione uma Linguagem para consultar
+> Selecione uma linguagem para consultar
 
 {% tabs %}
 {% tab title=" 🟨 JavaScript" %}
@@ -84,7 +90,7 @@ VERSION=current
 
 [^4]: Versão **estável** mais recente do **Python** <mark style="color:green;">(recomendado)</mark>
 
-[^5]: Versão **estável** mais recente do **Openjdk** <mark style="color:green;">(recomendado)</mark>
+[^5]: Versão **estável** mais recente do **Openjdk**
 
 [^6]: Versão **estável** mais recente do **Ruby** <mark style="color:green;">(recomendado)</mark>
 
