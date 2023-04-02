@@ -27,7 +27,7 @@ Para hospedar um bot precisa de **100MB** de RAM no mínimo
 
 > Observação: As opções de `NOME` e `AVATAR` são para personalizar o nome e a imagem do seu app. Elas serão exibidas na dashboard, ou no Discord através de comandos do nosso bot (por exemplo: `.app`, `.status`).
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Exemplo na dashboard</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/dash-name-avatar-discloud-config.png" alt=""><figcaption><p>Exemplo na dashboard</p></figcaption></figure>
 {% endtab %}
 
 {% tab title="🌎 Exemplo para Site" %}

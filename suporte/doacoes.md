@@ -1,13 +1,18 @@
 ---
 description: >-
   Faça um upgrade do seu plano para obter acesso a recursos e serviços
-  exclusivos, além de apoiar o desenvolvimento e manter nossos dedicados
-  operacionais.
+  exclusivos
 ---
 
 # 🤲 Doações
 
+A **DisCloud** oferece planos pagos para que você possa desfrutar de recursos extras além do plano gratuito.&#x20;
+
+Ao adquirir um plano pago, você terá acesso a recursos exclusivos, como **mais memória**, **maior capacidade de processamento**, **hospedagem de sites com subdomínios gratuitos** (ou com o seu próprio domínio), **compartilhamento de acesso aos seus aplicativos com membros da sua equipe**, **integração com o Git** e muito mais. Além disso, ao escolher um plano pago, você estará apoiando o desenvolvimento contínuo do projeto e a ajudar-nos a manter os nossos servidores dedicados operacionais.
+
 ### :dollar: Métodos de Pagamento
+
+Você pode adquirir um plano por meio de um método de pagamento com o **Stripe**, **PayPal**, **Mercado Pago** e **Pix**.
 
 <table><thead><tr><th>Método de Pagamento</th><th data-type="checkbox">Disponível via Site</th><th data-type="checkbox">Disponível via Ticket</th></tr></thead><tbody><tr><td><img src="../.gitbook/assets/Stripe wordmark - blurple (small).png" alt="" data-size="line">Stripe</td><td>true</td><td>false</td></tr><tr><td><img src="../.gitbook/assets/PayPal.png" alt="" data-size="line"> PayPal</td><td>false</td><td>true</td></tr><tr><td><img src="../.gitbook/assets/MercadoPago.png" alt="" data-size="line"> Mercado Pago</td><td>false</td><td>true</td></tr><tr><td><img src="../.gitbook/assets/pix.png" alt="" data-size="line"> Pix</td><td>false</td><td>true</td></tr></tbody></table>
 
@@ -15,7 +20,7 @@ description: >-
 
 Acesse o site [discloudbot.com/plans](https://discloudbot.com/plans) e escolha o seu plano.
 
-![](../.gitbook/assets/buy-carbon.gif)
+![](../.gitbook/assets/swappy-20230402\_213439.png)
 
 ### <img src="../.gitbook/assets/ticket-logo.webp" alt="" data-size="line"> Comprar via Ticket
 
