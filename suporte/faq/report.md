@@ -19,7 +19,19 @@ Se desejar reportar uma mensagem que ache que esteja quebrando alguma regra pode
 
 Se desejar detalhar o motivo que levou a realizar o report da mensagem siga as instruções abaixo caso contrário vá na primeira opção "**Report Message**":
 
-![1](../../.gitbook/assets/automod-report-step.png) ![2](../../.gitbook/assets/automod-report-step2.png) ![3](../../.gitbook/assets/automod-report-step3.png)
+<div align="center">
+
+<img src="../../.gitbook/assets/automod-report-step.png" alt="1">
+
+ 
+
+<img src="../../.gitbook/assets/automod-report-step2.png" alt="2">
+
+ 
+
+<img src="../../.gitbook/assets/automod-report-step3.png" alt="3">
+
+</div>
 
 ### <img src="../../.gitbook/assets/dyno-logo.webp" alt="" data-size="line"> Dyno
 

@@ -18,7 +18,11 @@ Este recurso só está disponível para os planos pagos.
 
 #### Entre no canal de texto `#🔌・commands` e digite `.git`
 
+<div align="center">
+
 <figure><img src="../../.gitbook/assets/git-cmd-discord.png" alt=""><figcaption><p>Comando .git no canal de comandos</p></figcaption></figure>
+
+</div>
 
 {% tabs %}
 {% tab title="Github" %}

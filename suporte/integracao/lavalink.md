@@ -16,7 +16,11 @@ Os requisitos para hospedar o Lavalink são os mesmo que hospedar um site, pode 
 4. Configure com uma password forte para que ninguém use o seu **Lavalink**
 5. Faça um zip com esses 2 arquivos.
 
-![](../../.gitbook/assets/lavalink-zip.gif)
+<div align="left">
+
+<img src="../../.gitbook/assets/lavalink-zip.gif" alt="">
+
+</div>
 
 6\. Agora faça o upload em modo site (pela discloud use `,upsite`)
 

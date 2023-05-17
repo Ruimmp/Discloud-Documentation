@@ -5,8 +5,6 @@ Com este ficheiro você pode configurar facilmente cada app que enviar para DisC
 
 ## :gear: Como Utilizar
 
-Consulte a lista de opções para: [VERSION](version.md), [APT](apt.md)
-
 > Se estiver fazendo um `bot` ou um `site` pode se basear nos exemplos abaixo:
 
 {% tabs %}
@@ -14,6 +12,8 @@ Consulte a lista de opções para: [VERSION](version.md), [APT](apt.md)
 {% hint style="info" %}
 Para hospedar um bot precisa de **100MB** de RAM no mínimo
 {% endhint %}
+
+> Clique nas opções para obter mais informações
 
 <pre class="language-tsconfig" data-title="discloud.config"><code class="lang-tsconfig"><a data-footnote-ref href="#user-content-fn-1">NAME=Meubot</a>
 <a data-footnote-ref href="#user-content-fn-2">AVATAR=https://i.imgur.com/bWhx7OT.png</a>
@@ -25,7 +25,7 @@ Para hospedar um bot precisa de **100MB** de RAM no mínimo
 <a data-footnote-ref href="#user-content-fn-8">APT=</a>tools
 </code></pre>
 
-> Observação: As opções de `NOME` e `AVATAR` são para personalizar o nome e a imagem do seu app. Elas serão exibidas na dashboard, ou no Discord através de comandos do nosso bot (por exemplo: `.app`, `.status`).
+> Observação: As opções de <mark style="color:green;">`NOME`</mark> e <mark style="color:green;">`AVATAR`</mark> são para personalizar o nome e a imagem do seu app. Elas serão exibidas na dashboard, ou no Discord através de comandos do nosso bot (por exemplo: `.app`, `.status`).
 
 <figure><img src="../../.gitbook/assets/dash-name-avatar-discloud-config.png" alt=""><figcaption><p>Exemplo na dashboard</p></figcaption></figure>
 {% endtab %}
@@ -34,6 +34,8 @@ Para hospedar um bot precisa de **100MB** de RAM no mínimo
 {% hint style="info" %}
 Para hospedar um site precisa de **512MB** de RAM no mínimo, e um [Plano Platina](https://discloudbot.com/plans)
 {% endhint %}
+
+> Clique nas opções para obter mais informações
 
 <pre class="language-tsconfig" data-title="discloud.config"><code class="lang-tsconfig"><a data-footnote-ref href="#user-content-fn-9">NAME=MeuSite</a>
 <a data-footnote-ref href="#user-content-fn-10">AVATAR=https://i.imgur.com/bWhx7OT.png</a>

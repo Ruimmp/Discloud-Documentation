@@ -5,7 +5,7 @@
 * **RAM**: 512 MB (recomendado para tarefas básicas)
   * A quantidade ideal de **RAM** pode variar consoante as especificidades de cada caso.
 
-## :package:Adicione o puppetter no [APT](../../discloud.config/configurar/apt.md) do [discloud.config](broken-reference)
+## :package:Adicione o Puppetter no [APT](../../discloud.config/configurar/apt.md) do [discloud.config](broken-reference)
 
 Na linha **APT**, adicione o pacote `puppeteer` separado por vírgula e espaço após os pacotes já existentes, como no exemplo abaixo.
 
@@ -23,9 +23,11 @@ Para garantir o funcionamento correto do **Puppeteer** em um container, é neces
 </strong>});
 </code></pre>
 
-## <img src="https://wwebjs.dev/logo.png" alt="" data-size="line"> Configure o [whatsapp-web.js](https://wwebjs.dev/guide/#installation-on-no-gui-systems)
+## :gear:Configuração para dependências que utilizam o Puppeteer&#x20;
 
-Como o whatsapp-web.js utiliza o **Puppetter**, é necessário adicionar o argumento `--no-sandbox` às opções do puppetter, como no exemplo a seguir:
+### <img src="https://wwebjs.dev/logo.png" alt="" data-size="line"> Configure o [whatsapp-web.js](https://wwebjs.dev/guide/#installation-on-no-gui-systems)
+
+Como o **whatsapp-web.js** utiliza o **Puppetter** (para geração do QR code, e interações em segundo plano), é necessário adicionar o argumento `--no-sandbox` às opções do `puppetter`, como no exemplo a seguir:
 
 <pre class="language-javascript"><code class="lang-javascript">const client = new Client({
 	puppeteer: {
@@ -33,3 +35,7 @@ Como o whatsapp-web.js utiliza o **Puppetter**, é necessário adicionar o argum
 </strong>	}
 });
 </code></pre>
+
+{% hint style="info" %}
+Em caso de memória RAM insuficiente, o **QR code poderá não aparecer nas logs da Discloud**, para resolver isto aumente a memória do seu app como mencionado nos requisitos acima, para que o Puppeteer funcione como esperado.
+{% endhint %}

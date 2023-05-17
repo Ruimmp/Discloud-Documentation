@@ -32,7 +32,7 @@ Você pode importar o código `curl` em aplicativos como o [Insomnia](https://in
 
 {% tabs %}
 {% tab title="Insomnia" %}
-<div>
+<div align="left">
 
 <figure><img src="../.gitbook/assets/insomnia-generate-code.png" alt=""><figcaption><p>1</p></figcaption></figure>
 
@@ -46,7 +46,7 @@ Você pode importar o código `curl` em aplicativos como o [Insomnia](https://in
 {% endtab %}
 
 {% tab title="Postman" %}
-<div>
+<div align="left">
 
 <figure><img src="../.gitbook/assets/postman-generate-code.png" alt=""><figcaption><p>1</p></figcaption></figure>
 

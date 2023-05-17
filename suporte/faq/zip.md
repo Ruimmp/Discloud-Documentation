@@ -1,4 +1,4 @@
-# Como compactar (zipar) os meus arquivos?
+# Como Compactar?
 
 <details>
 
@@ -56,7 +56,15 @@ Nos dispositivos **Android** as fabricantes costumam enviar o sistema com **Gere
 
 Aperte por algum tempo um arquivo para desbloquear a seleção, depois vá marcando apenas os **arquivos necessários**, agora procure por um ícone geralmente semelhante a 3 pontos ou traços, e por fim procure pela opção **Comprimir**
 
-![Seleçao de Arquivos](../../.gitbook/assets/android\_files\_step1.jpg) ![Clique em mais, Comprimir](../../.gitbook/assets/android\_files\_step2.jpg)
+<div align="center">
+
+<img src="../../.gitbook/assets/android_files_step1.jpg" alt="Seleçao de Arquivos">
+
+ 
+
+<img src="../../.gitbook/assets/android_files_step2.jpg" alt="Clique em mais, Comprimir">
+
+</div>
 {% endtab %}
 
 {% tab title="💻 ChromeOS" %}
