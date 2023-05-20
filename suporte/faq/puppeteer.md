@@ -23,7 +23,7 @@ Para garantir o funcionamento correto do **Puppeteer** em um container, é neces
 </strong>});
 </code></pre>
 
-## :gear:Configuração para dependências que utilizam o Puppeteer&#x20;
+## :gear:Configuração de dependências que utilizam o Puppeteer&#x20;
 
 ### <img src="https://wwebjs.dev/logo.png" alt="" data-size="line"> Configure o [whatsapp-web.js](https://wwebjs.dev/guide/#installation-on-no-gui-systems)
 
