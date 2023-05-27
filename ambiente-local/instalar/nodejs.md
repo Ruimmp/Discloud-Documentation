@@ -1,7 +1,3 @@
----
-description: Aprenda a hospedar seu bot em JavaScript na DisCloud
----
-
 # 🟨 JavaScript (nodejs)
 
 ### Instale o Nodejs e npm no seu computador

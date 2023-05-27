@@ -1,7 +1,3 @@
----
-description: Aprenda a hospedar seu bot em JavaScript na DisCloud
----
-
 # 🦀 Rust
 
 ### Instale o Rust e Cargo no seu computador
