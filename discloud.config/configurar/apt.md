@@ -21,7 +21,7 @@ Se você necessitar de utilizar mais de **1 pacote**, separe por `vírgulas e es
 
 ### Pacotes disponíveis
 
-<table><thead><tr><th>Nome Do Pacote</th><th data-type="select" data-multiple>Dependências</th></tr></thead><tbody><tr><td>canvas</td><td></td></tr><tr><td>puppeteer</td><td></td></tr><tr><td>java</td><td></td></tr><tr><td>ffmpeg</td><td></td></tr><tr><td>libgl</td><td></td></tr><tr><td>tools</td><td></td></tr><tr><td>openssl</td><td></td></tr></tbody></table>
+<table><thead><tr><th width="180.47811180687387">Nome Do Pacote</th><th data-type="select" data-multiple>Dependências</th></tr></thead><tbody><tr><td>canvas</td><td></td></tr><tr><td>puppeteer</td><td></td></tr><tr><td>java</td><td></td></tr><tr><td>ffmpeg</td><td></td></tr><tr><td>libgl</td><td></td></tr><tr><td>tools</td><td></td></tr><tr><td>openssl</td><td></td></tr></tbody></table>
 
 [^1]: Coloque apenas os pacotes abaixo de "Nome Do Pacote" no seu "APT=".&#x20;
 

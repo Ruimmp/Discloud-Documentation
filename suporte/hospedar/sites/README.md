@@ -12,3 +12,11 @@
 > * Você deve utilizar a porta **`8080`** na sua aplicação.
 > * Coloque o seu **subdominio** no arquivo [**discloud.config**](../../../discloud.config/configurar/#exemplo-para-site)**.** \
 >   Para inserir o seu subdomínio, basta colocar o seu subdomínio na linha `ID=subdomínio`, substituindo "`subdomínio`" **apenas pelo nome do seu subdomínio** ~~_(não digite a parte .discloud.app, não é necessário)._~~
+
+## Use o seu próprio domínio
+
+Você tem um plano **Diamond ou superior**? Saiba como usar o seu próprio **domínio** na **Discloud**!
+
+{% content-ref url="../../integracao/seu-proprio-dominio.md" %}
+[seu-proprio-dominio.md](../../integracao/seu-proprio-dominio.md)
+{% endcontent-ref %}

@@ -26,6 +26,7 @@
   * [🦀 Rust](suporte/linguagens/rust/README.md)
     * [📄 Criar o Cargo.toml](suporte/linguagens/rust/criar-package.json.md)
 * [⛓ Integrações](suporte/integracao/README.md)
+  * [🌐 Seu próprio domínio](suporte/integracao/seu-proprio-dominio.md)
   * [🐙 Github e Gitlab](suporte/integracao/github.md)
   * [🎧 Lavalink](suporte/integracao/lavalink.md)
   * [💾 Banco de Dados](suporte/integracao/banco-de-dados/README.md)
