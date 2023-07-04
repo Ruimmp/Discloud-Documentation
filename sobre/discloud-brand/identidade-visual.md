@@ -6,13 +6,11 @@ description: >-
 
 # Identidade Visual
 
-{% hint style="warning" %}
-**Em geral, não use o nome ou logotipos da DisCloud de maneiras que possam ser confusas, enganosas ou sugerir nosso patrocínio, endosso ou afiliação.**
-{% endhint %}
-
 ## <mark style="color:green;">Atual</mark>
 
-### Icon
+A nova identidade visual veio da `fita de Möbius` que representa a nossa busca por inovação e evolução constante, como um loop infinito, mostrando como tudo na empresa está interligado. Anexada também ao conceito de um `ampulheta deitada` que simboliza a importância de equilibrarmos tempo e eficiência, representando a nossa mentalidade de resultados sem abrir mão da qualidade.
+
+### Logo
 
 {% tabs %}
 {% tab title="PNG" %}
@@ -114,6 +112,18 @@ description: >-
 >
 > **Vampire Black:** `#0b0b0b`  **Smoky Black:** `#0f0f0f`  **Eerie Black:** `#1B1B1B`
 
+## <mark style="color:red;">Não fazer com o logotipo</mark>
+
+**Em geral, não use o nome ou logotipos da DisCloud de maneiras que possam ser confusas, enganosas ou sugerir nosso patrocínio, endosso ou afiliação.**
+
+> Não adicione sombras atrás do logotipo; \
+> Não adicione contornos ao logotipo; \
+> Não estique o logotipo; \
+> Não aplique o logotipo em baixa resolução; \
+> Não coloque em cores de baixo contraste (exemplo: logo branca com fundo claro);
+
+<figure><img src="../../.gitbook/assets/discloud logo dont’s.png" alt=""><figcaption></figcaption></figure>
+
 ## <mark style="color:blue;">Antiga (2019-2022)</mark>
 
 {% tabs %}
@@ -165,7 +175,3 @@ A fonte usada para o logotipo da DisCloud é uma versão modificada do [Uni Sans
 {% file src="../../.gitbook/assets/Font_Discloud.otf" %}
 
 ![](<../../.gitbook/assets/discloud-background (1) (1) (1) (1) (1).png>)
-
-{% hint style="danger" %}
-**Não faça qualquer tipo de modificação na logotipo do DisCloud.**
-{% endhint %}
