@@ -21,7 +21,7 @@ Se você necessitar de utilizar mais de **1 pacote**, separe por `vírgulas e es
 
 ### Pacotes disponíveis
 
-<table><thead><tr><th width="180.47811180687387">Nome Do Pacote</th><th data-type="select" data-multiple>Dependências</th></tr></thead><tbody><tr><td>canvas</td><td></td></tr><tr><td>puppeteer</td><td></td></tr><tr><td>java</td><td></td></tr><tr><td>ffmpeg</td><td></td></tr><tr><td>libgl</td><td></td></tr><tr><td>tools</td><td></td></tr><tr><td>openssl</td><td></td></tr></tbody></table>
+<table><thead><tr><th width="177.47811180687387">Nome Do Pacote</th><th width="354">Descrição</th><th width="395" data-type="select" data-multiple>Dependências Linux</th></tr></thead><tbody><tr><td>canvas</td><td>Dependencias necessárias para o correto funcionamento do Canvas</td><td></td></tr><tr><td>puppeteer</td><td>Dependencias necessárias para o correto funcionamento do Puppeteer</td><td></td></tr><tr><td>java</td><td>Instala o OpenJDK Java runtime</td><td></td></tr><tr><td>ffmpeg</td><td>🎵 Uma solução completa para gravar, converter e transmitir áudio e vídeo <mark style="color:green;">(necessário para bots de música)</mark></td><td></td></tr><tr><td>libgl</td><td>A libGL implementa a interface GLX, bem como os principais pontos de entrada da API OpenGL.</td><td></td></tr><tr><td>tools</td><td>Ferramentas úteis e essenciais para a maioria dos apps</td><td></td></tr><tr><td>openssl</td><td>Uma biblioteca criptográfica que implementa os protocolos SSL e TLS</td><td></td></tr></tbody></table>
 
 [^1]: Coloque apenas os pacotes abaixo de "Nome Do Pacote" no seu "APT=".&#x20;
 
