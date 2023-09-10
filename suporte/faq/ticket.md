@@ -1,8 +1,8 @@
-# DisCloud ModMail (Ticket)
+# Discloud ModMail (Ticket)
 
 ## <img src="../../.gitbook/assets/ticket-logo.webp" alt="" data-size="line"> O que é o Ticket?
 
-O **Ticket** é um bot do Discord que permite aos usuários entrarem em contato diretamente com a Staff da **DisCloud** de forma coletiva através do DM do bot, sem enviar mensagens individuais ou pingar publicamente os membros da equipe no servidor.
+O **Ticket** é um bot do Discord que permite aos usuários entrarem em contato diretamente com a Staff da **Discloud** de forma coletiva através do DM do bot, sem enviar mensagens individuais ou pingar publicamente os membros da equipe no servidor.
 
 ### Quando Devo Utilizar?
 
@@ -29,4 +29,4 @@ Entre na DM do **Ticket** e envie-nos a sua questão e aguarde um membro da equi
 
 ![](../../.gitbook/assets/tichet-msg.png)
 
-A sua mensagem foi enviada para a Staff e um membro da equipe ir responder o quanto possível!
+A sua mensagem será enviada para a Staff e um membro da equipe irá responder o quanto possível!

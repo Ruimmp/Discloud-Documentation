@@ -39,20 +39,8 @@ Para mais detalhes sobre como **Compactar os seus Arquivos** de acordo com o seu
 Escolha o método para hospedar seu Bot na Discloud:
 {% endhint %}
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
-
-{% content-ref url="../../hospedar/bots/discord.md" %}
-[discord.md](../../hospedar/bots/discord.md)
-{% endcontent-ref %}
-
-{% content-ref url="../../hospedar/bots/vscode.md" %}
-[vscode.md](../../hospedar/bots/vscode.md)
-{% endcontent-ref %}
-
-{% content-ref url="../../hospedar/bots/cli.md" %}
-[cli.md](../../hospedar/bots/cli.md)
+{% content-ref url="../../hospedar/" %}
+[hospedar](../../hospedar/)
 {% endcontent-ref %}
 
 ## :earth\_americas: Hospedando o Seu Site

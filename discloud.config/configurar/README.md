@@ -25,7 +25,7 @@ Para hospedar um bot precisa de **100MB** de RAM no mínimo
 <a data-footnote-ref href="#user-content-fn-8">APT=</a>tools
 </code></pre>
 
-> Observação: As opções de <mark style="color:green;">`NOME`</mark> e <mark style="color:green;">`AVATAR`</mark> são para personalizar o nome e a imagem do seu app. Elas serão exibidas na dashboard, ou no Discord através de comandos do nosso bot (por exemplo: `.app`, `.status`).
+> Observação: As opções de <mark style="color:green;">`NOME`</mark> e <mark style="color:green;">`AVATAR`</mark> são para personalizar o nome e a imagem do seu app. Elas serão exibidas na dashboard, ou através de comandos do nosso bot (por exemplo: `.app`, `.status`).
 
 <figure><img src="../../.gitbook/assets/dash-name-avatar-discloud-config.png" alt=""><figcaption><p>Exemplo na dashboard</p></figcaption></figure>
 {% endtab %}

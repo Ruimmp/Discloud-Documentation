@@ -24,8 +24,7 @@ Para realizar o seu registro na [**Discloud**](https://discloudbot.com/login), c
 
 > **Remova (ou não inclua no .zip) as seguintes pastas/arquivos** nos seguintes projetos:\
 > :yellow\_square:[JavaScript](../linguagens/javascript/): remova `node_modules`, `.npm` e `package-lock.json`\
-> :snake:[Python](../linguagens/python/): remova `venv` e `.cache`\
-> \`\`outros: `.git`
+> :snake:[Python](../linguagens/python/): remova `venv` e `.cache`
 
 {% content-ref url="../linguagens/" %}
 [linguagens](../linguagens/)
@@ -55,12 +54,12 @@ Para hospedar sites consulte os [requisitos](sites/#requisitos)
 
 :robot:Para Bots:
 
-> * :electric\_plug:[via Discord](bots/discord.md)
+> * :electric\_plug:[via Bot](bots/bot.md)
 > * :jigsaw:[via VSCode](bots/vscode.md)
 > * :keyboard:[via DisCloud CLI](bots/cli.md)
 
 :earth\_americas:Para Sites:
 
-> * :electric\_plug:[via Discord](sites/discord.md)
+> * :electric\_plug:[via Bot](sites/bot.md)
 > * :jigsaw:[via VSCode](sites/vscode.md)
 > * :keyboard:[via DisCloud CLI](sites/cli.md)

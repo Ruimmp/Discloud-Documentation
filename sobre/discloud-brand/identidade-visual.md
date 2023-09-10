@@ -6,8 +6,6 @@ description: >-
 
 # Identidade Visual
 
-## <mark style="color:green;">Atual</mark>
-
 A nova identidade visual veio da `fita de Möbius` que representa a nossa busca por inovação e evolução constante, como um loop infinito, mostrando como tudo na empresa está interligado. Anexada também ao conceito de um `ampulheta deitada` que simboliza a importância de equilibrarmos tempo e eficiência, representando a nossa mentalidade de resultados sem abrir mão da qualidade.
 
 ### Logo
@@ -124,54 +122,8 @@ A nova identidade visual veio da `fita de Möbius` que representa a nossa busca 
 
 <figure><img src="../../.gitbook/assets/discloud logo dont’s.png" alt=""><figcaption></figcaption></figure>
 
-## <mark style="color:blue;">Antiga (2019-2022)</mark>
-
-{% tabs %}
-{% tab title=" Logotipo horizontal escuro" %}
-![](../../.gitbook/assets/SPOILER\_Discloud\_Dark.png)
-{% endtab %}
-
-{% tab title=" Logotipo horizontal branco" %}
-![](../../.gitbook/assets/SPOILER\_Discloud\_branco.png)
-{% endtab %}
-
-{% tab title=" Logotipo horizontal branco sombra" %}
-![](../../.gitbook/assets/discloud2\(1\).png)
-{% endtab %}
-{% endtabs %}
-
-### Icon
-
-{% tabs %}
-{% tab title="Logotipo Normal" %}
-![](<../../.gitbook/assets/discloudlogo (1).png>)
-{% endtab %}
-
-{% tab title="Logotipo Halloween" %}
-![](../../.gitbook/assets/DisCloudHalloween.png)
-{% endtab %}
-
-{% tab title="Gif Logo" %}
-![](<../../.gitbook/assets/icongif (1) (1) (1) (1).gif>)
-{% endtab %}
-
-{% tab title="Gif Natal" %}
-![](../../.gitbook/assets/natal.gif)
-{% endtab %}
-
-{% tab title="Gif Halloween" %}
-![](../../.gitbook/assets/gif1.gif)
-{% endtab %}
-
-{% tab title="Gif AnoNovo" %}
-![](<../../.gitbook/assets/ww (1).gif>)
-{% endtab %}
-{% endtabs %}
-
 ### Fonte
 
 A fonte usada para o logotipo da DisCloud é uma versão modificada do [Uni Sans Heavy](https://www.myfonts.com/fonts/font-fabric/uni-sans/), que foi projetada por Svet Simov em 2009.
 
 {% file src="../../.gitbook/assets/Font_Discloud.otf" %}
-
-![](<../../.gitbook/assets/discloud-background (1) (1) (1) (1) (1).png>)

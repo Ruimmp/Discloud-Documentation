@@ -34,24 +34,8 @@ Para mais detalhes sobre como **Compactar os seus Arquivos** de acordo com o seu
 
 ## ✍ Hospedando o seu bot
 
-{% hint style="info" %}
-Escolha o método para hospedar seu Bot na Discloud:
-{% endhint %}
-
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
-
-{% content-ref url="../../hospedar/bots/discord.md" %}
-[discord.md](../../hospedar/bots/discord.md)
-{% endcontent-ref %}
-
-{% content-ref url="../../hospedar/bots/vscode.md" %}
-[vscode.md](../../hospedar/bots/vscode.md)
-{% endcontent-ref %}
-
-{% content-ref url="../../hospedar/bots/cli.md" %}
-[cli.md](../../hospedar/bots/cli.md)
+{% content-ref url="../../hospedar/" %}
+[hospedar](../../hospedar/)
 {% endcontent-ref %}
 
 ## :earth\_americas: Hospedando o Seu Site
@@ -77,7 +61,7 @@ Você precisa de adicionar o seu **subdomínio** (ou **domínio**) nos hosts per
 > * Edite o arquivo `config/application.rb`
 > * Modifique a **linha 19**, com o seu dominio
 
-{% code title="config/application.rb" %}
+{% code title="config/application.rb" lineNumbers="true" %}
 ```ruby
 require_relative "boot"
 
