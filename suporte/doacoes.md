@@ -6,7 +6,7 @@ description: >-
 
 # 🤲 Doações
 
-A **DisCloud** oferece planos pagos para que você possa desfrutar de recursos extras além do plano gratuito.&#x20;
+A **Discloud** oferece planos pagos para que você possa desfrutar de recursos extras além do plano gratuito.&#x20;
 
 Ao adquirir um plano pago, você terá acesso a recursos exclusivos, como **mais memória**, **maior capacidade de processamento**, **hospedagem de sites com subdomínios gratuitos** (ou com o seu próprio domínio), **compartilhamento de acesso aos seus aplicativos com membros da sua equipe**, **integração com o Git** e muito mais. Além disso, ao escolher um plano pago, você estará apoiando o desenvolvimento contínuo do projeto e a ajudar-nos a manter os nossos servidores dedicados operacionais.
 

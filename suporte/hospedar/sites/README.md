@@ -11,7 +11,7 @@ Para permitir o acesso externo ao seu app, a **Discloud** oferece a opção de c
 #### Para começar a hospedar o seu site na **DisCloud,** você precisa dos seguintes requisitos listados abaixo:
 
 > * Necessita de um [**Plano Platina** ](https://discloudbot.com/plans)**ou superior**.
-> * Necessita de registrar um **subdomínio**. (Pode fazê-lo pelo Discord: **`.sd`** command, ou pela dashboard)
+> * Necessita de registrar um **subdomínio**. (Pode fazê-lo pelo nosso Bot com o comando **`.sd`**, ou pela `dashboard`)
 >
 > <img src="../../../.gitbook/assets/dash-subdomain-register.png" alt="" data-size="original">
 >

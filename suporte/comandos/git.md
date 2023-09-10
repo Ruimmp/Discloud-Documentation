@@ -2,7 +2,7 @@
 
 Sincronize um repositório git com a sua aplicação para atualizações _(commits)_ automáticas.
 
-Sempre que um commit for enviado para o repositório da sua aplicação, a DisCloud irá atualizar os arquivos da sua aplicação automaticamente.
+Sempre que um commit for enviado para o repositório da sua aplicação, a Discloud irá atualizar os arquivos da sua aplicação automaticamente.
 
 <figure><img src="../../.gitbook/assets/git-logs.png" alt=""><figcaption><p>Exemplo dos logs do git na DisCloud durante um deploy</p></figcaption></figure>
 
@@ -12,7 +12,7 @@ Este recurso só está disponível para os planos pagos.
 
 ## :pencil: Requisitos
 
-É necessário que a sua aplicação já esteja hospedada na DisCloud.
+É necessário que a sua aplicação já esteja hospedada na Discloud.
 
 ## **Como Usar?**
 
@@ -20,7 +20,7 @@ Este recurso só está disponível para os planos pagos.
 
 <div align="center">
 
-<figure><img src="../../.gitbook/assets/git-cmd-discord.png" alt=""><figcaption><p>Comando .git no canal de comandos</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/git-cmd.png" alt=""><figcaption><p>Comando .git no canal de comandos</p></figcaption></figure>
 
 </div>
 
