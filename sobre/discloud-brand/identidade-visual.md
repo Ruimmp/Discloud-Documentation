@@ -1,7 +1,7 @@
 ---
 description: >-
-  Você pode usar o logotipo ou o nome DisCloud para criar um link para nosso
-  site, desde que seu uso atenda às diretrizes contidas nesse documento.
+  Você pode usar o logotipo ou o nome Discloud para criar um link para nosso
+  site, desde que o seu uso atenda às diretrizes contidas nesse documento.
 ---
 
 # Identidade Visual
@@ -121,9 +121,3 @@ A nova identidade visual veio da `fita de Möbius` que representa a nossa busca 
 > Não coloque em cores de baixo contraste (exemplo: logo branca com fundo claro);
 
 <figure><img src="../../.gitbook/assets/discloud logo dont’s.png" alt=""><figcaption></figcaption></figure>
-
-### Fonte
-
-A fonte usada para o logotipo da DisCloud é uma versão modificada do [Uni Sans Heavy](https://www.myfonts.com/fonts/font-fabric/uni-sans/), que foi projetada por Svet Simov em 2009.
-
-{% file src="../../.gitbook/assets/Font_Discloud.otf" %}
