@@ -22,7 +22,7 @@ VERSION=current
 
 {% tabs %}
 {% tab title=" 🟨 JavaScript" %}
-<table><thead><tr><th>Versões Disponíveis</th><th data-hidden></th></tr></thead><tbody><tr><td><a data-footnote-ref href="#user-content-fn-1">latest</a></td><td></td></tr><tr><td><a data-footnote-ref href="#user-content-fn-2">current</a></td><td></td></tr><tr><td>16.13.2</td><td></td></tr><tr><td>14.18.3</td><td></td></tr><tr><td><a data-footnote-ref href="#user-content-fn-3">suja</a></td><td></td></tr></tbody></table>
+<table><thead><tr><th>Versões Disponíveis</th><th data-hidden></th></tr></thead><tbody><tr><td><a data-footnote-ref href="#user-content-fn-1">latest</a></td><td></td></tr><tr><td><a data-footnote-ref href="#user-content-fn-2">current</a></td><td></td></tr><tr><td>18</td><td></td></tr><tr><td>16.13.2</td><td></td></tr><tr><td>14.18.3</td><td></td></tr><tr><td><a data-footnote-ref href="#user-content-fn-3">suja</a></td><td></td></tr></tbody></table>
 {% endtab %}
 
 {% tab title="🐍 Python" %}
