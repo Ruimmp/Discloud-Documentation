@@ -8,9 +8,9 @@ description: >-
 
 ## :bust\_in\_silhouette: Faça seu registro em nosso site
 
-Para realizar o seu registro na [**Discloud**](https://discloudbot.com/login), clique em [entrar](https://discloudbot.com/login) e logo depois faça o ‘login’ através da sua conta [Github](https://github.com/).
+Para realizar o seu registro na [**Discloud**](https://discloudbot.com/login), clique em [entrar](https://discloudbot.com/login) e logo depois faça o login.
 
-<figure><img src="../../.gitbook/assets/discloud-dash-login.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Captura de tela 2023-12-02 132934.png" alt=""><figcaption></figcaption></figure>
 
 ## 2- Acesse o seu painel de controle
 
