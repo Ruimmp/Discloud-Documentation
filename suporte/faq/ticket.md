@@ -29,4 +29,4 @@ Entre na DM do **Ticket** e envie-nos a sua questão e aguarde um membro da equi
 
 ![](../../.gitbook/assets/tichet-msg.png)
 
-A sua mensagem será enviada para a Staff e um membro da equipe irá responder o quanto possível!
+A sua mensagem será enviada para a Staff e um membro da equipa responderá o mais breve possível!
