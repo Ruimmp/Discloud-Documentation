@@ -32,11 +32,11 @@ Entre na DM do bot da DisCloud e cole a URL do repositório para a sua aplicaç�
 
 <figure><img src="../../.gitbook/assets/git-url.png" alt=""><figcaption><p>Colando o URL do repositorio</p></figcaption></figure>
 
-## Configure o Token de Acesso ([Abrir Github](https://github.com/settings/personal-access-tokens/new))
+## Configure o Token de Acesso ([Abrir Github](https://github.com/settings/tokens/new))
 
 É importante que o acesso esteja para todos os repositórios _(principalmente se você desejar ativar a sincronização para mais de 1 aplicação)_
 
-<figure><img src="../../.gitbook/assets/github-fine-grained-token.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Configuração de Permissões
 
