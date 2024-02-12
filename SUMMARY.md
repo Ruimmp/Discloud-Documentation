@@ -43,8 +43,8 @@
   * [Porque não consigo acessar o meu site?](suporte/faq/porque-nao-consigo-acessar-o-meu-site.md)
   * ["Você já possui uma conta registrada no sistema"](suporte/faq/2acc.md)
 * [⚒ Comandos](suporte/comandos/README.md)
-  * [api](suporte/comandos/api.md)
-  * [git](suporte/comandos/git.md)
+  * [Como obter o token da API](suporte/comandos/api.md)
+  * [Como integrar o Github](suporte/comandos/git.md)
 * [🤲 Doações](suporte/doacoes.md)
 
 ## Configurar <a href="#discloud.config" id="discloud.config"></a>
