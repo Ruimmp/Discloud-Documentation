@@ -2,7 +2,7 @@
 
 > Você já tem uma conta registrada no sistema
 
-Isso acontece porque você utilizou \(ou pelo menos registrou\) 2 contas com o mesmo IP, o que não é permitido de acordo com nossos Termos de Serviço - [https://docs.discloudbot.com/terms](https://docs.discloudbot.com/terms).
+Isso acontece porque você utilizou \(ou pelo menos registrou\) 2 contas com o mesmo IP, o que não é permitido de acordo com nossos Termos de Serviço - [https://docs.discloud.com/terms](https://docs.discloud.com/terms).
 
 Como resolver:
 

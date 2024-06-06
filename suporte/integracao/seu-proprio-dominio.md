@@ -10,7 +10,7 @@ description: Saiba como configurar um domínio personalizado com um app na Discl
 
 Para começar a utilizar o seu domínio na **Discloud**, tem de cumprir os seguintes requisitos:
 
-1. É necessário um [Plano Diamante](https://discloudbot.com/plans) **ou superior**.
+1. É necessário um [Plano Diamante](https://discloud.com/plans) **ou superior**.
 2. É necessário ter um app que já utilize um **subdomínio**.discloud.app, que será necessário para estabelecer uma ligação com o seu próprio **domínio**.
 3.  Além disso, já deve ter o seu próprio **domínio** :)&#x20;
 
@@ -18,7 +18,7 @@ Para começar a utilizar o seu domínio na **Discloud**, tem de cumprir os segui
 
 ## :globe\_with\_meridians:Adicionar o seu domínio <a href="#add-your-domain" id="add-your-domain"></a>
 
-1. Faça login na [Dashboard da DIscloud](https://discloudbot.com/dashboard) e selecione **Domínio Personalizado**
+1. Faça login na [Dashboard da DIscloud](https://discloud.com/dashboard) e selecione **Domínio Personalizado**
 2. Digite o seu **domínio**, selecione o **subdomínio** desejado, e clique em <mark style="background-color:green;">Registrar</mark>
 
 <figure><img src="../../.gitbook/assets/dash-custom-domain.png" alt=""><figcaption></figcaption></figure>
@@ -53,7 +53,7 @@ Abra a janela de **Configuração de domínio** na Discloud. Copie o texto de **
 
 <figure><img src="../../.gitbook/assets/set-up-your-domain-window.png" alt=""><figcaption><p>Janela de configuração do domínio personalizado do Discloud.</p></figcaption></figure>
 
- 
+
 
 <figure><img src="../../.gitbook/assets/domain-cloudflare-record.png" alt=""><figcaption><p>Como devem ser colados no registro do Cloudflare</p></figcaption></figure>
 
@@ -77,7 +77,7 @@ Selecione o app que pertence ao seu domínio e clique em **Rebuild**
 
 <figure><img src="../../.gitbook/assets/dash-select-domain-app.png" alt=""><figcaption></figcaption></figure>
 
- 
+
 
 <figure><img src="../../.gitbook/assets/dash-rebuild-app.png" alt=""><figcaption></figcaption></figure>
 

@@ -32,7 +32,7 @@ Para hospedar um bot precisa de **100MB** de RAM no mínimo
 
 {% tab title="🌎 Exemplo para Site" %}
 {% hint style="info" %}
-Para hospedar um site precisa de **512MB** de RAM no mínimo, e um [Plano Platina](https://discloudbot.com/plans)
+Para hospedar um site precisa de **512MB** de RAM no mínimo, e um [Plano Platina](https://discloud.com/plans)
 {% endhint %}
 
 > Clique nas opções para obter mais informações
@@ -72,7 +72,7 @@ Com o seu [.zip ](../../suporte/faq/zip.md)criado com o `discloud.config` chegou
 
 [^5]: Quantidade de memoria **RAM** em `MB`
 
-[^6]: Reinício automático em caso de falhas na sua aplicação coloque `true` para ativar. Apenas [Plano Platina](https://discloudbot.com/plans) ou superior. <mark style="color:green;">(optional)</mark>
+[^6]: Reinício automático em caso de falhas na sua aplicação coloque `true` para ativar. Apenas [Plano Platina](https://discloud.com/plans) ou superior. <mark style="color:green;">(optional)</mark>
 
 [^7]: Mude a [versão](version.md#versoes-disponiveis) utilizada na imagem do container da sua app.
 
@@ -90,7 +90,7 @@ Com o seu [.zip ](../../suporte/faq/zip.md)criado com o `discloud.config` chegou
 
 [^14]: Quantidade de memoria **RAM** em `MB`.
 
-[^15]: Reinício automático em caso de falhas na sua aplicação coloque `true` para ativar. Apenas [Plano Platina](https://discloudbot.com/plans) ou superior. <mark style="color:green;">(optional)</mark>
+[^15]: Reinício automático em caso de falhas na sua aplicação coloque `true` para ativar. Apenas [Plano Platina](https://discloud.com/plans) ou superior. <mark style="color:green;">(optional)</mark>
 
 [^16]: Mude a [versão](version.md#versoes-disponiveis) utilizada na imagem do container da sua app.
 

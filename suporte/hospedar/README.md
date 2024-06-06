@@ -8,7 +8,7 @@ description: >-
 
 ## :bust\_in\_silhouette: Faça seu registro em nosso site
 
-Para realizar o seu registro na [**Discloud**](https://discloudbot.com/login), clique em [entrar](https://discloudbot.com/login) e logo depois faça o login.
+Para realizar o seu registro na [**Discloud**](https://discloud.com/login), clique em [entrar](https://discloud.com/login) e logo depois faça o login.
 
 <figure><img src="../../.gitbook/assets/Captura de tela 2023-12-02 132934.png" alt=""><figcaption></figcaption></figure>
 

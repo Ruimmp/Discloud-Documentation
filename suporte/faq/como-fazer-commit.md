@@ -8,7 +8,7 @@ description: Como atualizar os arquivos do seu Bot hospedado na DisCloud
 
 Selecione os arquivos que deseja atualizar em seu diretório, caso eles estejam dentro de alguma pasta, envie a pasta junto dos arquivos para que sejam alocados corretamente em seu diretório. Após preparar os arquivos, selecione-os e zipe \(o formato de sua pasta compactada deve ser **`.zip`**\).
 
-Caso não saiba como compactar seu arquivos, veja este [guia](https://docs.discloudbot.com/faq/como-compactar-zipar-os-meus-arquivos).
+Caso não saiba como compactar seu arquivos, veja este [guia](https://docs.discloud.com/faq/como-compactar-zipar-os-meus-arquivos).
 
 ## Commit com Deploy Automático
 

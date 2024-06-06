@@ -18,7 +18,7 @@ Você pode adquirir um plano por meio de um método de pagamento com o **Stripe*
 
 ### <img src="../.gitbook/assets/discloud-logo.png" alt="" data-size="line"> Comprar via Site
 
-Acesse o site [discloudbot.com/plans](https://discloudbot.com/plans) e escolha o seu plano.
+Acesse o site [discloud.com/plans](https://discloud.com/plans) e escolha o seu plano.
 
 ![](../.gitbook/assets/swappy-20230402\_213439.png)
 
@@ -43,13 +43,13 @@ Ao adquirir um plano pelo site da Discloud (via Stripe), será ativada uma assin
 ### :red\_circle:Cancelar assinatura
 
 Ao cancelar a assinatura, o seu plano atual não será renovado automaticamente. No entanto, é importante lembrar que você perderá o acesso aos recursos do plano assim que ele expirar. \
-**Para cancelar a sua assinatura acesse:** [https://discloudbot.com/dashboard/billing](https://discloudbot.com/dashboard/billing)
+**Para cancelar a sua assinatura acesse:** [https://discloud.com/dashboard/billing](https://discloud.com/dashboard/billing)
 
 <figure><img src="../.gitbook/assets/discloud-unsubscribe.png" alt=""><figcaption><p>Clique em "Unsubscribe" ou "Cancelar assinatura"</p></figcaption></figure>
 
 ### :green\_circle:Reativar Assinatura
 
 Se você cancelou por engano, esta é uma excelente oportunidade para recuperar o acesso a todos os recursos que o seu plano oferecia.\
-Para reativar a sua subscrição acesse: [https://discloudbot.com/dashboard/billing](https://discloudbot.com/dashboard/billing).
+Para reativar a sua subscrição acesse: [https://discloud.com/dashboard/billing](https://discloud.com/dashboard/billing).
 
 <figure><img src="../.gitbook/assets/discloud-reactive-subscription.png" alt=""><figcaption><p>Clique em "Reactivate subscription" ou "Reativar assinatura"</p></figcaption></figure>

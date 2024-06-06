@@ -74,9 +74,9 @@
 
 ## 🔗 Links
 
-* [🌎 Website](https://discloudbot.com/)
-* [📊 DisCloud Status](https://status.discloudbot.com/)
+* [🌎 Website](https://discloud.com/)
+* [📊 DisCloud Status](https://status.discloud.com/)
 
 ## 📜 Jurídico
 
-* [📄 Termos de Serviço (TOS)](https://discloudbot.com/legal)
+* [📄 Termos de Serviço (TOS)](https://discloud.com/legal)

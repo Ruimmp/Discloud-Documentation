@@ -12,7 +12,7 @@ O limite de memória definidos nos contêiners é imposto via cgroups, e a maior
 
 Eles costumam ler métricas de memória do procsistema de arquivos: `/proc/meminfo`, `/proc/vmstat`, `/proc/PID/smaps` e outros. Isso significa que eles não têm consciência de cgroup . Eles sempre exibirão os números de memória do sistema host \(máquina física ou virtual\) como um todo, que é inútil para os contêineres modernos do Linux.
 
-Esse módulo Nodejs funciona apenas no linux, e foi criado exclusivamente para atender os usuários da [discloudbot.com](https://discloudbot.com/)
+Esse módulo Nodejs funciona apenas no linux, e foi criado exclusivamente para atender os usuários da [discloudbot.com](https://discloud.com/)
 
 As informações fornecidas pelo modulo são geradas pelo [cgroups](https://www.kernel.org/doc/Documentation/cgroup-v1/) no caminho `/sys/fs/cgroup/`
 
@@ -46,7 +46,7 @@ console.log(tr) //1GB
 {% endtab %}
 
 {% tab title="🐍Python" %}
-### Instalação do módulo 
+### Instalação do módulo
 
 ```bash
 $ pip install discloud
@@ -87,8 +87,8 @@ import java.text.StringCharacterIterator;
 
 
 public class discloudStatus {
-	
-	
+
+
 	public static String convertMB(long bytes) {
 		/**
 	     *  convert kb to mb/gb/tb/...
@@ -106,7 +106,7 @@ public class discloudStatus {
 	    value *= Long.signum(bytes);
 	    return String.format("%.1f %ciB", value / 1024.0, ci.current());
 	}
-	
+
 	public static File file_total(){
 		/**
 	     * convert localization to file
@@ -114,7 +114,7 @@ public class discloudStatus {
 	     */
 		return new File(File.separator+"sys"+File.separator+"fs"+File.separator+"cgroup"+File.separator+"memory"+File.separator+"memory.limit_in_bytes");
 	}
-	
+
 	public static File file_used() {
 		/**
 	     * convert localization to file
@@ -122,7 +122,7 @@ public class discloudStatus {
 	     */
 		return new File(File.separator+"sys"+File.separator+"fs"+File.separator+"cgroup"+File.separator+"memory"+File.separator+"memory.max_usage_in_bytes");
 	}
-	
+
 	@SuppressWarnings("resource")
 	public static int total_ram() throws NumberFormatException, FileNotFoundException, IOException {
 		/**
@@ -130,7 +130,7 @@ public class discloudStatus {
 	     */
 		return Integer.parseInt(new BufferedReader(new FileReader(file_total())).readLine());
 	}
-	
+
 	@SuppressWarnings("resource")
 	public static int total_used() throws NumberFormatException, FileNotFoundException, IOException {
 		/**
@@ -138,10 +138,10 @@ public class discloudStatus {
 	     */
 		return Integer.parseInt(new BufferedReader(new FileReader(file_used())).readLine());
 	}
-	
-	
 
-	
+
+
+
 	public static String ram() throws NumberFormatException, FileNotFoundException, IOException {
 		/**
 	     *  get memory ram converted to MB!
