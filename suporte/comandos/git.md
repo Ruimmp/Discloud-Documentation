@@ -40,9 +40,9 @@ Entre na DM do bot da DisCloud e cole a URL do repositório para a sua aplicaç�
 
 ### Configuração de Permissões
 
-Selecione a configuração de `Webhooks` para apenas leitura e gere o seu Token.
+Certifique-se de selecionar as configurações de `Webhooks` e `Contents` somente leitura e gerar seu token
 
-<figure><img src="../../.gitbook/assets/github-fine-grained-token-perms.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/github_permissions.png" alt=""><figcaption></figcaption></figure>
 
 ## Webhook
 
