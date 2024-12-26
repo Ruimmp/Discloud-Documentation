@@ -2,13 +2,9 @@
 description: Bem-vindo à documentação oficial da Discloud.
 ---
 
-# 🚀 Introdução
-
-## 👋 Bem-Vindo à Discloud Docs
-
 Você acaba de acessar a documentação oficial da Discloud, o seu guia completo para aproveitar ao máximo o nosso serviço. Aqui, você encontrará tudo o que precisa saber para configurar, otimizar e explorar todas as funcionalidades que a Discloud oferece.
 
-### <img src=".gitbook/assets/discloud_book.png" alt="" data-size="line"> Sobre a Documentação
+## <img src=".gitbook/assets/discloud_book.png" alt="" data-size="line"> Sobre a Documentação
 
 <details>
 
@@ -46,7 +42,7 @@ Nossa documentação é projetada para ser simples e intuitiva de usar. Queremos
 
 <figure><img src=".gitbook/assets/grupodev.png" alt=""><figcaption></figcaption></figure>
 
-### 📞 Entre em Contato
+## 📞 Entre em Contato
 
 Para suporte técnico, questões de confiança e segurança ou apenas para se manter atualizado com as últimas notícias e atualizações, entre em contato conosco:
 
