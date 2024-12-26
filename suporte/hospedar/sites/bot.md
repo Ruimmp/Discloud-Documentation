@@ -20,7 +20,7 @@ Consulte a documentação da linguagem utilizada pelo seu site.
 
 Se você estiver com o cargo `Verified pt-br`, significa que você se registrou com sucesso na **DisCloud**.&#x20;
 
-Para hospedar, entre no canal de texto `commands-v2` e digite `.upsite` ( ou `.upc` para usar o [discloud.config](broken-reference)).
+Para hospedar, entre no canal de texto `commands` e digite `.upsite` ( ou `.upc` para usar o [discloud.config](broken-reference)).
 
 ![](../../../.gitbook/assets/upsite.png)
 
