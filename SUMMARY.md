@@ -1,6 +1,6 @@
 # Table of contents
 
-* [🚀 Introdução](README.md)
+* [👋 Bem-Vindo](README.md)
 
 ## Suporte
 
