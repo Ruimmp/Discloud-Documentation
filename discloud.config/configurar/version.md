@@ -22,16 +22,25 @@ VERSION=current
 
 {% tabs %}
 {% tab title=" 🟨 JavaScript" %}
-<table><thead><tr><th>Versões Disponíveis</th><th data-hidden></th></tr></thead><tbody><tr><td><a data-footnote-ref href="#user-content-fn-1">latest</a></td><td></td></tr><tr><td><a data-footnote-ref href="#user-content-fn-2">current</a></td><td></td></tr><tr><td>18</td><td></td></tr><tr><td>16.13.2</td><td></td></tr><tr><td>14.18.3</td><td></td></tr><tr><td><a data-footnote-ref href="#user-content-fn-3">suja</a></td><td></td></tr></tbody></table>
+| Versões Disponíveis |
+| ------------------- |
+| latest[^4]          |
+| current             |
+| 18.x.x              |
+| 16.13.2             |
+| 14.18.3             |
+| suja                |
 {% endtab %}
 
 {% tab title="🐍 Python" %}
 | Versões Disponíveis |
 | ------------------- |
 | latest[^4]          |
+| 3.11                |
 | 3.10                |
 | 3.9.10              |
-| 2.7.18              |
+| 3.9                 |
+| 2.7                 |
 | suja                |
 {% endtab %}
 
@@ -56,8 +65,8 @@ VERSION=current
 | Versões Disponíveis |
 | ------------------- |
 | latest[^7]          |
-| 1.17.6              |
 | 1.16.13             |
+| 1.7.6               |
 {% endtab %}
 
 {% tab title="🐘 Php" %}
