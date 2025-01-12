@@ -21,15 +21,15 @@ VERSION=current
 > Selecione uma linguagem para consultar
 
 {% tabs %}
-{% tab title=" 🟨 JavaScript" %}
+{% tab title="🟢 Node.js" %}
 | Versões Disponíveis |
 | ------------------- |
-| latest[^4]          |
-| current             |
+| latest[^1]          |
+| current[^2]         |
 | 18.x.x              |
 | 16.13.2             |
 | 14.18.3             |
-| suja                |
+| suja[^3]            |
 {% endtab %}
 
 {% tab title="🐍 Python" %}
