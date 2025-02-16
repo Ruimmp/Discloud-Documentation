@@ -25,6 +25,12 @@
   * [🐘 Php](suporte/linguagens/php.md)
   * [🦀 Rust](suporte/linguagens/rust/README.md)
     * [📄 Criar o Cargo.toml](suporte/linguagens/rust/criar-package.json.md)
+* [⛓ Integrações](suporte/integracao/README.md)
+  * [🌐 Seu próprio domínio](suporte/integracao/seu-proprio-dominio.md)
+  * [🐙 Github e Gitlab](suporte/integracao/github.md)
+  * [🎧 Lavalink](suporte/integracao/lavalink.md)
+  * [💾 Banco de Dados](suporte/integracao/banco-de-dados/README.md)
+    * [MongoDB Atlas (mLab)](suporte/integracao/banco-de-dados/mlab-mongodb-atlas.md)
 * [❓ Perguntas Frequentes (FAQ)](suporte/faq/README.md)
   * [Qual o arquivo principal?](suporte/faq/arquivo-principal.md)
   * [Como obter o ID do meu Bot?](suporte/faq/id-bot.md)
@@ -33,26 +39,19 @@
   * [Bot muito pesado](suporte/faq/botpesado.md)
   * [Discloud ModMail (Ticket)](suporte/faq/ticket.md)
   * [Como reportar um infrator?](suporte/faq/report.md)
+  * [Configurar o Puppeteer](suporte/faq/puppeteer.md)
   * [Porque não consigo acessar o meu site?](suporte/faq/porque-nao-consigo-acessar-o-meu-site.md)
   * ["Você já possui uma conta registrada no sistema"](suporte/faq/2acc.md)
+* [⚒ Comandos](suporte/comandos/README.md)
+  * [Como obter o token da API](suporte/comandos/api.md)
+  * [Como integrar o Github](suporte/comandos/git.md)
 * [🤲 Doações](suporte/doacoes.md)
 
-***
+## Configurar <a href="#discloud.config" id="discloud.config"></a>
 
-* [⛓️ Integrações e Ferramentas](integracoes/README.md)
-  * [🐙 GitHub e GitLab](integracoes/github-e-gitlab.md)
-  * [🌐 Domínio Personalizado](integracoes/dominio-personalizado.md)
-  * [💾 Banco de Dados](integracoes/banco-de-dados/README.md)
-    * [MongoDB Atlas](integracoes/banco-de-dados/mongodb-atlas.md)
-  * [🎧 Lavalink](integracoes/lavalink.md)
-  * [🔑 APIs e Automação](integracoes/apis-e-automacao/README.md)
-    * [🛣️ Rotas da API](integracoes/apis-e-automacao/rotas-da-api.md)
-* [⚙️ Configurações](configuracoes/README.md)
-  * [🛠️ discloud.config](configuracoes/discloud-config.md)
-  * [⚙️ .discloudignore](configuracoes/.discloudignore.md)
-  * [📦 Pacotes (APT)](configuracoes/pacotes-apt.md)
-  * [📊 Versões](configuracoes/versoes.md)
-  * [🧰 Puppeteer](configuracoes/puppeteer.md)
+* [⚙ discloud.config](discloud.config/configurar/README.md)
+  * [📦 APT (Instale Pacotes)](discloud.config/configurar/apt.md)
+  * [🏗 VERSION (Alterne entre Versões)](discloud.config/configurar/version.md)
 
 ## 🖥 ambiente local
 
@@ -61,6 +60,11 @@
   * [🐍 Python](ambiente-local/instalar/python.md)
   * [💎 Ruby](ambiente-local/instalar/ruby.md)
   * [🦀 Rust](ambiente-local/instalar/rust.md)
+
+## API
+
+* [📡 Usar a API](api/usar-a-api.md)
+* [🔗 Rotas](https://discloud.github.io/apidoc/)
 
 ## Sobre
 
