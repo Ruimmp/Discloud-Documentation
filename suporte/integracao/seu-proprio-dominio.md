@@ -49,6 +49,8 @@ Selecione a guia **DNS** → **Adicionar registro**. Digite os seguintes valores
 
 Abra a janela de **Configuração de domínio** na Discloud. Copie o texto de **Name** / **Value** e cole num **registro** da **Cloudflare**, faça o mesmo com as **2 linhas TXT**.
 
+> Caso o valor TXT retorne como `null`, isso indica que a Cloudflare (CF) já realizou a validação do domínio. Nesse caso, não é necessário inserir o registro TXT novamente.
+
 <div>
 
 <figure><img src="../../.gitbook/assets/set-up-your-domain-window.png" alt=""><figcaption><p>Janela de configuração do domínio personalizado do Discloud.</p></figcaption></figure>
