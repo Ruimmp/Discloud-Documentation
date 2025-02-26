@@ -1,4 +1,4 @@
-# ⚙ discloud.config
+# ⚙️ discloud.config
 
 O `discloud.config` é um arquivo de configurações, que agiliza o processo de upload de suas aplicações para a DisCloud.\
 Com este ficheiro você pode configurar facilmente cada app que enviar para DisCloud.
@@ -18,11 +18,12 @@ Para hospedar um bot precisa de **100MB** de RAM no mínimo
 <pre class="language-tsconfig" data-title="discloud.config"><code class="lang-tsconfig"><a data-footnote-ref href="#user-content-fn-1">NAME=Meubot</a>
 <a data-footnote-ref href="#user-content-fn-2">AVATAR=https://i.imgur.com/bWhx7OT.png</a>
 <a data-footnote-ref href="#user-content-fn-3">TYPE=bot</a>
-<strong><a data-footnote-ref href="#user-content-fn-4">MAIN=index.js</a>
-</strong><a data-footnote-ref href="#user-content-fn-5">RAM=100</a>
+<a data-footnote-ref href="#user-content-fn-4">MAIN=index.js</a>
+<a data-footnote-ref href="#user-content-fn-5">RAM=100</a>
 <a data-footnote-ref href="#user-content-fn-6">AUTORESTART=false</a>
 <a data-footnote-ref href="#user-content-fn-7">VERSION=latest</a>
 <a data-footnote-ref href="#user-content-fn-8">APT=</a>tools
+START=
 </code></pre>
 
 > Observação: As opções de <mark style="color:green;">`NOME`</mark> e <mark style="color:green;">`AVATAR`</mark> são para personalizar o nome e a imagem do seu app. Elas serão exibidas na dashboard, ou através de comandos do nosso bot (por exemplo: `.app`, `.status`).
@@ -39,13 +40,13 @@ Para hospedar um site precisa de **512MB** de RAM no mínimo, e um [Plano Platin
 
 <pre class="language-tsconfig" data-title="discloud.config"><code class="lang-tsconfig"><a data-footnote-ref href="#user-content-fn-9">NAME=MeuSite</a>
 <a data-footnote-ref href="#user-content-fn-10">AVATAR=https://i.imgur.com/bWhx7OT.png</a>
-<strong><a data-footnote-ref href="#user-content-fn-11">ID=subdomain</a>
-</strong><a data-footnote-ref href="#user-content-fn-12">TYPE=site</a>
-<strong><a data-footnote-ref href="#user-content-fn-13">MAIN=index.js</a>
-</strong><a data-footnote-ref href="#user-content-fn-14">RAM=512</a>
-<a data-footnote-ref href="#user-content-fn-15">AUTORESTART=false</a>
-<a data-footnote-ref href="#user-content-fn-16">VERSION=latest</a>
-<a data-footnote-ref href="#user-content-fn-17">APT=</a>tools
+<a data-footnote-ref href="#user-content-fn-11">ID=subdomain</a>
+<a data-footnote-ref href="#user-content-fn-3">TYPE=site</a>
+<a data-footnote-ref href="#user-content-fn-4">MAIN=index.js</a>
+<a data-footnote-ref href="#user-content-fn-12">RAM=512</a>
+<a data-footnote-ref href="#user-content-fn-6">AUTORESTART=false</a>
+<a data-footnote-ref href="#user-content-fn-7">VERSION=latest</a>
+<a data-footnote-ref href="#user-content-fn-8">APT=</a>tools
 </code></pre>
 {% endtab %}
 {% endtabs %}
@@ -60,7 +61,7 @@ Coloque o `discloud.config` na raiz do seu projeto e não se esqueça de incluir
 
 Com o seu [.zip ](../../suporte/faq/zip.md)criado com o `discloud.config` chegou a hora do Upload, para utilizar é muito simples!
 
-<figure><img src="../../.gitbook/assets/g.gif" alt=""><figcaption><p>upload pelo site</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/g.gif" alt=""><figcaption><p>Upload pelo site</p></figcaption></figure>
 
 [^1]: Nome da sua aplicação. <mark style="color:green;">(optional)</mark>
 
@@ -84,14 +85,4 @@ Com o seu [.zip ](../../suporte/faq/zip.md)criado com o `discloud.config` chegou
 
 [^11]: Subdomínio que será usado por sua aplicação, não se esqueça de [registrá-lo](../../suporte/hospedar/sites/) antes. <mark style="color:red;">(obrigatório mudar)</mark>
 
-[^12]: Tipo de aplicação `bot` ou `site`
-
-[^13]: Nome ou caminho para o arquivo principal. Ex: `index.js` ou `src/index.js` <mark style="color:red;">(obrigatório mudar)</mark>
-
-[^14]: Quantidade de memoria **RAM** em `MB`.
-
-[^15]: Reinício automático em caso de falhas na sua aplicação coloque `true` para ativar. Apenas [Plano Platina](https://discloud.com/plans) ou superior. <mark style="color:green;">(optional)</mark>
-
-[^16]: Mude a [versão](version.md#versoes-disponiveis) utilizada na imagem do container da sua app.
-
-[^17]: Instale pacotes [apt](apt.md#pacotes-disponiveis) no container da sua aplicação.
+[^12]: Quantidade de memoria **RAM** em `MB`.
