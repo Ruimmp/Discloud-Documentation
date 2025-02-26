@@ -23,6 +23,8 @@ Para hospedar um bot precisa de **100MB** de RAM no mínimo
 <a data-footnote-ref href="#user-content-fn-6">AUTORESTART=false</a>
 <a data-footnote-ref href="#user-content-fn-7">VERSION=latest</a>
 <a data-footnote-ref href="#user-content-fn-8">APT=</a>tools
+<a data-footnote-ref href="#user-content-fn-13">START=</a>
+<a data-footnote-ref href="#user-content-fn-14">BUILD=</a>
 </code></pre>
 
 > Observação: As opções de <mark style="color:green;">`NOME`</mark> e <mark style="color:green;">`AVATAR`</mark> são para personalizar o nome e a imagem do seu app. Elas serão exibidas na dashboard, ou através de comandos do nosso bot (por exemplo: `.app`, `.status`).
@@ -37,21 +39,19 @@ Para hospedar um site precisa de **512MB** de RAM no mínimo, e um [Plano Platin
 
 > Clique nas opções para obter mais informações
 
-<pre class="language-tsconfig" data-title="discloud.config">
-  <code class="lang-tsconfig">
-    <a data-footnote-ref href="#user-content-fn-9">NAME=MeuSite</a>
-    <a data-footnote-ref href="#user-content-fn-10">AVATAR=https://i.imgur.com/bWhx7OT.png</a>
-    <a data-footnote-ref href="#user-content-fn-11">ID=subdomain</a>
-    <a data-footnote-ref href="#user-content-fn-3">TYPE=site</a>
-    <a data-footnote-ref href="#user-content-fn-4">MAIN=index.js</a>
-    <a data-footnote-ref href="#user-content-fn-12">RAM=512</a>
-    <a data-footnote-ref href="#user-content-fn-6">AUTORESTART=false</a>
-    <a data-footnote-ref href="#user-content-fn-7">VERSION=latest</a>
-    <a data-footnote-ref href="#user-content-fn-8">APT=</a>tools
-    <a data-footnote-ref href="#user-content-fn-13">START=</a>
-    <a data-footnote-ref href="#user-content-fn-14">BUILD=</a>
-  </code>
-</pre>
+<pre class="language-tsconfig" data-title="discloud.config"><code class="lang-tsconfig">
+<a data-footnote-ref href="#user-content-fn-9">NAME=MeuSite</a>
+<a data-footnote-ref href="#user-content-fn-10">AVATAR=https://i.imgur.com/bWhx7OT.png</a>
+<a data-footnote-ref href="#user-content-fn-11">ID=subdomain</a>
+<a data-footnote-ref href="#user-content-fn-3">TYPE=site</a>
+<a data-footnote-ref href="#user-content-fn-4">MAIN=index.js</a>
+<a data-footnote-ref href="#user-content-fn-12">RAM=512</a>
+<a data-footnote-ref href="#user-content-fn-6">AUTORESTART=false</a>
+<a data-footnote-ref href="#user-content-fn-7">VERSION=latest</a>
+<a data-footnote-ref href="#user-content-fn-8">APT=</a>tools
+<a data-footnote-ref href="#user-content-fn-13">START=</a>
+<a data-footnote-ref href="#user-content-fn-14">BUILD=</a>
+</code></pre>
 {% endtab %}
 {% endtabs %}
 
