@@ -6,97 +6,7 @@ description: >-
 
 # Identidade Visual
 
-A nova identidade visual veio da `fita de Möbius` que representa a nossa busca por inovação e evolução constante, como um loop infinito, mostrando como tudo na empresa está interligado. Anexada também ao conceito de um `ampulheta deitada` que simboliza a importância de equilibrarmos tempo e eficiência, representando a nossa mentalidade de resultados sem abrir mão da qualidade.
-
-### Logo
-
-{% tabs %}
-{% tab title="PNG" %}
-<div>
-
-<figure><img src="../../.gitbook/assets/icon.png" alt="" width="188"><figcaption></figcaption></figure>
-
- 
-
-<figure><img src="../../.gitbook/assets/white_icon.png" alt="" width="188"><figcaption></figcaption></figure>
-
- 
-
-<figure><img src="../../.gitbook/assets/black_icon.png" alt="" width="188"><figcaption></figcaption></figure>
-
-</div>
-{% endtab %}
-
-{% tab title="SVG" %}
-<div>
-
-<figure><img src="../../.gitbook/assets/icon.svg" alt="" width="188"><figcaption></figcaption></figure>
-
- 
-
-<figure><img src="../../.gitbook/assets/white_icon.svg" alt="" width="188"><figcaption></figcaption></figure>
-
- 
-
-<figure><img src="../../.gitbook/assets/dark_icon.svg" alt="" width="188"><figcaption></figcaption></figure>
-
-</div>
-{% endtab %}
-
-{% tab title="PNG Horizontal" %}
-<div>
-
-<figure><img src="../../.gitbook/assets/white_horizontal.png" alt="" width="375"><figcaption></figcaption></figure>
-
- 
-
-<figure><img src="../../.gitbook/assets/full_white_horizontal.png" alt="" width="375"><figcaption></figcaption></figure>
-
- 
-
-<figure><img src="../../.gitbook/assets/full_green_horizontal.png" alt="" width="375"><figcaption></figcaption></figure>
-
-</div>
-
-<div>
-
-<figure><img src="../../.gitbook/assets/dark_horizontal.png" alt="" width="375"><figcaption></figcaption></figure>
-
- 
-
-<figure><img src="../../.gitbook/assets/full_dark_horizontal.png" alt="" width="375"><figcaption></figcaption></figure>
-
-</div>
-{% endtab %}
-
-{% tab title="SVG Horizontal" %}
-<div>
-
-<figure><img src="../../.gitbook/assets/white_horizontal.png" alt="" width="375"><figcaption></figcaption></figure>
-
- 
-
-<figure><img src="../../.gitbook/assets/full_white_horizontal.png" alt="" width="375"><figcaption></figcaption></figure>
-
- 
-
-<figure><img src="../../.gitbook/assets/full_green_horizontal.png" alt="" width="375"><figcaption></figcaption></figure>
-
-</div>
-
-<div>
-
-<figure><img src="../../.gitbook/assets/dark_horizontal.png" alt="" width="375"><figcaption></figcaption></figure>
-
- 
-
-<figure><img src="../../.gitbook/assets/full_dark_horizontal.png" alt="" width="375"><figcaption></figcaption></figure>
-
-</div>
-{% endtab %}
-{% endtabs %}
-
-### Cores
+{% embed url="https://discloud.com/brand" %}
 
 > #### **Principais:**
 >
@@ -109,15 +19,3 @@ A nova identidade visual veio da `fita de Möbius` que representa a nossa busca 
 > #### **Cores de fundo:**
 >
 > **Vampire Black:** `#0b0b0b`  **Smoky Black:** `#0f0f0f`  **Eerie Black:** `#1B1B1B`
-
-## <mark style="color:red;">Não fazer com o logotipo</mark>
-
-**Em geral, não use o nome ou logotipos da DisCloud de maneiras que possam ser confusas, enganosas ou sugerir nosso patrocínio, endosso ou afiliação.**
-
-> Não adicione sombras atrás do logotipo; \
-> Não adicione contornos ao logotipo; \
-> Não estique o logotipo; \
-> Não aplique o logotipo em baixa resolução; \
-> Não coloque em cores de baixo contraste (exemplo: logo branca com fundo claro);
-
-<figure><img src="../../.gitbook/assets/discloud logo dont’s.png" alt=""><figcaption></figcaption></figure>
