@@ -35,7 +35,7 @@ Clique na **aba da Extensão Discloud** na **barra lateral do VSCode**.
 {% endstep %}
 
 {% step %}
-Clique em **"Enviar seu token Discloud"** e insira seu [**Token da API Discloud**](../api-and-integrations/api-overview/authentication.md).
+Clique em **"Enviar seu token Discloud"** e insira seu [**Token da API Discloud**](../api-e-integracoes/visao-geral-da-api/autenticacao.md).
 
 <figure><img src="../.gitbook/assets/VSCode-Extension_Login.gif" alt=""><figcaption></figcaption></figure>
 {% endstep %}
@@ -56,9 +56,9 @@ Com a **Extensão VSCode**, você pode implantar seu app em apenas alguns clique
 Preparando seu projeto.
 
 * Certifique-se de que seu projeto contenha todos os arquivos necessários:
-  * [**`discloud.config`**](../configurations/discloud.config/) (arquivo de configuração).
+  * [**`discloud.config`**](../configuracoes/discloud.config/) (arquivo de configuração).
   * **Dependências** necessárias para sua linguagem de programação (ex.: `package.json` para Node.js, `requirements.txt` para Python).
-* **Verifique o** [**Guia de Linguagens**](../development-environment/supported-languages/) para garantir que seu projeto esteja estruturado corretamente.
+* **Verifique o** [**Guia de Linguagens**](../ambiente-de-desenvolvimento/linguagens-suportadas/) para garantir que seu projeto esteja estruturado corretamente.
 {% endstep %}
 
 {% step %}
@@ -74,7 +74,7 @@ Fazendo upload da sua aplicação.
 
 ### 📂 **Usando `.discloudignore` para Excluir Arquivos**
 
-Se você quiser **excluir certos arquivos ou diretórios** do upload, pode criar um arquivo [`.discloudignore`](../configurations/.discloudignore.md) na raiz do seu projeto.
+Se você quiser **excluir certos arquivos ou diretórios** do upload, pode criar um arquivo [`.discloudignore`](../configuracoes/.discloudignore.md) na raiz do seu projeto.
 
 ***
 
