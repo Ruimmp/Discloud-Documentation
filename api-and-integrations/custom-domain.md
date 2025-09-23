@@ -1,0 +1,95 @@
+---
+description: Configure your domain for your Discloud hosted application.
+icon: globe
+---
+
+# Custom Domain
+
+## 🧭 Overview
+
+You can map your own domain (e.g. `yourdomain.com`) or a subdomain (e.g. `dash.yourdomain.com`) to an application hosted on Discloud. The platform serves traffic through your app's Discloud subdomain using a CNAME record and validates ownership via TXT records.
+
+<figure><img src="../.gitbook/assets/custom-domain-flow.png" alt="Custom domain flow diagram"><figcaption></figcaption></figure>
+
+***
+
+## 📋 Requirements
+
+✔ [Platinum plan or higher](https://discloud.com/plans) is required to host websites or APIs.\
+✔ [App already hosted](../how-to-host/websites-and-apis.md) using a Discloud subdomain (e.g. `example.discloud.app`)\
+✔ A registered domain you control (Cloudflare, GoDaddy, Namecheap, etc.)\
+✔ Ability to add / modify CNAME and TXT records
+
+***
+
+## 🏗️ Add Your Domain (Dashboard)
+
+{% stepper %}
+{% step %}
+Open the [Discloud Dashboard](https://discloud.com/dashboard) → Custom Domain section.
+{% endstep %}
+
+{% step %}
+Enter your domain (e.g. `yourdomain.com`). Optionally specify a subdomain (e.g. `dash`).
+{% endstep %}
+
+{% step %}
+Click **Register** and then the **DNS** button. When you click it, you will see the records you need to configure (CNAME and, if required, TXT tokens).
+{% endstep %}
+{% endstepper %}
+
+<div data-full-width="false"><figure><img src="../.gitbook/assets/Website-Custom-Domain.png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Website-Custom-Domain-DNS.png" alt=""><figcaption></figcaption></figure></div>
+
+***
+
+## ✅ Verify & Configure DNS
+
+Although any DNS provider works, below are tabbed scenarios for clarity.
+
+{% tabs %}
+{% tab title="Root Domain" %}
+**Records**
+
+| Type             | Name                   | Value                  |
+| ---------------- | ---------------------- | ---------------------- |
+| CNAME            | `@` (or provider root) | `hosting.discloud.app` |
+| TXT _(if shown)_ | `@` / provided         | Verification token     |
+
+If your DNS provider disallows root CNAME, use:
+
+{% stepper %}
+{% step %}
+CNAME `www` → `hosting.discloud.app`
+{% endstep %}
+
+{% step %}
+Redirect / ALIAS root → `www.yourdomain.com`
+{% endstep %}
+{% endstepper %}
+{% endtab %}
+
+{% tab title="Subdomain" %}
+**Example: `dash.yourdomain.com`**
+
+<table><thead><tr><th width="144">Type</th><th width="353">Name</th><th>Value</th></tr></thead><tbody><tr><td>CNAME</td><td><code>dash</code></td><td><code>hosting.discloud.app</code></td></tr><tr><td>TXT <em>(if shown)</em></td><td>Provided (<code>dash</code> / <code>_discloud-verification</code>)</td><td>Verification token</td></tr></tbody></table>
+
+Multiple subdomains (e.g. `api`, `app`) repeat this pattern independently.
+{% endtab %}
+{% endtabs %}
+
+### 📡 **DNS Propagation**
+
+* DNS changes typically propagate within a few minutes.
+* However, **TTL values** and **resolver cache** may cause some delays.
+* To verify changes worldwide, check [dnschecker.org](https://dnschecker.org/)
+* If some POPs still display old records, wait and re-check later.
+
+<figure><img src="../.gitbook/assets/dns-check-propagation.png" alt=""><figcaption></figcaption></figure>
+
+***
+
+## 🔄 Rebuild the App
+
+After DNS resolves and tokens validate, open the linked app and trigger Rebuild so the binding becomes active.
+
+<div data-full-width="false"><figure><img src="../.gitbook/assets/Website-Applications_Subdomain.png" alt="App list showing custom domain"><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure></div>

@@ -1,82 +1,105 @@
 # Table of contents
 
-* [👋 Bem-Vindo](README.md)
+## Introduction
 
-## Suporte
+* [Welcome to Discloud](README.md)
 
-* [☁️ Como Hospedar](suporte/hospedar/README.md)
-  * [🤖 Bots](suporte/hospedar/bots/README.md)
-    * [🔌 Bot](suporte/hospedar/bots/bot.md)
-    * [🧩 Extensão VSCode](suporte/hospedar/bots/vscode.md)
-    * [⌨️ CLI](suporte/hospedar/bots/cli.md)
-  * [🌎 Sites e APIs](suporte/hospedar/sites/README.md)
-    * [🔌 Bot](suporte/hospedar/sites/bot.md)
-    * [🧩 Extensão VSCode](suporte/hospedar/sites/vscode.md)
-    * [⌨️ CLI](suporte/hospedar/sites/cli.md)
-* [⌨️ Linguagens](suporte/linguagens/README.md)
-  * [🟨 JavaScript](suporte/linguagens/javascript/README.md)
-    * [📄 Criar o package.json](suporte/linguagens/javascript/criar-package.json.md)
-  * [🐍 Python](suporte/linguagens/python/README.md)
-    * [📄 Criar o requirements.txt](suporte/linguagens/python/criar-requirements.txt.md)
-  * [☕ Java](suporte/linguagens/java.md)
-  * [💎 Ruby](suporte/linguagens/ruby/README.md)
-    * [📄 Criar o Gemfile](suporte/linguagens/ruby/gemfile.md)
-  * [🐿️ Go](suporte/linguagens/go.md)
-  * [🐘 Php](suporte/linguagens/php.md)
-  * [🦀 Rust](suporte/linguagens/rust/README.md)
-    * [📄 Criar o Cargo.toml](suporte/linguagens/rust/criar-package.json.md)
-* [⛓️ Integrações](suporte/integracao/README.md)
-  * [🌐 Seu próprio domínio](suporte/integracao/seu-proprio-dominio.md)
-  * [🐙 Github e Gitlab](suporte/integracao/github.md)
-  * [🎧 Lavalink](suporte/integracao/lavalink.md)
-  * [💾 Banco de Dados](suporte/integracao/banco-de-dados/README.md)
-    * [MongoDB Atlas (mLab)](suporte/integracao/banco-de-dados/mlab-mongodb-atlas.md)
-* [❓ Perguntas Frequentes (FAQ)](suporte/faq/README.md)
-  * [Qual o arquivo principal?](suporte/faq/arquivo-principal.md)
-  * [Como obter o ID do meu Bot?](suporte/faq/id-bot.md)
-  * [Como Compactar?](suporte/faq/zip.md)
-  * [Commit](suporte/faq/commit.md)
-  * [Bot muito pesado](suporte/faq/botpesado.md)
-  * [Discloud ModMail (Ticket)](suporte/faq/ticket.md)
-  * [Como reportar um infrator?](suporte/faq/report.md)
-  * [Configurar o Puppeteer](suporte/faq/puppeteer.md)
-  * [Porque não consigo acessar o meu site?](suporte/faq/porque-nao-consigo-acessar-o-meu-site.md)
-  * ["Você já possui uma conta registrada no sistema"](suporte/faq/2acc.md)
-* [⚒️ Comandos](suporte/comandos/README.md)
-  * [Como obter o token da API](suporte/comandos/api.md)
-  * [Como integrar o Github](suporte/comandos/git.md)
-* [🤲 Doações](suporte/doacoes.md)
+## How To Host
 
-## Configurar <a href="#discloud.config" id="discloud.config"></a>
+* [Bots](how-to-host/bots.md)
+* [Websites & APIs](how-to-host/websites-and-apis.md)
 
-* [⚙️ discloud.config](discloud.config/configurar/README.md)
-  * [📦 APT (Instale Pacotes)](discloud.config/configurar/apt.md)
-  * [🏗️ VERSION (Alterne entre Versões)](discloud.config/configurar/version.md)
+## How to Host, Using
 
-## 🖥️ ambiente local
+* [Dashboard](how-to-host-using/dashboard.md)
+* [Discord Bot](how-to-host-using/discord-bot.md)
+* [Visual Studio Code](how-to-host-using/visual-studio-code.md)
+* [Mobile Application](how-to-host-using/mobile-application.md)
+* [CLI](how-to-host-using/cli.md)
 
-* [⚙️ Instalar](ambiente-local/instalar/README.md)
-  * [🟨 JavaScript (nodejs)](ambiente-local/instalar/nodejs.md)
-  * [🐍 Python](ambiente-local/instalar/python.md)
-  * [💎 Ruby](ambiente-local/instalar/ruby.md)
-  * [🦀 Rust](ambiente-local/instalar/rust.md)
+## Configurations
 
-## API
+* [discloud.config](configurations/discloud.config/README.md)
+  * [APT](configurations/discloud.config/apt.md)
+  * [Versions](configurations/discloud.config/versions.md)
+  * [Dockerfile](configurations/discloud.config/dockerfile.md)
+  * [VLAN](configurations/discloud.config/vlan.md)
+* [.discloudignore](configurations/.discloudignore.md)
+* [Puppeteer](configurations/puppeteer.md)
 
-* [📡 Usar a API](api/usar-a-api.md)
-* [🔗 Rotas](https://discloud.github.io/apidoc/)
+## SDKs & Libraries
 
-## Sobre
+* [NPM Library](sdks-and-libraries/npm-library/README.md)
+  * [Getting Started](sdks-and-libraries/npm-library/getting-started.md)
+  * [Usage Examples](sdks-and-libraries/npm-library/usage-examples.md)
+* [Python Library](sdks-and-libraries/python-library/README.md)
+  * [Getting Started](sdks-and-libraries/python-library/getting-started.md)
+  * [Usage Examples](sdks-and-libraries/python-library/usage-examples.md)
 
-* [🎨 DisCloud Brand](sobre/discloud-brand/README.md)
-  * [Origem do Nome](sobre/discloud-brand/origem-do-nome.md)
-  * [Identidade Visual](sobre/discloud-brand/identidade-visual.md)
+## Development Environment
 
-## 🔗 Links
+* [Supported Languages](development-environment/supported-languages/README.md)
+  * [Javascript](development-environment/supported-languages/javascript/README.md)
+    * [package.json](development-environment/supported-languages/javascript/package.json.md)
+  * [Python](development-environment/supported-languages/python/README.md)
+    * [requirements.txt](development-environment/supported-languages/python/requirements.txt.md)
+  * [Java](development-environment/supported-languages/java.md)
+  * [Ruby](development-environment/supported-languages/ruby/README.md)
+    * [Gemfile](development-environment/supported-languages/ruby/gemfile.md)
+  * [Rust](development-environment/supported-languages/rust/README.md)
+    * [Cargo.toml](development-environment/supported-languages/rust/cargo.toml.md)
+  * [Go](development-environment/supported-languages/go/README.md)
+    * [go.mod](development-environment/supported-languages/go/go.mod.md)
+  * [Php](development-environment/supported-languages/php/README.md)
+    * [composer.json](development-environment/supported-languages/php/composer.json.md)
+* [Local Environment](development-environment/local-environment/README.md)
+  * [NodeJS](development-environment/local-environment/nodejs.md)
+  * [Python](development-environment/local-environment/python.md)
+  * [Ruby](development-environment/local-environment/ruby.md)
+  * [Rust](development-environment/local-environment/rust.md)
+  * [Golang](development-environment/local-environment/golang.md)
 
-* [🌎 Website](https://discloud.com/)
-* [📊 DisCloud Status](https://status.discloudbot.com/)
+## API & Integrations
 
-## 📜 Jurídico
+* [API Overview](api-and-integrations/api-overview/README.md)
+  * [Authentication](api-and-integrations/api-overview/authentication.md)
+  * [User Endpoints](api-and-integrations/api-overview/user-endpoints.md)
+  * [Applications Endpoints](api-and-integrations/api-overview/applications-endpoints.md)
+  * [Team Management](api-and-integrations/api-overview/team-management.md)
+  * [Team](api-and-integrations/api-overview/team.md)
+* [GitHub Integration](api-and-integrations/github-integration.md)
+* [Custom Domain](api-and-integrations/custom-domain.md)
+* [Databases](api-and-integrations/databases.md)
 
-* [📄 Termos de Serviço (TOS)](https://discloud.com/legal)
+## FAQ
+
+* [Where to Get Help](faq/where-to-get-help.md)
+* [General Questions](faq/general-questions/README.md)
+  * [What is the root of the project?](faq/general-questions/what-is-the-root-of-the-project.md)
+  * [\[WIP\] .env file](faq/general-questions/wip-.env-file.md)
+  * [\[WIP\] What is the main file?](faq/general-questions/wip-what-is-the-main-file.md)
+  * [\[WIP\] How to Create a Subdomain?](faq/general-questions/wip-how-to-create-a-subdomain.md)
+  * [\[WIP\] How can I get my bot's ID?](faq/general-questions/wip-how-can-i-get-my-bots-id.md)
+  * [\[WIP\] How to compress?](faq/general-questions/wip-how-to-compress.md)
+  * [\[WIP\] How to commit?](faq/general-questions/wip-how-to-commit.md)
+  * [\[WIP\] Bot too heavy](faq/general-questions/wip-bot-too-heavy.md)
+  * [\[WIP\] Why can't I access my website?](faq/general-questions/wip-why-cant-i-access-my-website.md)
+  * [\[WIP\] You already have a registered account in the system](faq/general-questions/wip-you-already-have-a-registered-account-in-the-system.md)
+  * [\[WIP\] How to access the application logs?](faq/general-questions/wip-how-to-access-the-application-logs.md)
+  * [\[WIP\] Why Are Free Applications Shut Down?](faq/general-questions/wip-why-are-free-applications-shut-down.md)
+  * [\[WIP\] How to verify a Discord account?](faq/general-questions/wip-how-to-verify-a-discord-account.md)
+  * [How to Build and Package a Java Application?](faq/general-questions/how-to-build-and-package-a-java-application.md)
+  * [Subscription Management](faq/general-questions/subscription-management.md)
+* [Troubleshooting Solutions](faq/troubleshooting-solutions/README.md)
+  * [Diagnosing Offline Applications](faq/troubleshooting-solutions/diagnosing-offline-applications.md)
+
+## About
+
+* [Discloud Brand](about/discloud-brand.md)
+* [Donations](about/donations.md)
+
+***
+
+* [Discord Server](https://discord.discloudbot.com/)
+* [Terms of Service (ToS)](https://github.com/discloud/legal/blob/main/terms-en.md)
+* [Acceptable Use Policy (AUP)](https://github.com/discloud/legal/blob/main/policy-en.md)
