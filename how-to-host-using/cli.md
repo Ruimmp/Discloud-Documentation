@@ -80,7 +80,7 @@ If the CLI version is displayed, the installation was successful.
 {% hint style="info" %}
 #### **CLI Update**
 
-#### To update the CLI, run the following command:
+To update the CLI, run the following command:
 
 ```bash
 npm update -g discloud-cli
@@ -121,7 +121,7 @@ Preparing your project.
 
 * Ensure your project contains all required files:
   * [**`discloud.config`**](../configurations/discloud.config/) (configuration file).
-  * Necessary **dependencies** for your programming language (e.g., `package.json` for Node.js, `requirements.txt` for Python).
+  * Necessary **dependencies** for your programming language (e.g., [`package.json`](../development-environment/supported-languages/javascript/package.json.md) for [Node.js](../development-environment/local-environment/nodejs.md), [`requirements.txt`](../development-environment/supported-languages/python/requirements.txt.md) for [Python](../development-environment/local-environment/python.md)).
 * **Check the** [**Languages Guide**](../development-environment/supported-languages/) to make sure your project is properly structured.
 {% endstep %}
 
