@@ -1,105 +1,105 @@
 # Table of contents
 
-## Introduction
+## Introdução
 
-* [Welcome to Discloud](README.md)
+* [Bem-vindo à Discloud](README.md)
 
-## How To Host
+## Como Hospedar
 
-* [Bots](how-to-host/bots.md)
-* [Websites & APIs](how-to-host/websites-and-apis.md)
+* [Bots](como-hospedar/bots.md)
+* [Websites e APIs](como-hospedar/websites-e-apis.md)
 
-## How to Host, Using
+## Como Hospedar, Usando
 
-* [Dashboard](how-to-host-using/dashboard.md)
-* [Discord Bot](how-to-host-using/discord-bot.md)
-* [Visual Studio Code](how-to-host-using/visual-studio-code.md)
-* [Mobile Application](how-to-host-using/mobile-application.md)
-* [CLI](how-to-host-using/cli.md)
+* [Painel de Controle](como-hospedar-usando/painel-de-controle.md)
+* [Bot do Discord](como-hospedar-usando/bot-do-discord.md)
+* [Visual Studio Code](como-hospedar-usando/visual-studio-code.md)
+* [Aplicativo Móvel](como-hospedar-usando/aplicativo-movel.md)
+* [CLI](como-hospedar-usando/cli.md)
 
-## Configurations
+## Configurações
 
-* [discloud.config](configurations/discloud.config/README.md)
-  * [APT](configurations/discloud.config/apt.md)
-  * [Versions](configurations/discloud.config/versions.md)
-  * [Dockerfile](configurations/discloud.config/dockerfile.md)
-  * [VLAN](configurations/discloud.config/vlan.md)
-* [.discloudignore](configurations/.discloudignore.md)
-* [Puppeteer](configurations/puppeteer.md)
+* [discloud.config](configuracoes/discloud.config/README.md)
+  * [APT](configuracoes/discloud.config/apt.md)
+  * [Versões](configuracoes/discloud.config/versoes.md)
+  * [Dockerfile](configuracoes/discloud.config/dockerfile.md)
+  * [VLAN](configuracoes/discloud.config/vlan.md)
+* [.discloudignore](configuracoes/.discloudignore.md)
+* [Puppeteer](configuracoes/puppeteer.md)
 
-## SDKs & Libraries
+## SDKs e Bibliotecas
 
-* [NPM Library](sdks-and-libraries/npm-library/README.md)
-  * [Getting Started](sdks-and-libraries/npm-library/getting-started.md)
-  * [Usage Examples](sdks-and-libraries/npm-library/usage-examples.md)
-* [Python Library](sdks-and-libraries/python-library/README.md)
-  * [Getting Started](sdks-and-libraries/python-library/getting-started.md)
-  * [Usage Examples](sdks-and-libraries/python-library/usage-examples.md)
+* [Biblioteca NPM](sdks-e-bibliotecas/biblioteca-npm/README.md)
+  * [Introdução](sdks-e-bibliotecas/biblioteca-npm/introducao.md)
+  * [Exemplos de Uso](sdks-e-bibliotecas/biblioteca-npm/exemplos-de-uso.md)
+* [Biblioteca Python](sdks-e-bibliotecas/biblioteca-python/README.md)
+  * [Introdução](sdks-e-bibliotecas/biblioteca-python/introducao.md)
+  * [Exemplos de Uso](sdks-e-bibliotecas/biblioteca-python/exemplos-de-uso.md)
 
-## Development Environment
+## Ambiente de Desenvolvimento
 
-* [Supported Languages](development-environment/supported-languages/README.md)
-  * [Javascript](development-environment/supported-languages/javascript/README.md)
-    * [package.json](development-environment/supported-languages/javascript/package.json.md)
-  * [Python](development-environment/supported-languages/python/README.md)
-    * [requirements.txt](development-environment/supported-languages/python/requirements.txt.md)
-  * [Java](development-environment/supported-languages/java.md)
-  * [Ruby](development-environment/supported-languages/ruby/README.md)
-    * [Gemfile](development-environment/supported-languages/ruby/gemfile.md)
-  * [Rust](development-environment/supported-languages/rust/README.md)
-    * [Cargo.toml](development-environment/supported-languages/rust/cargo.toml.md)
-  * [Go](development-environment/supported-languages/go/README.md)
-    * [go.mod](development-environment/supported-languages/go/go.mod.md)
-  * [Php](development-environment/supported-languages/php/README.md)
-    * [composer.json](development-environment/supported-languages/php/composer.json.md)
-* [Local Environment](development-environment/local-environment/README.md)
-  * [NodeJS](development-environment/local-environment/nodejs.md)
-  * [Python](development-environment/local-environment/python.md)
-  * [Ruby](development-environment/local-environment/ruby.md)
-  * [Rust](development-environment/local-environment/rust.md)
-  * [Golang](development-environment/local-environment/golang.md)
+* [Linguagens Suportadas](ambiente-de-desenvolvimento/linguagens-suportadas/README.md)
+  * [Javascript](ambiente-de-desenvolvimento/linguagens-suportadas/javascript/README.md)
+    * [package.json](ambiente-de-desenvolvimento/linguagens-suportadas/javascript/package.json.md)
+  * [Python](ambiente-de-desenvolvimento/linguagens-suportadas/python/README.md)
+    * [requirements.txt](ambiente-de-desenvolvimento/linguagens-suportadas/python/requirements.txt.md)
+  * [Java](ambiente-de-desenvolvimento/linguagens-suportadas/java.md)
+  * [Ruby](ambiente-de-desenvolvimento/linguagens-suportadas/ruby/README.md)
+    * [Gemfile](ambiente-de-desenvolvimento/linguagens-suportadas/ruby/gemfile.md)
+  * [Rust](ambiente-de-desenvolvimento/linguagens-suportadas/rust/README.md)
+    * [Cargo.toml](ambiente-de-desenvolvimento/linguagens-suportadas/rust/cargo.toml.md)
+  * [Go](ambiente-de-desenvolvimento/linguagens-suportadas/go/README.md)
+    * [go.mod](ambiente-de-desenvolvimento/linguagens-suportadas/go/go.mod.md)
+  * [Php](ambiente-de-desenvolvimento/linguagens-suportadas/php/README.md)
+    * [composer.json](ambiente-de-desenvolvimento/linguagens-suportadas/php/composer.json.md)
+* [Ambiente Local](ambiente-de-desenvolvimento/ambiente-local/README.md)
+  * [NodeJS](ambiente-de-desenvolvimento/ambiente-local/nodejs.md)
+  * [Python](ambiente-de-desenvolvimento/ambiente-local/python.md)
+  * [Ruby](ambiente-de-desenvolvimento/ambiente-local/ruby.md)
+  * [Rust](ambiente-de-desenvolvimento/ambiente-local/rust.md)
+  * [Golang](ambiente-de-desenvolvimento/ambiente-local/golang.md)
 
-## API & Integrations
+## API e Integrações
 
-* [API Overview](api-and-integrations/api-overview/README.md)
-  * [Authentication](api-and-integrations/api-overview/authentication.md)
-  * [User Endpoints](api-and-integrations/api-overview/user-endpoints.md)
-  * [Applications Endpoints](api-and-integrations/api-overview/applications-endpoints.md)
-  * [Team Management](api-and-integrations/api-overview/team-management.md)
-  * [Team](api-and-integrations/api-overview/team.md)
-* [GitHub Integration](api-and-integrations/github-integration.md)
-* [Custom Domain](api-and-integrations/custom-domain.md)
-* [Databases](api-and-integrations/databases.md)
+* [Visão Geral da API](api-e-integracoes/visao-geral-da-api/README.md)
+  * [Autenticação](api-e-integracoes/visao-geral-da-api/autenticacao.md)
+  * [Endpoints de Usuário](api-e-integracoes/visao-geral-da-api/endpoints-de-usuario.md)
+  * [Endpoints de Aplicações](api-e-integracoes/visao-geral-da-api/endpoints-de-aplicacoes.md)
+  * [Gerenciamento de Equipe](api-e-integracoes/visao-geral-da-api/gerenciamento-de-equipe.md)
+  * [Equipe](api-e-integracoes/visao-geral-da-api/equipe.md)
+* [Integração com GitHub](api-e-integracoes/integracao-com-github.md)
+* [Domínio Personalizado](api-e-integracoes/dominio-personalizado.md)
+* [Bancos de Dados](api-e-integracoes/bancos-de-dados.md)
 
 ## FAQ
 
-* [Where to Get Help](faq/where-to-get-help.md)
-* [General Questions](faq/general-questions/README.md)
-  * [What is the root of the project?](faq/general-questions/what-is-the-root-of-the-project.md)
-  * [\[WIP\] .env file](faq/general-questions/wip-.env-file.md)
-  * [\[WIP\] What is the main file?](faq/general-questions/wip-what-is-the-main-file.md)
-  * [\[WIP\] How to Create a Subdomain?](faq/general-questions/wip-how-to-create-a-subdomain.md)
-  * [\[WIP\] How can I get my bot's ID?](faq/general-questions/wip-how-can-i-get-my-bots-id.md)
-  * [\[WIP\] How to compress?](faq/general-questions/wip-how-to-compress.md)
-  * [\[WIP\] How to commit?](faq/general-questions/wip-how-to-commit.md)
-  * [\[WIP\] Bot too heavy](faq/general-questions/wip-bot-too-heavy.md)
-  * [\[WIP\] Why can't I access my website?](faq/general-questions/wip-why-cant-i-access-my-website.md)
-  * [\[WIP\] You already have a registered account in the system](faq/general-questions/wip-you-already-have-a-registered-account-in-the-system.md)
-  * [\[WIP\] How to access the application logs?](faq/general-questions/wip-how-to-access-the-application-logs.md)
-  * [\[WIP\] Why Are Free Applications Shut Down?](faq/general-questions/wip-why-are-free-applications-shut-down.md)
-  * [\[WIP\] How to verify a Discord account?](faq/general-questions/wip-how-to-verify-a-discord-account.md)
-  * [How to Build and Package a Java Application?](faq/general-questions/how-to-build-and-package-a-java-application.md)
-  * [Subscription Management](faq/general-questions/subscription-management.md)
-* [Troubleshooting Solutions](faq/troubleshooting-solutions/README.md)
-  * [Diagnosing Offline Applications](faq/troubleshooting-solutions/diagnosing-offline-applications.md)
+* [Onde Obter Ajuda](faq/onde-obter-ajuda.md)
+* [Perguntas Gerais](faq/perguntas-gerais/README.md)
+  * [O que é a raiz do projeto?](faq/perguntas-gerais/o-que-e-a-raiz-do-projeto.md)
+  * [\[EM ANDAMENTO\] Arquivo .env](faq/perguntas-gerais/em-andamento-arquivo-.env.md)
+  * [\[EM ANDAMENTO\] Qual é o arquivo principal?](faq/perguntas-gerais/em-andamento-qual-e-o-arquivo-principal.md)
+  * [\[EM ANDAMENTO\] Como Criar um Subdomínio?](faq/perguntas-gerais/em-andamento-como-criar-um-subdominio.md)
+  * [\[EM ANDAMENTO\] Como posso obter o ID do meu bot?](faq/perguntas-gerais/em-andamento-como-posso-obter-o-id-do-meu-bot.md)
+  * [\[EM ANDAMENTO\] Como comprimir?](faq/perguntas-gerais/em-andamento-como-comprimir.md)
+  * [\[EM ANDAMENTO\] Como fazer commit?](faq/perguntas-gerais/em-andamento-como-fazer-commit.md)
+  * [\[EM ANDAMENTO\] Bot muito pesado](faq/perguntas-gerais/em-andamento-bot-muito-pesado.md)
+  * [\[EM ANDAMENTO\] Por que não consigo acessar meu site?](faq/perguntas-gerais/em-andamento-por-que-nao-consigo-acessar-meu-site.md)
+  * [\[EM ANDAMENTO\] Você já possui uma conta registrada no sistema](faq/perguntas-gerais/em-andamento-voce-ja-possui-uma-conta-registrada-no-sistema.md)
+  * [\[EM ANDAMENTO\] Como acessar os logs da aplicação?](faq/perguntas-gerais/em-andamento-como-acessar-os-logs-da-aplicacao.md)
+  * [\[EM ANDAMENTO\] Por que Aplicações Gratuitas são Encerradas?](faq/perguntas-gerais/em-andamento-por-que-aplicacoes-gratuitas-sao-encerradas.md)
+  * [\[EM ANDAMENTO\] Como verificar uma conta do Discord?](faq/perguntas-gerais/em-andamento-como-verificar-uma-conta-do-discord.md)
+  * [Como Construir e Empacotar uma Aplicação Java?](faq/perguntas-gerais/como-construir-e-empacotar-uma-aplicacao-java.md)
+  * [Gerenciamento de Assinaturas](faq/perguntas-gerais/gerenciamento-de-assinaturas.md)
+* [Soluções de Problemas](faq/solucoes-de-problemas/README.md)
+  * [Diagnosticando Aplicações Offline](faq/solucoes-de-problemas/diagnosticando-aplicacoes-offline.md)
 
-## About
+## Sobre
 
-* [Discloud Brand](about/discloud-brand.md)
-* [Donations](about/donations.md)
+* [Marca Discloud](sobre/marca-discloud.md)
+* [Doações](sobre/doacoes.md)
 
 ***
 
 * [Discord Server](https://discord.discloudbot.com/)
-* [Terms of Service (ToS)](https://github.com/discloud/legal/blob/main/terms-en.md)
-* [Acceptable Use Policy (AUP)](https://github.com/discloud/legal/blob/main/policy-en.md)
+* [Termos de Serviço (ToS)](https://discloud.com/legal)
+* [Política de Uso Aceitável (AUP)](https://discloud.com/legal)
