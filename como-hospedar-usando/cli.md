@@ -1,5 +1,7 @@
 ---
-description: Aprenda a hospedar suas aplicações de forma rápida e fácil usando uma de nossas CLIs.
+description: >-
+  Aprenda a hospedar suas aplicações de forma rápida e fácil usando uma de
+  nossas CLIs.
 icon: terminal
 ---
 
@@ -49,7 +51,7 @@ Reinicie o PowerShell e tente executar os comandos da Discloud CLI novamente.
 {% step %}
 Pré-requisito.
 
-Certifique-se de que você tenha [NodeJS](../development-environment/local-environment/nodejs.md) instalado em seu sistema.
+Certifique-se de que você tenha [NodeJS](../ambiente-de-desenvolvimento/ambiente-local/nodejs.md) instalado em seu sistema.
 {% endstep %}
 
 {% step %}
@@ -80,7 +82,7 @@ Se a versão da CLI for exibida, a instalação foi bem-sucedida.
 {% hint style="info" %}
 #### **Atualização da CLI**
 
-#### Para atualizar a CLI, execute o seguinte comando:
+Para atualizar a CLI, execute o seguinte comando:
 
 ```bash
 npm update -g discloud-cli
@@ -91,7 +93,7 @@ npm update -g discloud-cli
 {% step %}
 Login.
 
-Para acessar as funcionalidades da CLI, você precisa fazer login com suas credenciais da Discloud. Execute o seguinte comando e cole seu [Token da API Discloud](../api-and-integrations/api-overview/authentication.md):
+Para acessar as funcionalidades da CLI, você precisa fazer login com suas credenciais da Discloud. Execute o seguinte comando e cole seu [Token da API Discloud](../api-e-integracoes/visao-geral-da-api/autenticacao.md):
 
 ```bash
 discloud --login
@@ -120,9 +122,9 @@ Uma vez instalada e configurada, você pode **implantar sua aplicação** em ape
 Preparando seu projeto.
 
 * Certifique-se de que seu projeto contenha todos os arquivos necessários:
-  * [**`discloud.config`**](../configurations/discloud.config/) (arquivo de configuração).
-  * **Dependências necessárias** para sua linguagem de programação (ex.: `package.json` para Node.js, `requirements.txt` para Python).
-* **Verifique o** [**Guia de Linguagens**](../development-environment/supported-languages/) para garantir que seu projeto esteja estruturado corretamente.
+  * [**`discloud.config`**](../configuracoes/discloud.config/) (arquivo de configuração).
+  * **Dependências necessárias** para sua linguagem de programação (ex.: [`package.json`](../ambiente-de-desenvolvimento/linguagens-suportadas/javascript/package.json.md) para [Node.js](../ambiente-de-desenvolvimento/ambiente-local/nodejs.md), [`requirements.txt`](../ambiente-de-desenvolvimento/linguagens-suportadas/python/requirements.txt.md) para [Python](../ambiente-de-desenvolvimento/ambiente-local/python.md)).
+* **Verifique o** [**Guia de Linguagens**](../ambiente-de-desenvolvimento/linguagens-suportadas/) para garantir que seu projeto esteja estruturado corretamente.
 {% endstep %}
 
 {% step %}
@@ -160,11 +162,11 @@ discloud init
 ```
 
 * Este comando solicita que você insira **detalhes básicos de configuração** (ex.: nome, arquivo principal, RAM, etc.).
-* Em seguida, **gera o arquivo** [**`discloud.config`**](../configurations/discloud.config/) **para você**, facilitando a implantação.
+* Em seguida, **gera o arquivo** [**`discloud.config`**](../configuracoes/discloud.config/) **para você**, facilitando a implantação.
 
 ### 📂 **Usando `.discloudignore` para Excluir Arquivos**
 
-Se você quiser **excluir certos arquivos ou diretórios** do upload, você pode criar um arquivo [`.discloudignore`](../configurations/.discloudignore.md) na raiz do seu projeto.
+Se você quiser **excluir certos arquivos ou diretórios** do upload, você pode criar um arquivo [`.discloudignore`](../configuracoes/.discloudignore.md) na raiz do seu projeto.
 
 ***
 
