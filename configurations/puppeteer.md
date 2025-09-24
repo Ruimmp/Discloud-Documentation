@@ -1,8 +1,7 @@
 ---
 description: >-
-  Saiba como configurar o Puppeteer na Discloud, incluindo dependências e
-  ajustes de RAM, para garantir o funcionamento correto em ambientes de
-  containers.
+  Learn how to configure Puppeteer on Discloud, including dependencies and RAM
+  adjustments, to ensure proper operation in container environments.
 icon: toolbox
 ---
 
