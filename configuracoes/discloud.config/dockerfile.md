@@ -1,7 +1,7 @@
 ---
 description: >-
-  Use um Dockerfile para implantar aplicações no Discloud, dando a você mais liberdade
-  para usar suas tecnologias favoritas.
+  Use um Dockerfile para implantar aplicações no Discloud, dando a você mais
+  liberdade para usar suas tecnologias favoritas.
 icon: docker
 ---
 
@@ -17,7 +17,7 @@ Um **Dockerfile** é um arquivo de texto simples que contém uma série de coman
 
 📌 **Saiba mais:** [Referência Completa do Dockerfile](https://docs.docker.com/engine/reference/builder/)
 
----
+***
 
 ## ⚙️ **Como Usar um Dockerfile no Discloud**
 
@@ -35,13 +35,12 @@ Defina o MAIN no [`discloud.config`](./)
 MAIN=Dockerfile
 # ...
 </code></pre>
-
 {% endstep %}
 
 {% step %}
-Certifique-se de que ambos os arquivos estejam na [raiz do seu projeto](../../faq/general-questions/what-is-the-root-of-the-project.md).
+Certifique-se de que ambos os arquivos estejam na [raiz do seu projeto](../../faq/perguntas-gerais/o-que-e-a-raiz-do-projeto.md).
 
-Seu **Dockerfile** e [`discloud.config`](./) devem estar no [**diretório raiz**](../../faq/general-questions/what-is-the-root-of-the-project.md) do seu projeto.
+Seu **Dockerfile** e [`discloud.config`](./) devem estar no [**diretório raiz**](../../faq/perguntas-gerais/o-que-e-a-raiz-do-projeto.md) do seu projeto.
 {% endstep %}
 
 {% step %}
@@ -52,15 +51,14 @@ Faça upload do seu projeto como faria com uma [implantação normal do Discloud
 {% endstepper %}
 
 {% hint style="warning" %}
+**🚨 Importante:**
 
-#### 🚨 **Importante:**
+* **Conhecimento básico de Docker** é necessário para usar este recurso.
+* **Configurações incorretas** no Dockerfile podem impedir que seu app funcione corretamente.
+* **Junte-se ao nosso servidor Discord para obter ajuda**: [https://discord.discloudbot.com](https://discord.discloudbot.com/)
+{% endhint %}
 
-- **Conhecimento básico de Docker** é necessário para usar este recurso.
-- **Configurações incorretas** no Dockerfile podem impedir que seu app funcione corretamente.
-- **Junte-se ao nosso servidor Discord para obter ajuda**: [https://discord.discloudbot.com](https://discord.discloudbot.com/)
-  {% endhint %}
-
----
+***
 
 ## 🔒 **Redes Privadas Docker (Suporte VLAN)**
 
@@ -107,7 +105,7 @@ try {
 }
 ```
 
----
+***
 
 ## 🪅 **Exemplos de Aplicações Usando Dockerfile**
 
@@ -118,7 +116,6 @@ Abaixo estão **exemplos de diferentes aplicações** que podem ser implantadas 
 {% tabs %}
 {% tab title="🟨 Bot JavaScript" %}
 {% code title="Dockerfile" %}
-
 ```docker
 # Use a imagem atual do Node.js LTS (20.18)
 FROM node:20.18-alpine
@@ -138,13 +135,11 @@ COPY . .
 # Comando para iniciar a aplicação
 CMD ["node", "index.js"]
 ```
-
 {% endcode %}
 {% endtab %}
 
 {% tab title="🔵 Bot TypeScript" %}
 {% code title="Dockerfile" %}
-
 ```docker
 # Use a imagem atual do Node.js LTS (20.18)
 FROM node:20.18-alpine
@@ -167,13 +162,11 @@ COPY . .
 # Comando para iniciar o bot compilado
 CMD ["node", "dist/index.js"]
 ```
-
 {% endcode %}
 {% endtab %}
 
 {% tab title="🐍 Bot Python" %}
 {% code title="Dockerfile" %}
-
 ```docker
 # Use a imagem oficial do Python 3.11 como base
 FROM python:3.11-slim
@@ -193,13 +186,11 @@ COPY . .
 # Comando para iniciar o bot
 CMD ["python", "bot.py"]
 ```
-
 {% endcode %}
 {% endtab %}
 
 {% tab title="☕ Bot Java" %}
 {% code title="Dockerfile" %}
-
 ```docker
 # Use a imagem oficial do Maven para construir o projeto
 FROM maven:3.9.6-eclipse-temurin-17 as build
@@ -231,13 +222,11 @@ COPY --from=build /app/target/*.jar bot.jar
 # Comando para iniciar o bot
 CMD ["java", "-jar", "bot.jar"]
 ```
-
 {% endcode %}
 {% endtab %}
 
 {% tab title="🐹 Go" %}
 {% code title="Dockerfile" %}
-
 ```docker
 # Bot Go mínimo com apenas biblioteca padrão (go.sum vazio)
 FROM docker.io/library/golang:1.14
@@ -254,7 +243,6 @@ RUN go build -o bot .
 # (Nenhuma porta necessária para bots Discord)
 CMD ["./bot"]
 ```
-
 {% endcode %}
 {% endtab %}
 {% endtabs %}
@@ -264,7 +252,6 @@ CMD ["./bot"]
 {% tabs %}
 {% tab title="🟩 Site HTML" %}
 {% code title="Dockerfile" %}
-
 ```docker
 # Use a imagem oficial do NGINX
 FROM nginx:latest
@@ -281,13 +268,11 @@ EXPOSE 80
 # Inicie o servidor NGINX
 CMD ["nginx", "-g", "daemon off;"]
 ```
-
 {% endcode %}
 {% endtab %}
 
 {% tab title="📡 API Web Express" %}
 {% code title="Dockerfile" %}
-
 ```docker
 # Use a imagem oficial do Node.js (LTS)
 FROM node:20.18-alpine
@@ -310,7 +295,6 @@ EXPOSE 8080
 # Comando para iniciar o servidor Node.js
 CMD ["npm", "start"]
 ```
-
 {% endcode %}
 {% endtab %}
 {% endtabs %}
@@ -320,7 +304,6 @@ CMD ["npm", "start"]
 {% tabs %}
 {% tab title="🍃 MongoDB" %}
 {% code title="Dockerfile" %}
-
 ```docker
 # Use a imagem oficial do MongoDB
 FROM mongo:latest
@@ -336,13 +319,11 @@ EXPOSE 27017
 # Comando padrão para iniciar o MongoDB
 CMD ["mongod"]
 ```
-
 {% endcode %}
 {% endtab %}
 
 {% tab title="🐘 PostgreSQL" %}
 {% code title="Dockerfile" %}
-
 ```docker
 # Use a imagem oficial do PostgreSQL
 FROM postgres:latest
@@ -358,7 +339,6 @@ EXPOSE 5432
 # Comando para iniciar o PostgreSQL
 CMD ["postgres"]
 ```
-
 {% endcode %}
 {% endtab %}
 {% endtabs %}
