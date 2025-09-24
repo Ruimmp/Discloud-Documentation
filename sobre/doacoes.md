@@ -1,7 +1,7 @@
 ---
 description: >-
-  Faça upgrade ou contribua para apoiar a sustentabilidade da plataforma e acessar níveis
-  de recursos mais altos.
+  Faça upgrade ou contribua para apoiar a sustentabilidade da plataforma e
+  acessar níveis de recursos mais altos.
 icon: sack-dollar
 ---
 
@@ -12,10 +12,10 @@ icon: sack-dollar
 A Discloud oferece planos pagos que expandem limites de recursos (memória, alocação de CPU), desbloqueiam hospedagem de sites / APIs com subdomínios personalizados ou fornecidos, habilitam colaboração em equipe, integração com Git e mais. Escolher um plano também financia infraestrutura e desenvolvimento contínuo.
 
 {% hint style="info" %}
-Se você só precisa gerenciar (cancelar / reativar) uma assinatura existente, veja: [Gerenciamento de Assinatura](../faq/general-questions/subscription-management.md)
+Se você só precisa gerenciar (cancelar / reativar) uma assinatura existente, veja: [Gerenciamento de Assinatura](../faq/perguntas-gerais/gerenciamento-de-assinaturas.md)
 {% endhint %}
 
----
+***
 
 ## 💎 Por Que Fazer Upgrade
 
@@ -28,7 +28,7 @@ Se você só precisa gerenciar (cancelar / reativar) uma assinatura existente, v
 | Acesso à equipe          | Não disponível                       | Suportado                     |
 | Integração com Git       | Limitada / nenhuma                   | Habilitada                    |
 
----
+***
 
 ## 💳 Métodos de Pagamento
 
@@ -43,7 +43,7 @@ Dois canais de aquisição estão atualmente disponíveis.
 Use um ticket apenas se o fluxo de pagamento do site estiver indisponível ou seu método suportado preferido falhar.
 {% endhint %}
 
----
+***
 
 ## 🛒 Compra (Website)
 
@@ -63,7 +63,7 @@ Complete o pagamento. Seu plano é ativado logo após a confirmação.
 
 <figure><img src="../.gitbook/assets/Website-Plans.png" alt="Captura de tela da página de planos"><figcaption><p>Interface de seleção de plano.</p></figcaption></figure>
 
----
+***
 
 ## 🎫 Compra (Ticket de Suporte)
 
@@ -87,7 +87,7 @@ Siga as instruções fornecidas pela equipe de suporte para completar o pagament
 Tickets são assíncronos; o tempo de resposta pode variar. Mantenha um ticket por solicitação para reduzir atrasos.
 {% endhint %}
 
----
+***
 
 ## 🙌 Apoiar Sem Fazer Upgrade
 
