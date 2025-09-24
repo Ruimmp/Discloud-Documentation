@@ -26,7 +26,7 @@ icon: npm
 
 Ready to get started? Check out our comprehensive guides:
 
-<table data-card-size="large" data-view="cards"><thead><tr><th data-card-target data-type="content-ref"></th><th align="center"></th><th data-hidden></th><th data-hidden></th><th data-hidden></th></tr></thead><tbody><tr><td><a href="broken-reference">Broken link</a></td><td align="center">Learn how to install, configure, and authenticate with the library.</td><td></td><td></td><td></td></tr><tr><td><a href="broken-reference">Broken link</a></td><td align="center">Explore practical examples and common use cases for all library features.</td><td></td><td></td><td></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th data-card-target data-type="content-ref"></th><th align="center"></th><th data-hidden></th><th data-hidden></th><th data-hidden></th></tr></thead><tbody><tr><td><a href="getting-started.md">getting-started.md</a></td><td align="center">Learn how to install, configure, and authenticate with the library.</td><td></td><td></td><td></td></tr><tr><td><a href="usage-examples.md">usage-examples.md</a></td><td align="center">Explore practical examples and common use cases for all library features.</td><td></td><td></td><td></td></tr></tbody></table>
 
 ## 📋 Prerequisites
 
