@@ -49,7 +49,7 @@ const puppeteer = require("puppeteer");
 ```
 
 {% hint style="info" %}
-🚨 **Why `--no-sandbox`?**
+#### 🚨 **Why `--no-sandbox`?**
 
 Running Puppeteer inside a container **requires disabling the sandbox** to prevent security restrictions from blocking execution.
 {% endhint %}
