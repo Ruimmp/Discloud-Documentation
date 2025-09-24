@@ -24,7 +24,7 @@ Certifique-se de que os seguintes arquivos e diretórios **não** sejam incluíd
 
 🔗 **Precisa de ajuda para configurar seu** [**`Gemfile`**](gemfile.md) **ou encontrar o** [**arquivo principal**](../../../faq/general-questions/wip-what-is-the-main-file.md)**?**
 
-***
+---
 
 ### 🌐 Hospedando Seu Site com Ruby on Rails
 
@@ -37,6 +37,7 @@ Antes de fazer deploy do seu website ou API no Discloud, certifique-se de que vo
 ### ⚙️ Configurando Ruby on Rails
 
 {% code title="config/application.rb" %}
+
 ```ruby
 require_relative "boot"
 
@@ -60,9 +61,10 @@ module RailsOnDiscloud
   end
 end
 ```
+
 {% endcode %}
 
-***
+---
 
 ## ✍️ Fazendo Deploy **da Sua Aplicação**
 
