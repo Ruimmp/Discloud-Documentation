@@ -1,19 +1,19 @@
 ---
 description: >-
-  Exemplos e casos de uso para a biblioteca NPM discloud.app, cobrindo gerenciamento
-  de aplicações, monitoramento, operações de equipe e muito mais.
+  Exemplos e casos de uso para a biblioteca NPM discloud.app, cobrindo
+  gerenciamento de aplicações, monitoramento, operações de equipe e muito mais.
 icon: vial
 ---
 
 # Exemplos de Uso
 
 {% hint style="info" %}
-**Importante**: Para obter seu Token da API necessário nos exemplos abaixo, visite o [**Guia de Autenticação da API**](../../api-and-integrations/api-overview/authentication.md).
+**Importante**: Para obter seu Token da API necessário nos exemplos abaixo, visite o [**Guia de Autenticação da API**](../../api-e-integracoes/visao-geral-da-api/autenticacao.md).
 
 **Configuração Necessária**: Certifique-se de ter completado o guia [**Introdução**](introducao.md) antes de usar estes exemplos.
 {% endhint %}
 
----
+***
 
 ## 📱 Gerenciamento de Aplicações
 
@@ -21,7 +21,6 @@ icon: vial
 
 {% tabs %}
 {% tab title="Do Caminho do Arquivo" %}
-
 ```javascript
 const { discloud } = require("discloud.app");
 
@@ -35,11 +34,9 @@ try {
   console.error("Upload falhou:", error.message);
 }
 ```
-
 {% endtab %}
 
 {% tab title="Do Buffer/Blob" %}
-
 ```javascript
 const fs = require("fs");
 const { discloud } = require("discloud.app");
@@ -59,11 +56,9 @@ try {
   console.error("Upload falhou:", error.message);
 }
 ```
-
 {% endtab %}
 
 {% tab title="Do Stream" %}
-
 ```javascript
 const fs = require("fs");
 const { discloud, streamToFile } = require("discloud.app");
@@ -78,7 +73,6 @@ try {
   console.error("Upload falhou:", error.message);
 }
 ```
-
 {% endtab %}
 {% endtabs %}
 
@@ -90,7 +84,6 @@ try {
 
 {% tabs %}
 {% tab title="Caminho do arquivo / URL" %}
-
 ```javascript
 const { discloud } = require("discloud.app");
 
@@ -98,11 +91,9 @@ await discloud.apps.update("APP_ID", {
   file: "FILE_PATH/FILE_NAME.zip",
 });
 ```
-
 {% endtab %}
 
 {% tab title="Blob | Buffer | File | RawFile | ReadableStream" %}
-
 ```javascript
 const { discloud } = require("discloud.app");
 const fs = require("fs");
@@ -114,7 +105,6 @@ await discloud.apps.update("APP_ID", {
   },
 });
 ```
-
 {% endtab %}
 {% endtabs %}
 
@@ -122,7 +112,6 @@ await discloud.apps.update("APP_ID", {
 
 {% tabs %}
 {% tab title="Aplicação Única" %}
-
 ```javascript
 const { discloud } = require("discloud.app");
 
@@ -133,11 +122,9 @@ try {
   console.error("Falha ao buscar aplicação:", error.message);
 }
 ```
-
 {% endtab %}
 
 {% tab title="Todas as Aplicações" %}
-
 ```javascript
 const { discloud } = require("discloud.app");
 
@@ -148,7 +135,6 @@ try {
   console.error("Falha ao buscar aplicações:", error.message);
 }
 ```
-
 {% endtab %}
 {% endtabs %}
 
@@ -156,7 +142,6 @@ try {
 
 {% tabs %}
 {% tab title="Aplicação Única" %}
-
 ```javascript
 const { discloud } = require("discloud.app");
 
@@ -167,11 +152,9 @@ try {
   console.error("Falha ao excluir aplicação:", error.message);
 }
 ```
-
 {% endtab %}
 
 {% tab title="Todas as Aplicações" %}
-
 ```javascript
 const { discloud } = require("discloud.app");
 
@@ -182,7 +165,6 @@ try {
   console.error("Falha ao excluir aplicações:", error.message);
 }
 ```
-
 {% endtab %}
 {% endtabs %}
 
@@ -190,7 +172,7 @@ try {
 **Aviso:** Excluir uma aplicação é **permanente** e não pode ser desfeito. Certifique-se de fazer backup de seus dados antes da exclusão.
 {% endhint %}
 
----
+***
 
 ## ⚡ Controle de Aplicações
 
@@ -198,7 +180,6 @@ try {
 
 {% tabs %}
 {% tab title="Aplicação Única" %}
-
 ```javascript
 const { discloud } = require("discloud.app");
 
@@ -209,11 +190,9 @@ try {
   console.error("Falha ao iniciar aplicação:", error.message);
 }
 ```
-
 {% endtab %}
 
 {% tab title="Todas as Aplicações" %}
-
 ```javascript
 const { discloud } = require("discloud.app");
 
@@ -224,7 +203,6 @@ try {
   console.error("Falha ao iniciar aplicações:", error.message);
 }
 ```
-
 {% endtab %}
 {% endtabs %}
 
@@ -232,7 +210,6 @@ try {
 
 {% tabs %}
 {% tab title="Aplicação Única" %}
-
 ```javascript
 const { discloud } = require("discloud.app");
 
@@ -243,11 +220,9 @@ try {
   console.error("Falha ao parar aplicação:", error.message);
 }
 ```
-
 {% endtab %}
 
 {% tab title="Todas as Aplicações" %}
-
 ```javascript
 const { discloud } = require("discloud.app");
 
@@ -258,7 +233,6 @@ try {
   console.error("Falha ao parar aplicações:", error.message);
 }
 ```
-
 {% endtab %}
 {% endtabs %}
 
@@ -266,7 +240,6 @@ try {
 
 {% tabs %}
 {% tab title="Aplicação Única" %}
-
 ```javascript
 const { discloud } = require("discloud.app");
 
@@ -277,11 +250,9 @@ try {
   console.error("Falha ao reiniciar aplicação:", error.message);
 }
 ```
-
 {% endtab %}
 
 {% tab title="Todas as Aplicações" %}
-
 ```javascript
 const { discloud } = require("discloud.app");
 
@@ -292,11 +263,10 @@ try {
   console.error("Falha ao reiniciar aplicações:", error.message);
 }
 ```
-
 {% endtab %}
 {% endtabs %}
 
----
+***
 
 ## 📊 Monitoramento e Diagnósticos
 
@@ -304,7 +274,6 @@ try {
 
 {% tabs %}
 {% tab title="Status de Aplicação Única" %}
-
 ```javascript
 const { discloud } = require("discloud.app");
 
@@ -315,11 +284,9 @@ try {
   console.error("Falha ao obter status:", error.message);
 }
 ```
-
 {% endtab %}
 
 {% tab title="Status de Todas as Aplicações" %}
-
 ```javascript
 const { discloud } = require("discloud.app");
 
@@ -330,7 +297,6 @@ try {
   console.error("Falha ao obter status:", error.message);
 }
 ```
-
 {% endtab %}
 {% endtabs %}
 
@@ -338,7 +304,6 @@ try {
 
 {% tabs %}
 {% tab title="Logs de Aplicação Única" %}
-
 ```javascript
 const { discloud } = require("discloud.app");
 
@@ -349,11 +314,9 @@ try {
   console.error("Falha ao obter logs:", error.message);
 }
 ```
-
 {% endtab %}
 
 {% tab title="Logs de Todas as Aplicações" %}
-
 ```javascript
 const { discloud } = require("discloud.app");
 
@@ -364,7 +327,6 @@ try {
   console.error("Falha ao obter logs:", error.message);
 }
 ```
-
 {% endtab %}
 {% endtabs %}
 
@@ -387,7 +349,6 @@ try {
 
 {% tabs %}
 {% tab title="Backup de Aplicação Única" %}
-
 ```javascript
 const { discloud } = require("discloud.app");
 
@@ -398,11 +359,9 @@ try {
   console.error("Backup falhou:", error.message);
 }
 ```
-
 {% endtab %}
 
 {% tab title="Backup de Todas as Aplicações" %}
-
 ```javascript
 const { discloud } = require("discloud.app");
 
@@ -413,11 +372,10 @@ try {
   console.error("Backup falhou:", error.message);
 }
 ```
-
 {% endtab %}
 {% endtabs %}
 
----
+***
 
 ## 👥 Gerenciamento de Equipe
 
@@ -425,7 +383,6 @@ try {
 
 {% tabs %}
 {% tab title="Buscar Membros da Equipe" %}
-
 ```javascript
 const { discloud } = require("discloud.app");
 
@@ -436,11 +393,9 @@ try {
   console.error("Falha ao buscar equipe:", error.message);
 }
 ```
-
 {% endtab %}
 
 {% tab title="Adicionar Membro da Equipe" %}
-
 ```javascript
 const { discloud } = require("discloud.app");
 
@@ -461,11 +416,9 @@ try {
   console.error("Falha ao adicionar moderador:", error.message);
 }
 ```
-
 {% endtab %}
 
 {% tab title="Editar Permissões" %}
-
 ```javascript
 const { discloud, ModPermissions } = require("discloud.app");
 
@@ -486,11 +439,9 @@ try {
   console.error("Falha ao editar permissões:", error.message);
 }
 ```
-
 {% endtab %}
 
 {% tab title="Remover Membro da Equipe" %}
-
 ```javascript
 const { discloud } = require("discloud.app");
 
@@ -501,11 +452,10 @@ try {
   console.error("Falha ao remover moderador:", error.message);
 }
 ```
-
 {% endtab %}
 {% endtabs %}
 
----
+***
 
 ## ⚙️ Gerenciamento do Sistema
 
@@ -523,13 +473,12 @@ try {
 ```
 
 {% hint style="warning" %}
+**Requisitos de RAM:**
 
-#### **Requisitos de RAM:**
-
-- Aplicações bot: mínimo 100MB
-- Aplicações website: mínimo 512MB
-- Verifique os limites do seu plano antes de aumentar a RAM
-  {% endhint %}
+* Aplicações bot: mínimo 100MB
+* Aplicações website: mínimo 512MB
+* Verifique os limites do seu plano antes de aumentar a RAM
+{% endhint %}
 
 ### 🎨 Atualizando Perfil da Aplicação
 
@@ -549,12 +498,11 @@ try {
 ```
 
 {% hint style="warning" %}
+**Detalhes da Atualização do Perfil:**
 
-#### Detalhes da Atualização do Perfil:
-
-- `name`: Opcional. Novo nome para sua aplicação (máximo 30 caracteres).
-- `avatarURL`: Opcional. URL da nova imagem de avatar. Formatos suportados: GIF, JPG, JPEG, PNG.
-  {% endhint %}
+* `name`: Opcional. Novo nome para sua aplicação (máximo 30 caracteres).
+* `avatarURL`: Opcional. URL da nova imagem de avatar. Formatos suportados: GIF, JPG, JPEG, PNG.
+{% endhint %}
 
 ### 📦 Gerenciamento de Pacotes APT
 
