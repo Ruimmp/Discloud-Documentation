@@ -65,7 +65,7 @@ go 1.22
 {% endcode %}
 
 {% hint style="warning" %}
-The Go version MUST be in `major.minor` form (e.g. `1.22`). Do **not** use patch: `1.22.3`.
+The Go version **MUST** be in `major.minor` form (e.g. `1.22`). Do **NOT** use patch: `1.22.3`.
 {% endhint %}
 
 ***

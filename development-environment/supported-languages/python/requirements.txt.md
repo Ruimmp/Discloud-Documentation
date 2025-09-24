@@ -20,11 +20,11 @@ You can create this file using two methods:
 {% tab title="Manual Creation" %}
 {% stepper %}
 {% step %}
-**Create a new text file in your project directory.**
+Create a new text file in your project directory.
 {% endstep %}
 
 {% step %}
-**Name it exactly `requirements.txt`.**
+Name it exactly `requirements.txt`.
 {% endstep %}
 {% endstepper %}
 {% endtab %}
@@ -32,11 +32,11 @@ You can create this file using two methods:
 {% tab title="Automatic Generation" %}
 {% stepper %}
 {% step %}
-**Ensure Python and pip are installed (**[**installation guide**](../../local-environment/python.md)**).**
+Ensure Python and pip are installed ([installation guide](../../local-environment/python.md)).
 {% endstep %}
 
 {% step %}
-**Open your terminal in the project directory and run.**
+Open your terminal in the project directory and run.
 
 ```bash
 pip freeze --user > requirements.txt
