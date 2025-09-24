@@ -77,7 +77,7 @@ try {
 {% endtabs %}
 
 {% hint style="info" %}
-**Antes do upload:** Certifique-se de que seu arquivo ZIP contenha o arquivo [`discloud.config`](https://github.com/Ruimmp/Discloud-Documentation/blob/English/configurations/discloud.config) e siga as [**diretrizes de preparação**](../../development-environment/supported-languages/javascript/) para sua linguagem.
+**Antes do upload:** Certifique-se de que seu arquivo ZIP contenha o arquivo [`discloud.config`](../../configuracoes/discloud.config/) e siga as [**diretrizes de preparação**](../../ambiente-de-desenvolvimento/linguagens-suportadas/javascript/) para sua linguagem.
 {% endhint %}
 
 ### 🔄 Atualizando (Fazendo Commit) uma Aplicação
@@ -473,7 +473,7 @@ try {
 ```
 
 {% hint style="warning" %}
-**Requisitos de RAM:**
+#### **Requisitos de RAM:**
 
 * Aplicações bot: mínimo 100MB
 * Aplicações website: mínimo 512MB
@@ -498,7 +498,7 @@ try {
 ```
 
 {% hint style="warning" %}
-**Detalhes da Atualização do Perfil:**
+#### **Detalhes da Atualização do Perfil:**
 
 * `name`: Opcional. Novo nome para sua aplicação (máximo 30 caracteres).
 * `avatarURL`: Opcional. URL da nova imagem de avatar. Formatos suportados: GIF, JPG, JPEG, PNG.
