@@ -77,7 +77,7 @@ try {
 {% endtabs %}
 
 {% hint style="info" %}
-**Before uploading:** Ensure your ZIP file contains the [`discloud.config`](https://github.com/Ruimmp/Discloud-Documentation/blob/English/configurations/discloud.config) file and follows the [**preparation guidelines**](../../development-environment/supported-languages/javascript/) for your language.
+**Before uploading:** Ensure your ZIP file contains the [`discloud.config`](../../configurations/discloud.config/) file and follows the [**preparation guidelines**](../../development-environment/supported-languages/javascript/) for your language.
 {% endhint %}
 
 ### 🔄 Updating (Committing) an Application
