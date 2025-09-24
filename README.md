@@ -1,5 +1,6 @@
 ---
 description: Bem-vindo à documentação oficial da Discloud.
+icon: rocket-launch
 ---
 
 # Bem-vindo à Discloud
