@@ -1,7 +1,7 @@
 ---
 description: >-
-  Aprenda como instalar, configurar e começar a usar a biblioteca NPM discloud.app
-  para gerenciar sua aplicação Discloud.
+  Aprenda como instalar, configurar e começar a usar a biblioteca NPM
+  discloud.app para gerenciar sua aplicação Discloud.
 icon: flag-checkered
 ---
 
@@ -13,35 +13,27 @@ Você pode instalar a biblioteca **discloud.app** usando seu gerenciador de paco
 
 {% tabs %}
 {% tab title="NPM" %}
-
 ```bash
 npm install discloud.app
 ```
-
 {% endtab %}
 
 {% tab title="Yarn" %}
-
 ```bash
 yarn add discloud.app
 ```
-
 {% endtab %}
 
 {% tab title="PNPM" %}
-
 ```bash
 pnpm add discloud.app
 ```
-
 {% endtab %}
 
 {% tab title="Bun" %}
-
 ```bash
 bun add discloud.app
 ```
-
 {% endtab %}
 {% endtabs %}
 
@@ -51,7 +43,7 @@ Antes de usar a biblioteca, você precisa obter seu **Token da API do Discloud**
 
 Para instruções detalhadas sobre como obter seu token da API, visite:
 
-👉 [**Guia de Autenticação da API**](../../api-and-integrations/api-overview/authentication.md)
+👉 [**Guia de Autenticação da API**](../../api-e-integracoes/visao-geral-da-api/autenticacao.md)
 
 {% hint style="warning" %}
 **Mantenha seu token seguro!** Nunca o compartilhe publicamente ou faça commit dele no controle de versão. Armazene-o em variáveis de ambiente ou arquivos de configuração seguros.
@@ -66,11 +58,9 @@ Para instruções detalhadas sobre como obter seu token da API, visite:
 Crie um arquivo `.env` na raiz do seu projeto para armazenar seu token da API com segurança:
 
 {% code title=".env" %}
-
 ```bash
 DISCLOUD_TOKEN=your_api_token_here
 ```
-
 {% endcode %}
 {% endstep %}
 
@@ -80,14 +70,12 @@ Instale o pacote **dotenv** para carregar variáveis de ambiente:
 ```bash
 npm install dotenv
 ```
-
 {% endstep %}
 
 {% step %}
 Então use-o em sua aplicação:
 
 {% code title="index.js" %}
-
 ```javascript
 require("dotenv").config(); // Carregar variáveis de ambiente
 const { discloud } = require("discloud.app");
@@ -106,7 +94,6 @@ async function main() {
 
 main();
 ```
-
 {% endcode %}
 {% endstep %}
 {% endstepper %}
@@ -116,7 +103,6 @@ main();
 Vamos testar a conexão buscando informações sobre suas aplicações:
 
 {% code title="test-connection.js" %}
-
 ```javascript
 require("dotenv").config(); // Carregar variáveis de ambiente
 const { discloud } = require("discloud.app");
@@ -140,7 +126,6 @@ async function testConnection() {
 
 testConnection();
 ```
-
 {% endcode %}
 
 ## 📁 Suporte ao TypeScript
@@ -148,7 +133,6 @@ testConnection();
 A biblioteca inclui suporte completo ao **TypeScript** com definições de tipo:
 
 {% code title="index.ts" %}
-
 ```typescript
 import "dotenv/config"; // Carregar variáveis de ambiente
 import { discloud, App } from "discloud.app";
@@ -170,10 +154,9 @@ async function main(): Promise<void> {
 
 main();
 ```
-
 {% endcode %}
 
----
+***
 
 {% hint style="success" %}
 **Pronto para começar!** Você configurou com sucesso a biblioteca discloud.app. Confira [Exemplos de Uso](usage-examples.md) para ver o que você pode construir!
