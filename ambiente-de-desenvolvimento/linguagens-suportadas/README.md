@@ -1,15 +1,16 @@
 ---
 description: >-
-  Descubra as principais linguagens de programação suportadas pelo Discloud e veja como você
-  pode usar essas linguagens para hospedar facilmente suas aplicações.
+  Descubra as principais linguagens de programação suportadas pelo Discloud e
+  veja como você pode usar essas linguagens para hospedar facilmente suas
+  aplicações.
 icon: code
 ---
 
 # Linguagens Suportadas
 
-O Discloud suporta uma **ampla gama de linguagens de programação**, permitindo que desenvolvedores façam deploy facilmente de [**bots**](../../how-to-host/bots.md)**,** [**websites**](../../how-to-host/websites-and-apis.md)**,** [**APIs**](../../how-to-host/websites-and-apis.md)** e outras aplicações**. Seja você usando linguagens **interpretadas** ou **compiladas**, o Discloud fornece um **processo de deploy contínuo**.
+O Discloud suporta uma **ampla gama de linguagens de programação**, permitindo que desenvolvedores façam deploy facilmente de [**bots**](../../como-hospedar/bots.md)**,** [**websites**](../../como-hospedar/websites-e-apis.md)**,** [**APIs**](../../como-hospedar/websites-e-apis.md) **e outras aplicações**. Seja você usando linguagens **interpretadas** ou **compiladas**, o Discloud fornece um **processo de deploy contínuo**.
 
----
+***
 
 ## 📑 **Linguagens Disponíveis**
 
