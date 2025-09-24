@@ -16,7 +16,7 @@ Para usar **Puppeteer** na Discloud, é recomendado um mínimo de **512 MB de RA
 **Se o Puppeteer não funcionar corretamente (ex.: nenhum código QR nos logs, travamentos), aumente a RAM alocada!**
 {% endhint %}
 
-***
+---
 
 ## 📦 **Adicionando Puppeteer**
 
@@ -27,7 +27,7 @@ APT=tools, puppeteer
 # ...
 </code></pre>
 
-***
+---
 
 ## ⚙️ **Configurando Puppeteer**
 
@@ -37,15 +37,15 @@ Como **Puppeteer é executado em um ambiente containerizado**, você deve adicio
 const puppeteer = require("puppeteer");
 
 (async () => {
-    const browser = await puppeteer.launch({
-        args: ["--no-sandbox"]
-    });
+  const browser = await puppeteer.launch({
+    args: ["--no-sandbox"],
+  });
 
-    const page = await browser.newPage();
-    await page.goto("https://example.com");
+  const page = await browser.newPage();
+  await page.goto("https://example.com");
 
-    console.log(await page.title());
-    await browser.close();
+  console.log(await page.title());
+  await browser.close();
 })();
 ```
 
@@ -55,7 +55,7 @@ const puppeteer = require("puppeteer");
 Executar Puppeteer dentro de um container **requer desabilitar o sandbox** para impedir que restrições de segurança bloqueiem a execução.
 {% endhint %}
 
-***
+---
 
 ## ⚙️ **Usando Puppeteer com `whatsapp-web.js`**
 
@@ -65,19 +65,20 @@ Como [**`whatsapp-web.js`**](https://wwebjs.dev/) também usa **Puppeteer** para
 const { Client } = require("whatsapp-web.js");
 
 const client = new Client({
-    puppeteer: {
-        args: ["--no-sandbox"],
-    }
+  puppeteer: {
+    args: ["--no-sandbox"],
+  },
 });
 
 client.initialize();
 ```
 
 {% hint style="info" %}
+
 #### 🚨 **Solução de Problemas com Código QR:**
 
-* Se o **código QR não aparecer** nos logs da Discloud, **aumente a RAM alocada**.
-* Quanto mais complexas suas interações com o WhatsApp, **mais RAM o Puppeteer precisará** para funcionar adequadamente.
-{% endhint %}
+- Se o **código QR não aparecer** nos logs da Discloud, **aumente a RAM alocada**.
+- Quanto mais complexas suas interações com o WhatsApp, **mais RAM o Puppeteer precisará** para funcionar adequadamente.
+  {% endhint %}
 
 [^1]: **Note:** The **`...`** only indicate the continuation of other previous or subsequent options that are not relevant to mention on this page.
