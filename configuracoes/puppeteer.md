@@ -16,7 +16,7 @@ Para usar **Puppeteer** na Discloud, é recomendado um mínimo de **512 MB de RA
 **Se o Puppeteer não funcionar corretamente (ex.: nenhum código QR nos logs, travamentos), aumente a RAM alocada!**
 {% endhint %}
 
----
+***
 
 ## 📦 **Adicionando Puppeteer**
 
@@ -27,7 +27,7 @@ APT=tools, puppeteer
 # ...
 </code></pre>
 
----
+***
 
 ## ⚙️ **Configurando Puppeteer**
 
@@ -50,12 +50,12 @@ const puppeteer = require("puppeteer");
 ```
 
 {% hint style="info" %}
-🚨 **Por que `--no-sandbox`?**
+#### 🚨 **Por que `--no-sandbox`?**
 
 Executar Puppeteer dentro de um container **requer desabilitar o sandbox** para impedir que restrições de segurança bloqueiem a execução.
 {% endhint %}
 
----
+***
 
 ## ⚙️ **Usando Puppeteer com `whatsapp-web.js`**
 
@@ -74,11 +74,10 @@ client.initialize();
 ```
 
 {% hint style="info" %}
+#### **🚨 Solução de Problemas com Código QR:**
 
-#### 🚨 **Solução de Problemas com Código QR:**
-
-- Se o **código QR não aparecer** nos logs da Discloud, **aumente a RAM alocada**.
-- Quanto mais complexas suas interações com o WhatsApp, **mais RAM o Puppeteer precisará** para funcionar adequadamente.
-  {% endhint %}
+* Se o **código QR não aparecer** nos logs da Discloud, **aumente a RAM alocada**.
+* Quanto mais complexas suas interações com o WhatsApp, **mais RAM o Puppeteer precisará** para funcionar adequadamente.
+{% endhint %}
 
 [^1]: **Note:** The **`...`** only indicate the continuation of other previous or subsequent options that are not relevant to mention on this page.
