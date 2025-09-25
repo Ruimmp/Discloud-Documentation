@@ -19,9 +19,9 @@ Antes de enviar seu projeto, certifique-se de que seus arquivos estão corretame
 * **Arquivo de Configuração (**[**`discloud.config`**](../configuracoes/discloud.config/)**)** – Obrigatório para as configurações de implantação.
 * **Arquivo de Dependências** (se aplicável):
   * [`package.json`](../ambiente-de-desenvolvimento/linguagens-suportadas/javascript/package.json.md) para [**Node.js**](../ambiente-de-desenvolvimento/ambiente-local/nodejs.md)
-  * [`requirements.txt`](../ambiente-de-desenvolvimento/linguagens-suportadas/python/requirements.txt.md) para [**Python**](../ambiente-de-desenvolvimento/ambiente-local/python.md)
-  * [`Cargo.toml`](../ambiente-de-desenvolvimento/linguagens-suportadas/rust/cargo.toml.md) para [**Rust**](../ambiente-de-desenvolvimento/ambiente-local/rust.md)
-  * [`Gemfile`](../ambiente-de-desenvolvimento/linguagens-suportadas/ruby/gemfile.md) para [**Ruby**](../ambiente-de-desenvolvimento/ambiente-local/ruby.md)
+  * [`requirements.txt`](../ambiente-de-desenvolvimento/linguagens-suportadas/python/requirements.txt.md) para [**Python**](broken-reference)
+  * [`Cargo.toml`](../ambiente-de-desenvolvimento/linguagens-suportadas/rust/cargo.toml.md) para [**Rust**](broken-reference)
+  * [`Gemfile`](../ambiente-de-desenvolvimento/linguagens-suportadas/ruby/gemfile.md) para [**Ruby**](broken-reference)
 
 ### **🗑️** Excluindo Arquivos Desnecessários
 

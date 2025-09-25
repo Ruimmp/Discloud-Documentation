@@ -123,7 +123,7 @@ Preparando seu projeto.
 
 * Certifique-se de que seu projeto contenha todos os arquivos necessários:
   * [**`discloud.config`**](../configuracoes/discloud.config/) (arquivo de configuração).
-  * **Dependências necessárias** para sua linguagem de programação (ex.: [`package.json`](../ambiente-de-desenvolvimento/linguagens-suportadas/javascript/package.json.md) para [Node.js](../ambiente-de-desenvolvimento/ambiente-local/nodejs.md), [`requirements.txt`](../ambiente-de-desenvolvimento/linguagens-suportadas/python/requirements.txt.md) para [Python](../ambiente-de-desenvolvimento/ambiente-local/python.md)).
+  * **Dependências necessárias** para sua linguagem de programação (ex.: [`package.json`](../ambiente-de-desenvolvimento/linguagens-suportadas/javascript/package.json.md) para [Node.js](../ambiente-de-desenvolvimento/ambiente-local/nodejs.md), [`requirements.txt`](../ambiente-de-desenvolvimento/linguagens-suportadas/python/requirements.txt.md) para [Python](broken-reference)).
 * **Verifique o** [**Guia de Linguagens**](../ambiente-de-desenvolvimento/linguagens-suportadas/) para garantir que seu projeto esteja estruturado corretamente.
 {% endstep %}
 

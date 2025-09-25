@@ -26,7 +26,7 @@ icon: npm
 
 Pronto para começar? Confira nossos guias abrangentes:
 
-<table data-card-size="large" data-view="cards"><thead><tr><th data-card-target data-type="content-ref"></th><th align="center"></th><th data-hidden></th><th data-hidden></th><th data-hidden></th></tr></thead><tbody><tr><td><a href="introducao.md">introducao.md</a></td><td align="center">Aprenda como instalar, configurar e autenticar com a biblioteca.</td><td></td><td></td><td></td></tr><tr><td><a href="exemplos-de-uso.md">exemplos-de-uso.md</a></td><td align="center">Explore exemplos práticos e casos de uso comuns para todos os recursos da biblioteca.</td><td></td><td></td><td></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th data-card-target data-type="content-ref"></th><th align="center"></th><th data-hidden></th><th data-hidden></th><th data-hidden></th></tr></thead><tbody><tr><td><a href="../biblioteca-python/introducao.md">introducao.md</a></td><td align="center">Aprenda como instalar, configurar e autenticar com a biblioteca.</td><td></td><td></td><td></td></tr><tr><td><a href="../biblioteca-python/exemplos-de-uso.md">exemplos-de-uso.md</a></td><td align="center">Explore exemplos práticos e casos de uso comuns para todos os recursos da biblioteca.</td><td></td><td></td><td></td></tr></tbody></table>
 
 ## 📋 Pré-requisitos
 
@@ -50,6 +50,6 @@ Seja você construindo **scripts de automação**, **pipelines CI/CD**, **dashbo
 
 Se você encontrar algum problema ou tiver dúvidas:
 
-* 📖 Verifique os [**Exemplos de Uso**](exemplos-de-uso.md) para cenários comuns
+* 📖 Verifique os [**Exemplos de Uso**](../biblioteca-python/exemplos-de-uso.md) para cenários comuns
 * 🐛 Relate bugs nos [**Issues do GitHub**](https://github.com/discloud/discloud.app/issues/new?template=bug.yml)
 * 💬 Junte-se à nossa [**Comunidade Discord**](https://discord.discloudbot.com)
