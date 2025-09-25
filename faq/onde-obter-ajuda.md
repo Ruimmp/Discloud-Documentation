@@ -24,7 +24,6 @@ A equipe se concentra em problemas da plataforma Discloud (implantação, compor
 | [Ticket Modmail (Direto)](https://discord.com/channels/@me/930852077045940224/)         | Privado                       | Você ↔ Equipe          | Cobrança, conta, dados sensíveis, preocupações de política |
 | [chat](https://discord.com/channels/584490943034425391/1051122908103192636)             | Chat público                  | Todos os usuários      | Perguntas rápidas da plataforma, discussão leve            |
 | [dev-help (Fórum)](https://discord.com/channels/584490943034425391/1052629984444948501) | Threaded público              | Todos os usuários      | Ajuda da comunidade com código / configs                   |
-| [off-topic](https://discord.com/channels/584490943034425391/1051124532263530576)        | Chat público                  | Todos os usuários      | Conversas sobre qualquer assunto, hobbies, games, etc.     |
 | [donators-chat](https://discord.com/channels/584490943034425391/1051124971763679232)    | Público (restrito a doadores) | Usuários de plano pago | Discussão da comunidade de doadores                        |
 | [donators-support (Fórum)](https://app.gitbook.com/u/X4zpqd9m1VYNBaYRYKNE6a16KJ12)      | Público (restrito a doadores) | Usuários de plano pago | Perguntas técnicas relacionadas ao plano                   |
 | [Documentação](https://docs.discloud.com/)                                              | Autoatendimento               | Todos                  | Guias e referências oficiais                               |
