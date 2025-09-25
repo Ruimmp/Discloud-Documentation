@@ -1,7 +1,8 @@
 ---
 description: >-
-  Visão geral das opções de banco de dados para apps Discloud, templates integrados (MySQL,
-  PostgreSQL, Redis, MongoDB) e configuração externa do MongoDB Atlas.
+  Visão geral das opções de banco de dados para apps Discloud, templates
+  integrados (MySQL, PostgreSQL, Redis, MongoDB) e configuração externa do
+  MongoDB Atlas.
 icon: database
 ---
 
@@ -11,10 +12,10 @@ icon: database
 
 Aplicações Discloud podem se conectar a:
 
-- [Templates de serviço gerenciado integrados que você provisiona através do catálogo de Templates.](bancos-de-dados.md#template-catalog-managed-instances)
-- [Provedor de banco de dados como serviço MongoDB Atlas externo que você configura manualmente.](bancos-de-dados.md#using-external-mongodb-atlas)
+* [Templates de serviço gerenciado integrados que você provisiona através do catálogo de Templates.](bancos-de-dados.md#template-catalog-managed-instances)
+* [Provedor de banco de dados como serviço MongoDB Atlas externo que você configura manualmente.](bancos-de-dados.md#using-external-mongodb-atlas)
 
----
+***
 
 ## 📦 Catálogo de Templates (Instâncias Gerenciadas)
 
@@ -39,13 +40,12 @@ Implante. Credenciais / strings de conexão ficam disponíveis para a configura�
 {% endstepper %}
 
 {% hint style="info" %}
+**📨 Precisa de Outro Template?**
 
-#### 📨 Precisa de Outro Template?
-
-Abra um [ticket de suporte](bancos-de-dados.md#overview) no [servidor Discord](bancos-de-dados.md#overview) com o nome do motor, versão e caso de uso. A equipe avalia a viabilidade e pode adicioná-lo ao catálogo.
+Abra um [ticket de suporte](https://discord.com/channels/@me/930852077045940224/) no [servidor Discord](https://discord.discloudbot.com/) com o nome do motor, versão e caso de uso. A equipe avalia a viabilidade e pode adicioná-lo ao catálogo.
 {% endhint %}
 
----
+***
 
 ## 🌍 Usando MongoDB Atlas Externo
 
