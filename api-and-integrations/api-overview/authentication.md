@@ -113,14 +113,14 @@ You can also update the user locale (e.g. `en-US`) through `/locale/{locale}` to
 
 ***
 
-## 📚 Related Endpoint Reference
+## 📚 Related Endpoints References
 
 The operations below require the `api-token` header:
 
 {% openapi-operation spec="api-endpoints-en-v2" path="/user" method="get" %}
-[OpenAPI api-endpoints-en-v2](https://4401d86825a13bf607936cc3a9f3897a.r2.cloudflarestorage.com/gitbook-x-prod-openapi/raw/61f01473f129643b89ca1a2a25d60bc8f06b6d3d89fab93af3981524851be1ac.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=dce48141f43c0191a2ad043a6888781c%2F20250925%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20250925T180403Z&X-Amz-Expires=172800&X-Amz-Signature=c6cbf0f627ba4197a3856226c8ea4f99c846516f4fcaa00bd32bba0460f4a7e7&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+[OpenAPI api-endpoints-en-v2](https://4401d86825a13bf607936cc3a9f3897a.r2.cloudflarestorage.com/gitbook-x-prod-openapi/raw/61f01473f129643b89ca1a2a25d60bc8f06b6d3d89fab93af3981524851be1ac.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=dce48141f43c0191a2ad043a6888781c%2F20250925%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20250925T181218Z&X-Amz-Expires=172800&X-Amz-Signature=995bb75cdca6c748052730194d1cd6dc5911d7e1ab5b0dc4c694288eda68f0d2&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
 {% endopenapi-operation %}
 
 {% openapi-operation spec="api-endpoints-en-v2" path="/locale/{locale}" method="put" %}
-[OpenAPI api-endpoints-en-v2](https://4401d86825a13bf607936cc3a9f3897a.r2.cloudflarestorage.com/gitbook-x-prod-openapi/raw/61f01473f129643b89ca1a2a25d60bc8f06b6d3d89fab93af3981524851be1ac.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=dce48141f43c0191a2ad043a6888781c%2F20250925%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20250925T180403Z&X-Amz-Expires=172800&X-Amz-Signature=c6cbf0f627ba4197a3856226c8ea4f99c846516f4fcaa00bd32bba0460f4a7e7&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+[OpenAPI api-endpoints-en-v2](https://4401d86825a13bf607936cc3a9f3897a.r2.cloudflarestorage.com/gitbook-x-prod-openapi/raw/61f01473f129643b89ca1a2a25d60bc8f06b6d3d89fab93af3981524851be1ac.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=dce48141f43c0191a2ad043a6888781c%2F20250925%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20250925T181218Z&X-Amz-Expires=172800&X-Amz-Signature=995bb75cdca6c748052730194d1cd6dc5911d7e1ab5b0dc4c694288eda68f0d2&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
 {% endopenapi-operation %}
