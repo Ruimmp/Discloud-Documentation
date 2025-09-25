@@ -31,8 +31,6 @@ Must exist in your repository's **root directory.**
 >
 > * File missing
 > * Invalid syntax
-> * Missing mandatory fields\
->   [Full spec →](../configurations/discloud.config/)
 {% endstep %}
 {% endstepper %}
 
