@@ -1,7 +1,7 @@
 ---
 description: >-
-  Instale Rust usando rustup, gerencie toolchains e verifique cargo para desenvolvimento local
-  antes de implantar no Discloud.
+  Instale Rust usando rustup, gerencie toolchains e verifique cargo para
+  desenvolvimento local antes de implantar no Discloud.
 icon: rust
 ---
 
@@ -11,7 +11,7 @@ icon: rust
 
 Rust fornece performance, segurança de memória e uso previsível de recursos para APIs, workers e bots. Instale com `rustup` para gerenciar toolchains localmente antes de implantar.
 
----
+***
 
 ## 📥 Instalação (escolha seu SO)
 
@@ -31,27 +31,24 @@ Execute e aceite os padrões (instala no perfil do usuário).
 {% endtab %}
 
 {% tab title="Alternativo (PowerShell):" %}
-
 ```bash
 irm https://win.rustup.rs -UseBasicParsing | iex
 ```
-
 {% endtab %}
 {% endtabs %}
 
-#### Verificar
+**Verificar**
 
 ```bash
 rustc --version
 cargo --version
 ```
 
-#### Atualizar Toolchain
+**Atualizar Toolchain**
 
 ```bash
 rustup update
 ```
-
 {% endtab %}
 
 {% tab title="🐧 Linux" %}
@@ -64,25 +61,24 @@ rustc --version
 cargo --version
 ```
 
-#### Adicionar Build Essentials (Debian/Ubuntu)
+**Adicionar Build Essentials (Debian/Ubuntu)**
 
 ```bash
 sudo apt update
 sudo apt install -y build-essential pkg-config libssl-dev
 ```
 
-#### Atualizar
+**Atualizar**
 
 ```bash
 rustup update
 ```
 
-#### Remover Toolchain
+**Remover Toolchain**
 
 ```bash
 rustup self uninstall
 ```
-
 {% endtab %}
 
 {% tab title="🍎 macOS" %}
@@ -106,11 +102,10 @@ Atualizar:
 ```bash
 rustup update
 ```
-
 {% endtab %}
 {% endtabs %}
 
----
+***
 
 ## 🧰 Toolchains e Componentes
 
@@ -121,7 +116,6 @@ Listar instalados
 ```bash
 rustup toolchain list
 ```
-
 {% endstep %}
 
 {% step %}
@@ -130,7 +124,6 @@ Adicionar nightly (opcional)
 ```bash
 rustup toolchain install nightly
 ```
-
 {% endstep %}
 
 {% step %}
@@ -139,7 +132,6 @@ Definir padrão
 ```bash
 rustup default stable
 ```
-
 {% endstep %}
 
 {% step %}
@@ -148,11 +140,10 @@ Adicionar componentes (exemplo)
 ```bash
 rustup component add clippy rustfmt
 ```
-
 {% endstep %}
 {% endstepper %}
 
----
+***
 
 ## 🗂 Inicialização do Projeto
 
@@ -177,7 +168,7 @@ cargo fmt -- --check
 cargo clippy -- -D warnings
 ```
 
----
+***
 
 ## 🗃 Comandos Cargo Comuns
 
@@ -197,11 +188,11 @@ Instalar cargo tree (se faltar):
 cargo install cargo-tree
 ```
 
----
+***
 
 ## 📦 Gerenciamento de Dependências
 
-Dependências declaradas em `Cargo.toml` sob `[dependencies]`:
+Dependências declaradas em [`Cargo.toml`](../linguagens-suportadas/rust/cargo.toml.md) sob `[dependencies]`:
 
 ```toml
 [dependencies]
@@ -216,7 +207,7 @@ Atualizar lockfile:
 cargo update
 ```
 
----
+***
 
 ## 🔄 Atualização
 
