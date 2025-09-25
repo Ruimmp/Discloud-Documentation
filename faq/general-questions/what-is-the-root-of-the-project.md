@@ -24,10 +24,10 @@ The green zone represents the **root** you should compress. Yellow shows a neste
 
 ### 🚫 Common Mistakes
 
-| Mistake                        | Result                             | Fix                                                  |
-| ------------------------------ | ---------------------------------- | ---------------------------------------------------- |
-| Zipping parent of actual root  | Missing config / main file         | Zip the folder containing `discloud.config` directly |
-| Including `node_modules`       | Large upload, possible size issues | Remove; let platform install                         |
-| Hardcoding secrets in code     | Security exposure                  | Use `.env` and environment variables                 |
-| Multiple entry files ambiguous | Startup failure                    | Define `main` in `discloud.config` explicitly        |
-| Nested `src/src` patterns      | Confusion locating entry           | Flatten structure                                    |
+| Mistake                        | Result                             | Fix                                                                                           |
+| ------------------------------ | ---------------------------------- | --------------------------------------------------------------------------------------------- |
+| Zipping parent of actual root  | Missing config / main file         | Zip the folder containing [`discloud.config`](../../configurations/discloud.config/) directly |
+| Including `node_modules`       | Large upload, possible size issues | Remove; let platform install                                                                  |
+| Hardcoding secrets in code     | Security exposure                  | Use [`.env`](wip-.env-file.md) and environment variables                                      |
+| Multiple entry files ambiguous | Startup failure                    | Define `main` in [`discloud.config`](../../configurations/discloud.config/) explicitly        |
+| Nested `src/src` patterns      | Confusion locating entry           | Flatten structure                                                                             |
