@@ -65,7 +65,9 @@ export PATH="/usr/local/go/bin:$PATH"
 go version
 ```
 
-(Add PATH line to \~/.bashrc or \~/.zshrc to persist.)
+{% hint style="info" %}
+Add PATH line to \~/.bashrc or \~/.zshrc to persist.
+{% endhint %}
 {% endtab %}
 
 {% tab title="Debian/Ubuntu" %}
@@ -75,7 +77,9 @@ sudo apt install -y golang-go
 go version
 ```
 
+{% hint style="info" %}
 Note: Repo version may lag behind latest.
+{% endhint %}
 {% endtab %}
 
 {% tab title="Fedora" %}
@@ -121,25 +125,13 @@ export PATH="/usr/local/go/bin:$PATH"
 go version
 ```
 
-(Add PATH export to shell profile to persist.)
+{% hint style="info" %}
+Add PATH export to shell profile to persist.
+{% endhint %}
 {% endtab %}
 {% endtabs %}
 {% endtab %}
 {% endtabs %}
-
-***
-
-## ✅ Verification
-
-```bash
-go version
-```
-
-Optional environment check:
-
-```bash
-go env GOPATH
-```
 
 ***
 

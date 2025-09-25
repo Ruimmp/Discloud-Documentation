@@ -192,7 +192,7 @@ cargo install cargo-tree
 
 ## 📦 Dependency Management
 
-Dependencies declared in `Cargo.toml` under `[dependencies]`:
+Dependencies declared in [`Cargo.toml`](../supported-languages/rust/cargo.toml.md) under `[dependencies]`:
 
 ```toml
 [dependencies]

@@ -16,8 +16,6 @@ Node.js runs JavaScript outside the browser for CLIs, APIs, workers, scheduled t
 * Prepare builds or bundles where needed
 
 {% embed url="https://nodejs.org/" %}
-Visit the official Node.js website for more information.
-{% endembed %}
 
 ***
 
