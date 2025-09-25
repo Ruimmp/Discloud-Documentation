@@ -1,6 +1,6 @@
 ---
 description: >-
-  Canais e melhores práticas para obter ajuda com Discloud—fóruns da comunidade,
+  Canais e melhores práticas para obter ajuda com Discloud-fóruns da comunidade,
   chat, áreas de doadores e suporte direto da equipe.
 icon: bullseye-arrow
 ---
@@ -15,7 +15,7 @@ Existem múltiplas superfícies de suporte dependendo do que você precisa: solu
 A equipe se concentra em problemas da plataforma Discloud (implantação, comportamento de hospedagem, conta, cobrança). Perguntas gerais de codificação são orientadas pela comunidade.
 {% endhint %}
 
----
+***
 
 ## 🗂️ Canais de Suporte
 
@@ -28,16 +28,16 @@ A equipe se concentra em problemas da plataforma Discloud (implantação, compor
 | [donators-support (Fórum)](https://app.gitbook.com/u/X4zpqd9m1VYNBaYRYKNE6a16KJ12)              | Público (restrito a doadores) | Usuários de plano pago | Perguntas técnicas relacionadas ao plano                   |
 | [Documentação](https://docs.discloud.com/en)                                                    | Autoatendimento               | Todos                  | Guias e referências oficiais                               |
 
----
+***
 
 ## 🎫 Modmail (Ticket Direto da Equipe)
 
 Use modmail para problemas que não devem ser públicos:
 
-- Gerenciamento de cobrança ou assinatura
-- Erros específicos da conta (suspensões, anomalias de acesso)
-- Relatórios de segurança ou abuso
-- Logs / PII sensíveis que devem permanecer privados
+* Gerenciamento de cobrança ou assinatura
+* Erros específicos da conta (suspensões, anomalias de acesso)
+* Relatórios de segurança ou abuso
+* Logs / PII sensíveis que devem permanecer privados
 
 {% stepper %}
 {% step %}
@@ -57,11 +57,11 @@ Anexe logs ou capturas relevantes (não sensíveis).
 Não envie tokens brutos, chaves API ou dumps completos de variáveis de ambiente em tickets. Redija segredos antes de anexar.
 {% endhint %}
 
----
+***
 
 ## 🤝 Fórum da Comunidade: dev-help-english
 
-Q&A peer-to-peer. A equipe pode ocasionalmente responder, mas respostas não são garantidas.
+Q\&A peer-to-peer. A equipe pode ocasionalmente responder, mas respostas não são garantidas.
 
 ### ✅ Poste Efetivamente
 
@@ -75,7 +75,7 @@ Q&A peer-to-peer. A equipe pode ocasionalmente responder, mas respostas não sã
 Pesquise threads existentes primeiro, sua resposta pode já existir.
 {% endhint %}
 
----
+***
 
 ## 🔐 Proteja Dados Sensíveis
 
@@ -94,7 +94,7 @@ Use placeholders: `SEU_TOKEN_AQUI`, `exemplo-db-host`.
 Se você acidentalmente vazou uma credencial, revogue / rotacione imediatamente e notifique a equipe se o risco se estender além da sua conta.
 {% endhint %}
 
----
+***
 
 ## 📚 Aprenda e Desenvolva Habilidades
 
@@ -110,7 +110,7 @@ Parceiros / conteúdo de aprendizado recomendados gratuitos:
 {% endtab %}
 {% endtabs %}
 
----
+***
 
 ## 🚀 Antes de Perguntar, Verifique
 
