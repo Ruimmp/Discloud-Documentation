@@ -1,5 +1,5 @@
 ---
-description: Guia completo para hospedar aplicações Java no Discloud.
+description: Guia completo para hospedar aplicações Java na Discloud.
 icon: java
 ---
 
@@ -24,7 +24,7 @@ Certifique-se de que os seguintes arquivos e diretórios **não** sejam incluíd
 
 🔗 **Precisa de ajuda com compilação?** Verifique a FAQ sobre [**Como Construir e Empacotar uma Aplicação Java?**](../../faq/perguntas-gerais/como-construir-e-empacotar-uma-aplicacao-java.md)
 
-***
+---
 
 ## 📦 **Compilando Sua Aplicação Java**
 
@@ -37,6 +37,7 @@ Para **fazer deploy da sua aplicação Java**, ela deve ser compilada em um **ar
 ```bash
 mvn clean package
 ```
+
 {% endtab %}
 
 {% tab title="Gradle" %}
@@ -45,16 +46,18 @@ mvn clean package
 ```bash
 gradle clean build
 ```
+
 {% endtab %}
 {% endtabs %}
 
 {% hint style="info" %}
+
 #### **Recomendação**
 
 Renomeie seu arquivo JAR para um nome simples como `app.jar` para evitar problemas com caracteres especiais.​
 {% endhint %}
 
-***
+---
 
 ## 📝 **Configurando o Arquivo Principal**
 
@@ -66,12 +69,12 @@ MAIN=app.jar
 
 Certifique-se de que `app.jar` corresponda ao nome do seu arquivo JAR compilado.​
 
-**Nota:** Para informações detalhadas sobre configurar o arquivo principal, consulte a FAQ do Discloud sobre o arquivo principal.
+**Nota:** Para informações detalhadas sobre configurar o arquivo principal, consulte a FAQ da Discloud sobre o arquivo principal.
 
-***
+---
 
 ## ✍️ **Fazendo Deploy da Sua Aplicação**
 
-Uma vez que seu projeto esteja **configurado e comprimido**, você pode escolher um dos seguintes **métodos de deploy** no Discloud:
+Uma vez que seu projeto esteja **configurado e comprimido**, você pode escolher um dos seguintes **métodos de deploy** na Discloud:
 
-<table data-card-size="large" data-view="cards"><thead><tr><th data-card-target data-type="content-ref"></th><th align="center"></th><th data-hidden></th><th data-hidden></th><th data-hidden></th></tr></thead><tbody><tr><td><a href="../../como-hospedar-usando/painel-de-controle.md">painel-de-controle.md</a></td><td align="center">Faça upload e gerencie sua aplicação via interface web.</td><td></td><td></td><td></td></tr><tr><td><a href="../../como-hospedar-usando/bot-do-discord.md">bot-do-discord.md</a></td><td align="center">Faça deploy diretamente através dos comandos do bot Discord do Discloud.</td><td></td><td></td><td></td></tr><tr><td><a href="../../como-hospedar-usando/visual-studio-code.md">visual-studio-code.md</a></td><td align="center">Integre com VS Code para gerenciamento contínuo de projetos.</td><td></td><td></td><td></td></tr><tr><td><a href="../../como-hospedar-usando/cli.md">cli.md</a></td><td align="center">Use a interface de linha de comando para deploy rápido e eficiente.</td><td></td><td></td><td></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th data-card-target data-type="content-ref"></th><th align="center"></th><th data-hidden></th><th data-hidden></th><th data-hidden></th></tr></thead><tbody><tr><td><a href="../../como-hospedar-usando/painel-de-controle.md">painel-de-controle.md</a></td><td align="center">Faça upload e gerencie sua aplicação via interface web.</td><td></td><td></td><td></td></tr><tr><td><a href="../../como-hospedar-usando/bot-do-discord.md">bot-do-discord.md</a></td><td align="center">Faça deploy diretamente através dos comandos do bot Discord da Discloud.</td><td></td><td></td><td></td></tr><tr><td><a href="../../como-hospedar-usando/visual-studio-code.md">visual-studio-code.md</a></td><td align="center">Integre com VS Code para gerenciamento contínuo de projetos.</td><td></td><td></td><td></td></tr><tr><td><a href="../../como-hospedar-usando/cli.md">cli.md</a></td><td align="center">Use a interface de linha de comando para deploy rápido e eficiente.</td><td></td><td></td><td></td></tr></tbody></table>

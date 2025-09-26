@@ -1,6 +1,6 @@
 ---
 description: >-
-  Entenda e configure composer.json para que o Discloud possa instalar suas
+  Entenda e configure composer.json para que a Discloud possa instalar suas
   dependências PHP automaticamente.
 ---
 
@@ -8,7 +8,7 @@ description: >-
 
 ## 🗂 O que é `composer.json`?
 
-`composer.json` declara os metadados do seu projeto, pacotes necessários, regras de autoload e scripts opcionais. Quando presente na raiz do arquivo que você faz upload, o Discloud instala as dependências definidas dentro usando o Composer.
+`composer.json` declara os metadados do seu projeto, pacotes necessários, regras de autoload e scripts opcionais. Quando presente na raiz do arquivo que você faz upload, a Discloud instala as dependências definidas dentro usando o Composer.
 
 ---
 

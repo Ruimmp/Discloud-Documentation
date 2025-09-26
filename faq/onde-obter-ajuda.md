@@ -41,7 +41,7 @@ Use modmail para problemas que não devem ser públicos:
 
 {% stepper %}
 {% step %}
-Abra um DM com [Modmail do Discloud](https://discord.com/channels/@me/930852077045940224/) para iniciar um ticket.
+Abra um DM com [Modmail da Discloud](https://discord.com/channels/@me/930852077045940224/) para iniciar um ticket.
 {% endstep %}
 
 {% step %}

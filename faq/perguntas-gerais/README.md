@@ -1,6 +1,6 @@
 ---
 description: >-
-  Respostas rápidas para perguntas comuns de uso do Discloud (estrutura do projeto, arquivo
+  Respostas rápidas para perguntas comuns de uso da Discloud (estrutura do projeto, arquivo
   principal, ambiente, comportamento do plano, logging, domínios e noções básicas de assinatura).
 icon: comments-question-check
 ---

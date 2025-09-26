@@ -12,7 +12,7 @@ icon: node-js
 Node.js executa JavaScript fora do navegador para CLIs, APIs, workers, tarefas agendadas e serviços em tempo real. A instalação local permite:
 
 * Instalar dependências (npm, pnpm ou Yarn)
-* Executar e depurar antes de implantar no Discloud
+* Executar e depurar antes de implantar na Discloud
 * Preparar builds ou bundles quando necessário
 
 {% embed url="https://nodejs.org/" %}

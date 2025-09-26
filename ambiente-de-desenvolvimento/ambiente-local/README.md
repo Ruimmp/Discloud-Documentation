@@ -13,7 +13,7 @@ Esta área ajuda você a:
 
 * Configurar runtimes de linguagem para começar a codificar.
 * Instalar ou habilitar ferramentas do ecossistema (apenas se você escolher).
-* Preparar um projeto para que se comporte de forma consistente quando empacotado para o Discloud.
+* Preparar um projeto para que se comporte de forma consistente quando empacotado para a Discloud.
 
 O Discloud executa aplicações em contêineres Linux; manter a estrutura do seu projeto limpa (arquivo de entrada + manifesto de dependências) minimiza surpresas.
 

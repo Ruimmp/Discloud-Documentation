@@ -1,7 +1,7 @@
 ---
 description: >-
   Instale Rust usando rustup, gerencie toolchains e verifique cargo para
-  desenvolvimento local antes de implantar no Discloud.
+  desenvolvimento local antes de implantar na Discloud.
 icon: rust
 ---
 

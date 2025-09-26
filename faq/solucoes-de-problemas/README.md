@@ -1,7 +1,7 @@
 ---
 description: >-
   Centro central para diagnosticar e resolver problemas comuns de runtime, build,
-  networking e configuração do Discloud antes de abrir um ticket.
+  networking e configuração da Discloud antes de abrir um ticket.
 icon: lightbulb-on
 ---
 

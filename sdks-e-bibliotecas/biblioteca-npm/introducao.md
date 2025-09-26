@@ -13,33 +13,41 @@ Você pode instalar a biblioteca **discloud.app** usando seu gerenciador de paco
 
 {% tabs %}
 {% tab title="NPM" %}
+
 ```bash
 npm install discloud.app
 ```
+
 {% endtab %}
 
 {% tab title="Yarn" %}
+
 ```bash
 yarn add discloud.app
 ```
+
 {% endtab %}
 
 {% tab title="PNPM" %}
+
 ```bash
 pnpm add discloud.app
 ```
+
 {% endtab %}
 
 {% tab title="Bun" %}
+
 ```bash
 bun add discloud.app
 ```
+
 {% endtab %}
 {% endtabs %}
 
 ## 🔑 Obtendo Seu Token da API
 
-Antes de usar a biblioteca, você precisa obter seu **Token da API do Discloud**.
+Antes de usar a biblioteca, você precisa obter seu **Token da API da Discloud**.
 
 Para instruções detalhadas sobre como obter seu token da API, visite:
 
@@ -58,9 +66,11 @@ Para instruções detalhadas sobre como obter seu token da API, visite:
 Crie um arquivo `.env` na raiz do seu projeto para armazenar seu token da API com segurança:
 
 {% code title=".env" %}
+
 ```bash
 DISCLOUD_TOKEN=your_api_token_here
 ```
+
 {% endcode %}
 {% endstep %}
 
@@ -70,12 +80,14 @@ Instale o pacote **dotenv** para carregar variáveis de ambiente:
 ```bash
 npm install dotenv
 ```
+
 {% endstep %}
 
 {% step %}
 Então use-o em sua aplicação:
 
 {% code title="index.js" %}
+
 ```javascript
 require("dotenv").config(); // Carregar variáveis de ambiente
 const { discloud } = require("discloud.app");
@@ -94,6 +106,7 @@ async function main() {
 
 main();
 ```
+
 {% endcode %}
 {% endstep %}
 {% endstepper %}
@@ -103,6 +116,7 @@ main();
 Vamos testar a conexão buscando informações sobre suas aplicações:
 
 {% code title="test-connection.js" %}
+
 ```javascript
 require("dotenv").config(); // Carregar variáveis de ambiente
 const { discloud } = require("discloud.app");
@@ -126,6 +140,7 @@ async function testConnection() {
 
 testConnection();
 ```
+
 {% endcode %}
 
 ## 📁 Suporte ao TypeScript
@@ -133,6 +148,7 @@ testConnection();
 A biblioteca inclui suporte completo ao **TypeScript** com definições de tipo:
 
 {% code title="index.ts" %}
+
 ```typescript
 import "dotenv/config"; // Carregar variáveis de ambiente
 import { discloud, App } from "discloud.app";
@@ -154,9 +170,10 @@ async function main(): Promise<void> {
 
 main();
 ```
+
 {% endcode %}
 
-***
+---
 
 {% hint style="success" %}
 **Pronto para começar!** Você configurou com sucesso a biblioteca discloud.app. Confira [Exemplos de Uso](usage-examples.md) para ver o que você pode construir!

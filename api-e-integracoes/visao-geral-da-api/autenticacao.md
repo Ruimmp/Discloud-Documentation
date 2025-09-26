@@ -1,6 +1,6 @@
 ---
 description: >-
-  Guia de autenticação para usar a API do Discloud (como obter e usar com
+  Guia de autenticação para usar a API da Discloud (como obter e usar com
   segurança seu Token da API).
 icon: key-skeleton
 ---
@@ -8,12 +8,12 @@ icon: key-skeleton
 # Autenticação
 
 {% hint style="info" %}
-Todas as solicitações para a API do Discloud devem incluir um **Token da API** no cabeçalho `api-token`.
+Todas as solicitações para a API da Discloud devem incluir um **Token da API** no cabeçalho `api-token`.
 
-Se você ainda não tem um token, gere ou recupere-o no seu painel do Discloud. (Substitua esta nota pelo link exato do painel ou uma captura de tela.)
+Se você ainda não tem um token, gere ou recupere-o no seu painel da Discloud. (Substitua esta nota pelo link exato do painel ou uma captura de tela.)
 {% endhint %}
 
-***
+---
 
 ## ⚙️ Como Funciona
 
@@ -35,20 +35,23 @@ Use o endpoint `/user` para validar rapidamente o token.
 {% endstep %}
 {% endstepper %}
 
-***
+---
 
 ## 📤 Enviando o Token
 
 {% tabs %}
 {% tab title="cURL" %}
+
 ```bash
 curl -X GET \
   -H "api-token: $DISCLOUD_TOKEN" \
   https://api.discloud.app/v2/user
 ```
+
 {% endtab %}
 
 {% tab title="Node.js (fetch)" %}
+
 ```javascript
 import fetch from "node-fetch";
 
@@ -65,9 +68,11 @@ async function getCurrentUser() {
   console.log(data);
 }
 ```
+
 {% endtab %}
 
 {% tab title="Node.js (discloud.app SDK)" %}
+
 ```javascript
 // Instale primeiro: npm i discloud.app
 const { discloud } = require("discloud.app");
@@ -83,10 +88,11 @@ async function validateToken() {
   }
 }
 ```
+
 {% endtab %}
 {% endtabs %}
 
-***
+---
 
 ## 🛡 Protegendo o Token
 
@@ -96,12 +102,12 @@ Nunca commite seu token (ex. no Git). Armazene-o em variáveis de ambiente ([`.e
 
 📌 Melhores práticas:
 
-* Use variáveis de ambiente em vez de codificar.
-* Rotacione o token periodicamente (ex. a cada 90 dias).
-* Revogue e regenere imediatamente se suspeitar de exposição.
-* Restrinja quem pode acessar a infraestrutura onde a variável está armazenada.
+- Use variáveis de ambiente em vez de codificar.
+- Rotacione o token periodicamente (ex. a cada 90 dias).
+- Revogue e regenere imediatamente se suspeitar de exposição.
+- Restrinja quem pode acessar a infraestrutura onde a variável está armazenada.
 
-***
+---
 
 ## ⚡ Verificação Rápida do Token
 
@@ -111,7 +117,7 @@ Chame `/user` logo após definir a variável de ambiente. Se você receber HTTP 
 Você também pode atualizar a localidade do usuário (ex. `en-US`) através de `/locale/{locale}` para validar outra rota autenticada.
 {% endhint %}
 
-***
+---
 
 ## 📚 Referência dos Endpoints Relacionados
 

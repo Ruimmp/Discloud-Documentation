@@ -1,5 +1,5 @@
 ---
-description: Guia completo para hospedar aplicações Rust no Discloud.
+description: Guia completo para hospedar aplicações Rust na Discloud.
 icon: rust
 ---
 
@@ -23,11 +23,11 @@ Certifique-se de que os seguintes arquivos e diretórios **não** sejam incluíd
 
 🔗 **Precisa de ajuda para configurar seu** [**`Cargo.toml`**](cargo.toml.md) **ou encontrar o** [**arquivo principal**](../../../faq/perguntas-gerais/em-andamento-qual-e-o-arquivo-principal.md)**?**
 
-***
+---
 
 ## 🌐 Hospedando Seu Site com Rocket
 
-Antes de fazer deploy do seu website ou API no Discloud, certifique-se de que você atenda aos seguintes **requisitos**:
+Antes de fazer deploy do seu website ou API na Discloud, certifique-se de que você atenda aos seguintes **requisitos**:
 
 {% hint style="success" %}
 [Plano Platinum ou superior](https://discloud.com/plans) é necessário para hospedar websites ou APIs.
@@ -45,11 +45,11 @@ Use a versão nightly do Rust (Rocket requer nightly).
 Porta `8080` é obrigatória – As aplicações devem escutar nesta porta.
 {% endhint %}
 
-***
+---
 
 ## 🚀 Configurando `Rocket`
 
-[Rocket](https://rocket.rs/) é um framework web para Rust que requer a versão nightly do Rust. Para configurar e fazer deploy de um projeto Rocket no Discloud, siga estes passos:
+[Rocket](https://rocket.rs/) é um framework web para Rust que requer a versão nightly do Rust. Para configurar e fazer deploy de um projeto Rocket na Discloud, siga estes passos:
 
 {% stepper %}
 {% step %}
@@ -60,6 +60,7 @@ Execute o seguinte comando no terminal para garantir que seu projeto esteja usan
 ```bash
 rustup override set nightly
 ```
+
 {% endstep %}
 
 {% step %}
@@ -68,20 +69,22 @@ Crie o Arquivo `rust-toolchain.toml`.
 Para garantir que a versão nightly do Rust seja usada, crie um arquivo chamado `rust-toolchain.toml` no diretório raiz do projeto com o seguinte conteúdo:
 
 {% code title="rust-toolchain.toml" %}
+
 ```ini
 [toolchain]
 channel = "nightly"
 ```
+
 {% endcode %}
 
 Este arquivo informa ao rustup para usar a versão nightly do Rust.
 {% endstep %}
 {% endstepper %}
 
-***
+---
 
 ## ✍️ Fazendo Deploy **da Sua Aplicação**
 
-Uma vez que seu projeto esteja **configurado e comprimido**, você pode escolher um dos seguintes **métodos de deploy** no Discloud:
+Uma vez que seu projeto esteja **configurado e comprimido**, você pode escolher um dos seguintes **métodos de deploy** na Discloud:
 
-<table data-card-size="large" data-view="cards"><thead><tr><th data-card-target data-type="content-ref"></th><th align="center"></th><th data-hidden></th><th data-hidden></th><th data-hidden></th></tr></thead><tbody><tr><td><a href="../../../como-hospedar-usando/painel-de-controle.md">painel-de-controle.md</a></td><td align="center">Faça upload e gerencie sua aplicação via interface web.</td><td></td><td></td><td></td></tr><tr><td><a href="../../../como-hospedar-usando/bot-do-discord.md">bot-do-discord.md</a></td><td align="center">Faça deploy diretamente através dos comandos do bot Discord do Discloud.</td><td></td><td></td><td></td></tr><tr><td><a href="../../../como-hospedar-usando/visual-studio-code.md">visual-studio-code.md</a></td><td align="center">Integre com VS Code para gerenciamento contínuo de projetos.</td><td></td><td></td><td></td></tr><tr><td><a href="../../../como-hospedar-usando/cli.md">cli.md</a></td><td align="center">Use a interface de linha de comando para deploy rápido e eficiente.</td><td></td><td></td><td></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th data-card-target data-type="content-ref"></th><th align="center"></th><th data-hidden></th><th data-hidden></th><th data-hidden></th></tr></thead><tbody><tr><td><a href="../../../como-hospedar-usando/painel-de-controle.md">painel-de-controle.md</a></td><td align="center">Faça upload e gerencie sua aplicação via interface web.</td><td></td><td></td><td></td></tr><tr><td><a href="../../../como-hospedar-usando/bot-do-discord.md">bot-do-discord.md</a></td><td align="center">Faça deploy diretamente através dos comandos do bot Discord da Discloud.</td><td></td><td></td><td></td></tr><tr><td><a href="../../../como-hospedar-usando/visual-studio-code.md">visual-studio-code.md</a></td><td align="center">Integre com VS Code para gerenciamento contínuo de projetos.</td><td></td><td></td><td></td></tr><tr><td><a href="../../../como-hospedar-usando/cli.md">cli.md</a></td><td align="center">Use a interface de linha de comando para deploy rápido e eficiente.</td><td></td><td></td><td></td></tr></tbody></table>

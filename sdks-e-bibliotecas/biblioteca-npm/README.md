@@ -1,6 +1,6 @@
 ---
 description: >-
-  A biblioteca oficial do Discloud NPM que simplifica a interação com a API do
+  A biblioteca oficial da Discloud NPM que simplifica a interação com a API do
   Discloud, permitindo gerenciar suas aplicações programaticamente com
   JavaScript/TypeScript.
 icon: npm
@@ -10,7 +10,7 @@ icon: npm
 
 ## 📦 O que é discloud.app?
 
-**discloud.app** é a biblioteca oficial **Node.js** para interagir com a **API do Discloud**. Esta poderosa biblioteca permite gerenciar suas aplicações programaticamente, realizar uploads, monitorar status, controlar o ciclo de vida da aplicação e muito mais, tudo a partir de seus projetos JavaScript ou TypeScript.
+**discloud.app** é a biblioteca oficial **Node.js** para interagir com a **API da Discloud**. Esta poderosa biblioteca permite gerenciar suas aplicações programaticamente, realizar uploads, monitorar status, controlar o ciclo de vida da aplicação e muito mais, tudo a partir de seus projetos JavaScript ou TypeScript.
 
 ## ✨ Principais Recursos
 
@@ -18,9 +18,9 @@ icon: npm
 
 ## 🔗 Links Úteis
 
-* **📖** [**Documentação da API**](../../api-e-integracoes/visao-geral-da-api/) - Documentação completa do TypeDoc
-* **🐙** [**Repositório GitHub**](https://github.com/discloud/discloud.app) - Código fonte e issues
-* **📦** [**Pacote NPM**](https://www.npmjs.com/package/discloud.app) - Download e informações de versão
+- **📖** [**Documentação da API**](../../api-e-integracoes/visao-geral-da-api/) - Documentação completa do TypeDoc
+- **🐙** [**Repositório GitHub**](https://github.com/discloud/discloud.app) - Código fonte e issues
+- **📦** [**Pacote NPM**](https://www.npmjs.com/package/discloud.app) - Download e informações de versão
 
 ## 🚀 Início Rápido
 
@@ -33,23 +33,23 @@ Pronto para começar? Confira nossos guias abrangentes:
 Antes de usar a biblioteca discloud.app, certifique-se de ter:
 
 ✅ **Gerenciador de pacotes NPM, Yarn, PNPM ou Bun**\
-✅ **Token da API do Discloud** ([Obtenha o seu aqui](../../api-e-integracoes/visao-geral-da-api/autenticacao.md))
+✅ **Token da API da Discloud** ([Obtenha o seu aqui](../../api-e-integracoes/visao-geral-da-api/autenticacao.md))
 
 ## 💡 Por Que Usar discloud.app?
 
 Seja você construindo **scripts de automação**, **pipelines CI/CD**, **dashboards de monitoramento** ou **ferramentas administrativas**, a biblioteca discloud.app oferece:
 
-* **🎯 API Simples e Intuitiva** - Interface limpa baseada em promises que é fácil de aprender
-* **⚡ Alto Desempenho** - Otimizada para velocidade com tratamento eficiente de requisições
-* **🛡️ Tratamento de Erros** - Gerenciamento abrangente de erros e suporte a depuração
-* **🔄 Desenvolvimento Ativo** - Atualizações regulares
+- **🎯 API Simples e Intuitiva** - Interface limpa baseada em promises que é fácil de aprender
+- **⚡ Alto Desempenho** - Otimizada para velocidade com tratamento eficiente de requisições
+- **🛡️ Tratamento de Erros** - Gerenciamento abrangente de erros e suporte a depuração
+- **🔄 Desenvolvimento Ativo** - Atualizações regulares
 
-***
+---
 
 ## 🆘 Precisa de Ajuda?
 
 Se você encontrar algum problema ou tiver dúvidas:
 
-* 📖 Verifique os [**Exemplos de Uso**](../biblioteca-python/exemplos-de-uso.md) para cenários comuns
-* 🐛 Relate bugs nos [**Issues do GitHub**](https://github.com/discloud/discloud.app/issues/new?template=bug.yml)
-* 💬 Junte-se à nossa [**Comunidade Discord**](https://discord.discloudbot.com)
+- 📖 Verifique os [**Exemplos de Uso**](../biblioteca-python/exemplos-de-uso.md) para cenários comuns
+- 🐛 Relate bugs nos [**Issues do GitHub**](https://github.com/discloud/discloud.app/issues/new?template=bug.yml)
+- 💬 Junte-se à nossa [**Comunidade Discord**](https://discord.discloudbot.com)

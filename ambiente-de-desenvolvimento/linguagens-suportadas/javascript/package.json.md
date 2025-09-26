@@ -1,14 +1,14 @@
 ---
 description: >-
   Aprenda como gerar e configurar o arquivo 'package.json', definindo as
-  dependências essenciais para hospedar seu projeto JavaScript no Discloud.
+  dependências essenciais para hospedar seu projeto JavaScript na Discloud.
 ---
 
 # package.json
 
 ## 🗂️ O que é `package.json`?
 
-O arquivo `package.json` é essencial para gerenciar metadados e dependências de projetos Node.js. Ele garante que as bibliotecas necessárias sejam instaladas automaticamente ao hospedar sua aplicação no Discloud.
+O arquivo `package.json` é essencial para gerenciar metadados e dependências de projetos Node.js. Ele garante que as bibliotecas necessárias sejam instaladas automaticamente ao hospedar sua aplicação na Discloud.
 
 ---
 

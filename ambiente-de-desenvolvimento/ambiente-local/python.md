@@ -9,7 +9,7 @@ icon: python
 
 ## 🧾 Visão Geral
 
-Python é usado para bots, APIs, automação, scripting e tarefas de dados. A instalação local permite instalar dependências e testar antes de implantar no Discloud.
+Python é usado para bots, APIs, automação, scripting e tarefas de dados. A instalação local permite instalar dependências e testar antes de implantar na Discloud.
 
 {% embed url="https://www.python.org" %}
 
