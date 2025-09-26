@@ -68,9 +68,17 @@ More details: [`composer.json`](composer.json.md)
 
 Before deploying your website or API on Discloud, ensure that you meet the following **requirements**:
 
-✔ [Platinum plan or higher](https://discloud.com/plans) is required to host websites or APIs.\
-✔ [A subdomain must be created](../../../faq/general-questions/wip-how-to-create-a-subdomain.md) before deployment.\
-✔ <mark style="color:red;">Port</mark> <mark style="color:red;"></mark><mark style="color:red;">`8080`</mark> <mark style="color:red;"></mark><mark style="color:red;">is mandatory</mark> – Applications must listen on this port.
+{% hint style="success" %}
+[Platinum plan or higher](https://discloud.com/plans) is required to host websites or APIs.
+{% endhint %}
+
+{% hint style="success" %}
+[A subdomain must be created](../../../faq/general-questions/wip-how-to-create-a-subdomain.md) before deployment.
+{% endhint %}
+
+{% hint style="danger" %}
+Port `8080` is mandatory – Applications must listen on this port.
+{% endhint %}
 
 {% tabs %}
 {% tab title="Built-in Server" %}

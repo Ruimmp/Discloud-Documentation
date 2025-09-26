@@ -149,7 +149,7 @@ Do not apply transformations that dilute clarity or misrepresent the brand.
 <figure><img src="../.gitbook/assets/discloud-logo-misuse-examples.png" alt="Incorrect logo treatments"><figcaption></figcaption></figure>
 
 {% hint style="danger" %}
-If a required treatment seems outside available assets, request it, do not approximate.
+If a required treatment seems outside available assets, request it!
 {% endhint %}
 
 ***

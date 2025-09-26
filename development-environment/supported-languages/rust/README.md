@@ -29,10 +29,21 @@ Ensure the following files and directories are **not** included in your [`.zip`]
 
 Before deploying your website or API on Discloud, ensure that you meet the following **requirements**:
 
-✔ [Platinum plan or higher](https://discloud.com/plans) is required to host websites or APIs.\
-✔ [A subdomain must be created](../../../faq/general-questions/wip-how-to-create-a-subdomain.md) before deployment.\
-✔ <mark style="color:red;">Port</mark> <mark style="color:red;"></mark><mark style="color:red;">`8080`</mark> <mark style="color:red;"></mark><mark style="color:red;">is</mark> <mark style="color:red;">mandatory</mark> – Applications must listen on this port.\
-✔ Use the nightly version of Rust (Rocket requires nightly).
+{% hint style="success" %}
+[Platinum plan or higher](https://discloud.com/plans) is required to host websites or APIs.
+{% endhint %}
+
+{% hint style="success" %}
+[A subdomain must be created](../../../faq/general-questions/wip-how-to-create-a-subdomain.md) before deployment.
+{% endhint %}
+
+{% hint style="success" %}
+Use the nightly version of Rust (Rocket requires nightly).
+{% endhint %}
+
+{% hint style="danger" %}
+Port `8080` is mandatory – Applications must listen on this port.
+{% endhint %}
 
 ***
 
