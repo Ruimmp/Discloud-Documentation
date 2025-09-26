@@ -1,7 +1,7 @@
 ---
 description: >-
-  Esta página cobre o significado do nome da Discloud, narrativa, uso do logo, ativos,
-  cores, tipografia, espaçamento e usos restritos.
+  Esta página cobre o significado do nome da Discloud, narrativa, uso do logo,
+  ativos, cores, tipografia, espaçamento e usos restritos.
 icon: palette
 ---
 
@@ -15,7 +15,7 @@ Esta página fornece uma referência concisa e única para usar o nome e ativos 
 Não apresente a Discloud como endossando, patrocinando ou parceira do seu projeto, a menos que explicitamente acordado.
 {% endhint %}
 
----
+***
 
 ## 🧩 Nome & Significado
 
@@ -27,19 +27,19 @@ O nome combina o prefixo derivado do português / latim **dis-** (dividir, distr
 | ------- | ------- | ----------------------------------------------- |
 | dis-    | cloud   | Acesso democratizado à infraestrutura escalável |
 
----
+***
 
 ## ♾️ Símbolo & Narrativa
 
 O símbolo central é inspirado em:
 
-- Uma fita de Möbius: evolução e iteração contínuas.
-- Um recipiente abstrato com tampa: equilíbrio entre tempo e eficiência.
-- Superfícies interconectadas: peças de infraestrutura formando uma plataforma perfeita.
+* Uma fita de Möbius: evolução e iteração contínuas.
+* Um recipiente abstrato com tampa: equilíbrio entre tempo e eficiência.
+* Superfícies interconectadas: peças de infraestrutura formando uma plataforma perfeita.
 
 Essas metáforas expressam flexibilidade, confiabilidade e escala acessível.
 
----
+***
 
 ## 🔱 Logo Assets
 
@@ -47,7 +47,6 @@ Essas metáforas expressam flexibilidade, confiabilidade e escala acessível.
 {% tab title="Icon" %}
 {% tabs %}
 {% tab title="PNG" %}
-
 <figure><img src="../.gitbook/assets/discloud-brand-icon.png" alt="" width="188"><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/discloud-brand-icon_white.png" alt="" width="188"><figcaption></figcaption></figure>
@@ -56,7 +55,6 @@ Essas metáforas expressam flexibilidade, confiabilidade e escala acessível.
 {% endtab %}
 
 {% tab title="SVG" %}
-
 <figure><img src="../.gitbook/assets/discloud-brand-icon.svg" alt="" width="188"><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/discloud-brand-icon_white.svg" alt="" width="188"><figcaption></figcaption></figure>
@@ -69,7 +67,6 @@ Essas metáforas expressam flexibilidade, confiabilidade e escala acessível.
 {% tab title="Horizontal" %}
 {% tabs %}
 {% tab title="PNG" %}
-
 <figure><img src="../.gitbook/assets/discloud-brand-horizontal_white.png" alt="" width="375"><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/discloud-brand-horizontal_black.png" alt="" width="375"><figcaption></figcaption></figure>
@@ -82,7 +79,6 @@ Essas metáforas expressam flexibilidade, confiabilidade e escala acessível.
 {% endtab %}
 
 {% tab title="SVG" %}
-
 <figure><img src="../.gitbook/assets/discloud-brand-horizontal_white.svg" alt="" width="375"><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/discloud-brand-horizontal_black.svg" alt="" width="375"><figcaption></figcaption></figure>
@@ -103,7 +99,7 @@ Essas metáforas expressam flexibilidade, confiabilidade e escala acessível.
 Se uma variante de ativo que você precisa não estiver presente (ex.: contorno monocromático), contate a equipe em vez de criar uma.
 {% endhint %}
 
----
+***
 
 ## 🖌️ Paleta de Cores
 
@@ -123,7 +119,7 @@ Se uma variante de ativo que você precisa não estiver presente (ex.: contorno 
 Mantenha contraste suficiente para acessibilidade ao colocar texto verde sobre superfícies escuras.
 {% endhint %}
 
----
+***
 
 ## ✅ Usos Aceitáveis
 
@@ -135,7 +131,7 @@ Mantenha contraste suficiente para acessibilidade ao colocar texto verde sobre s
 | Mercadoria para revenda        | Não         | Licença explícita necessária        |
 | Substituição de ícone de app   | Não         | Não implique cliente oficial        |
 
----
+***
 
 ## 🚫 Restritos / Não Faça
 
@@ -153,15 +149,15 @@ Não aplique transformações que diluam a clareza ou distorçam a marca.
 <figure><img src="../.gitbook/assets/discloud-logo-misuse-examples.png" alt="Tratamentos incorretos do logo"><figcaption></figcaption></figure>
 
 {% hint style="danger" %}
-Se um tratamento necessário parecer fora dos ativos disponíveis, solicite-o, não aproxime.
+Se um tratamento necessário parecer fora dos ativos disponíveis, solicite-o!
 {% endhint %}
 
----
+***
 
 ## 🔗 Atribuição & Links
 
 Ao referenciar a Discloud em artigos, docs ou repositórios open-source:
 
-- Use o nome "Discloud" com D maiúsculo.
-- Link para [https://discloud.com](https://discloud.com/) na primeira menção.
-- Evite formas possessivas se criarem ambiguidade (prefira "plataforma Discloud" sobre variações informais).
+* Use o nome "Discloud" com D maiúsculo.
+* Link para [https://discloud.com](https://discloud.com/) na primeira menção.
+* Evite formas possessivas se criarem ambiguidade (prefira "plataforma Discloud" sobre variações informais).

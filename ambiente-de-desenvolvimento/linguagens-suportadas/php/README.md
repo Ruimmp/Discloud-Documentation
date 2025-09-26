@@ -68,9 +68,17 @@ Mais detalhes: [`composer.json`](composer.json.md)
 
 Antes de fazer deploy do seu website ou API no Discloud, certifique-se de que você atenda aos seguintes **requisitos**:
 
-✔ [Plano Platinum ou superior](https://discloud.com/plans) é necessário para hospedar websites ou APIs.\
-✔ [Um subdomínio deve ser criado](../../../faq/perguntas-gerais/em-andamento-como-criar-um-subdominio.md) antes do deploy.\
-✔ <mark style="color:red;">Porta</mark> <mark style="color:red;">`8080`</mark> <mark style="color:red;">é obrigatória</mark> – As aplicações devem escutar nesta porta.
+{% hint style="success" %}
+[Plano Platinum ou superior](https://discloud.com/plans) é necessário para hospedar websites ou APIs.
+{% endhint %}
+
+{% hint style="success" %}
+[Um subdomínio deve ser criado](../../../faq/perguntas-gerais/em-andamento-como-criar-um-subdominio.md) antes do deploy.
+{% endhint %}
+
+{% hint style="danger" %}
+Porta `8080` é obrigatória – As aplicações devem escutar nesta porta.
+{% endhint %}
 
 {% tabs %}
 {% tab title="Servidor Integrado" %}

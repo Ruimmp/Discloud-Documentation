@@ -15,8 +15,8 @@ Ao implantar sua aplicação no **Discloud**, você pode precisar especificar a 
 
 Para definir a versão desejada, adicione a seguinte linha ao seu arquivo de configuração:
 
-<pre class="language-properties" data-title="discloud.config"><code class="lang-properties"><strong><a data-footnote-ref href="#user-content-fn-1"># ...</a>
-</strong>VERSION=current
+<pre class="language-properties" data-title="discloud.config"><code class="lang-properties"><a data-footnote-ref href="#user-content-fn-1"># ...</a>
+VERSION=current
 # ...
 </code></pre>
 
@@ -26,7 +26,7 @@ Substitua `"current"` pela sua versão preferida da lista abaixo.
 Se você não tiver certeza de qual versão escolher, usar `latest` sempre selecionará a versão mais recente estável **LTS (Long-Term Support)**, que é recomendada para a maioria das aplicações.
 {% endhint %}
 
----
+***
 
 ## 📑 **Versões Disponíveis**
 
@@ -86,14 +86,10 @@ Se você não tiver certeza de qual versão escolher, usar `latest` sempre selec
 
 </details>
 
----
+***
 
 ## ❓ **Não Encontrou Sua Linguagem ou Versão?**
 
-O Discloud suporta versões personalizadas! Se a versão ou linguagem que você precisa não estiver listada acima, **você ainda pode usar qualquer versão que quiser**.
-
-{% content-ref url="dockerfile.md" %}
-[dockerfile.md](dockerfile.md)
-{% endcontent-ref %}
+A Discloud suporta versões personalizadas! Se a versão ou linguagem que você precisa não estiver listada acima, você ainda pode usar qualquer versão por meio de um [Dockerfile](dockerfile.md).
 
 [^1]: **Nota:** Os **`...`** indicam apenas a continuação de outras opções anteriores ou subsequentes que não são relevantes para mencionar nesta página.
