@@ -129,7 +129,7 @@ print(client.admin.command('ping'))
 
 | Aspecto    | Detalhe                                                             |
 | ---------- | ------------------------------------------------------------------- |
-| Isolamento | Apenas apps que você implanta com VLAN habilitado podem se alcançar |
+| Isolamento | Apenas apps que você hospeda com VLAN habilitado podem se alcançar |
 | Exposição  | Nenhuma publicação automática de porta pública                      |
 | Segredos   | Ainda armazene credenciais via variáveis de ambiente                |
 | Princípio  | Desabilite VLAN em apps que não precisam de acessibilidade interna  |

@@ -1,5 +1,5 @@
 ---
-description: Implante apps do GitHub na Discloud em 3 passos.
+description: Hospede apps do GitHub na Discloud em 3 passos.
 icon: github
 ---
 
@@ -18,7 +18,7 @@ A conta GitHub usada para **login na Discloud** E **propriedade do repositório 
 > **Consequências de incompatibilidade**:
 >
 > - Repositórios não aparecerão
-> - Falhas de implantação
+> - Falhas de uploads
 > - Erros de permissão
 >   {% endstep %}
 
@@ -61,11 +61,11 @@ Configurar Acesso ao Repositório
 
 ---
 
-## 🚀 **Implantar do GitHub**
+## 🚀 **Upload do GitHub**
 
 {% stepper %}
 {% step %}
-**Iniciar Implantação**
+**Iniciar Upload**
 
 - Vá para [Painel Discloud](https://discloud.com/dashboard)
 - Clique em "**+ Upload"** (canto superior direito)
@@ -78,7 +78,7 @@ Configurar Acesso ao Repositório
 {% hint style="info" %}
 **🔐 Variáveis de Ambiente Seguras**
 
-Use arquivos [`.env`](../faq/perguntas-gerais/em-andamento-arquivo-.env.md) localmente para desenvolvimento, mas certifique-se de que eles sejam adicionados ao `.gitignore` para evitar exposição acidental no GitHub. Ao implantar via integração GitHub da Discloud, **adicione segredos de produção diretamente na seção "Variáveis de Ambiente"** durante a configuração.
+Use arquivos [`.env`](../faq/perguntas-gerais/em-andamento-arquivo-.env.md) localmente para desenvolvimento, mas certifique-se de que eles sejam adicionados ao `.gitignore` para evitar exposição acidental no GitHub. Ao fazer o upload via integração GitHub da Discloud, **adicione segredos de produção diretamente na seção "Variáveis de Ambiente"** durante a configuração.
 {% endhint %}
 {% endstep %}
 {% endstepper %}

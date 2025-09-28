@@ -16,7 +16,7 @@ Antes de enviar seu projeto, certifique-se de que seus arquivos estão corretame
 ### 📌 Requisitos Básicos
 
 * **Código-Fonte do Projeto** – Todos os arquivos necessários para a execução da sua aplicação.
-* **Arquivo de Configuração (**[**`discloud.config`**](../configuracoes/discloud.config/)**)** – Obrigatório para as configurações de implantação.
+* **Arquivo de Configuração (**[**`discloud.config`**](../configuracoes/discloud.config/)**)** – Obrigatório para as configurações de upload.
 * **Arquivo de Dependências** (se aplicável):
   * [`package.json`](../ambiente-de-desenvolvimento/linguagens-suportadas/javascript/package.json.md) para [**Node.js**](../ambiente-de-desenvolvimento/ambiente-local/nodejs.md)
   * [`requirements.txt`](../ambiente-de-desenvolvimento/linguagens-suportadas/python/requirements.txt.md) para [**Python**](../ambiente-de-desenvolvimento/ambiente-local/python.md)
@@ -25,7 +25,7 @@ Antes de enviar seu projeto, certifique-se de que seus arquivos estão corretame
 
 ### **🗑️** Excluindo Arquivos Desnecessários
 
-Para **otimizar sua implantação**, certifique-se de **remover arquivos desnecessários** antes de compactar seu projeto em um arquivo `.zip`.
+Para **otimizar seu upload**, certifique-se de **remover arquivos desnecessários** antes de compactar seu projeto em um arquivo `.zip`.
 
 #### ❌ Arquivos e pastas comuns a serem excluídos:
 
@@ -43,7 +43,7 @@ Para **otimizar sua implantação**, certifique-se de **remover arquivos desnece
 
 ## 🔑 Autenticação – Como entrar no seu Painel
 
-Antes de implantar sua aplicação, você precisa **entrar na Discloud**:
+Antes de fazer o upload da sua aplicação, você precisa **entrar na Discloud**:
 
 {% stepper %}
 {% step %}
@@ -69,7 +69,7 @@ Clique em "**Entrar**" e faça login.
 
 ## 🚀 Hospedando a Sua Aplicação
 
-Depois que seus arquivos estiverem prontos, siga estes passos para enviar e implantar sua aplicação.
+Depois que seus arquivos estiverem prontos, siga estes passos para enviar e fazer o upload da sua aplicação.
 
 {% stepper %}
 {% step %}
@@ -101,7 +101,7 @@ Durante o envio, evite atualizar a página para prevenir problemas com sua aplic
 {% endstep %}
 
 {% step %}
-Processo de Implantação.
+Processo de Upload.
 
 * Após o envio, a Discloud **iniciará automaticamente sua aplicação**.
 * Se seu projeto estiver corretamente configurado e não exceder o **limite de RAM**, ele deverá ficar online em segundos.

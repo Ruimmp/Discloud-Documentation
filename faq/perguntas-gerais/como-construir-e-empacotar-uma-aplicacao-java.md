@@ -1,7 +1,7 @@
 ---
 description: >-
   Entenda como compilar e empacotar seu projeto Java em um arquivo JAR
-  implantável usando Maven ou Gradle.
+  hospedado usando Maven ou Gradle.
 ---
 
 # Como Construir e Empacotar uma Aplicação Java?
@@ -134,7 +134,7 @@ JAR Gordo (JAR Sombreado com Dependências).
 * **Arquivo de manifesto (`MANIFEST.MF`) com a entrada `Main-Class`**.
 
 {% hint style="success" %}
-**Use este arquivo para execução e implantação.**
+**Use este arquivo para execução e upload.**
 {% endhint %}
 {% endstep %}
 {% endstepper %}
@@ -261,7 +261,7 @@ JAR Gordo (Uber JAR com Dependências).
 * **Arquivo de manifesto (`MANIFEST.MF`) com a entrada `Main-Class`**.
 
 {% hint style="success" %}
-**Use este arquivo para execução e implantação.**
+**Use este arquivo para execução e upload.**
 {% endhint %}
 {% endstep %}
 {% endstepper %}

@@ -35,7 +35,7 @@ Forneça um nome e variáveis de ambiente necessárias (a UI indica as obrigató
 {% endstep %}
 
 {% step %}
-Implante. Credenciais / strings de conexão ficam disponíveis para a configuração do seu app.
+Hospede. Credenciais / strings de conexão ficam disponíveis para a configuração do seu app.
 {% endstep %}
 {% endstepper %}
 
@@ -61,6 +61,6 @@ Em Network Access, adicione IP: `0.0.0.0/0` (Permitir de Qualquer Lugar) para qu
 {% endstep %}
 
 {% step %}
-Teste a conectividade localmente antes de implantar, se possível.
+Teste a conectividade localmente antes de fazer o upload, se possível.
 {% endstep %}
 {% endstepper %}

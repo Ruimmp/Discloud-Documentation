@@ -12,7 +12,7 @@ icon: bullseye-arrow
 Existem múltiplas superfícies de suporte dependendo do que você precisa: solução de problemas da comunidade, perguntas sobre uso da plataforma, problemas de cobrança / conta ou escalação privada. Esta página explica onde postar e como perguntar efetivamente.
 
 {% hint style="info" %}
-A equipe se concentra em problemas da plataforma Discloud (implantação, comportamento de hospedagem, conta, cobrança). Perguntas gerais de codificação são orientadas pela comunidade.
+A equipe se concentra em problemas da plataforma Discloud (upload, comportamento de hospedagem, conta, cobrança). Perguntas gerais de codificação são orientadas pela comunidade.
 {% endhint %}
 
 ---

@@ -9,7 +9,7 @@ icon: python
 
 ## 🧾 Visão Geral
 
-Python é usado para bots, APIs, automação, scripting e tarefas de dados. A instalação local permite instalar dependências e testar antes de implantar na Discloud.
+Python é usado para bots, APIs, automação, scripting e tarefas de dados. A instalação local permite instalar dependências e testar antes de fazer o upload na Discloud.
 
 {% embed url="https://www.python.org" %}
 
@@ -167,7 +167,7 @@ Se sua distribuição usar `python3`, invoque isso em vez de `python`.
 - Mantém as dependências do projeto isoladas (um projeto pode usar `requests==2.31`, outro `requests==2.29`).
 - Evita precisar de instalações de administrador / em todo o sistema.
 - Previne conflitos acidentais com pacotes do SO ou outros projetos.
-- Faz com que `requirements.txt` reflita apenas o que o projeto realmente precisa (reprodutibilidade ao implantar ou compartilhar).
+- Faz com que `requirements.txt` reflita apenas o que o projeto realmente precisa (reprodutibilidade ao fazer o upload ou compartilhar).
 - Permite testar upgrades com segurança (crie um novo env, instale, compare comportamento).
 
 Criar e ativar:

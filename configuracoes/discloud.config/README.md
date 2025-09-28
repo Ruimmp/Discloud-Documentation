@@ -9,7 +9,7 @@ icon: gear
 
 ## 📄 O que é `discloud.config` e para que serve?
 
-É um arquivo de configuração que simplifica o processo de implantação das suas aplicações na Discloud. Com este arquivo, você pode configurar facilmente as informações para cada aplicação que você faz upload no serviço de hospedagem.
+É um arquivo de configuração que simplifica o processo de upload das suas aplicações na Discloud. Com este arquivo, você pode configurar facilmente as informações para cada aplicação que você faz upload no serviço de hospedagem.
 
 ---
 
@@ -31,7 +31,7 @@ your-project/           # ← DIRETÓRIO RAIZ
 
 **❌ Localizações Inválidas**
 
-Essas localizações causarão falhas na implantação:
+Essas localizações causarão falhas no upload:
 
 ```bash
 your-project/
@@ -131,9 +131,9 @@ APT=tools
   {% endtab %}
 
 {% tab title="🐋 Dockerfile" %}
-Se você estiver implantando um projeto com um [**Dockerfile**](dockerfile.md), você terá opções adicionais disponíveis.
+Se você estiver hospedando um projeto com um [**Dockerfile**](dockerfile.md), você terá opções adicionais disponíveis.
 
-- Defina um valor booleano para a opção `VLAN` para habilitar ou desabilitar a rede entre aplicações implantadas com um **Dockerfile**.
+- Defina um valor booleano para a opção `VLAN` para habilitar ou desabilitar a rede entre aplicações hospedadas com um **Dockerfile**.
 - Personalize o nome da rede Docker da sua aplicação usando a opção `HOSTNAME`.
 
 {% code title="discloud.config" %}

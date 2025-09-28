@@ -58,7 +58,7 @@ Se sua aplicação **excede sua memória alocada**, ela pode ser **forçadamente
 Exceções não tratadas ou **bugs no seu código** podem causar travamentos.
 
 ✔ Verifique os **logs** para mensagens de erro.\
-✔ **Teste localmente** antes de implantar na Discloud.
+✔ **Teste localmente** antes de fazer o upload na Discloud.
 {% endhint %}
 
 {% hint style="warning" %}

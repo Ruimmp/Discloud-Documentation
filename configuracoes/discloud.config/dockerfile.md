@@ -1,6 +1,6 @@
 ---
 description: >-
-  Use um Dockerfile para implantar aplicações na Discloud, dando a você mais
+  Use um Dockerfile para fazer o upload de aplicações na Discloud, dando a você mais
   liberdade para usar suas tecnologias favoritas.
 icon: docker
 ---
@@ -45,9 +45,9 @@ Seu **Dockerfile** e [`discloud.config`](./) devem estar no [**diretório raiz**
 {% endstep %}
 
 {% step %}
-Implante como de costume.
+hospede como de costume.
 
-Faça upload do seu projeto como faria com uma [implantação normal da Discloud](broken-reference).
+Faça upload do seu projeto como faria com uma [upload normal da Discloud](broken-reference).
 {% endstep %}
 {% endstepper %}
 
@@ -89,7 +89,7 @@ HOSTNAME=mymongoserver
 
 ### 🌍 **Conectando-se a Redes Privadas**
 
-Com **VLAN habilitada**, outras aplicações Docker podem acessar seu serviço implantado:
+Com **VLAN habilitada**, outras aplicações Docker podem acessar seu serviço hospedado:
 
 ```javascript
 import mongoose from "mongoose";
@@ -110,7 +110,7 @@ try {
 
 ## 🪅 **Exemplos de Aplicações Usando Dockerfile**
 
-Abaixo estão **exemplos de diferentes aplicações** que podem ser implantadas usando **Dockerfile** na Discloud.
+Abaixo estão **exemplos de diferentes aplicações** que podem ser hospedadas usando **Dockerfile** na Discloud.
 
 {% tabs %}
 {% tab title="🤖 Bots Discord" %}

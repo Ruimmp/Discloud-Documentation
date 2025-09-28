@@ -1,6 +1,6 @@
 ---
 description: >-
-  Configure um ambiente de desenvolvimento local confiável antes de implantar na
+  Configure um ambiente de desenvolvimento local confiável antes de fazer o upload na
   Discloud.
 icon: desktop-arrow-down
 ---

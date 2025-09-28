@@ -9,7 +9,7 @@ icon: gem
 
 ## 🧾 Visão Geral
 
-Ruby é usado para bots, APIs (Sinatra) e frameworks completos (Rails). A instalação local permite gerenciar gems e testar antes de implantar.
+Ruby é usado para bots, APIs (Sinatra) e frameworks completos (Rails). A instalação local permite gerenciar gems e testar antes de fazer o upload.
 
 {% embed url="https://www.ruby-lang.org" %}
 

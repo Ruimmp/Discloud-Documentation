@@ -1,7 +1,7 @@
 ---
 description: >-
   Instale Rust usando rustup, gerencie toolchains e verifique cargo para
-  desenvolvimento local antes de implantar na Discloud.
+  desenvolvimento local antes de fazer o upload na Discloud.
 icon: rust
 ---
 
@@ -9,7 +9,7 @@ icon: rust
 
 ## 🧾 Visão Geral
 
-Rust fornece performance, segurança de memória e uso previsível de recursos para APIs, workers e bots. Instale com `rustup` para gerenciar toolchains localmente antes de implantar.
+Rust fornece performance, segurança de memória e uso previsível de recursos para APIs, workers e bots. Instale com `rustup` para gerenciar toolchains localmente antes de fazer o upload.
 
 ***
 

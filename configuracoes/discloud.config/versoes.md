@@ -9,7 +9,7 @@ icon: code-fork
 
 ## ⚙️ **Configurando a Versão da Sua Aplicação**
 
-Ao implantar sua aplicação no **Discloud**, você pode precisar especificar a **versão da linguagem** correta para seu projeto. Você pode fazer isso definindo o parâmetro `VERSION=` dentro do seu arquivo [`discloud.config`](./).
+Ao fazer o upload da sua aplicação no **Discloud**, você pode precisar especificar a **versão da linguagem** correta para seu projeto. Você pode fazer isso definindo o parâmetro `VERSION=` dentro do seu arquivo [`discloud.config`](./).
 
 **📌 Como Definir a Versão**
 

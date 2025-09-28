@@ -5,7 +5,7 @@ icon: plug
 
 # Visual Studio Code
 
-A [**Extensão Discloud para VSCode**](https://marketplace.visualstudio.com/items?itemName=discloud.discloud) permite que você **implante e gerencie suas aplicações** diretamente do [**Visual Studio Code**](https://code.visualstudio.com/), eliminando a necessidade de usar um painel web ou comandos do bot Discord.
+A [**Extensão Discloud para VSCode**](https://marketplace.visualstudio.com/items?itemName=discloud.discloud) permite que você **hospede e gerencie suas aplicações** diretamente do [**Visual Studio Code**](https://code.visualstudio.com/), eliminando a necessidade de usar um painel web ou comandos do bot Discord.
 
 ---
 
@@ -27,7 +27,7 @@ Vá para a aba Extensões (`Ctrl + Shift + X`).
 
 ## 🔑 Fazendo Login na Discloud
 
-Antes de implantar, você precisa fazer login na sua **conta Discloud**.
+Antes de fazer o upload, você precisa fazer login na sua **conta Discloud**.
 
 {% stepper %}
 {% step %}
@@ -47,9 +47,9 @@ Após o login, suas **aplicações Discloud** aparecerão dentro da aba da exten
 
 ---
 
-## 🚀 Implantando Sua Aplicação
+## 🚀 Fazendo Upload da Sua Aplicação
 
-Com a **Extensão VSCode**, você pode implantar seu app em apenas alguns cliques!
+Com a **Extensão VSCode**, você pode fazer o upload do seu app em apenas alguns cliques!
 
 {% stepper %}
 {% step %}

@@ -7,7 +7,7 @@ icon: terminal
 
 # CLI
 
-A **Discloud CLI** permite que você **implante e gerencie suas aplicações** diretamente da linha de comando, fornecendo uma maneira rápida e eficiente de interagir com seu app.
+A **Discloud CLI** permite que você **hospede e gerencie suas aplicações** diretamente da linha de comando, fornecendo uma maneira rápida e eficiente de interagir com seu app.
 
 ***
 
@@ -113,9 +113,9 @@ A CLI do NodeJS é um projeto de código aberto. Você pode contribuir, relatar 
 
 ***
 
-## 🚀 Implantando Sua Aplicação
+## 🚀 Fazendo Upload da Sua Aplicação
 
-Uma vez instalada e configurada, você pode **implantar sua aplicação** em apenas algumas etapas.
+Uma vez instalada e configurada, você pode **fazer o upload da sua aplicação** em apenas algumas etapas.
 
 {% stepper %}
 {% step %}
@@ -130,7 +130,7 @@ Preparando seu projeto.
 {% step %}
 Fazendo upload de sua aplicação.
 
-Para implantar seu projeto, navegue até a pasta da sua aplicação e execute:
+Para fazer o upload do seu projeto, navegue até a pasta da sua aplicação e execute:
 
 ```bash
 discloud up
@@ -162,7 +162,7 @@ discloud init
 ```
 
 * Este comando solicita que você insira **detalhes básicos de configuração** (ex.: nome, arquivo principal, RAM, etc.).
-* Em seguida, **gera o arquivo** [**`discloud.config`**](../configuracoes/discloud.config/) **para você**, facilitando a implantação.
+* Em seguida, **gera o arquivo** [**`discloud.config`**](../configuracoes/discloud.config/) **para você**, facilitando o upload.
 
 ### 📂 **Usando `.discloudignore` para Excluir Arquivos**
 

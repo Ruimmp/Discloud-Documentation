@@ -9,7 +9,7 @@ icon: golang
 
 ## 🧾 Visão Geral
 
-Go (Golang) é uma linguagem compilada adequada para APIs, workers, CLIs e serviços concorrentes. A instalação local permite construir e testar binários antes de implantar.
+Go (Golang) é uma linguagem compilada adequada para APIs, workers, CLIs e serviços concorrentes. A instalação local permite construir e testar binários antes de fazer o upload.
 
 {% embed url="https://go.dev" %}
 
