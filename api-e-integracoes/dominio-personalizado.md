@@ -92,4 +92,4 @@ Múltiplos subdomínios (ex. `api`, `app`) repetem este padrão independentement
 
 Após o DNS resolver e os tokens validarem, abra a app vinculada e acione Reconstruir para que a vinculação se torne ativa.
 
-<div data-full-width="false"><figure><img src="../.gitbook/assets/Website-Applications_Subdomain.png" alt="Lista de apps mostrando domínio personalizado"><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure></div>
+<div data-full-width="false"><figure><img src="../.gitbook/assets/Website-Applications_Subdomain.png" alt="Lista de apps mostrando domínio personalizado"><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Website-Applications_Rebuild.png" alt=""><figcaption></figcaption></figure></div>

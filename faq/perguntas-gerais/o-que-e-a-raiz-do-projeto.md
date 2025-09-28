@@ -18,7 +18,7 @@ Se a estrutura estiver errada (por exemplo, você zipa uma pasta que contém out
 
 A zona verde representa a **raiz** que você deve comprimir. Amarelo mostra uma pasta aninhada contendo arquivos de código. Tudo dentro do verde é incluído quando você zipa esse diretório.
 
-<figure><img src="../../.gitbook/assets/chrome_TJemG9rsb0.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/project-root-structure-example.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
