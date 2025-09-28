@@ -13,13 +13,13 @@ Todas as solicitações para a API da Discloud devem incluir um **Token da API**
 Se você ainda não tem um token, gere ou recupere-o no seu painel da Discloud. (Substitua esta nota pelo link exato do painel ou uma captura de tela.)
 {% endhint %}
 
----
+***
 
 ## ⚙️ Como Funciona
 
 {% stepper %}
 {% step %}
-Você gera um token único vinculado à sua conta.
+Você gera um [token](../../faq/perguntas-gerais/como-obter-o-meu-token-da-api-da-discloud.md) único vinculado à sua conta.
 {% endstep %}
 
 {% step %}
@@ -35,23 +35,20 @@ Use o endpoint `/user` para validar rapidamente o token.
 {% endstep %}
 {% endstepper %}
 
----
+***
 
 ## 📤 Enviando o Token
 
 {% tabs %}
 {% tab title="cURL" %}
-
 ```bash
 curl -X GET \
   -H "api-token: $DISCLOUD_TOKEN" \
   https://api.discloud.app/v2/user
 ```
-
 {% endtab %}
 
 {% tab title="Node.js (fetch)" %}
-
 ```javascript
 import fetch from "node-fetch";
 
@@ -68,11 +65,9 @@ async function getCurrentUser() {
   console.log(data);
 }
 ```
-
 {% endtab %}
 
 {% tab title="Node.js (discloud.app SDK)" %}
-
 ```javascript
 // Instale primeiro: npm i discloud.app
 const { discloud } = require("discloud.app");
@@ -88,11 +83,10 @@ async function validateToken() {
   }
 }
 ```
-
 {% endtab %}
 {% endtabs %}
 
----
+***
 
 ## 🛡 Protegendo o Token
 
@@ -102,12 +96,12 @@ Nunca commite seu token (ex. no Git). Armazene-o em variáveis de ambiente ([`.e
 
 📌 Melhores práticas:
 
-- Use variáveis de ambiente em vez de codificar.
-- Rotacione o token periodicamente (ex. a cada 90 dias).
-- Revogue e regenere imediatamente se suspeitar de exposição.
-- Restrinja quem pode acessar a infraestrutura onde a variável está armazenada.
+* Use variáveis de ambiente em vez de codificar.
+* Rotacione o token periodicamente (ex. a cada 90 dias).
+* Revogue e regenere imediatamente se suspeitar de exposição.
+* Restrinja quem pode acessar a infraestrutura onde a variável está armazenada.
 
----
+***
 
 ## ⚡ Verificação Rápida do Token
 
@@ -117,16 +111,16 @@ Chame `/user` logo após definir a variável de ambiente. Se você receber HTTP 
 Você também pode atualizar a localidade do usuário (ex. `en-US`) através de `/locale/{locale}` para validar outra rota autenticada.
 {% endhint %}
 
----
+***
 
 ## 📚 Referência dos Endpoints Relacionados
 
 As operações abaixo requerem o cabeçalho `api-token`:
 
 {% openapi-operation spec="api-endpoints-pt-v2" path="/user" method="get" %}
-[OpenAPI api-endpoints-pt-v2](https://4401d86825a13bf607936cc3a9f3897a.r2.cloudflarestorage.com/gitbook-x-prod-openapi/raw/a10af71324d6e0e234fddc51a3e4701dd5117312cf680d42832aed948c0bf7d8.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=dce48141f43c0191a2ad043a6888781c%2F20250925%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20250925T180403Z&X-Amz-Expires=172800&X-Amz-Signature=469472dbc25e4878635d9e44cc2ae5e70e140055710c4ca94613730ffbd5c72c&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+[OpenAPI api-endpoints-pt-v2](https://4401d86825a13bf607936cc3a9f3897a.r2.cloudflarestorage.com/gitbook-x-prod-openapi/raw/a10af71324d6e0e234fddc51a3e4701dd5117312cf680d42832aed948c0bf7d8.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=dce48141f43c0191a2ad043a6888781c%2F20250928%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20250928T192016Z&X-Amz-Expires=172800&X-Amz-Signature=b976d61d35745220b5a430f0a4dff9bb605abc85b2fe010705773a49c0f2492c&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
 {% endopenapi-operation %}
 
 {% openapi-operation spec="api-endpoints-pt-v2" path="/locale/{locale}" method="put" %}
-[OpenAPI api-endpoints-pt-v2](https://4401d86825a13bf607936cc3a9f3897a.r2.cloudflarestorage.com/gitbook-x-prod-openapi/raw/a10af71324d6e0e234fddc51a3e4701dd5117312cf680d42832aed948c0bf7d8.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=dce48141f43c0191a2ad043a6888781c%2F20250925%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20250925T180403Z&X-Amz-Expires=172800&X-Amz-Signature=469472dbc25e4878635d9e44cc2ae5e70e140055710c4ca94613730ffbd5c72c&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+[OpenAPI api-endpoints-pt-v2](https://4401d86825a13bf607936cc3a9f3897a.r2.cloudflarestorage.com/gitbook-x-prod-openapi/raw/a10af71324d6e0e234fddc51a3e4701dd5117312cf680d42832aed948c0bf7d8.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=dce48141f43c0191a2ad043a6888781c%2F20250928%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20250928T192016Z&X-Amz-Expires=172800&X-Amz-Signature=b976d61d35745220b5a430f0a4dff9bb605abc85b2fe010705773a49c0f2492c&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
 {% endopenapi-operation %}
