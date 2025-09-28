@@ -35,7 +35,7 @@ Click on the **Discloud Extension Tab** in the **VSCode sidebar**.
 {% endstep %}
 
 {% step %}
-Click **"Submit your Discloud token"** and enter your [**Discloud API Token**](../api-and-integrations/api-overview/authentication.md).
+Click **"Submit your Discloud token"** and enter your [**Discloud API Token**](../faq/general-questions/how-can-i-get-my-discloud-api-token.md).
 
 <figure><img src="../.gitbook/assets/VSCode-Extension_Login.gif" alt=""><figcaption></figcaption></figure>
 {% endstep %}

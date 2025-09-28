@@ -91,7 +91,7 @@ npm update -g discloud-cli
 {% step %}
 Login.
 
-To access CLI functionalities, you need to log in with your Discloud credentials. Run the following command and paste your [Discloud API Token](../api-and-integrations/api-overview/authentication.md):
+To access CLI functionalities, you need to log in with your Discloud credentials. Run the following command and paste your [Discloud API Token](../faq/general-questions/how-can-i-get-my-discloud-api-token.md):
 
 ```bash
 discloud --login

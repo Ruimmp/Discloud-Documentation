@@ -41,9 +41,7 @@ bun add discloud.app
 
 Before using the library, you need to obtain your **Discloud API Token**.
 
-For detailed instructions on how to get your API token, please visit:
-
-👉 [**API Authentication Guide**](../../api-and-integrations/api-overview/authentication.md)
+For detailed instructions on how to get your API token, please visit [here](../../faq/general-questions/how-can-i-get-my-discloud-api-token.md).
 
 {% hint style="warning" %}
 **Keep your token secure!** Never share it publicly or commit it to version control. Store it in environment variables or secure configuration files.

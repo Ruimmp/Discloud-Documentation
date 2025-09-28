@@ -33,7 +33,7 @@ Ready to get started? Check out our comprehensive guides:
 Before using the discloud.app library, ensure you have:
 
 ✅ **NPM, Yarn, PNPM, or Bun** package manager\
-✅ **Discloud API Token** ([Get yours here](../../api-and-integrations/api-overview/authentication.md))
+✅ **Discloud API Token** ([Find out how to obtain yours here](../../faq/general-questions/how-can-i-get-my-discloud-api-token.md))
 
 ## 💡 Why Use discloud.app?
 
