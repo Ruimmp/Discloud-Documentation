@@ -19,7 +19,7 @@ If you don't have a token yet, generate or retrieve it in your Discloud dashboar
 
 {% stepper %}
 {% step %}
-You generate a unique token linked to your account.
+You generate a unique [token](../../faq/general-questions/how-can-i-get-my-discloud-api-token.md) linked to your account.
 {% endstep %}
 
 {% step %}
@@ -118,9 +118,9 @@ You can also update the user locale (e.g. `en-US`) through `/locale/{locale}` to
 The operations below require the `api-token` header:
 
 {% openapi-operation spec="api-endpoints-en-v2" path="/user" method="get" %}
-[OpenAPI api-endpoints-en-v2](https://4401d86825a13bf607936cc3a9f3897a.r2.cloudflarestorage.com/gitbook-x-prod-openapi/raw/61f01473f129643b89ca1a2a25d60bc8f06b6d3d89fab93af3981524851be1ac.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=dce48141f43c0191a2ad043a6888781c%2F20250925%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20250925T181218Z&X-Amz-Expires=172800&X-Amz-Signature=995bb75cdca6c748052730194d1cd6dc5911d7e1ab5b0dc4c694288eda68f0d2&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+[OpenAPI api-endpoints-en-v2](https://4401d86825a13bf607936cc3a9f3897a.r2.cloudflarestorage.com/gitbook-x-prod-openapi/raw/61f01473f129643b89ca1a2a25d60bc8f06b6d3d89fab93af3981524851be1ac.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=dce48141f43c0191a2ad043a6888781c%2F20250928%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20250928T192039Z&X-Amz-Expires=172800&X-Amz-Signature=7b7eec7042fa758318523858b9ce0b5ee3609b902b71360e354742fb09ab6d36&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
 {% endopenapi-operation %}
 
 {% openapi-operation spec="api-endpoints-en-v2" path="/locale/{locale}" method="put" %}
-[OpenAPI api-endpoints-en-v2](https://4401d86825a13bf607936cc3a9f3897a.r2.cloudflarestorage.com/gitbook-x-prod-openapi/raw/61f01473f129643b89ca1a2a25d60bc8f06b6d3d89fab93af3981524851be1ac.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=dce48141f43c0191a2ad043a6888781c%2F20250925%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20250925T181218Z&X-Amz-Expires=172800&X-Amz-Signature=995bb75cdca6c748052730194d1cd6dc5911d7e1ab5b0dc4c694288eda68f0d2&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+[OpenAPI api-endpoints-en-v2](https://4401d86825a13bf607936cc3a9f3897a.r2.cloudflarestorage.com/gitbook-x-prod-openapi/raw/61f01473f129643b89ca1a2a25d60bc8f06b6d3d89fab93af3981524851be1ac.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=dce48141f43c0191a2ad043a6888781c%2F20250928%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20250928T192039Z&X-Amz-Expires=172800&X-Amz-Signature=7b7eec7042fa758318523858b9ce0b5ee3609b902b71360e354742fb09ab6d36&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
 {% endopenapi-operation %}
