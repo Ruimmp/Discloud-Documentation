@@ -33,14 +33,14 @@ For further help, you can reach us through the following channels:
 
 ### 🛠️ **Support & Safety Contacts**
 
-* <img src="broken-reference" alt="" data-size="line"> **Tech Support**: Open a [ticket](https://discord.com/channels/@me/930852077045940224/) or email [**support@discloudbot.com**](mailto:support@discloudbot.com)
-* <img src="broken-reference" alt="" data-size="line"> **Trust & Safety**: Report issues via [**abuse@discloudbot.com**](mailto:abuse@discloudbot.com)
+* <img src=".gitbook/assets/tech-&#x26;-support.png" alt="" data-size="line"> **Tech Support**: Open a [ticket](https://discord.com/channels/@me/930852077045940224/) or email [**support@discloudbot.com**](mailto:support@discloudbot.com)
+* <img src=".gitbook/assets/trust-&#x26;-safety.png" alt="" data-size="line"> **Trust & Safety**: Report issues via [**abuse@discloudbot.com**](mailto:abuse@discloudbot.com)
 
 ### 🌍 **Follow Us on Social Media**
 
 * <img src=".gitbook/assets/instagram-icon.png" alt="Instagram Icon" data-size="line"> **Instagram**: [@discloudbot](https://www.instagram.com/discloudbot/)
-* <picture><source srcset="broken-reference" media="(prefers-color-scheme: dark)"><img src="broken-reference" alt="" data-size="line"></picture> **GitHub**: [Discloud](https://github.com/discloud)
-* <picture><source srcset="broken-reference" media="(prefers-color-scheme: dark)"><img src="broken-reference" alt="" data-size="line"></picture> **Twitter (X)**: [@discloudbot](https://twitter.com/discloudbot)
+* <img src=".gitbook/assets/github-icon-light.png" alt="" data-size="line"> **GitHub**: [Discloud](https://github.com/discloud)
+* <img src=".gitbook/assets/twitterx-icon-light.png" alt="" data-size="line"> **Twitter (X)**: [@discloudbot](https://twitter.com/discloudbot)
 * <img src=".gitbook/assets/youtube-icon.png" alt="" data-size="line"> **YouTube**: [Pedro Ricardo](https://youtube.com/c/pedroricardor)
 
 For real-time support and community discussions, join our [**Discord server**](https://discord.discloudbot.com/). 🚀
