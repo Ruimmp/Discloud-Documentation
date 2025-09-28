@@ -6,15 +6,14 @@
 
 ## How To Host
 
-* [Bots](how-to-host/bots.md)
-* [Websites & APIs](how-to-host/websites-and-apis.md)
+* [\[WIP\] Bots](how-to-host/bots.md)
+* [\[WIP\] Websites & APIs](how-to-host/websites-and-apis.md)
 
 ## How to Host, Using
 
 * [Dashboard](how-to-host-using/dashboard.md)
 * [Discord Bot](how-to-host-using/discord-bot.md)
 * [Visual Studio Code](how-to-host-using/visual-studio-code.md)
-* [Mobile Application](how-to-host-using/mobile-application.md)
 * [CLI](how-to-host-using/cli.md)
 
 ## Configurations
@@ -32,9 +31,9 @@
 * [NPM Library](sdks-and-libraries/npm-library/README.md)
   * [Getting Started](sdks-and-libraries/npm-library/getting-started.md)
   * [Usage Examples](sdks-and-libraries/npm-library/usage-examples.md)
-* [Python Library](sdks-and-libraries/python-library/README.md)
-  * [Getting Started](sdks-and-libraries/python-library/getting-started.md)
-  * [Usage Examples](sdks-and-libraries/python-library/usage-examples.md)
+* [\[WIP\] Python Library](sdks-and-libraries/python-library/README.md)
+  * [\[WIP\] Getting Started](sdks-and-libraries/python-library/getting-started.md)
+  * [\[WIP\] Usage Examples](sdks-and-libraries/python-library/usage-examples.md)
 
 ## Development Environment
 
