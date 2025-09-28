@@ -89,6 +89,7 @@
   * [\[EM ANDAMENTO\] Como verificar uma conta do Discord?](faq/perguntas-gerais/em-andamento-como-verificar-uma-conta-do-discord.md)
   * [Como Construir e Empacotar uma Aplicação Java?](faq/perguntas-gerais/como-construir-e-empacotar-uma-aplicacao-java.md)
   * [Gerenciamento de Assinaturas](faq/perguntas-gerais/gerenciamento-de-assinaturas.md)
+  * [Como obter o meu token da API da Discloud?](faq/perguntas-gerais/como-obter-o-meu-token-da-api-da-discloud.md)
 * [Soluções de Problemas](faq/solucoes-de-problemas/README.md)
   * [Diagnosticando Aplicações Offline](faq/solucoes-de-problemas/diagnosticando-aplicacoes-offline.md)
 
