@@ -11,7 +11,7 @@ You can map your own domain (e.g. `yourdomain.com`) or a subdomain (e.g. `dash.y
 
 <figure><img src="../.gitbook/assets/custom-domain-flow.png" alt="Custom domain flow diagram"><figcaption></figcaption></figure>
 
-***
+---
 
 ## 📋 Requirements
 
@@ -20,7 +20,7 @@ You can map your own domain (e.g. `yourdomain.com`) or a subdomain (e.g. `dash.y
 ✔ A registered domain you control (Cloudflare, GoDaddy, Namecheap, etc.)\
 ✔ Ability to add / modify CNAME and TXT records
 
-***
+---
 
 ## 🏗️ Add Your Domain (Dashboard)
 
@@ -40,7 +40,7 @@ Click **Register** and then the **DNS** button. When you click it, you will see 
 
 <div data-full-width="false"><figure><img src="../.gitbook/assets/Website-Custom-Domain.png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Website-Custom-Domain-DNS.png" alt=""><figcaption></figcaption></figure></div>
 
-***
+---
 
 ## ✅ Verify & Configure DNS
 
@@ -79,17 +79,17 @@ Multiple subdomains (e.g. `api`, `app`) repeat this pattern independently.
 
 ### 📡 **DNS Propagation**
 
-* DNS changes typically propagate within a few minutes.
-* However, **TTL values** and **resolver cache** may cause some delays.
-* To verify changes worldwide, check [dnschecker.org](https://dnschecker.org/)
-* If some POPs still display old records, wait and re-check later.
+- DNS changes typically propagate within a few minutes.
+- However, **TTL values** and **resolver cache** may cause some delays.
+- To verify changes worldwide, check [dnschecker.org](https://dnschecker.org/)
+- If some POPs still display old records, wait and re-check later.
 
 <figure><img src="../.gitbook/assets/dns-check-propagation.png" alt=""><figcaption></figcaption></figure>
 
-***
+---
 
 ## 🔄 Rebuild the App
 
 After DNS resolves and tokens validate, open the linked app and trigger Rebuild so the binding becomes active.
 
-<div data-full-width="false"><figure><img src="../.gitbook/assets/Website-Applications_Subdomain.png" alt="App list showing custom domain"><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure></div>
+<div data-full-width="false"><figure><img src="../.gitbook/assets/Website-Applications_Subdomain.png" alt="App list showing custom domain"><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Website-Applications_Rebuild.png" alt=""><figcaption></figcaption></figure></div>

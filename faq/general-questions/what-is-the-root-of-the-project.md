@@ -12,15 +12,15 @@ The project root ("root directory") is the **top-level folder of your applicatio
 
 If the structure is wrong (for example, you zip a folder that contains another single folder that actually holds the files), Discloud may fail to detect the main file or dependencies.
 
-***
+---
 
 ## 🖼️ Visual Example
 
 The green zone represents the **root** you should compress. Yellow shows a nested folder containing code files. Everything inside green is included once you zip that directory.
 
-<figure><img src="../../.gitbook/assets/chrome_TJemG9rsb0.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/project-root-structure-example.png" alt=""><figcaption></figcaption></figure>
 
-***
+---
 
 ### 🚫 Common Mistakes
 
