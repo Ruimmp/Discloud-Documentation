@@ -1,6 +1,5 @@
 ---
 description: Learn what the Discloud API Token is and where to find it on the Dashboard.
-hidden: true
 ---
 
 # How can I get my Discloud API token?
