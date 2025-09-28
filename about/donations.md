@@ -71,7 +71,7 @@ Use this path only for PayPal or when encountering payment issues.
 
 {% stepper %}
 {% step %}
-Open a [support ticket](https://app.gitbook.com/u/X4zpqd9m1VYNBaYRYKNE6a16KJ12) ([Discord server](https://app.gitbook.com/u/X4zpqd9m1VYNBaYRYKNE6a16KJ12)).
+Open a [support ticket](https://discord.com/channels/@me/930852077045940224/) ([Discord server](https://discord.discloudbot.com/)).
 {% endstep %}
 
 {% step %}
