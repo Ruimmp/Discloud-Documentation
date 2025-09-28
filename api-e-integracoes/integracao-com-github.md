@@ -17,49 +17,51 @@ A conta GitHub usada para **login na Discloud** E **propriedade do repositório 
 
 > **Consequências de incompatibilidade**:
 >
-> - Repositórios não aparecerão
-> - Falhas de uploads
-> - Erros de permissão
->   {% endstep %}
+> * Repositórios não aparecerão
+> * Falhas de uploads
+> * Erros de permissão
+{% endstep %}
 
 {% step %}
-**Arquivo** [**`discloud.config`**](../configuracoes/discloud.config/) **Válido**
+**Arquivo** [**`discloud.config`**](../configuracoes/discloud.config) **Válido**
 
 Deve existir no **diretório raiz** do seu repositório.
 
 > ⚠️ **A validação falha se**:
 >
-> - Arquivo ausente
-> - Sintaxe inválida
->   {% endstep %} > {% endstepper %}
+> * Arquivo ausente
+> * Sintaxe inválida
+{% endstep %}
 
----
+{% step %}
+\>
+{% endstep %}
+{% endstepper %}
+
+***
 
 ## 🔄 **Conectar GitHub e Configurar Acesso**
 
-{% stepper %}
-{% step %}
 Iniciar Conexão GitHub
 
-- Vá para [Painel Discloud](https://discloud.com/dashboard) → aba **Integração GitHub**
-- Clique em **Login** → Autorize Discloud via GitHub OAuth
+* Vá para [Painel Discloud](https://discloud.com/dashboard) → aba **Integração GitHub**
+*   Clique em **Login** → Autorize Discloud via GitHub OAuth
 
-      <figure><img src="../.gitbook/assets/GitHub-Integration_Login.png" alt=""><figcaption></figcaption></figure>
+    ```
+    <figure><img src="../.gitbook/assets/GitHub-Integration_Login.png" alt=""><figcaption></figcaption></figure>
+    ```
 
-  {% endstep %}
 
-{% step %}
+
 Configurar Acesso ao Repositório
 
-- Volte para **Integração GitHub** → Clique em **Configurar**
-- Escolha o alvo da instalação.
-- Defina permissões:
-  - 🔓 _Todos os repositórios_
-  - 🔒 _Selecionar repositórios específicos_
-    {% endstep %}
-    {% endstepper %}
+* Volte para **Integração GitHub** → Clique em **Configurar**
+* Escolha o alvo da instalação.
+* Defina permissões:
+  * 🔓 _Todos os repositórios_
+  * 🔒 _Selecionar repositórios específicos_ \{% endstep %\} \{% endstepper %\}
 
----
+***
 
 ## 🚀 **Upload do GitHub**
 
@@ -67,10 +69,10 @@ Configurar Acesso ao Repositório
 {% step %}
 **Iniciar Upload**
 
-- Vá para [Painel Discloud](https://discloud.com/dashboard)
-- Clique em "**+ Upload"** (canto superior direito)
-- Selecione "**GitHub"** no menu
-  {% endstep %}
+* Vá para [Painel Discloud](https://discloud.com/dashboard)
+* Clique em "**+ Upload"** (canto superior direito)
+* Selecione "**GitHub"** no menu
+{% endstep %}
 
 {% step %}
 **Configuração e Upload**

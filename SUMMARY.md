@@ -6,15 +6,14 @@
 
 ## Como Hospedar
 
-* [Bots](como-hospedar/bots.md)
-* [Websites e APIs](como-hospedar/websites-e-apis.md)
+* [\[EM ANDAMENTO\] Bots](como-hospedar/bots.md)
+* [\[EM ANDAMENTO\] Websites e APIs](como-hospedar/websites-e-apis.md)
 
 ## Como Hospedar, Usando
 
 * [Painel de Controle](como-hospedar-usando/painel-de-controle.md)
 * [Bot do Discord](como-hospedar-usando/bot-do-discord.md)
 * [Visual Studio Code](como-hospedar-usando/visual-studio-code.md)
-* [Aplicativo Móvel](como-hospedar-usando/aplicativo-movel.md)
 * [CLI](como-hospedar-usando/cli.md)
 
 ## Configurações
@@ -32,9 +31,9 @@
 * [Biblioteca NPM](sdks-e-bibliotecas/biblioteca-npm/README.md)
   * [Introdução](sdks-e-bibliotecas/biblioteca-npm/introducao.md)
   * [Exemplos de Uso](sdks-e-bibliotecas/biblioteca-npm/exemplos-de-uso.md)
-* [Biblioteca Python](sdks-e-bibliotecas/biblioteca-python/README.md)
-  * [Introdução](sdks-e-bibliotecas/biblioteca-python/introducao.md)
-  * [Exemplos de Uso](sdks-e-bibliotecas/biblioteca-python/exemplos-de-uso.md)
+* [\[EM ANDAMENTO\] Biblioteca Python](sdks-e-bibliotecas/biblioteca-python/README.md)
+  * [\[EM ANDAMENTO\] Introdução](sdks-e-bibliotecas/biblioteca-python/introducao.md)
+  * [\[EM ANDAMENTO\] Exemplos de Uso](sdks-e-bibliotecas/biblioteca-python/exemplos-de-uso.md)
 
 ## Ambiente de Desenvolvimento
 
