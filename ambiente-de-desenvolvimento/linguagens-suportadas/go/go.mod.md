@@ -10,7 +10,7 @@ description: >-
 
 `go.mod` define o caminho do seu módulo, a versão da toolchain Go (no formato `major.minor`), e as dependências diretas necessárias pelo seu projeto. O Discloud usa ele (e o `go.sum` acompanhante) para baixar e verificar módulos antes de construir sua aplicação.
 
----
+***
 
 ## 🛠️ Criando um Novo Módulo
 
@@ -21,7 +21,6 @@ Inicialize um módulo no diretório atual:
 ```bash
 go mod init github.com/you/yourapp
 ```
-
 {% endstep %}
 
 {% step %}
@@ -46,7 +45,6 @@ Então organize novamente se necessário:
 ```bash
 go mod tidy
 ```
-
 {% endstep %}
 {% endstepper %}
 
@@ -54,25 +52,23 @@ go mod tidy
 Precisa do Go localmente? Veja o [guia do ambiente local](../../ambiente-local/golang.md).
 {% endhint %}
 
----
+***
 
 ## 🧩 Exemplo Mínimo
 
 {% code title="go.mod" %}
-
 ```go
 module github.com/you/yourapp
 
 go 1.22
 ```
-
 {% endcode %}
 
 {% hint style="warning" %}
 A versão do Go **DEVE** estar no formato `major.minor` (ex.: `1.22`). **NÃO** use patch: `1.22.3`.
 {% endhint %}
 
----
+***
 
 ## 📦 Adicionando Dependências
 
@@ -101,10 +97,10 @@ require (
 ```
 
 > As versões são resolvidas semanticamente pelo sistema proxy/módulo.
-> {% endstep %}
-> {% endstepper %}
+{% endstep %}
+{% endstepper %}
 
----
+***
 
 ## 🔒 Integridade do `go.sum` & Caso Vazio
 
@@ -120,12 +116,12 @@ go mod tidy
 
 Se após organizar o arquivo permanecer vazio, seu projeto atualmente usa apenas a biblioteca padrão do Go (sem módulos externos). Isso é válido, mas:
 
-- A ausência de entradas pode tornar o ambiente de build menos explícito.
-- Você pode preferir um pequeno [Dockerfile](../../../configuracoes/discloud.config/dockerfile.md) para bloquear a versão da toolchain Go e o processo de build.
+* A ausência de entradas pode tornar o ambiente de build menos explícito.
+* Você pode preferir um pequeno [Dockerfile](../../../configuracoes/discloud.config/dockerfile.md) para bloquear a versão da toolchain Go e o processo de build.
 
 > 🔗 Exemplos: [Padrões de Dockerfile Go](../../../configuracoes/discloud.config/dockerfile.md#go)
 
----
+***
 
 ## 🧪 Exemplos de Tipos de Aplicação
 
@@ -134,7 +130,6 @@ Exemplos em abas para cenários comuns:
 {% tabs %}
 {% tab title="🤖 Bot Discord" %}
 {% code title="go.mod" %}
-
 ```go
 module github.com/you/discordbot
 
@@ -144,13 +139,11 @@ require (
     github.com/bwmarrin/discordgo v0.27.1 // exemplo
 )
 ```
-
 {% endcode %}
 {% endtab %}
 
 {% tab title="🌐 Website / API" %}
 {% code title="go.mod" %}
-
 ```go
 module github.com/you/webapp
 
@@ -160,28 +153,25 @@ require (
     github.com/go-chi/chi/v5 v5.0.12
 )
 ```
-
 {% endcode %}
 
 Requisitos:
 
-- Seu servidor HTTP deve escutar na porta `8080`.
-  {% endtab %}
+* Seu servidor HTTP deve escutar na porta `8080`.
+{% endtab %}
 
 {% tab title="📦 Apenas Stdlib Mínimo" %}
 {% code title="go.mod" %}
-
 ```go
 module github.com/you/stdlibonly
 
 go 1.22
 ```
-
 {% endcode %}
 {% endtab %}
 {% endtabs %}
 
----
+***
 
 ## 🧰 Referência de Comandos Comuns
 
