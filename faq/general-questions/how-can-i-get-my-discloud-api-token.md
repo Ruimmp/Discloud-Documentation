@@ -11,7 +11,7 @@ Your **Discloud API Token** is a **personal, secret credential** that authentica
 * [**REST API requests**](../../api-and-integrations/api-overview/)
 * [**Official CLI**](../../how-to-host-using/cli.md)
 * [**VS Code Extension**](../../how-to-host-using/visual-studio-code.md)
-* [**SDK / Libraries** (e.g. npm, Python)](broken-reference)
+* **SDK / Libraries** (e.g. [npm](../../sdks-and-libraries/npm-library/), [Python](../../sdks-and-libraries/python-library/))
 
 It uniquely identifies your account, so **anyone with this token can act as you**. Treat it like a password.
 
@@ -29,7 +29,7 @@ Open the Dashboard: [https://discloud.com/dashboard](https://discloud.com/dashbo
 {% step %}
 Click the **API Key** tab (top section of your profile area).
 
-<figure><img src="../../.gitbook/assets/Dashboard-API.png" alt="Dashboard API Key tab"><figcaption><p>API Key location on the Dashboard</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Dashboard-API.png" alt="Dashboard API Key tab"><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
