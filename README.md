@@ -42,5 +42,4 @@ For further help, you can reach us through the following channels:
 * <img src=".gitbook/assets/github-icon-light.png" alt="" data-size="line"> **GitHub**: [Discloud](https://github.com/discloud)
 * <img src=".gitbook/assets/twitterx-icon-light.png" alt="" data-size="line"> **Twitter (X)**: [@discloudbot](https://twitter.com/discloudbot)
 * <img src=".gitbook/assets/youtube-icon.png" alt="" data-size="line"> **YouTube**: [Pedro Ricardo](https://youtube.com/c/pedroricardor)
-
-For real-time support and community discussions, join our [**Discord server**](https://discord.discloudbot.com/). 🚀
+* <img src=".gitbook/assets/discord-icon.png" alt="" data-size="line"> **Discord**: [Discloud](https://discord.discloudbot.com/)
