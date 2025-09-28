@@ -23,7 +23,7 @@ A conta GitHub usada para **login na Discloud** E **propriedade do repositório 
 {% endstep %}
 
 {% step %}
-**Arquivo** [**`discloud.config`**](../configuracoes/discloud.config) **Válido**
+**Arquivo** [**`discloud.config`**](https://github.com/discloud/docs/blob/portuguese-revamp/configuracoes/discloud.config) **Válido**
 
 Deve existir no **diretório raiz** do seu repositório.
 

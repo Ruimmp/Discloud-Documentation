@@ -11,7 +11,7 @@ Antes do deploy, **seu projeto deve ser** [**compilado em um arquivo JAR execut�
 
 #### ❌ **Arquivos a Excluir**
 
-Certifique-se de que os seguintes arquivos e diretórios **não** sejam incluídos no seu [`.zip`](../../faq/general-questions/wip-how-to-compress.md):
+Certifique-se de que os seguintes arquivos e diretórios **não** sejam incluídos no seu [`.zip`](https://github.com/discloud/docs/blob/portuguese-revamp/faq/general-questions/wip-how-to-compress.md):
 
 ```diff
 - package-lock.json
@@ -24,7 +24,7 @@ Certifique-se de que os seguintes arquivos e diretórios **não** sejam incluíd
 
 🔗 **Precisa de ajuda com compilação?** Verifique a FAQ sobre [**Como Construir e Empacotar uma Aplicação Java?**](../../faq/perguntas-gerais/como-construir-e-empacotar-uma-aplicacao-java.md)
 
----
+***
 
 ## 📦 **Compilando Sua Aplicação Java**
 
@@ -37,7 +37,6 @@ Para **fazer deploy da sua aplicação Java**, ela deve ser compilada em um **ar
 ```bash
 mvn clean package
 ```
-
 {% endtab %}
 
 {% tab title="Gradle" %}
@@ -46,22 +45,20 @@ mvn clean package
 ```bash
 gradle clean build
 ```
-
 {% endtab %}
 {% endtabs %}
 
 {% hint style="info" %}
-
-#### **Recomendação**
+**Recomendação**
 
 Renomeie seu arquivo JAR para um nome simples como `app.jar` para evitar problemas com caracteres especiais.​
 {% endhint %}
 
----
+***
 
 ## 📝 **Configurando o Arquivo Principal**
 
-O parâmetro `MAIN` no seu arquivo [`discloud.config`](../../configuracoes/discloud.config/) deve apontar para o seu arquivo JAR executável. Por exemplo:
+O parâmetro `MAIN` no seu arquivo [`discloud.config`](https://github.com/discloud/docs/blob/portuguese-revamp/configuracoes/discloud.config) deve apontar para o seu arquivo JAR executável. Por exemplo:
 
 ```ini
 MAIN=app.jar
@@ -71,7 +68,7 @@ Certifique-se de que `app.jar` corresponda ao nome do seu arquivo JAR compilado.
 
 **Nota:** Para informações detalhadas sobre configurar o arquivo principal, consulte a FAQ da Discloud sobre o arquivo principal.
 
----
+***
 
 ## ✍️ **Fazendo Deploy da Sua Aplicação**
 

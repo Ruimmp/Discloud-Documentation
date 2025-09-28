@@ -16,7 +16,7 @@ Antes de enviar seu projeto, certifique-se de que seus arquivos estão corretame
 ### 📌 Requisitos Básicos
 
 * **Código-Fonte do Projeto** – Todos os arquivos necessários para a execução da sua aplicação.
-* **Arquivo de Configuração (**[**`discloud.config`**](../configuracoes/discloud.config/)**)** – Obrigatório para as configurações de upload.
+* **Arquivo de Configuração (**[**`discloud.config`**](https://github.com/discloud/docs/blob/portuguese-revamp/configuracoes/discloud.config)**)** – Obrigatório para as configurações de upload.
 * **Arquivo de Dependências** (se aplicável):
   * [`package.json`](../ambiente-de-desenvolvimento/linguagens-suportadas/javascript/package.json.md) para [**Node.js**](../ambiente-de-desenvolvimento/ambiente-local/nodejs.md)
   * [`requirements.txt`](../ambiente-de-desenvolvimento/linguagens-suportadas/python/requirements.txt.md) para [**Python**](../ambiente-de-desenvolvimento/ambiente-local/python.md)
@@ -113,4 +113,4 @@ Processo de Upload.
 
 ## **❓** Ainda precisa de ajuda?
 
-Consulte a [Seção de FAQ](broken-reference) ou entre no nosso [servidor Discord](https://discord.discloudbot.com/) para suporte.
+Consulte a [Seção de FAQ](https://github.com/discloud/docs/blob/portuguese-revamp/como-hospedar-usando/broken-reference/README.md) ou entre no nosso [servidor Discord](https://discord.discloudbot.com/) para suporte.
