@@ -33,8 +33,8 @@ Para obter mais ajuda, você pode nos contatar através dos seguintes canais:
 
 ### 🛠️ Contatos de Suporte e Segurança
 
-* <img src="broken-reference" alt="" data-size="line"> **Suporte Técnico**: Abra um [ticket](https://discord.com/channels/@me/930852077045940224/) ou envie um e-mail para [**support@discloudbot.com**](mailto:support@discloudbot.com)
-* <img src="broken-reference" alt="" data-size="line"> **Confiança e Segurança**: Denuncie problemas através do e-mail [**abuse@discloudbot.com**](mailto:abuse@discloudbot.com)
+* <img src=".gitbook/assets/tech-&#x26;-support.png" alt="" data-size="line"> **Suporte Técnico**: Abra um [ticket](https://discord.com/channels/@me/930852077045940224/) ou envie um e-mail para [**support@discloudbot.com**](mailto:support@discloudbot.com)
+* <img src=".gitbook/assets/trust-&#x26;-safety.png" alt="" data-size="line"> **Confiança e Segurança**: Denuncie problemas através do e-mail [**abuse@discloudbot.com**](mailto:abuse@discloudbot.com)
 
 ### 🌍 Siga-nos nas Redes Sociais
 
