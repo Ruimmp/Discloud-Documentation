@@ -7,7 +7,7 @@ icon: plug
 
 A [**Extensão Discloud para VSCode**](https://marketplace.visualstudio.com/items?itemName=discloud.discloud) permite que você **hospede e gerencie suas aplicações** diretamente do [**Visual Studio Code**](https://code.visualstudio.com/), eliminando a necessidade de usar um painel web ou comandos do bot Discord.
 
----
+***
 
 ## 🛠️ Instalando a Extensão Discloud
 
@@ -19,11 +19,11 @@ Abra o VSCode no seu computador.
 {% step %}
 Vá para a aba Extensões (`Ctrl + Shift + X`).
 
-- Na barra de pesquisa, digite: **"Discloud"** e clique em **"Instalar"**.
-  {% endstep %}
-  {% endstepper %}
+* Na barra de pesquisa, digite: **"Discloud"** e clique em **"Instalar"**.
+{% endstep %}
+{% endstepper %}
 
----
+***
 
 ## 🔑 Fazendo Login na Discloud
 
@@ -35,7 +35,7 @@ Clique na **aba da Extensão Discloud** na **barra lateral do VSCode**.
 {% endstep %}
 
 {% step %}
-Clique em **"Enviar seu token Discloud"** e insira seu [**Token da API Discloud**](../api-e-integracoes/visao-geral-da-api/autenticacao.md).
+Clique em **"Enviar seu token Discloud"** e insira seu [**Token da API Discloud**](../faq/perguntas-gerais/como-obter-o-meu-token-da-api-da-discloud.md).
 
 <figure><img src="../.gitbook/assets/VSCode-Extension_Login.gif" alt=""><figcaption></figcaption></figure>
 {% endstep %}
@@ -45,7 +45,7 @@ Após o login, suas **aplicações Discloud** aparecerão dentro da aba da exten
 {% endstep %}
 {% endstepper %}
 
----
+***
 
 ## 🚀 Fazendo Upload da Sua Aplicação
 
@@ -55,11 +55,11 @@ Com a **Extensão VSCode**, você pode fazer o upload do seu app em apenas algun
 {% step %}
 Preparando seu projeto.
 
-- Certifique-se de que seu projeto contenha todos os arquivos necessários:
-  - [**`discloud.config`**](../configuracoes/discloud.config/) (arquivo de configuração).
-  - **Dependências** necessárias para sua linguagem de programação (ex.: `package.json` para Node.js, `requirements.txt` para Python).
-- **Verifique o** [**Guia de Linguagens**](../ambiente-de-desenvolvimento/linguagens-suportadas/) para garantir que seu projeto esteja estruturado corretamente.
-  {% endstep %}
+* Certifique-se de que seu projeto contenha todos os arquivos necessários:
+  * [**`discloud.config`**](../configuracoes/discloud.config) (arquivo de configuração).
+  * **Dependências** necessárias para sua linguagem de programação (ex.: `package.json` para Node.js, `requirements.txt` para Python).
+* **Verifique o** [**Guia de Linguagens**](../ambiente-de-desenvolvimento/linguagens-suportadas/) para garantir que seu projeto esteja estruturado corretamente.
+{% endstep %}
 
 {% step %}
 Fazendo upload da sua aplicação.
@@ -68,7 +68,7 @@ Fazendo upload da sua aplicação.
 {% endstep %}
 {% endstepper %}
 
----
+***
 
 ## 📌 Dicas e Truques
 
@@ -76,8 +76,8 @@ Fazendo upload da sua aplicação.
 
 Se você quiser **excluir certos arquivos ou diretórios** do upload, pode criar um arquivo [`.discloudignore`](../configuracoes/.discloudignore.md) na raiz do seu projeto.
 
----
+***
 
 ## **❓ Ainda precisa de ajuda?**
 
-Verifique a [**Seção FAQ**](broken-reference) ou junte-se ao nosso [**Servidor Discord**](https://discord.discloudbot.com/) para suporte.
+Verifique a [**Seção FAQ**](broken-reference/) ou junte-se ao nosso [**Servidor Discord**](https://discord.discloudbot.com/) para suporte.

@@ -18,38 +18,38 @@ icon: npm
 
 ## 🔗 Links Úteis
 
-- **📖** [**Documentação da API**](../../api-e-integracoes/visao-geral-da-api/) - Documentação completa do TypeDoc
-- **🐙** [**Repositório GitHub**](https://github.com/discloud/discloud.app) - Código fonte e issues
-- **📦** [**Pacote NPM**](https://www.npmjs.com/package/discloud.app) - Download e informações de versão
+* **📖** [**Documentação da API**](../../api-e-integracoes/visao-geral-da-api/) - Documentação completa do TypeDoc
+* **🐙** [**Repositório GitHub**](https://github.com/discloud/discloud.app) - Código fonte e issues
+* **📦** [**Pacote NPM**](https://www.npmjs.com/package/discloud.app) - Download e informações de versão
 
 ## 🚀 Início Rápido
 
 Pronto para começar? Confira nossos guias abrangentes:
 
-<table data-card-size="large" data-view="cards"><thead><tr><th data-card-target data-type="content-ref"></th><th align="center"></th><th data-hidden></th><th data-hidden></th><th data-hidden></th></tr></thead><tbody><tr><td><a href="../biblioteca-python/introducao.md">introducao.md</a></td><td align="center">Aprenda como instalar, configurar e autenticar com a biblioteca.</td><td></td><td></td><td></td></tr><tr><td><a href="../biblioteca-python/exemplos-de-uso.md">exemplos-de-uso.md</a></td><td align="center">Explore exemplos práticos e casos de uso comuns para todos os recursos da biblioteca.</td><td></td><td></td><td></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th data-card-target data-type="content-ref"></th><th align="center"></th><th data-hidden></th><th data-hidden></th><th data-hidden></th></tr></thead><tbody><tr><td><a href="introducao.md">introducao.md</a></td><td align="center">Aprenda como instalar, configurar e autenticar com a biblioteca.</td><td></td><td></td><td></td></tr><tr><td><a href="exemplos-de-uso.md">exemplos-de-uso.md</a></td><td align="center">Explore exemplos práticos e casos de uso comuns para todos os recursos da biblioteca.</td><td></td><td></td><td></td></tr></tbody></table>
 
 ## 📋 Pré-requisitos
 
 Antes de usar a biblioteca discloud.app, certifique-se de ter:
 
 ✅ **Gerenciador de pacotes NPM, Yarn, PNPM ou Bun**\
-✅ **Token da API da Discloud** ([Obtenha o seu aqui](../../api-e-integracoes/visao-geral-da-api/autenticacao.md))
+✅ **Token da API da Discloud** ([Saiba como obter o seu aqui](../../faq/perguntas-gerais/como-obter-o-meu-token-da-api-da-discloud.md))
 
 ## 💡 Por Que Usar discloud.app?
 
 Seja você construindo **scripts de automação**, **pipelines CI/CD**, **dashboards de monitoramento** ou **ferramentas administrativas**, a biblioteca discloud.app oferece:
 
-- **🎯 API Simples e Intuitiva** - Interface limpa baseada em promises que é fácil de aprender
-- **⚡ Alto Desempenho** - Otimizada para velocidade com tratamento eficiente de requisições
-- **🛡️ Tratamento de Erros** - Gerenciamento abrangente de erros e suporte a depuração
-- **🔄 Desenvolvimento Ativo** - Atualizações regulares
+* **🎯 API Simples e Intuitiva** - Interface limpa baseada em promises que é fácil de aprender
+* **⚡ Alto Desempenho** - Otimizada para velocidade com tratamento eficiente de requisições
+* **🛡️ Tratamento de Erros** - Gerenciamento abrangente de erros e suporte a depuração
+* **🔄 Desenvolvimento Ativo** - Atualizações regulares
 
----
+***
 
 ## 🆘 Precisa de Ajuda?
 
 Se você encontrar algum problema ou tiver dúvidas:
 
-- 📖 Verifique os [**Exemplos de Uso**](../biblioteca-python/exemplos-de-uso.md) para cenários comuns
-- 🐛 Relate bugs nos [**Issues do GitHub**](https://github.com/discloud/discloud.app/issues/new?template=bug.yml)
-- 💬 Junte-se à nossa [**Comunidade Discord**](https://discord.discloudbot.com)
+* 📖 Verifique os [**Exemplos de Uso**](../biblioteca-python/exemplos-de-uso.md) para cenários comuns
+* 🐛 Relate bugs nos [**Issues do GitHub**](https://github.com/discloud/discloud.app/issues/new?template=bug.yml)
+* 💬 Junte-se à nossa [**Comunidade Discord**](https://discord.discloudbot.com)

@@ -80,7 +80,7 @@ Se a versão da CLI for exibida, a instalação foi bem-sucedida.
 {% endhint %}
 
 {% hint style="info" %}
-#### **Atualização da CLI**
+**Atualização da CLI**
 
 Para atualizar a CLI, execute o seguinte comando:
 
@@ -93,7 +93,7 @@ npm update -g discloud-cli
 {% step %}
 Login.
 
-Para acessar as funcionalidades da CLI, você precisa fazer login com suas credenciais da Discloud. Execute o seguinte comando e cole seu [Token da API Discloud](../api-e-integracoes/visao-geral-da-api/autenticacao.md):
+Para acessar as funcionalidades da CLI, você precisa fazer login com suas credenciais da Discloud. Execute o seguinte comando e cole seu [Token da API Discloud](../faq/perguntas-gerais/como-obter-o-meu-token-da-api-da-discloud.md):
 
 ```bash
 discloud --login
@@ -102,7 +102,7 @@ discloud --login
 {% endstepper %}
 
 {% hint style="info" %}
-#### **Repositório Oficial da CLI**
+**Repositório Oficial da CLI**
 
 A CLI do NodeJS é um projeto de código aberto. Você pode contribuir, relatar bugs e sugerir melhorias no repositório oficial.
 
@@ -122,7 +122,7 @@ Uma vez instalada e configurada, você pode **fazer o upload da sua aplicação*
 Preparando seu projeto.
 
 * Certifique-se de que seu projeto contenha todos os arquivos necessários:
-  * [**`discloud.config`**](../configuracoes/discloud.config/) (arquivo de configuração).
+  * [**`discloud.config`**](../configuracoes/discloud.config) (arquivo de configuração).
   * **Dependências necessárias** para sua linguagem de programação (ex.: [`package.json`](../ambiente-de-desenvolvimento/linguagens-suportadas/javascript/package.json.md) para [Node.js](../ambiente-de-desenvolvimento/ambiente-local/nodejs.md), [`requirements.txt`](../ambiente-de-desenvolvimento/linguagens-suportadas/python/requirements.txt.md) para [Python](../ambiente-de-desenvolvimento/ambiente-local/python.md)).
 * **Verifique o** [**Guia de Linguagens**](../ambiente-de-desenvolvimento/linguagens-suportadas/) para garantir que seu projeto esteja estruturado corretamente.
 {% endstep %}
@@ -140,7 +140,7 @@ discloud up
 * Uma vez concluído, sua aplicação irá **começar a funcionar** na Discloud.
 
 {% hint style="info" %}
-#### **Para verificar o status do seu app, use:**
+**Para verificar o status do seu app, use:**
 
 ```sh
 discloud status
@@ -162,7 +162,7 @@ discloud init
 ```
 
 * Este comando solicita que você insira **detalhes básicos de configuração** (ex.: nome, arquivo principal, RAM, etc.).
-* Em seguida, **gera o arquivo** [**`discloud.config`**](../configuracoes/discloud.config/) **para você**, facilitando o upload.
+* Em seguida, **gera o arquivo** [**`discloud.config`**](../configuracoes/discloud.config) **para você**, facilitando o upload.
 
 ### 📂 **Usando `.discloudignore` para Excluir Arquivos**
 
@@ -172,4 +172,4 @@ Se você quiser **excluir certos arquivos ou diretórios** do upload, você pode
 
 ## **❓ Ainda precisa de ajuda?**
 
-Verifique a [**Seção FAQ**](broken-reference) ou junte-se ao nosso [**Servidor Discord**](https://discord.discloudbot.com/) para suporte.
+Verifique a [**Seção FAQ**](broken-reference/) ou junte-se ao nosso [**Servidor Discord**](https://discord.discloudbot.com/) para suporte.
