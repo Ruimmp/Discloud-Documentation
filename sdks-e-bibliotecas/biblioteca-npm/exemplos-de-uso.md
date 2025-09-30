@@ -15,6 +15,22 @@ icon: vial
 
 ***
 
+## 👤 Gerenciamento de Usuário
+
+### 📄 Obtendo Informações do Usuário
+
+```javascript
+const { discloud } = require("discloud.app");
+
+try {
+  const user = await discloud.user.fetch();
+
+  console.log("Informações do usuário:", user);
+} catch (error) {
+  console.error("Falha ao buscar usuário:", error.message);
+}
+```
+
 ## 📱 Gerenciamento de Aplicações
 
 ### 🚀 Fazendo Upload de uma Nova Aplicação
