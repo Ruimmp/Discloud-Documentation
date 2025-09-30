@@ -86,7 +86,7 @@ If the `TYPE` is set to **site**, you must also define the `ID` option with your
 </strong>MAIN=index.js
 RAM=100
 VERSION=latest
-# ...
+<a data-footnote-ref href="#user-content-fn-1"># ...</a>
 </code></pre>
 
 {% hint style="warning" %}
