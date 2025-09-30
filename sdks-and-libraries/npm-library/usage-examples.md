@@ -15,6 +15,22 @@ icon: vial
 
 ***
 
+## 👤 User Management
+
+### 📄 Fetching User Information
+
+```javascript
+const { discloud } = require("discloud.app");
+
+try {
+  const user = await discloud.user.fetch();
+
+  console.log("User information:", user);
+} catch (error) {
+  console.error("Failed to fetch user:", error.message);
+}
+```
+
 ## 📱 Application Management
 
 ### 🚀 Uploading a New Application
