@@ -51,59 +51,12 @@ Faça upload do seu projeto como faria com uma [upload normal da Discloud](https
 {% endstepper %}
 
 {% hint style="warning" %}
-**🚨 Importante:**
+#### **🚨 Importante:**
 
 * **Conhecimento básico de Docker** é necessário para usar este recurso.
 * **Configurações incorretas** no Dockerfile podem impedir que seu app funcione corretamente.
 * **Junte-se ao nosso servidor Discord para obter ajuda**: [https://discord.discloudbot.com](https://discord.discloudbot.com/)
 {% endhint %}
-
-***
-
-## 🔒 **Redes Privadas Docker (Suporte VLAN)**
-
-O Discloud suporta **redes privadas** entre aplicações Docker, permitindo **comunicação local** entre serviços. Isso é útil para:\
-✔ **APIs** (Express, Fastify, Lavalink)\
-✔ **Bancos de dados** (MySQL, PostgreSQL, MongoDB)\
-✔ **Serviços de cache** (Redis, Memcached, KeyDB)
-
-### 🔧 **Habilitando Redes Privadas no** [**`discloud.config`**](./)
-
-Para ativar **redes privadas**, adicione as seguintes opções no seu arquivo de configuração:
-
-```ini
-# ...
-NAME=Meu Servidor Mongo
-MAIN=Dockerfile
-VLAN=true
-HOSTNAME=mymongoserver
-#       |      ^     |
-#       |      Nome da rede privada para esta aplicação
-# ...
-```
-
-{% hint style="info" %}
-📌 **Certifique-se de expor as portas corretas no seu Dockerfile!**
-{% endhint %}
-
-### 🌍 **Conectando-se a Redes Privadas**
-
-Com **VLAN habilitada**, outras aplicações Docker podem acessar seu serviço hospedado:
-
-```javascript
-import mongoose from "mongoose";
-
-const uri = "mongodb://mymongoserver:27017/mydatabase";
-//                    |      ^      |
-//       Nome da rede privada do seu servidor MongoDB
-
-try {
-  await mongoose.connect(uri);
-  console.log("Conectado com sucesso ao MongoDB!");
-} catch (error) {
-  console.error("Erro ao conectar ao MongoDB:", error);
-}
-```
 
 ***
 

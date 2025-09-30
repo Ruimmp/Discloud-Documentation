@@ -49,31 +49,28 @@ your-project/
 
 Veja abaixo todas as opções de configuração para o arquivo `discloud.config`. [Clique aqui para ver alguns exemplos de diferentes aplicações](./#exemplos-de-arquivos-discloud.config).
 
+{% tabs %}
+{% tab title="📑 Informações" %}
 Defina informações para sua aplicação na plataforma de hospedagem, como `NAME` e `AVATAR`. Isso permite que você identifique facilmente sua aplicação no painel ou na extensão do Visual Studio Code. Veja:
 
-{% code title="discloud.config" %}
-```properties
-NAME=MyApp
+<pre class="language-properties" data-title="discloud.config"><code class="lang-properties">NAME=MyApp
 AVATAR=https://i.imgur.com/bWhx7OT.png
-# ...
-```
-{% endcode %}
+<a data-footnote-ref href="#user-content-fn-1"># ...</a>
+</code></pre>
 
 * `NAME` - determina o nome da sua aplicação na plataforma de hospedagem.
 * `AVATAR` - usa a URL da imagem como avatar para sua aplicação na plataforma de hospedagem.
+{% endtab %}
 
+{% tab title="🖥️ Aplicação" %}
 Para que sua aplicação inicie corretamente na hospedagem, você precisa definir seu tipo usando a opção `TYPE`, definir o ponto de entrada com a opção `MAIN`, especificar a `RAM` máxima que pode usar com a opção `RAM`, e indicar a [versão da linguagem](versoes.md) com a opção `VERSION`. Veja abaixo:
 
-{% code title="discloud.config" %}
-```properties
-# ...
+<pre class="language-properties" data-title="discloud.config"><code class="lang-properties"><a data-footnote-ref href="#user-content-fn-1"># ...</a>
 TYPE=bot
 MAIN=index.js
 RAM=100
 VERSION=latest
-# ...
-```
-{% endcode %}
+</code></pre>
 
 * `TYPE` - pode ter dois valores: **bot** ou **site**.
 * `MAIN` - deve conter o caminho para o [arquivo principal](../../faq/perguntas-gerais/em-andamento-qual-e-o-arquivo-principal.md) da sua aplicação.
@@ -81,7 +78,7 @@ VERSION=latest
 * `VERSION` - especifica a [versão da linguagem](versoes.md) do seu projeto.
 
 {% hint style="info" %}
-Se o `TYPE` estiver definido como **site**, você também deve definir a opção `ID` com seu subdomínio. [Veja mais aqui.](https://github.com/discloud/docs/blob/portuguese-revamp/faq/general-questions/wip-how-to-create-a-subdomain.md)
+Se o `TYPE` estiver definido como **site**, você também deve definir a opção `ID` com seu subdomínio. [Veja mais aqui.](../../faq/perguntas-gerais/em-andamento-como-criar-um-subdominio.md)
 {% endhint %}
 
 <pre class="language-properties" data-title="discloud.config"><code class="lang-properties"><strong>TYPE=site
@@ -89,53 +86,51 @@ Se o `TYPE` estiver definido como **site**, você também deve definir a opção
 </strong>MAIN=index.js
 RAM=100
 VERSION=latest
-# ...
+<a data-footnote-ref href="#user-content-fn-1"># ...</a>
 </code></pre>
 
 {% hint style="warning" %}
 Para hospedar um **site**, é necessário um mínimo de **512MB de RAM**, junto com um [**Plano Platinum**](https://discloud.com/plans).
 {% endhint %}
+{% endtab %}
 
+{% tab title="🧩 Recursos" %}
 Dependendo da linguagem de programação do seu projeto, você pode definir quais comandos serão executados para o processo de build e o comando para iniciar a aplicação usando as propriedades `BUILD` e `START`.
 
 Para habilitar o reinício automático em caso de falhas, defina a opção `AUTORESTART` como **true** (disponível apenas para [**Plano Platinum**](https://discloud.com/plans) ou superior).
 
 Você pode instalar [pacotes](apt.md) usando a opção `APT`.
 
-{% code title="discloud.config" %}
-```properties
-# ...
+<pre class="language-properties" data-title="discloud.config"><code class="lang-properties"><a data-footnote-ref href="#user-content-fn-1"># ...</a>
 BUILD=npm run build
 START=npm run start
 AUTORESTART=true
 APT=tools
-```
-{% endcode %}
+</code></pre>
 
 * `BUILD` - define o comando ou script para compilar o projeto.
 * `START` - define o comando ou script para iniciar o projeto.
 * `AUTORESTART` - garante que a aplicação reinicie automaticamente em caso de falha.
-* `APT` - permite especificar uma lista de [pacotes](https://github.com/discloud/docs/blob/portuguese-revamp/api-and-integrations/api-overview/README.md) a serem instalados.
+* `APT` - permite especificar uma lista de [pacotes](apt.md) a serem instalados.
+{% endtab %}
 
-
-
+{% tab title="🐋 Dockerfile" %}
 Se você estiver hospedando um projeto com um [**Dockerfile**](dockerfile.md), você terá opções adicionais disponíveis.
 
 * Defina um valor booleano para a opção `VLAN` para habilitar ou desabilitar a rede entre aplicações hospedadas com um **Dockerfile**.
 * Personalize o nome da rede Docker da sua aplicação usando a opção `HOSTNAME`.
 
-{% code title="discloud.config" %}
-```properties
-# ...
+<pre class="language-properties" data-title="discloud.config"><code class="lang-properties"><a data-footnote-ref href="#user-content-fn-1"># ...</a>
 MAIN=Dockerfile
 VLAN=true
 HOSTNAME=expressapi
-```
-{% endcode %}
+</code></pre>
 
 * Definir `MAIN` como seu **Dockerfile** habilita o uso das seguintes opções:
   * `VLAN` - Habilita ou desabilita o uso de redes Docker.
-  * `HOSTNAME` - Define o nome da rede Docker para sua aplicação. \{% endtab %\} \{% endtabs %\}
+  * `HOSTNAME` - Define o nome da rede Docker para sua aplicação.
+{% endtab %}
+{% endtabs %}
 
 {% hint style="info" %}
 #### ⚠️ Opções obrigatórias no seu **`discloud.config`**
@@ -287,3 +282,5 @@ O arquivo `discloud.config` contém configurações essenciais para sua aplicaç
 <table><thead><tr><th width="147" align="center">Opção</th><th width="258" align="center">Limite / Valores</th><th align="center">Descrição</th></tr></thead><tbody><tr><td align="center"><strong>NAME</strong></td><td align="center"><code>1 - 30 caracteres</code></td><td align="center">O nome da sua aplicação (usado para fins de exibição).</td></tr><tr><td align="center"><strong>AVATAR</strong></td><td align="center"><code>URL da imagem (.gif, .jpeg, .jpg, .png)</code></td><td align="center">Uma URL para o avatar da aplicação. Formatos suportados: <strong>GIF, JPEG, JPG, PNG</strong>.</td></tr><tr><td align="center"><strong>TYPE</strong></td><td align="center"><code>bot / site</code></td><td align="center">Define se a aplicação é um <strong>bot</strong> ou um <strong>site</strong>.</td></tr><tr><td align="center"><strong>MAIN</strong></td><td align="center"><code>Caminho relativo do arquivo</code></td><td align="center">Especifica o <strong>arquivo principal</strong> que deve ser executado na pasta do projeto.</td></tr><tr><td align="center"><strong>RAM</strong></td><td align="center"><code>100 - 32000 MB</code></td><td align="center">A <strong>quantidade de RAM</strong> alocada para a aplicação (<strong>varia por</strong> <a href="https://discloud.com/plans"><strong>plano</strong></a>).</td></tr><tr><td align="center"><strong>VERSION</strong></td><td align="center"><code>latest / current / suja / specific</code></td><td align="center">Define as opções de <a href="https://github.com/discloud/docs/blob/portuguese-revamp/configuracoes/discloud.config/versions.md"><strong>versionamento</strong></a> para o ambiente e dependências.</td></tr><tr><td align="center"><strong>ID</strong></td><td align="center"><code>Subdomínios definidos pelo usuário</code></td><td align="center">Subdomínio personalizado para sua aplicação (<a href="https://github.com/discloud/docs/blob/portuguese-revamp/how-to-host/websites-and-apis.md">apenas para sites</a>).</td></tr><tr><td align="center"><strong>BUILD</strong></td><td align="center"><em>(Comandos de build personalizados)</em></td><td align="center">Se especificado, define <strong>comandos para executar antes do início da aplicação</strong> (ex.: instalar dependências).</td></tr><tr><td align="center"><strong>START</strong></td><td align="center"><em>(Comando de início personalizado)</em></td><td align="center">Substitui o comando de início padrão para lançar a aplicação.</td></tr><tr><td align="center"><strong>AUTORESTART</strong></td><td align="center"><code>true / false</code></td><td align="center">Determina se o app deve <strong>reiniciar automaticamente</strong> se travar.</td></tr><tr><td align="center"><strong>VLAN</strong></td><td align="center"><code>true / false</code></td><td align="center">Habilita <strong>Virtual LAN (VLAN)</strong> para rede interna entre aplicações.</td></tr><tr><td align="center"><strong>HOSTNAME</strong></td><td align="center"><em>(Hostname personalizado)</em></td><td align="center">Especifica um hostname personalizado para a aplicação.</td></tr><tr><td align="center"><strong>APT</strong></td><td align="center"><em>(Lista de pacotes)</em></td><td align="center">Instala <strong>dependências Linux adicionais</strong> necessárias pelo seu app. <a href="apt.md"><strong>Veja pacotes disponíveis</strong></a>.</td></tr></tbody></table>
 
 ***
+
+[^1]: **Nota:** Os **`...`** apenas indicam a continuação de outras opções anteriores ou subsequentes que não são relevantes para mencionar nesta página.
