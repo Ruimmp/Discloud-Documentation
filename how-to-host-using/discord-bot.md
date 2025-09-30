@@ -14,7 +14,7 @@ Discloud allows you to **host applications directly from Discord**, making deplo
 ## 🔑 Account Verification
 
 {% hint style="warning" %}
-#### **🛠 Verification System Under Maintenance**
+#### **Verification System Under Maintenance**
 
 Our account verification system is temporarily unavailable, and **we are not performing manual verification during this period**.
 
