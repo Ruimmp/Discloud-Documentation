@@ -53,13 +53,10 @@ See below all the configuration options for the `discloud.config` file. [Click h
 {% tab title="📑 Information" %}
 Define information for your application on the hosting platform, such as `NAME` and `AVATAR`. This allows you to easily identify your application on the dashboard or in the Visual Studio Code extension. See:
 
-{% code title="discloud.config" %}
-```properties
-NAME=MyApp
+<pre class="language-properties" data-title="discloud.config"><code class="lang-properties">NAME=MyApp
 AVATAR=https://i.imgur.com/bWhx7OT.png
-# ...
-```
-{% endcode %}
+<a data-footnote-ref href="#user-content-fn-1"># ...</a>
+</code></pre>
 
 * `NAME` - determines the name of your application on the hosting platform.
 * `AVATAR` - uses the image URL as the avatar for your application on the hosting platform.
@@ -68,16 +65,12 @@ AVATAR=https://i.imgur.com/bWhx7OT.png
 {% tab title="🖥️ Application" %}
 For your application to start correctly on the hosting, you need to define its type using the `TYPE` option, set the entry point with the `MAIN` option, specify the maximum `RAM` it can use with the `RAM` option, and indicate the [language version](versions.md) with the `VERSION` option. See below:
 
-{% code title="discloud.config" %}
-```properties
-# ...
+<pre class="language-properties" data-title="discloud.config"><code class="lang-properties"><a data-footnote-ref href="#user-content-fn-1"># ...</a>
 TYPE=bot
 MAIN=index.js
 RAM=100
 VERSION=latest
-# ...
-```
-{% endcode %}
+</code></pre>
 
 * `TYPE` - can have two values: **bot** or **site**.
 * `MAIN` - should contain the path to the [main file](../../faq/general-questions/wip-what-is-the-main-file.md) of your application.
@@ -108,15 +101,12 @@ To enable automatic restart in case of failures, set the `AUTORESTART` option to
 
 You can install [packages](apt.md) using the `APT` option.
 
-{% code title="discloud.config" %}
-```properties
-# ...
+<pre class="language-properties" data-title="discloud.config"><code class="lang-properties"><a data-footnote-ref href="#user-content-fn-1"># ...</a>
 BUILD=npm run build
 START=npm run start
 AUTORESTART=true
 APT=tools
-```
-{% endcode %}
+</code></pre>
 
 * `BUILD` - defines the command or script for compiling the project.
 * `START` - defines the command or script for starting the project.
@@ -130,14 +120,11 @@ If you are deploying a project with a [**Dockerfile**](dockerfile.md), you will 
 * Set a boolean value for the `VLAN` option to enable or disable networking between applications deployed with a **Dockerfile**.
 * Customize the Docker network name of your application using the `HOSTNAME` option.
 
-{% code title="discloud.config" %}
-```properties
-# ...
+<pre class="language-properties" data-title="discloud.config"><code class="lang-properties"><a data-footnote-ref href="#user-content-fn-1"># ...</a>
 MAIN=Dockerfile
 VLAN=true
 HOSTNAME=expressapi
-```
-{% endcode %}
+</code></pre>
 
 * Setting `MAIN` as your **Dockerfile** enables the use of the following options:
   * `VLAN` - Enables or disables the use of Docker networks.
@@ -294,4 +281,4 @@ The `discloud.config` file contains essential settings for your Discloud applica
 
 <table><thead><tr><th width="147" align="center">Option</th><th width="258" align="center">Limit / Values</th><th align="center">Description</th></tr></thead><tbody><tr><td align="center"><strong>NAME</strong></td><td align="center"><code>1 - 30 characters</code></td><td align="center">The name of your application (used for display purposes).</td></tr><tr><td align="center"><strong>AVATAR</strong></td><td align="center"><code>Image URL (.gif, .jpeg, .jpg, .png)</code></td><td align="center">A URL to the application's avatar. Supported formats: <strong>GIF, JPEG, JPG, PNG</strong>.</td></tr><tr><td align="center"><strong>TYPE</strong></td><td align="center"><code>bot / site</code></td><td align="center">Defines whether the application is a <strong>bot</strong> or a <strong>website</strong>.</td></tr><tr><td align="center"><strong>MAIN</strong></td><td align="center"><code>Relative file path</code></td><td align="center">Specifies the <strong>main file</strong> that should be executed in the project folder.</td></tr><tr><td align="center"><strong>RAM</strong></td><td align="center"><code>100 - 32000 MB</code></td><td align="center">The <strong>amount of RAM</strong> allocated to the application (<strong>varies by</strong> <a href="https://discloud.com/plans"><strong>plan</strong></a>).</td></tr><tr><td align="center"><strong>VERSION</strong></td><td align="center"><code>latest / current / suja / specific</code></td><td align="center">Defines the <a href="versions.md"><strong>versioning</strong></a> options for the environment and dependencies.</td></tr><tr><td align="center"><strong>ID</strong></td><td align="center"><code>User-defined subdomains</code></td><td align="center">Custom subdomain for your application (<a href="../../how-to-host/websites-and-apis.md">for websites only</a>).</td></tr><tr><td align="center"><strong>BUILD</strong></td><td align="center"><em>(Custom build commands)</em></td><td align="center">If specified, defines <strong>commands to run before the application starts</strong> (e.g., installing dependencies).</td></tr><tr><td align="center"><strong>START</strong></td><td align="center"><em>(Custom start command)</em></td><td align="center">Overrides the default start command to launch the application.</td></tr><tr><td align="center"><strong>AUTORESTART</strong></td><td align="center"><code>true / false</code></td><td align="center">Determines whether the app should <strong>automatically restart</strong> if it crashes.</td></tr><tr><td align="center"><strong>VLAN</strong></td><td align="center"><code>true / false</code></td><td align="center">Enables <strong>Virtual LAN (VLAN)</strong> for internal networking between applications.</td></tr><tr><td align="center"><strong>HOSTNAME</strong></td><td align="center"><em>(Custom hostname)</em></td><td align="center">Specifies a custom hostname for the application.</td></tr><tr><td align="center"><strong>APT</strong></td><td align="center"><em>(List of packages)</em></td><td align="center">Installs additional <strong>Linux dependencies</strong> required by your app. <a href="apt.md"><strong>View available packages</strong></a>.</td></tr></tbody></table>
 
-***
+[^1]: **Note:** The **`...`** only indicate the continuation of other previous or subsequent options that are not relevant to mention on this page.

@@ -27,15 +27,13 @@ Traffic stays within the Discloud infrastructure. No public ingress is created f
 
 Add the following keys to each application that should participate in the private network:
 
-{% code title="discloud.config" %}
-```properties
-# ... other settings ...
+<pre class="language-properties" data-title="discloud.config"><code class="lang-properties"><a data-footnote-ref href="#user-content-fn-1"># ...</a>
+NAME=My Mongo Server
 VLAN=true
 HOSTNAME=mymongoserver
-#        |      ^
-#        |      Unique private hostname
-```
-{% endcode %}
+#       |      ^     |
+#       |      Private network name for this application
+</code></pre>
 
 | Key        | Required    | Description                                            |
 | ---------- | ----------- | ------------------------------------------------------ |
@@ -104,6 +102,10 @@ print(client.admin.command('ping'))
 {% endtab %}
 {% endtabs %}
 
+{% hint style="info" %}
+**📌 Make sure to expose the correct ports in your Dockerfile if you’re using one!**
+{% endhint %}
+
 ***
 
 ## 🧵 Hostname Conventions
@@ -127,3 +129,5 @@ print(client.admin.command('ping'))
 {% hint style="success" %}
 Combine VLAN with environment-scoped credentials for least privilege.
 {% endhint %}
+
+[^1]: **Note:** The **`...`** only indicate the continuation of other previous or subsequent options that are not relevant to mention on this page.

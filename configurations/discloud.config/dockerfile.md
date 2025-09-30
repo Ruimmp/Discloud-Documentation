@@ -71,16 +71,14 @@ Discloud supports **private networks** between Docker applications, allowing **l
 
 To activate **private networking**, add the following options in your configuration file:
 
-```ini
-# ...
+<pre class="language-ini"><code class="lang-ini"><a data-footnote-ref href="#user-content-fn-1"># ...</a>
 NAME=My Mongo Server
 MAIN=Dockerfile
 VLAN=true
 HOSTNAME=mymongoserver
 #       |      ^     |
 #       |      Private network name for this application
-# ...
-```
+</code></pre>
 
 {% hint style="info" %}
 📌 **Make sure to expose the correct ports in your Dockerfile!**
