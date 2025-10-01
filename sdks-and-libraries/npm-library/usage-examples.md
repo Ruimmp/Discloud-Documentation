@@ -8,7 +8,7 @@ icon: vial
 # Usage Examples
 
 {% hint style="info" %}
-**Important**: To obtain your API Token required in the examples below, please visit the [**API Authentication Guide**](../../api-and-integrations/api-overview/authentication.md).
+**Important**: To obtain your API Token required in the examples below, see [here](../../faq/general-questions/how-can-i-get-my-discloud-api-token.md).
 
 **Setup Required**: Make sure you've completed the [**Getting Started**](getting-started.md) guide before using these examples.
 {% endhint %}
@@ -93,7 +93,7 @@ try {
 {% endtabs %}
 
 {% hint style="info" %}
-**Before uploading:** Ensure your ZIP file contains the [`discloud.config`](../../configurations/discloud.config/) file and follows the [**preparation guidelines**](../../development-environment/supported-languages/javascript/) for your language.
+**Before uploading:** Ensure your ZIP file contains the [`discloud.config`](../../configurations/discloud.config) file and follows the [**preparation guidelines**](../../development-environment/supported-languages/javascript/) for your language.
 {% endhint %}
 
 ### 🔄 Updating (Committing) an Application
@@ -489,7 +489,7 @@ try {
 ```
 
 {% hint style="warning" %}
-#### **RAM Requirements:**
+**RAM Requirements:**
 
 * Bot applications: minimum 100MB
 * Website applications: minimum 512MB
@@ -514,7 +514,7 @@ try {
 ```
 
 {% hint style="warning" %}
-#### Profile Update Details:
+**Profile Update Details:**
 
 * `name`: Optional. New name for your application (maximum 30 characters).
 * `avatarURL`: Optional. URL of the new avatar image. Supported formats: GIF, JPG, JPEG, PNG.
