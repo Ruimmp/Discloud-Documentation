@@ -22,6 +22,7 @@
   * [APT](configuracoes/discloud.config/apt.md)
   * [Versões](configuracoes/discloud.config/versoes.md)
   * [Dockerfile](configuracoes/discloud.config/dockerfile.md)
+  * [Dockerfile Hidden](configuracoes/discloud.config/dockerfile-hidden.md)
   * [VLAN](configuracoes/discloud.config/vlan.md)
 * [.discloudignore](configuracoes/.discloudignore.md)
 * [Puppeteer](configuracoes/puppeteer.md)
