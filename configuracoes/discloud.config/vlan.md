@@ -21,7 +21,7 @@ O recurso VLAN permite que múltiplas aplicações Discloud se comuniquem por um
 O tráfego permanece dentro da infraestrutura Discloud. Nenhum ingresso público é criado para serviços acessados apenas via hostname privado.
 {% endhint %}
 
----
+***
 
 ## ⚙️ Configuração ([discloud.config](./))
 
@@ -44,27 +44,24 @@ HOSTNAME=mymongoserver
 Se duas apps definirem o mesmo HOSTNAME, o comportamento é indefinido. Mantenha hostnames únicos e em minúsculas (letras, dígitos, hífens).
 {% endhint %}
 
----
+***
 
 ## 🧷 Exemplo: Serviço MongoDB + Backend
 
 App de serviço:
 
 {% code title="discloud.config" %}
-
 ```properties
 NAME=Serviço Mongo
 VLAN=true
 HOSTNAME=mymongoserver
 ```
-
 {% endcode %}
 
 Código de conexão do backend:
 
 {% tabs %}
 {% tab title="TypeScript" %}
-
 ```typescript
 import mongoose from "mongoose";
 
@@ -84,11 +81,9 @@ async function main() {
 
 main();
 ```
-
 {% endtab %}
 
 {% tab title="Node (Driver Nativo)" %}
-
 ```javascript
 import { MongoClient } from "mongodb";
 const uri = "mongodb://mymongoserver:27017/mydatabase";
@@ -96,25 +91,18 @@ const client = new MongoClient(uri);
 await client.connect();
 console.log("Ping:", await client.db().command({ ping: 1 }));
 ```
-
 {% endtab %}
 
 {% tab title="Python" %}
-
 ```python
 from pymongo import MongoClient
 client = MongoClient('mongodb://mymongoserver:27017/mydatabase')
 print(client.admin.command('ping'))
 ```
-
 {% endtab %}
 {% endtabs %}
 
-{% hint style="info" %}
-📌 **Certifique-se de expor as portas corretas no seu Dockerfile caso esteja usando um!**
-{% endhint %}
-
----
+***
 
 ## 🧵 Convenções de Hostname
 
@@ -123,7 +111,7 @@ print(client.admin.command('ping'))
 | Caracteres  | Apenas `a-z 0-9 -` |
 | Comprimento | 1–25 caracteres    |
 
----
+***
 
 ## 🛡️ Notas de Segurança
 
