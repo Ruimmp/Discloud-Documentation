@@ -8,7 +8,7 @@ description: >-
 
 ## 🗂️ O que é `go.mod`?
 
-`go.mod` define o caminho do seu módulo, a versão da toolchain Go (no formato `major.minor`), e as dependências diretas necessárias pelo seu projeto. O Discloud usa ele (e o `go.sum` acompanhante) para baixar e verificar módulos antes de construir sua aplicação.
+`go.mod` define o caminho do seu módulo, a versão da toolchain Go (no formato `major.minor`), e as dependências diretas necessárias pelo seu projeto. A Discloud usa ele (e o `go.sum` acompanhante) para baixar e verificar módulos antes de construir sua aplicação.
 
 ***
 

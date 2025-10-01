@@ -8,7 +8,7 @@ description: >-
 
 ## 🗂️ O que é `Cargo.toml`?
 
-`Cargo.toml` é o manifesto que define os metadados do seu pacote Rust (crate): nome, versão, autores, edição, dependências, recursos, scripts de build e mais. O Discloud depende dele para resolver e compilar seu projeto antes de iniciá-lo.
+`Cargo.toml` é o manifesto que define os metadados do seu pacote Rust (crate): nome, versão, autores, edição, dependências, recursos, scripts de build e mais. A Discloud depende dele para resolver e compilar seu projeto antes de iniciá-lo.
 
 ***
 

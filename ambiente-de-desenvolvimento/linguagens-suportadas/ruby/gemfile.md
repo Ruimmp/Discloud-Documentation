@@ -8,7 +8,7 @@ description: >-
 
 ## 🗂️ O que é `Gemfile`?
 
-`Gemfile` lista as gems (bibliotecas) que sua aplicação Ruby precisa. O Discloud usa o **Bundler** durante o deploy para instalá-las antes de iniciar sua aplicação.
+`Gemfile` lista as gems (bibliotecas) que sua aplicação Ruby precisa. A Discloud usa o **Bundler** durante o deploy para instalá-las antes de iniciar sua aplicação.
 
 ***
 

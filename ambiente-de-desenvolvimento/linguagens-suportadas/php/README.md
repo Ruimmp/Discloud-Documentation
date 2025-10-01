@@ -7,7 +7,7 @@ icon: php
 
 ## 📁 **Preparando os Arquivos do Seu Projeto**
 
-Se seu projeto usa Composer, certifique-se de que um [`composer.json`](composer.json.md) válido esteja na **raiz** do arquivo que você faz upload. O Discloud instalará as dependências automaticamente quando detectar este arquivo.
+Se seu projeto usa Composer, certifique-se de que um [`composer.json`](composer.json.md) válido esteja na **raiz** do arquivo que você faz upload. A Discloud instalará as dependências automaticamente quando detectar este arquivo.
 
 #### ❌ **Arquivos / Diretórios a Excluir**
 
