@@ -102,10 +102,6 @@ print(client.admin.command('ping'))
 {% endtab %}
 {% endtabs %}
 
-{% hint style="info" %}
-**📌 Make sure to expose the correct ports in your Dockerfile if you’re using one!**
-{% endhint %}
-
 ***
 
 ## 🧵 Hostname Conventions
