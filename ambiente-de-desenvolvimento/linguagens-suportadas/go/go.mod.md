@@ -112,15 +112,6 @@ Regenere / atualize-o a qualquer momento:
 go mod tidy
 ```
 
-### Quando `go.sum` Está Vazio
-
-Se após organizar o arquivo permanecer vazio, seu projeto atualmente usa apenas a biblioteca padrão do Go (sem módulos externos). Isso é válido, mas:
-
-* A ausência de entradas pode tornar o ambiente de build menos explícito.
-* Você pode preferir um pequeno [Dockerfile](../../../configuracoes/discloud.config/dockerfile.md) para bloquear a versão da toolchain Go e o processo de build.
-
-> 🔗 Exemplos: [Padrões de Dockerfile Go](../../../configuracoes/discloud.config/dockerfile.md#go)
-
 ***
 
 ## 🧪 Exemplos de Tipos de Aplicação
