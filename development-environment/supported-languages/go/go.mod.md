@@ -112,15 +112,6 @@ Regenerate / update it anytime:
 go mod tidy
 ```
 
-### When `go.sum` Is Empty
-
-If after a tidy the file stays empty, your project currently uses only the Go standard library (no external modules). This is valid, but:
-
-* The absence of entries can make the build environment less explicit.
-* You may prefer a small [Dockerfile](../../../configurations/discloud.config/dockerfile.md) to lock the Go toolchain version and build process.
-
-> 🔗 Examples: [Go Dockerfile patterns](../../../configurations/discloud.config/dockerfile.md#examples-of-applications-using-dockerfile)
-
 ***
 
 ## 🧪 Application Type Examples

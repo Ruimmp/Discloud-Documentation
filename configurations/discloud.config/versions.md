@@ -86,10 +86,4 @@ If you're unsure which version to choose, using `latest` will always select the 
 
 </details>
 
-***
-
-## ❓ **Didn't Find Your Language or Version?**
-
-Discloud supports custom versions! If the version or language you need isn’t listed above, you can still use any version through a [Dockerfile](dockerfile.md).
-
 [^1]: **Note:** The **`...`** only indicate the continuation of other previous or subsequent options that are not relevant to mention on this page.

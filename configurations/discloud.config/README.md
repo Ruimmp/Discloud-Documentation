@@ -113,23 +113,6 @@ APT=tools
 * `AUTORESTART` - ensures that the application restarts automatically in case of failure.
 * `APT` - allows you to specify a list of [packages](../../api-and-integrations/api-overview/) to be installed.
 {% endtab %}
-
-{% tab title="🐋 Dockerfile" %}
-If you are deploying a project with a [**Dockerfile**](dockerfile.md), you will have additional options available.
-
-* Set a boolean value for the `VLAN` option to enable or disable networking between applications deployed with a **Dockerfile**.
-* Customize the Docker network name of your application using the `HOSTNAME` option.
-
-<pre class="language-properties" data-title="discloud.config"><code class="lang-properties"><a data-footnote-ref href="#user-content-fn-1"># ...</a>
-MAIN=Dockerfile
-VLAN=true
-HOSTNAME=expressapi
-</code></pre>
-
-* Setting `MAIN` as your **Dockerfile** enables the use of the following options:
-  * `VLAN` - Enables or disables the use of Docker networks.
-  * `HOSTNAME` - Defines the name of the Docker network for your application.
-{% endtab %}
 {% endtabs %}
 
 {% hint style="info" %}
@@ -152,7 +135,7 @@ MAIN=index.js
 
 ## 🪅 Examples of **`discloud.config`** files
 
-> See below examples of **discloud.config** files for [🤖 Discord Bots](./#discord-bots), [🌐 Websites and APIs](./#websites-and-apis), and [🐋 Applications with Dockerfile](./#applications-with-dockerfile).
+> See below examples of **discloud.config** files for [🤖 Discord Bots](./#discord-bots) and [🌐 Websites and APIs](./#websites-and-apis).
 
 {% tabs %}
 {% tab title="🤖 Discord bots" %}
@@ -231,41 +214,6 @@ START=npm run start
 RAM=512
 VERSION=latest
 ID=moviemark
-```
-{% endcode %}
-{% endtab %}
-{% endtabs %}
-{% endtab %}
-
-{% tab title="🐋 Applications with Dockerfile" %}
-{% tabs %}
-{% tab title="🍃 MongoDB Server" %}
-MongoDB database server that will be consumed by another application, where the Docker network name will be **mongoserver**.
-
-{% code title="discloud.config" %}
-```properties
-NAME=MongoDB Server
-TYPE=bot
-MAIN=Dockerfile
-RAM=512
-VERSION=latest
-VLAN=true
-HOSTNAME=mongoserver
-```
-{% endcode %}
-{% endtab %}
-
-{% tab title="🤖 Discord Bot" %}
-Discord bot made in **TypeScript** with **Mongoose**, which will be built and started in the **Dockerfile** and will be able to access other Docker networks of the user.
-
-{% code title="discloud.config" %}
-```properties
-NAME=Ticket Bot mongoose
-TYPE=bot
-MAIN=Dockerfile
-RAM=512
-VERSION=latest
-VLAN=true
 ```
 {% endcode %}
 {% endtab %}
