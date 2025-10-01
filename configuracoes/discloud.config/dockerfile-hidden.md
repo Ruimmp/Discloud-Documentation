@@ -2,8 +2,8 @@
 description: >-
   Use um Dockerfile para fazer o upload de aplicações na Discloud, dando a você
   mais liberdade para usar suas tecnologias favoritas.
-icon: docker
 hidden: true
+icon: docker
 ---
 
 # Dockerfile Hidden
@@ -65,9 +65,9 @@ Faça upload do seu projeto como faria com uma [upload normal da Discloud](https
 
 Para que sua aplicação seja compatível com a infraestrutura da Discloud ao usar Dockerfile, siga as seguintes instruções:
 
-{% hint style="warning" %}
-- O processo final do container **deve executar como usuário de UID `1000`** (usuário padrão da Discloud).
-- Qualquer arquivo/diretório que precise ser **persistido ou escrito em tempo de execução** deve ficar dentro de **`/home/discloud`**.
+{% hint style="danger" %}
+* O processo final do container **deve executar como usuário de UID `1000`** (usuário padrão da Discloud).
+* Qualquer arquivo/diretório que precise ser **persistido ou escrito em tempo de execução** deve ficar dentro de **`/home/discloud`**.
 {% endhint %}
 
 ***
@@ -79,7 +79,7 @@ Abaixo estão **exemplos de diferentes aplicações** que podem ser hospedadas u
 {% tabs %}
 {% tab title="🤖 Bots Discord" %}
 {% tabs %}
-{% tab title="🟨 Bot JavaScript" %}
+{% tab title="🟨 JavaScript" %}
 {% code title="Dockerfile" %}
 ```docker
 # Use a imagem atual do Node.js
@@ -109,7 +109,7 @@ CMD ["node", "index.js"]
 {% endcode %}
 {% endtab %}
 
-{% tab title="🔵 Bot TypeScript" %}
+{% tab title="🔵 TypeScript" %}
 {% code title="Dockerfile" %}
 ```docker
 # Use a imagem atual do Node.js
@@ -140,7 +140,7 @@ CMD ["node", "dist/index.js"]
 {% endcode %}
 {% endtab %}
 
-{% tab title="🐍 Bot Python" %}
+{% tab title="🐍 Python" %}
 {% code title="Dockerfile" %}
 ```docker
 # Use a imagem oficial do Python
@@ -172,7 +172,7 @@ CMD ["python", "bot.py"]
 {% endcode %}
 {% endtab %}
 
-{% tab title="☕ Bot Java" %}
+{% tab title="☕ Java" %}
 {% code title="Dockerfile" %}
 ```docker
 # Use a imagem oficial do Maven para construir o projeto
@@ -321,5 +321,6 @@ CMD ["npm", "start"]
 {% endtab %}
 {% endtabs %}
 {% endtab %}
+{% endtabs %}
 
 [^1]: **Nota:** Os **`...`** indicam apenas a continuação de outras opções anteriores ou subsequentes que não são relevantes para mencionar nesta página.
