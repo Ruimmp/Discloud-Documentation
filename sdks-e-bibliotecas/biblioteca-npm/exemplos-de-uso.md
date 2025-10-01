@@ -8,7 +8,7 @@ icon: vial
 # Exemplos de Uso
 
 {% hint style="info" %}
-**Importante**: Para obter seu Token da API necessário nos exemplos abaixo, visite o [**Guia de Autenticação da API**](../../api-e-integracoes/visao-geral-da-api/autenticacao.md).
+**Importante**: Para obter seu Token da API necessário nos exemplos abaixo, veja [aqui](../../faq/perguntas-gerais/como-obter-o-meu-token-da-api-da-discloud.md).
 
 **Configuração Necessária**: Certifique-se de ter completado o guia [**Introdução**](introducao.md) antes de usar estes exemplos.
 {% endhint %}
@@ -93,7 +93,7 @@ try {
 {% endtabs %}
 
 {% hint style="info" %}
-**Antes do upload:** Certifique-se de que seu arquivo ZIP contenha o arquivo [`discloud.config`](../../configuracoes/discloud.config/) e siga as [**diretrizes de preparação**](../../ambiente-de-desenvolvimento/linguagens-suportadas/javascript/) para sua linguagem.
+**Antes do upload:** Certifique-se de que seu arquivo ZIP contenha o arquivo [`discloud.config`](../../configuracoes/discloud.config) e siga as [**diretrizes de preparação**](../../ambiente-de-desenvolvimento/linguagens-suportadas/javascript/) para sua linguagem.
 {% endhint %}
 
 ### 🔄 Atualizando (Fazendo Commit) uma Aplicação
@@ -489,7 +489,7 @@ try {
 ```
 
 {% hint style="warning" %}
-#### **Requisitos de RAM:**
+**Requisitos de RAM:**
 
 * Aplicações bot: mínimo 100MB
 * Aplicações website: mínimo 512MB
@@ -514,7 +514,7 @@ try {
 ```
 
 {% hint style="warning" %}
-#### **Detalhes da Atualização do Perfil:**
+**Detalhes da Atualização do Perfil:**
 
 * `name`: Opcional. Novo nome para sua aplicação (máximo 30 caracteres).
 * `avatarURL`: Opcional. URL da nova imagem de avatar. Formatos suportados: GIF, JPG, JPEG, PNG.
