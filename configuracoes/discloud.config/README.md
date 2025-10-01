@@ -1,6 +1,6 @@
 ---
 description: >-
-  Aprenda tudo sobre o arquivo de configuração para hospedar aplicações no
+  Aprenda tudo sobre o arquivo de configuração para hospedar aplicações na
   Discloud.
 icon: gear
 ---
@@ -11,7 +11,7 @@ icon: gear
 
 É um arquivo de configuração que simplifica o processo de upload das suas aplicações na Discloud. Com este arquivo, você pode configurar facilmente as informações para cada aplicação que você faz upload no serviço de hospedagem.
 
-***
+---
 
 ## 📂 **Localização do Arquivo `discloud.config`**
 
@@ -43,7 +43,7 @@ your-project/
     └── discloud.config   # ❌ ERRO DE PASTA OCULTA
 ```
 
-***
+---
 
 ## 🛠️ Opções de configuração
 
@@ -58,9 +58,9 @@ AVATAR=https://i.imgur.com/bWhx7OT.png
 <a data-footnote-ref href="#user-content-fn-1"># ...</a>
 </code></pre>
 
-* `NAME` - determina o nome da sua aplicação na plataforma de hospedagem.
-* `AVATAR` - usa a URL da imagem como avatar para sua aplicação na plataforma de hospedagem.
-{% endtab %}
+- `NAME` - determina o nome da sua aplicação na plataforma de hospedagem.
+- `AVATAR` - usa a URL da imagem como avatar para sua aplicação na plataforma de hospedagem.
+  {% endtab %}
 
 {% tab title="🖥️ Aplicação" %}
 Para que sua aplicação inicie corretamente na hospedagem, você precisa definir seu tipo usando a opção `TYPE`, definir o ponto de entrada com a opção `MAIN`, especificar a `RAM` máxima que pode usar com a opção `RAM`, e indicar a [versão da linguagem](versoes.md) com a opção `VERSION`. Veja abaixo:
@@ -72,10 +72,10 @@ RAM=100
 VERSION=latest
 </code></pre>
 
-* `TYPE` - pode ter dois valores: **bot** ou **site**.
-* `MAIN` - deve conter o caminho para o [arquivo principal](../../faq/perguntas-gerais/em-andamento-qual-e-o-arquivo-principal.md) da sua aplicação.
-* `RAM` - determina a quantidade máxima de RAM disponível para a aplicação.
-* `VERSION` - especifica a [versão da linguagem](versoes.md) do seu projeto.
+- `TYPE` - pode ter dois valores: **bot** ou **site**.
+- `MAIN` - deve conter o caminho para o [arquivo principal](../../faq/perguntas-gerais/em-andamento-qual-e-o-arquivo-principal.md) da sua aplicação.
+- `RAM` - determina a quantidade máxima de RAM disponível para a aplicação.
+- `VERSION` - especifica a [versão da linguagem](versoes.md) do seu projeto.
 
 {% hint style="info" %}
 Se o `TYPE` estiver definido como **site**, você também deve definir a opção `ID` com seu subdomínio. [Veja mais aqui.](../../faq/perguntas-gerais/em-andamento-como-criar-um-subdominio.md)
@@ -108,17 +108,17 @@ AUTORESTART=true
 APT=tools
 </code></pre>
 
-* `BUILD` - define o comando ou script para compilar o projeto.
-* `START` - define o comando ou script para iniciar o projeto.
-* `AUTORESTART` - garante que a aplicação reinicie automaticamente em caso de falha.
-* `APT` - permite especificar uma lista de [pacotes](apt.md) a serem instalados.
-{% endtab %}
+- `BUILD` - define o comando ou script para compilar o projeto.
+- `START` - define o comando ou script para iniciar o projeto.
+- `AUTORESTART` - garante que a aplicação reinicie automaticamente em caso de falha.
+- `APT` - permite especificar uma lista de [pacotes](apt.md) a serem instalados.
+  {% endtab %}
 
 {% tab title="🐋 Dockerfile" %}
 Se você estiver hospedando um projeto com um [**Dockerfile**](dockerfile.md), você terá opções adicionais disponíveis.
 
-* Defina um valor booleano para a opção `VLAN` para habilitar ou desabilitar a rede entre aplicações hospedadas com um **Dockerfile**.
-* Personalize o nome da rede Docker da sua aplicação usando a opção `HOSTNAME`.
+- Defina um valor booleano para a opção `VLAN` para habilitar ou desabilitar a rede entre aplicações hospedadas com um **Dockerfile**.
+- Personalize o nome da rede Docker da sua aplicação usando a opção `HOSTNAME`.
 
 <pre class="language-properties" data-title="discloud.config"><code class="lang-properties"><a data-footnote-ref href="#user-content-fn-1"># ...</a>
 MAIN=Dockerfile
@@ -126,13 +126,14 @@ VLAN=true
 HOSTNAME=expressapi
 </code></pre>
 
-* Definir `MAIN` como seu **Dockerfile** habilita o uso das seguintes opções:
-  * `VLAN` - Habilita ou desabilita o uso de redes Docker.
-  * `HOSTNAME` - Define o nome da rede Docker para sua aplicação.
-{% endtab %}
-{% endtabs %}
+- Definir `MAIN` como seu **Dockerfile** habilita o uso das seguintes opções:
+  - `VLAN` - Habilita ou desabilita o uso de redes Docker.
+  - `HOSTNAME` - Define o nome da rede Docker para sua aplicação.
+    {% endtab %}
+    {% endtabs %}
 
 {% hint style="info" %}
+
 #### ⚠️ Opções obrigatórias no seu **`discloud.config`**
 
 **Apenas um campo é obrigatório**:
@@ -143,12 +144,12 @@ MAIN=index.js
 
 **Todos os outros campos são opcionais** e usarão padrões inteligentes se omitidos:
 
-* `TYPE` padrão é `bot`
-* `RAM` padrão é `100` (MB)
-* `VERSION` padrão é `latest`
-{% endhint %}
+- `TYPE` padrão é `bot`
+- `RAM` padrão é `100` (MB)
+- `VERSION` padrão é `latest`
+  {% endhint %}
 
-***
+---
 
 ## 🪅 Exemplos de arquivos **`discloud.config`**
 
@@ -161,6 +162,7 @@ MAIN=index.js
 Bot Discord feito em JavaScript onde o ponto de entrada é o arquivo **index.js** na raiz do projeto.
 
 {% code title="discloud.config" %}
+
 ```properties
 NAME=Lorito
 TYPE=bot
@@ -168,6 +170,7 @@ MAIN=index.js
 RAM=100
 VERSION=latest
 ```
+
 {% endcode %}
 {% endtab %}
 
@@ -175,6 +178,7 @@ VERSION=latest
 Bot feito em TypeScript onde o ponto de entrada é o arquivo **index** dentro da pasta **build**. A aplicação iniciará executando o script **start** do arquivo **package.json**.
 
 {% code title="discloud.config" %}
+
 ```properties
 NAME=Mee8
 TYPE=bot
@@ -183,6 +187,7 @@ START=npm run start
 RAM=200
 VERSION=latest
 ```
+
 {% endcode %}
 {% endtab %}
 
@@ -190,6 +195,7 @@ VERSION=latest
 Bot Discord feito em Python onde o ponto de entrada é o arquivo **main.py** na raiz do projeto.
 
 {% code title="discloud.config" %}
+
 ```properties
 NAME=Dyna
 TYPE=bot
@@ -197,6 +203,7 @@ MAIN=main.py
 RAM=300
 VERSION=latest
 ```
+
 {% endcode %}
 {% endtab %}
 {% endtabs %}
@@ -208,6 +215,7 @@ VERSION=latest
 Site simples com HTML puro, usando o subdomínio **"friendbook"** da conta do usuário.
 
 {% code title="discloud.config" %}
+
 ```properties
 NAME=Friendbook
 TYPE=site
@@ -216,6 +224,7 @@ RAM=512
 VERSION=latest
 ID=friendbook
 ```
+
 {% endcode %}
 {% endtab %}
 
@@ -223,6 +232,7 @@ ID=friendbook
 API Web construída com **Express.js**, onde o arquivo de entrada é **index.js** dentro da pasta **server**. A aplicação iniciará executando o script **start** do arquivo **package.json**.
 
 {% code title="discloud.config" %}
+
 ```properties
 NAME=Crud cinema
 TYPE=site
@@ -232,6 +242,7 @@ RAM=512
 VERSION=latest
 ID=moviemark
 ```
+
 {% endcode %}
 {% endtab %}
 {% endtabs %}
@@ -243,6 +254,7 @@ ID=moviemark
 Servidor de banco de dados MongoDB que será consumido por outra aplicação, onde o nome da rede Docker será **mongoserver**.
 
 {% code title="discloud.config" %}
+
 ```properties
 NAME=MongoDB Server
 TYPE=bot
@@ -252,6 +264,7 @@ VERSION=latest
 VLAN=true
 HOSTNAME=mongoserver
 ```
+
 {% endcode %}
 {% endtab %}
 
@@ -259,6 +272,7 @@ HOSTNAME=mongoserver
 Bot Discord feito em **TypeScript** com **Mongoose**, que será construído e iniciado no **Dockerfile** e poderá acessar outras redes Docker do usuário.
 
 {% code title="discloud.config" %}
+
 ```properties
 NAME=Ticket Bot mongoose
 TYPE=bot
@@ -267,13 +281,14 @@ RAM=512
 VERSION=latest
 VLAN=true
 ```
+
 {% endcode %}
 {% endtab %}
 {% endtabs %}
 {% endtab %}
 {% endtabs %}
 
-***
+---
 
 ## ⚙️ **Opções de configuração**
 
