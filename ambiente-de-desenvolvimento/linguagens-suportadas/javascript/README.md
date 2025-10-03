@@ -56,8 +56,6 @@ const PORT = process.env.PORT || 8080;
 app.listen(PORT, () => console.log(`Servidor rodando na porta ${PORT}`));
 ```
 
-{% expand %}
-
 ### 📦 Sobre a pasta `dist` (apenas `TYPE=site`)
 
 {% hint style="info" %}
@@ -106,8 +104,6 @@ RAM=512
 VERSION=latest
 ID=meusite
 ```
-
-{% endexpand %}
 
 ---
 
