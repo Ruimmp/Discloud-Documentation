@@ -61,16 +61,17 @@ app.listen(PORT, () => console.log(`Servidor rodando na porta ${PORT}`));
 <summary>📦 Sobre a pasta dist (apenas TYPE=site)</summary>
 
 {% hint style="info" %}
-Para aplicações **JavaScript** cujo `TYPE=site` no [`discloud.config`](../../../configuracoes/discloud.config/), a pasta **`dist/` é reservada** para receber o resultado do comando definido em `BUILD`. Você **não precisa (e não deve)** subir arquivos já compilados dentro de `dist/` se optar por deixar a Discloud construir seu projeto.
+Para apps `TYPE=site`, **`dist/` é reservada** para a saída do `BUILD`. Se você define `BUILD=...` no [`discloud.config`](../../../configuracoes/discloud.config/), nós geramos a pasta `dist/` pra você. **Não compacte `dist/`** ou envie arquivos para lá.
 {% endhint %}
 
-#### ✅ Quando deixar a Discloud buildar
+{% tabs %}
+{% tab title="⚙️ Build automático" %}
 
-1. Adicione no `discloud.config` a chave `BUILD` com o comando (ex.: `npm run build`).
-2. Garanta que seu script de build gere saída em `dist/` (padrão em ferramentas como Vite, Vue CLI, SvelteKit estático, etc.).
-3. A plataforma executará o comando antes de iniciar (`START`) e usará o conteúdo de `dist/` automaticamente.
+1. `BUILD` no `discloud.config` (ex.: `BUILD=npm run build`).
+2. Script gera arquivos em `dist/` (Vite, Vue, etc. já fazem isso).
+3. Rodamos `BUILD` antes do `START` e servimos `dist/`.
 
-Exemplo (site com Express servindo arquivos estáticos gerados):
+Exemplo:
 
 ```properties
 TYPE=site
@@ -82,7 +83,7 @@ VERSION=latest
 ID=meusite
 ```
 
-Scripts típicos em `package.json`:
+Scripts em `package.json`:
 
 ```json
 {
@@ -93,15 +94,16 @@ Scripts típicos em `package.json`:
 }
 ```
 
-#### 👜 Enviando projeto já buildado
+{% endtab %}
 
-Se você prefere fazer o build localmente e **não** quer que a Discloud execute `BUILD`:
+{% tab title="👜 Pré-build" %}
 
-* Gere a saída para uma pasta alternativa, por exemplo **`build/`** (para evitar conflito com `dist/`).
-* Não defina `BUILD` no `discloud.config`.
-* Aponte `MAIN` (e/ou `START`) para dentro dessa pasta.
+Use se o build é pesado e muda pouco:
+* Gere a saída em **`build/`** (não use `dist/`).
+* Omitir `BUILD` no `discloud.config`.
+* Aponte `MAIN` / `START` para a pasta `build/`.
 
-Exemplo (deploy de saída pré-compilada):
+Exemplo:
 
 ```properties
 TYPE=site
@@ -111,6 +113,9 @@ RAM=512
 VERSION=latest
 ID=meusite
 ```
+
+{% endtab %}
+{% endtabs %}
 
 </details>
 
