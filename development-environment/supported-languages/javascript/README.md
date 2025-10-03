@@ -50,7 +50,7 @@ VERSION=latest
 ID=mysite
 ```
 
-### 👜 Pre-built (manual build)
+### 👜 Pre-built
 
 1. Produce output in `build/` (do not use `dist/`).
 2. Omit `BUILD` from `discloud.config`.
