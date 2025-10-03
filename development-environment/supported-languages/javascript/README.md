@@ -24,6 +24,50 @@ Ensure the following files and directories are **not** included in your [`.zip`]
 
 🔗 **Need help setting up your** [**`package.json`**](package.json.md) **or find** [**main file**](../../../faq/general-questions/wip-what-is-the-main-file.md)**?**
 
+<details>
+
+<summary>📦 About the dist folder (TYPE=site only)</summary>
+
+{% hint style="info" %}
+For apps with `TYPE=site`, the `dist/` folder is reserved for BUILD output. If you set `BUILD=...` in your [`discloud.config`](../../../configurations/discloud.config/README.md), we generate the `dist/` folder for you. Do not compress `dist/` or upload files into it.
+{% endhint %}
+
+### ⚙️ Automatic build
+
+1. Add `BUILD` in `discloud.config` (e.g., `BUILD=npm run build`).
+2. Your build script outputs files to `dist/` (Vite, Vue, etc. already do this).
+3. We run `BUILD` before `START` and serve the `dist/` folder.
+
+Example:
+
+```properties
+TYPE=site
+MAIN=server/index.js
+BUILD=npm run build
+START=npm run start
+RAM=512
+VERSION=latest
+ID=mysite
+```
+
+### 👜 Pre-built (manual build)
+
+1. Produce output in `build/` (do not use `dist/`).
+2. Omit `BUILD` from `discloud.config`.
+3. Point `MAIN` to the `build/` folder.
+
+Example:
+
+```properties
+TYPE=site
+MAIN=build/server.js
+RAM=512
+VERSION=latest
+ID=mysite
+```
+
+</details>
+
 ***
 
 ### 🌐 **Hosting Websites & APIs with Express**
