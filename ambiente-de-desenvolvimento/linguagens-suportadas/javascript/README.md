@@ -64,8 +64,7 @@ app.listen(PORT, () => console.log(`Servidor rodando na porta ${PORT}`));
 Para apps `TYPE=site`, **`dist/` é reservada** para a saída do `BUILD`. Se você define `BUILD=...` no [`discloud.config`](../../../configuracoes/discloud.config/), nós geramos a pasta `dist/` pra você. **Não compacte `dist/`** ou envie arquivos para lá.
 {% endhint %}
 
-{% tabs %}
-{% tab title="⚙️ Build automático" %}
+### ⚙️ Build automático
 
 1. `BUILD` no `discloud.config` (ex.: `BUILD=npm run build`).
 2. Script gera arquivos em `dist/` (Vite, Vue, etc. já fazem isso).
@@ -94,9 +93,7 @@ Scripts em `package.json`:
 }
 ```
 
-{% endtab %}
-
-{% tab title="👜 Pré-build" %}
+### 👜 Pré-build
 
 Use se o build é pesado e muda pouco:
 * Gere a saída em **`build/`** (não use `dist/`).
@@ -113,9 +110,6 @@ RAM=512
 VERSION=latest
 ID=meusite
 ```
-
-{% endtab %}
-{% endtabs %}
 
 </details>
 
