@@ -12,8 +12,7 @@ icon: database
 
 Aplicações Discloud podem se conectar a:
 
-* [Templates de serviço gerenciado integrados que você provisiona através do catálogo de Templates.](bancos-de-dados.md#template-catalog-managed-instances)
-* [Provedor de banco de dados como serviço MongoDB Atlas externo que você configura manualmente.](bancos-de-dados.md#using-external-mongodb-atlas)
+<table data-card-size="large" data-view="cards"><thead><tr><th data-card-target data-type="content-ref"></th><th></th><th data-hidden></th><th data-hidden></th><th data-hidden></th></tr></thead><tbody><tr><td><a href="bancos-de-dados.md#catalogo-de-templates-instancias-gerenciadas">#catalogo-de-templates-instancias-gerenciadas</a></td><td>Templates de serviço gerenciado integrados que você provisiona através do catálogo de Templates.</td><td></td><td></td><td></td></tr><tr><td><a href="bancos-de-dados.md#usando-mongodb-atlas-externo">#usando-mongodb-atlas-externo</a></td><td>Provedor de banco de dados como serviço MongoDB Atlas externo que você configura manualmente.</td><td></td><td></td><td></td></tr></tbody></table>
 
 ***
 
@@ -40,7 +39,7 @@ Hospede. Credenciais / strings de conexão ficam disponíveis para a configuraç
 {% endstepper %}
 
 {% hint style="info" %}
-**📨 Precisa de Outro Template?**
+#### **📨 Precisa de Outro Template?**
 
 Abra um [ticket de suporte](https://discord.com/channels/@me/930852077045940224/) no [servidor Discord](https://discord.discloudbot.com/) com o nome do motor, versão e caso de uso. A equipe avalia a viabilidade e pode adicioná-lo ao catálogo.
 {% endhint %}
