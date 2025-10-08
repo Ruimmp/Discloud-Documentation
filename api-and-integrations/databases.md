@@ -64,10 +64,8 @@ Test connectivity locally before deploying if possible.
 {% endstep %}
 {% endstepper %}
 
-Recommended video walkthrough:
-
 {% tabs %}
-{% tab title="JavaScript" %}
+{% tab title="Recommended video walkthrough" %}
 {% embed url="https://youtu.be/kGPY9ZuJ0b0" %}
 {% endtab %}
 {% endtabs %}
