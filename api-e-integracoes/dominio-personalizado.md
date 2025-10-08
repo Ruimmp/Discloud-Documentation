@@ -11,16 +11,27 @@ Você pode mapear seu próprio domínio (ex. `seudominio.com`) ou um subdomínio
 
 <figure><img src="../.gitbook/assets/custom-domain-flow.png" alt="Diagrama de fluxo de domínio personalizado"><figcaption></figcaption></figure>
 
----
+***
 
 ## 📋 Requisitos
 
-✔ [Plano Platinum ou superior](https://discloud.com/plans) é necessário para hospedar websites ou APIs.\
-✔ [App já hospedada](../como-hospedar/websites-e-apis.md) usando um subdomínio Discloud (ex. `exemplo.discloud.app`)\
-✔ Um domínio registrado que você controla (Cloudflare, GoDaddy, Namecheap, etc.)\
-✔ Capacidade de adicionar / modificar registros CNAME e TXT
+{% hint style="success" %}
+[Plano Platinum ou superior](https://discloud.com/plans) é necessário para hospedar websites ou APIs.
+{% endhint %}
 
----
+{% hint style="success" %}
+[App já hospedada](../como-hospedar/websites-e-apis.md) usando um subdomínio Discloud (ex. `exemplo.discloud.app`)
+{% endhint %}
+
+{% hint style="success" %}
+Um domínio registrado que você controla (Cloudflare, GoDaddy, Namecheap, etc.)
+{% endhint %}
+
+{% hint style="success" %}
+Capacidade de adicionar / modificar registros CNAME e TXT
+{% endhint %}
+
+***
 
 ## 🏗️ Adicione Seu Domínio (Painel)
 
@@ -40,7 +51,7 @@ Clique em **Registrar** e depois no botão **DNS**. Quando clicar, você verá o
 
 <div data-full-width="false"><figure><img src="../.gitbook/assets/Website-Custom-Domain.png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Website-Custom-Domain-DNS.png" alt=""><figcaption></figcaption></figure></div>
 
----
+***
 
 ## ✅ Verificar e Configurar DNS
 
@@ -79,14 +90,14 @@ Múltiplos subdomínios (ex. `api`, `app`) repetem este padrão independentement
 
 ### 📡 **Propagação DNS**
 
-- Mudanças DNS normalmente se propagam em poucos minutos.
-- No entanto, **valores TTL** e **cache do resolvedor** podem causar alguns atrasos.
-- Para verificar mudanças em todo o mundo, confira [dnschecker.org](https://dnschecker.org/)
-- Se alguns POPs ainda exibirem registros antigos, aguarde e verifique novamente mais tarde.
+* Mudanças DNS normalmente se propagam em poucos minutos.
+* No entanto, **valores TTL** e **cache do resolvedor** podem causar alguns atrasos.
+* Para verificar mudanças em todo o mundo, confira [dnschecker.org](https://dnschecker.org/)
+* Se alguns POPs ainda exibirem registros antigos, aguarde e verifique novamente mais tarde.
 
 <figure><img src="../.gitbook/assets/dns-check-propagation.png" alt=""><figcaption></figcaption></figure>
 
----
+***
 
 ## 🔄 Reconstruir a App
 
