@@ -29,10 +29,10 @@ Ensure the following files and directories are **not** included in your [`.zip`]
 <summary>📦 About the dist folder (TYPE=site only)</summary>
 
 {% hint style="info" %}
-For apps with `TYPE=site`, the `dist/` folder is reserved for BUILD output. If you set `BUILD=...` in your [`discloud.config`](../../../configurations/discloud.config/README.md), we generate the `dist/` folder for you. Do not compress `dist/` or upload files into it.
+For apps with `TYPE=site`, the `dist/` folder is reserved for BUILD output. If you set `BUILD=...` in your [`discloud.config`](../../../configurations/discloud.config/), we generate the `dist/` folder for you. Do not compress `dist/` or upload files into it.
 {% endhint %}
 
-### ⚙️ Automatic build
+#### ⚙️ Automatic build
 
 1. Add `BUILD` in `discloud.config` (e.g., `BUILD=npm run build`).
 2. Your build script outputs files to `dist/` (Vite, Vue, etc. already do this).
@@ -50,7 +50,7 @@ VERSION=latest
 ID=mysite
 ```
 
-### 👜 Pre-built
+#### 👜 Pre-built
 
 1. Produce output in `build/` (do not use `dist/`).
 2. Omit `BUILD` from `discloud.config`.
