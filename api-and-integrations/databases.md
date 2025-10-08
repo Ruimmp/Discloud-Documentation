@@ -63,3 +63,11 @@ In Network Access, add IP: `0.0.0.0/0` (Allow from Anywhere) so Discloud contain
 Test connectivity locally before deploying if possible.
 {% endstep %}
 {% endstepper %}
+
+Recommended video walkthrough:
+
+{% tabs %}
+{% tab title="JavaScript" %}
+{% embed url="https://youtu.be/kGPY9ZuJ0b0" %}
+{% endtab %}
+{% endtabs %}
