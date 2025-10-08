@@ -64,3 +64,9 @@ Em Network Access, adicione IP: `0.0.0.0/0` (Permitir de Qualquer Lugar) para qu
 Teste a conectividade localmente antes de fazer o upload, se possível.
 {% endstep %}
 {% endstepper %}
+
+{% tabs %}
+{% tab title="Vídeo explicativo recomendado" %}
+{% embed url="https://youtu.be/kGPY9ZuJ0b0" %}
+{% endtab %}
+{% endtabs %}
