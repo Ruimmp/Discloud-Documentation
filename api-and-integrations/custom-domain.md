@@ -11,16 +11,27 @@ You can map your own domain (e.g. `yourdomain.com`) or a subdomain (e.g. `dash.y
 
 <figure><img src="../.gitbook/assets/custom-domain-flow.png" alt="Custom domain flow diagram"><figcaption></figcaption></figure>
 
----
+***
 
 ## 📋 Requirements
 
-✔ [Platinum plan or higher](https://discloud.com/plans) is required to host websites or APIs.\
-✔ [App already hosted](../how-to-host/websites-and-apis.md) using a Discloud subdomain (e.g. `example.discloud.app`)\
-✔ A registered domain you control (Cloudflare, GoDaddy, Namecheap, etc.)\
-✔ Ability to add / modify CNAME and TXT records
+{% hint style="success" %}
+[Platinum plan or higher](https://discloud.com/plans) is required to host websites or APIs.
+{% endhint %}
 
----
+{% hint style="success" %}
+[App already hosted](../how-to-host/websites-and-apis.md) using a Discloud subdomain (e.g. `example.discloud.app`)
+{% endhint %}
+
+{% hint style="success" %}
+A registered domain you control (Cloudflare, GoDaddy, Namecheap, etc.)
+{% endhint %}
+
+{% hint style="success" %}
+Ability to add / modify CNAME and TXT records
+{% endhint %}
+
+***
 
 ## 🏗️ Add Your Domain (Dashboard)
 
@@ -40,7 +51,7 @@ Click **Register** and then the **DNS** button. When you click it, you will see 
 
 <div data-full-width="false"><figure><img src="../.gitbook/assets/Website-Custom-Domain.png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Website-Custom-Domain-DNS.png" alt=""><figcaption></figcaption></figure></div>
 
----
+***
 
 ## ✅ Verify & Configure DNS
 
@@ -79,14 +90,14 @@ Multiple subdomains (e.g. `api`, `app`) repeat this pattern independently.
 
 ### 📡 **DNS Propagation**
 
-- DNS changes typically propagate within a few minutes.
-- However, **TTL values** and **resolver cache** may cause some delays.
-- To verify changes worldwide, check [dnschecker.org](https://dnschecker.org/)
-- If some POPs still display old records, wait and re-check later.
+* DNS changes typically propagate within a few minutes.
+* However, **TTL values** and **resolver cache** may cause some delays.
+* To verify changes worldwide, check [dnschecker.org](https://dnschecker.org/)
+* If some POPs still display old records, wait and re-check later.
 
 <figure><img src="../.gitbook/assets/dns-check-propagation.png" alt=""><figcaption></figcaption></figure>
 
----
+***
 
 ## 🔄 Rebuild the App
 
