@@ -94,11 +94,11 @@
 
 ## Sobre
 
-* [Marca Discloud](sobre/marca-discloud.md)
 * [Doações](sobre/doacoes.md)
 
 ***
 
+* [Marca Discloud](https://discloud.com/brand)
 * [Discord Server](https://discord.discloudbot.com/)
 * [Termos de Serviço (ToS)](https://discloud.com/legal)
 * [Política de Uso Aceitável (AUP)](https://discloud.com/legal)

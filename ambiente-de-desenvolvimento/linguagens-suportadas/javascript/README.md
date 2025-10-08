@@ -24,7 +24,51 @@ Certifique-se de que os seguintes arquivos e diretórios **não** sejam incluíd
 
 🔗 **Precisa de ajuda para configurar seu** [**`package.json`**](package.json.md) **ou encontrar o** [**arquivo principal**](../../../faq/perguntas-gerais/em-andamento-qual-e-o-arquivo-principal.md)**?**
 
----
+<details>
+
+<summary>📦 Sobre a pasta dist (apenas TYPE=site)</summary>
+
+{% hint style="info" %}
+Para apps `TYPE=site`, **`dist/` é reservada** para a saída do `BUILD`. Se você define `BUILD=...` no [`discloud.config`](../../../configuracoes/discloud.config/), nós geramos a pasta `dist/` pra você. **Não compacte `dist/`** ou envie arquivos para lá.
+{% endhint %}
+
+#### ⚙️ Build automático
+
+1. `BUILD` no `discloud.config` (ex.: `BUILD=npm run build`).
+2. Script gera arquivos em `dist/` (Vite, Vue, etc. já fazem isso).
+3. Rodamos `BUILD` antes do `START` e servimos `dist/`.
+
+Exemplo:
+
+```properties
+TYPE=site
+MAIN=server/index.js
+BUILD=npm run build
+START=npm run start
+RAM=512
+VERSION=latest
+ID=meusite
+```
+
+#### 👜 Pré-build
+
+1. Gere a saída em **`build/`** (não use `dist/`).
+2. Omitir `BUILD` no `discloud.config`.
+3. Aponte `MAIN` para a pasta `build/`.
+
+Exemplo:
+
+```properties
+TYPE=site
+MAIN=build/server.js
+RAM=512
+VERSION=latest
+ID=meusite
+```
+
+</details>
+
+***
 
 ### 🌐 **Hospedando Websites e APIs com Express**
 
@@ -56,7 +100,7 @@ const PORT = process.env.PORT || 8080;
 app.listen(PORT, () => console.log(`Servidor rodando na porta ${PORT}`));
 ```
 
----
+***
 
 ## ✍️ Fazendo Deploy **da Sua Aplicação**
 
