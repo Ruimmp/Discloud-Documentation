@@ -156,8 +156,6 @@ try {
 
 ### 🗑️ Excluindo Aplicações
 
-{% tabs %}
-{% tab title="Aplicação Única" %}
 ```javascript
 const { discloud } = require("discloud.app");
 
@@ -168,21 +166,6 @@ try {
   console.error("Falha ao excluir aplicação:", error.message);
 }
 ```
-{% endtab %}
-
-{% tab title="Todas as Aplicações" %}
-```javascript
-const { discloud } = require("discloud.app");
-
-try {
-  await discloud.apps.delete("all");
-  console.log("Todas as aplicações excluídas com sucesso!");
-} catch (error) {
-  console.error("Falha ao excluir aplicações:", error.message);
-}
-```
-{% endtab %}
-{% endtabs %}
 
 {% hint style="danger" %}
 **Aviso:** Excluir uma aplicação é **permanente** e não pode ser desfeito. Certifique-se de fazer backup de seus dados antes da exclusão.
