@@ -156,8 +156,6 @@ try {
 
 ### 🗑️ Deleting Applications
 
-{% tabs %}
-{% tab title="Single App" %}
 ```javascript
 const { discloud } = require("discloud.app");
 
@@ -168,21 +166,6 @@ try {
   console.error("Failed to delete app:", error.message);
 }
 ```
-{% endtab %}
-
-{% tab title="All Apps" %}
-```javascript
-const { discloud } = require("discloud.app");
-
-try {
-  await discloud.apps.delete("all");
-  console.log("All apps deleted successfully!");
-} catch (error) {
-  console.error("Failed to delete apps:", error.message);
-}
-```
-{% endtab %}
-{% endtabs %}
 
 {% hint style="danger" %}
 **Warning:** Deleting an application is **permanent** and cannot be undone. Make sure to backup your data before deletion.
