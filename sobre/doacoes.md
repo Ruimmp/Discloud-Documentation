@@ -34,10 +34,10 @@ Se você só precisa gerenciar (cancelar / reativar) uma assinatura existente, v
 
 Dois canais de aquisição estão atualmente disponíveis.
 
-| Método | Disponível Via                                                                                                                       |
-| ------ | ------------------------------------------------------------------------------------------------------------------------------------ |
-| Stripe | <ul class="contains-task-list"><li><input type="checkbox" checked>Website</li><li><input type="checkbox">Ticket de Suporte</li></ul> |
-| PayPal | <ul class="contains-task-list"><li><input type="checkbox">Website</li><li><input type="checkbox" checked>Ticket de Suporte</li></ul> |
+| Método           | Disponível Via                                                                                                                       |
+| ---------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
+| Stripe           | <ul class="contains-task-list"><li><input type="checkbox" checked>Website</li><li><input type="checkbox">Ticket de Suporte</li></ul> |
+| PayPal / Revolut | <ul class="contains-task-list"><li><input type="checkbox">Website</li><li><input type="checkbox" checked>Ticket de Suporte</li></ul> |
 
 {% hint style="warning" %}
 Use um ticket apenas se o fluxo de pagamento do site estiver indisponível ou seu método suportado preferido falhar.
