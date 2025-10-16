@@ -1,13 +1,27 @@
 ---
 description: Welcome to the official Discloud documentation.
 icon: rocket-launch
+layout:
+  width: default
+  title:
+    visible: false
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: false
+  pagination:
+    visible: true
+  metadata:
+    visible: false
 ---
 
 # Welcome to Discloud
 
-## ✨️ Welcome to Discloud
+<h2 align="center">✨️ Welcome to Discloud</h2>
 
-Welcome to the official Discloud documentation! Discloud is a cloud hosting platform that simplifies the deployment and management of your applications, allowing you to focus on development without the hassle of infrastructure management.
+<p align="center">Welcome to the official Discloud documentation! Discloud is a cloud hosting platform that simplifies the deployment and management of your applications, allowing you to focus on development without the hassle of infrastructure management.</p>
 
 ***
 
