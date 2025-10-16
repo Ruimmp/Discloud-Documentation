@@ -1,6 +1,20 @@
 ---
 description: Welcome to the official Discloud documentation.
 icon: rocket-launch
+layout:
+  width: default
+  title:
+    visible: false
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
 ---
 
 # Welcome to Discloud
