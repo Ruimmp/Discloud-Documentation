@@ -1,13 +1,27 @@
 ---
 description: Bem-vindo à documentação oficial da Discloud.
 icon: rocket-launch
+layout:
+  width: default
+  title:
+    visible: false
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: false
+  pagination:
+    visible: true
+  metadata:
+    visible: false
 ---
 
 # Bem-vindo à Discloud
 
-## ✨️ Bem-vindo à Discloud
+<h2 align="center">✨️ Bem-vindo à Discloud</h2>
 
-Bem-vindo à documentação oficial da Discloud! A Discloud é uma plataforma de hospedagem em nuvem que simplifica o upload e o gerenciamento das suas aplicações, permitindo que você foque no desenvolvimento sem a preocupação com o gerenciamento da infraestrutura.
+<p align="center">Bem-vindo à documentação oficial da Discloud! A Discloud é uma plataforma de hospedagem em nuvem que simplifica o upload e o gerenciamento das suas aplicações, permitindo que você foque no desenvolvimento sem a preocupação com o gerenciamento da infraestrutura.</p>
 
 ***
 
