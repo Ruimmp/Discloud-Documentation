@@ -2,7 +2,7 @@
 description: Welcome to the official Discloud documentation.
 icon: rocket-launch
 layout:
-  width: default
+  width: wide
   title:
     visible: false
   description:
