@@ -1,8 +1,4 @@
----
-icon: book
----
-
-# Discloud Docs
+# 📚 Discloud Docs
 
 <div align="center"><img src="https://i.imgur.com/za9JTHz.png" alt="Discloud Logo" width="150"></div>
 
