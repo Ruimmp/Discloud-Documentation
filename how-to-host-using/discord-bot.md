@@ -11,7 +11,7 @@ A Discloud permite que você **hospede aplicações diretamente do Discord**, to
 
 ***
 
-## 🔑 Verificação de Conta
+## 🔑 Verificação de Conta <a href="#account-verification" id="account-verification"></a>
 
 {% hint style="warning" %}
 #### **Sistema de Verificação em Manutenção**
@@ -33,7 +33,7 @@ Fique no servidor para ser notificado quando o seu ticket for respondido e ser n
 
 ***
 
-## 🚀 Hospedando Sua Aplicação
+## 🚀 Hospedando Sua Aplicação <a href="#hosting-your-application" id="hosting-your-application"></a>
 
 Há **duas maneiras** de fazer o upload de uma aplicação usando o Bot da Discloud:
 
