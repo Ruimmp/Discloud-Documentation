@@ -14,8 +14,8 @@ Este repositório contém a documentação oficial da **Discloud**.
 
 A documentação está organizada em branches separadas por idioma:
 
-* **🇧🇷** [**Português**](https://app.gitbook.com/o/4Pvy1XfMNACYIBvdwPgh/s/Lv5dJlvsP3pCj8WnQocm/) - Documentação completa em português
-* **🇺🇸** [**English**](https://app.gitbook.com/o/4Pvy1XfMNACYIBvdwPgh/s/gy8NPu4jOiOZMSuDdALL/) - Complete documentation in English
+* **🇧🇷** [**Português**](https://github.com/discloud/docs/tree/portuguese) - Documentação completa em português
+* **🇺🇸** [**English**](https://app.gitbook.com/u/z5wBUAKgbQPjwaDvcPl6FHRyyOh1) - Complete documentation in English
 
 ***
 
