@@ -5,19 +5,19 @@ icon: rocket-launch
 
 # Bem-vindo à Discloud
 
-## ✨️ Bem-vindo à Discloud <a href="#welcome-to-discloud" id="welcome-to-discloud"></a>
+## ✨️ Bem-vindo à Discloud
 
 Bem-vindo à documentação oficial da Discloud! A Discloud é uma plataforma de hospedagem em nuvem que simplifica o upload e o gerenciamento das suas aplicações, permitindo que você foque no desenvolvimento sem a preocupação com o gerenciamento da infraestrutura.
 
 ***
 
-## 🚀 Porquê escolher a Discloud? <a href="#why-choose-discloud" id="why-choose-discloud"></a>
+## 🚀 Porquê escolher a Discloud?
 
 <table data-column-title-hidden data-view="cards"><thead><tr><th align="center"></th><th align="center"></th></tr></thead><tbody><tr><td align="center"><strong>Upload Fácil</strong></td><td align="center">Hospede a sua aplicação em minutos usando nosso <a href="how-to-host-using/dashboard.md">painel web intuitivo</a>, <a href="how-to-host-using/cli.md">CLI</a>, <a href="how-to-host-using/visual-studio-code.md">extensão do VSCode</a> ou até mesmo o nosso <a href="how-to-host-using/discord-bot.md">bot no Discord</a>. Não é necessário configurar servidores complexos.</td></tr><tr><td align="center"><strong>Suporte a Várias Linguagens</strong></td><td align="center">Hospede aplicações escritas em <a href="development-environment/supported-languages/javascript/">JavaScript</a>, <a href="development-environment/local-environment/python.md">Python</a>, <a href="development-environment/supported-languages/java.md">Java</a>, <a href="development-environment/local-environment/ruby.md">Ruby</a>, <a href="development-environment/supported-languages/go/">Go</a>, <a href="development-environment/local-environment/rust.md">Rust</a>, <a href="development-environment/supported-languages/php/">PHP</a>, entre outras... Nossa plataforma suporta diversas linguagens e fornece diretrizes para garantir operação tranquila.</td></tr><tr><td align="center"><strong>Hospedagem 24/7 (Plano Gratuito Disponível)</strong></td><td align="center">Mantenha seu bot ou site online o tempo todo. Comece com nosso plano gratuito, com opções de upgrade para recursos adicionais conforme seu projeto cresce.</td></tr><tr><td align="center"><strong>Ferramentas e Integrações Poderosas</strong></td><td align="center">Use um ecossistema rico: faça o upload diretamente do VSCode com nossa <a href="how-to-host-using/visual-studio-code.md">extensão</a>, gerencie aplicações programaticamente com a <a href="api-and-integrations/api-overview/">API da Discloud</a> e integre serviços como domínios <a href="api-and-integrations/custom-domain.md">personalizados facilmente</a>.</td></tr><tr><td align="center"><strong>Suporte da Comunidade</strong></td><td align="center">Junte-se à nossa crescente comunidade de desenvolvedores no <a href="https://discord.discloudbot.com/">servidor Discord da Discloud</a>. Encontre ajuda, compartilhe ideias e fique atualizado com os últimos recursos e anúncios.</td></tr></tbody></table>
 
 ***
 
-## 🗺️ Guia de Navegação <a href="#navigation-guide" id="navigation-guide"></a>
+## 🗺️ Guia de Navegação
 
 Esta documentação está organizada em várias seções para ajudá-lo a encontrar informações rapidamente:
 
@@ -27,16 +27,16 @@ Use o menu de navegação para explorar essas seções. Cada página é estrutur
 
 ***
 
-## 📩 Precisa de Ajuda? <a href="#need-help" id="need-help"></a>
+## 📩 Precisa de Ajuda?
 
 Para obter mais ajuda, você pode nos contatar através dos seguintes canais:
 
-### 🛠️ Contatos de Suporte e Segurança <a href="#support-and-safety-contacts" id="support-and-safety-contacts"></a>
+### 🛠️ Contatos de Suporte e Segurança
 
 * <img src=".gitbook/assets/tech-&#x26;-support.png" alt="" data-size="line"> **Suporte Técnico**: Abra um [ticket](https://discord.com/channels/@me/930852077045940224/) ou envie um e-mail para [**support@discloudbot.com**](mailto:support@discloudbot.com)
 * <img src=".gitbook/assets/trust-&#x26;-safety.png" alt="" data-size="line"> **Confiança e Segurança**: Denuncie problemas através do e-mail [**abuse@discloudbot.com**](mailto:abuse@discloudbot.com)
 
-### 🌍 Siga-nos nas Redes Sociais <a href="#follow-us-on-social-media" id="follow-us-on-social-media"></a>
+### 🌍 Siga-nos nas Redes Sociais
 
 * <img src=".gitbook/assets/instagram-icon.png" alt="" data-size="line"> **Instagram**: [@discloudbot](https://www.instagram.com/discloudbot/)
 * <img src=".gitbook/assets/github.png" alt="" data-size="line"> **GitHub**: [Discloud](https://github.com/discloud)

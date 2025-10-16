@@ -5,7 +5,7 @@ icon: table-columns
 
 # Painel de Controle
 
-## 📁 Preparando os Arquivos do Seu Projeto <a href="#preparing-your-project-files" id="preparing-your-project-files"></a>
+## 📁 Preparando os Arquivos do Seu Projeto
 
 Antes de enviar seu projeto, certifique-se de que seus arquivos estão corretamente estruturados de acordo com a linguagem de programação que você está utilizando. Diferentes linguagens possuem requisitos específicos para gerenciamento de dependências, estrutura do projeto e arquivos necessários.
 
@@ -13,7 +13,7 @@ Antes de enviar seu projeto, certifique-se de que seus arquivos estão corretame
 [supported-languages](../development-environment/supported-languages/)
 {% endcontent-ref %}
 
-### 📌 Requisitos Básicos <a href="#basic-requirements" id="basic-requirements"></a>
+### 📌 Requisitos Básicos
 
 * **Código-Fonte do Projeto** – Todos os arquivos necessários para a execução da sua aplicação.
 * **Arquivo de Configuração (**[**`discloud.config`**](https://github.com/discloud/docs/blob/portuguese-revamp/configuracoes/discloud.config)**)** – Obrigatório para as configurações de upload.
@@ -23,11 +23,11 @@ Antes de enviar seu projeto, certifique-se de que seus arquivos estão corretame
   * [`Cargo.toml`](../development-environment/supported-languages/rust/cargo.toml.md) para [**Rust**](../development-environment/local-environment/rust.md)
   * [`Gemfile`](../development-environment/supported-languages/ruby/gemfile.md) para [**Ruby**](../development-environment/local-environment/ruby.md)
 
-### **🗑️** Excluindo Arquivos Desnecessários <a href="#excluding-unnecessary-files" id="excluding-unnecessary-files"></a>
+### **🗑️** Excluindo Arquivos Desnecessários
 
 Para **otimizar seu upload**, certifique-se de **remover arquivos desnecessários** antes de compactar seu projeto em um arquivo `.zip`.
 
-#### ❌ Arquivos e pastas comuns a serem excluídos: <a href="#common-files-and-folders-to-exclude" id="common-files-and-folders-to-exclude"></a>
+#### ❌ Arquivos e pastas comuns a serem excluídos:
 
 ```diff
 - node_modules
@@ -41,7 +41,7 @@ Para **otimizar seu upload**, certifique-se de **remover arquivos desnecessário
 
 ***
 
-## 🔑 Autenticação – Como entrar no seu Painel <a href="#authentication-logging-into-your-dashboard" id="authentication-logging-into-your-dashboard"></a>
+## 🔑 Autenticação – Como entrar no seu Painel
 
 Antes de fazer o upload da sua aplicação, você precisa **entrar na Discloud**:
 
@@ -67,7 +67,7 @@ Clique em "**Entrar**" e faça login.
 
 ***
 
-## 🚀 Hospedando a Sua Aplicação <a href="#uploading-your-application" id="uploading-your-application"></a>
+## 🚀 Hospedando a Sua Aplicação
 
 Depois que seus arquivos estiverem prontos, siga estes passos para enviar e fazer o upload da sua aplicação.
 
@@ -111,6 +111,6 @@ Processo de Upload.
 
 ***
 
-## **❓** Ainda precisa de ajuda? <a href="#still-need-help" id="still-need-help"></a>
+## **❓** Ainda precisa de ajuda?
 
 Consulte a [Seção de FAQ](https://github.com/discloud/docs/blob/portuguese-revamp/como-hospedar-usando/broken-reference/README.md) ou entre no nosso [servidor Discord](https://discord.discloudbot.com/) para suporte.
