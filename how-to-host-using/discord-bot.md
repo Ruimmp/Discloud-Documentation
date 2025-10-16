@@ -14,7 +14,7 @@ A Discloud permite que você **hospede aplicações diretamente do Discord**, to
 ## 🔑 Verificação de Conta <a href="#account-verification" id="account-verification"></a>
 
 {% hint style="warning" %}
-#### **Sistema de Verificação em Manutenção**
+#### **Sistema de Verificação em Manutenção** <a href="#verification-system-under-maintenance" id="verification-system-under-maintenance"></a>
 
 Nosso sistema de verificação de contas está temporariamente indisponível **e não estamos realizando verificação manual neste período**.
 
