@@ -24,8 +24,6 @@ Localize o cartão de assinatura ativa com detalhes do plano e data de renovaç�
 {% endstep %}
 {% endstepper %}
 
-<figure><img src="../../.gitbook/assets/Website-Subscription_Cancel.png" alt="" width="515"><figcaption></figcaption></figure>
-
 ***
 
 ## 🔄 Cancelar Assinatura
@@ -41,6 +39,8 @@ Cancelar para futuras renovações automáticas. Os benefícios do seu plano atu
 {% hint style="warning" %}
 Cancelar antecipadamente não aciona um reembolso parcial (a menos que leis locais de consumidor exijam o contrário).
 {% endhint %}
+
+<figure><img src="../../.gitbook/assets/Website-Subscription_Cancel.png" alt="" width="515"><figcaption></figcaption></figure>
 
 ***
 
