@@ -39,6 +39,7 @@
 * [Supported Languages](development-environment/supported-languages/README.md)
   * [Javascript](development-environment/supported-languages/javascript/README.md)
     * [package.json](development-environment/supported-languages/javascript/package.json.md)
+    * [TypeScript](development-environment/supported-languages/javascript/typescript.md)
   * [Python](development-environment/supported-languages/python/README.md)
     * [requirements.txt](development-environment/supported-languages/python/requirements.txt.md)
   * [Java](development-environment/supported-languages/java.md)

@@ -34,10 +34,10 @@ If you only need to manage (cancel / reactivate) an existing subscription, see: 
 
 Two acquisition channels are currently available.
 
-| Method | Available Via                                                                                                                     |
-| ------ | --------------------------------------------------------------------------------------------------------------------------------- |
-| Stripe | <ul class="contains-task-list"><li><input type="checkbox" checked>Website</li><li><input type="checkbox">Support Ticket</li></ul> |
-| PayPal | <ul class="contains-task-list"><li><input type="checkbox">Website</li><li><input type="checkbox" checked>Support Ticket</li></ul> |
+| Method           | Available Via                                                                                                                     |
+| ---------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| Stripe           | <ul class="contains-task-list"><li><input type="checkbox" checked>Website</li><li><input type="checkbox">Support Ticket</li></ul> |
+| PayPal / Revolut | <ul class="contains-task-list"><li><input type="checkbox">Website</li><li><input type="checkbox" checked>Support Ticket</li></ul> |
 
 {% hint style="warning" %}
 Use a ticket only if the website payment flow is unavailable or your preferred supported method fails.

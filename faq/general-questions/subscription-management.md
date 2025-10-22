@@ -24,8 +24,6 @@ Locate the active subscription card with plan details and renewal date.
 {% endstep %}
 {% endstepper %}
 
-<figure><img src="../../.gitbook/assets/Website-Subscription_Cancel.png" alt="" width="515"><figcaption></figcaption></figure>
-
 ***
 
 ## 🔄 Cancel Subscription
@@ -41,6 +39,8 @@ Canceling stops future automatic renewals. Your current plan benefits remain unt
 {% hint style="warning" %}
 Canceling early does not trigger a partial refund (unless local consumer laws mandate otherwise).
 {% endhint %}
+
+<figure><img src="../../.gitbook/assets/Website-Subscription_Cancel.png" alt="" width="515"><figcaption></figcaption></figure>
 
 ***
 

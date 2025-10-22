@@ -11,8 +11,7 @@ icon: database
 
 Discloud applications can connect either to:
 
-* [Built-in managed service templates you provision through the Templates catalog.](databases.md#template-catalog-managed-instances)
-* [External MongoDB Atlas database-as-a-Service provider that you configure manually.](databases.md#using-external-mongodb-atlas)
+<table data-card-size="large" data-view="cards"><thead><tr><th data-card-target data-type="content-ref"></th><th></th><th data-hidden></th><th data-hidden></th><th data-hidden></th></tr></thead><tbody><tr><td><a href="databases.md#template-catalog-managed-instances">#template-catalog-managed-instances</a></td><td>Built-in managed service templates you provision through the Templates catalog.</td><td></td><td></td><td></td></tr><tr><td><a href="databases.md#using-external-mongodb-atlas">#using-external-mongodb-atlas</a></td><td>External MongoDB Atlas database-as-a-Service provider that you configure manually.</td><td></td><td></td><td></td></tr></tbody></table>
 
 ***
 
@@ -39,7 +38,7 @@ Deploy. Credentials / connection strings become available for your app configura
 {% endstepper %}
 
 {% hint style="info" %}
-#### 📨 Need Another Template?
+#### **📨 Need Another Template?**
 
 Open a [support ticket](https://discord.com/channels/@me/930852077045940224/) in the [Discord server](https://discord.discloudbot.com/) with the engine name, version, and use case. The team evaluates feasibility and may add it to the catalog.
 {% endhint %}
