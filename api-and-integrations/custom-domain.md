@@ -16,7 +16,7 @@ Você pode mapear seu próprio domínio (ex. `seudominio.com`) ou um subdomínio
 ## 📋 Requisitos
 
 {% hint style="success" %}
-[Plano Platinum ou superior](https://discloud.com/plans) é necessário para hospedar websites ou APIs.
+[Plano Diamante ou superior](https://discloud.com/plans) é necessário para hospedar websites ou APIs.
 {% endhint %}
 
 {% hint style="success" %}
