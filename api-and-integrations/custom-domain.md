@@ -16,7 +16,7 @@ You can map your own domain (e.g. `yourdomain.com`) or a subdomain (e.g. `dash.y
 ## 📋 Requirements
 
 {% hint style="success" %}
-[Platinum plan or higher](https://discloud.com/plans) is required to host websites or APIs.
+[Diamond plan or higher](https://discloud.com/plans) is required to host websites or APIs.
 {% endhint %}
 
 {% hint style="success" %}
