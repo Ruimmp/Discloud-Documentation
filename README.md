@@ -19,20 +19,19 @@ A documentação está organizada em branches separadas por idioma:
 
 ***
 
-## 🧭 Regras de Rotas e Âncoras (obrigatório)
+## 🧭 Regras de Rotas (obrigatório)
 
-Mantenha rotas (slugs/permalinks) e âncoras de títulos em inglês, iguais às da versão em inglês, em todos os idiomas.
+Mantenha rotas (slugs/permalinks) em inglês, iguais às da versão em inglês, em todos os idiomas.
 
 ### 💡 Porquê manter em inglês?
 
-* Uma única rota/âncora funciona para todos os idiomas (ferramentas e automações ficam mais simples para apontar para as diferentes páginas).
+* Uma única rota funciona para todos os idiomas (ferramentas e automações ficam mais simples para apontar para as diferentes páginas).
 * Ao trocar de idioma na documentação, você permanece na mesma seção da página sem perder a posição.
 * Em inglês, há maior consistência.
 
 ### 📘 Escopo e definições
 
 * Rota/Slug: caminho após o domínio (ex.: `/getting-started/install`).
-* Âncora: identificador após `#` que aponta para um título/seção (ex.: `#installation`).
 
 ## 🛠️ Guia passo a passo
 
@@ -53,16 +52,6 @@ Mantenha rotas (slugs/permalinks) e âncoras de títulos em inglês, iguais às 
 * Se precisar alterar, avalie impactos de SEO e links existentes.
 
 Referência: [https://gitbook.com/docs/help-center/published-documentation/custom-domains/how-can-i-change-the-slug-in-the-url](https://gitbook.com/docs/help-center/published-documentation/custom-domains/how-can-i-change-the-slug-in-the-url)
-
-***
-
-### ⚓ Âncoras de títulos (Seções)
-
-#### ✏️ GitBook (recomendado no editor do GitBook):
-
-* Abra o Options menu do título e escolha “Link” e depois "Edit anchor. Defina a âncora em inglês. O link permanece válido mesmo se o título mudar.
-
-Referência: [https://gitbook.com/docs/creating-content/blocks/heading#edit-an-anchor](https://gitbook.com/docs/creating-content/blocks/heading#edit-an-anchor)
 
 ***
 
