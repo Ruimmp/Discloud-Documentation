@@ -69,6 +69,7 @@
 * [GitHub Integration](api-and-integrations/github-integration.md)
 * [Custom Domain](api-and-integrations/custom-domain.md)
 * [Databases](api-and-integrations/databases.md)
+* [Templates](api-and-integrations/templates.md)
 
 ## FAQ
 
