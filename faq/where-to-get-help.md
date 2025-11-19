@@ -22,10 +22,10 @@ Staff focuses on Discloud platform issues (deployment, hosting behavior, account
 | Channel                                                                                         | Type                      | Audience        | Typical Use                                       |
 | ----------------------------------------------------------------------------------------------- | ------------------------- | --------------- | ------------------------------------------------- |
 | [Modmail Ticket (Direct)](https://discord.com/channels/@me/930852077045940224/)                 | Private                   | You ↔ Staff     | Billing, account, sensitive data, policy concerns |
-| [english-chat](https://app.gitbook.com/u/X4zpqd9m1VYNBaYRYKNE6a16KJ12)                          | Public chat               | All users       | Quick platform questions, light discussion        |
+| [english-chat](https://discord.com/channels/584490943034425391/1051124538995392573)             | Public chat               | All users       | Quick platform questions, light discussion        |
 | [dev-help-english (Forum)](https://discord.com/channels/584490943034425391/1350912554733539418) | Public threaded           | All users       | Community help with code / configs                |
 | [donators-chat](https://discord.com/channels/584490943034425391/1051124971763679232)            | Public (donor‑restricted) | Paid plan users | Donor community discussion                        |
-| [donators-support (Forum)](https://app.gitbook.com/u/X4zpqd9m1VYNBaYRYKNE6a16KJ12)              | Public (donor‑restricted) | Paid plan users | Plan-related technical questions                  |
+| [donators-support (Forum)](https://discord.com/channels/584490943034425391/1051124971763679232) | Public (donor‑restricted) | Paid plan users | Plan-related technical questions                  |
 | [Documentation](https://docs.discloud.com/en)                                                   | Self-serve                | Everyone        | Official guides & references                      |
 
 ***
