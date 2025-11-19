@@ -113,4 +113,4 @@ Processo de Upload.
 
 ## **❓** Ainda precisa de ajuda?
 
-Consulte a [Seção de FAQ](faq/where-to-get-help.md) ou entre no nosso [servidor Discord](https://discord.discloudbot.com/) para suporte.
+Verifique a [**Seção FAQ**](broken-reference) ou junte-se ao nosso [**Servidor Discord**](https://discord.discloudbot.com/) para suporte.
