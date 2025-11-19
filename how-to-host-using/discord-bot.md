@@ -14,7 +14,7 @@ A Discloud permite que você **hospede aplicações diretamente do Discord**, to
 ## 🔑 Verificação de Conta
 
 {% hint style="warning" %}
-**Sistema de Verificação em Manutenção**
+#### **Sistema de Verificação em Manutenção**
 
 Nosso sistema de verificação de contas está temporariamente indisponível **e não estamos realizando verificação manual neste período**.
 
@@ -40,7 +40,7 @@ Há **duas maneiras** de fazer o upload de uma aplicação usando o Bot da Discl
 <table><thead><tr><th width="212">Método</th><th>Melhor Para</th><th>Como Funciona</th></tr></thead><tbody><tr><td><a href="discord-bot.md#configuracao-avancada"><strong>⚙️ Configuração Avançada</strong></a></td><td>Usuários que querem uma <strong>upload de um comando</strong> com configurações pré-definidas.</td><td>Configure tudo no arquivo <a href="https://github.com/discloud/docs/blob/portuguese-revamp/configuracoes/discloud.config"><code>discloud.config</code></a> e use <code>.upconfig</code>.</td></tr><tr><td><a href="discord-bot.md#configuracao-rapida-guia-passo-a-passo"><strong>⚡ Configuração Rápida (legado)</strong></a></td><td>Usuários que <strong>preferem uma configuração guiada</strong> através dos prompts do bot.</td><td>O bot perguntará os detalhes necessários após executar <code>.up</code>.</td></tr></tbody></table>
 
 {% hint style="warning" %}
-**Notas Importantes:**
+#### **Notas Importantes:**
 
 * Se seu [**arquivo principal**](../faq/general-questions/em-andamento-qual-e-o-arquivo-principal.md) **não estiver no** [**diretório raiz**](../faq/general-questions/what-is-the-root-of-the-project.md), você **deve** usar Configuração Avançada ou movê-lo para a raiz.
 * Se você estiver hospedando um **bot sem ID** (ex.: WhatsApp ou Telegram), use Configuração Avançada e a Discloud gerará o ID automaticamente.
@@ -92,11 +92,9 @@ Faça upload do seu projeto.
 * Vá para [**`#🔌・commands`**](https://discord.com/channels/584490943034425391/1051126795883261962) no **Servidor Discord da Discloud**.
 *   Execute o seguinte comando:
 
-    ````
     ```
     .up
     ```
-    ````
 {% endstep %}
 
 {% step %}
@@ -104,63 +102,63 @@ Forneça as Informações Necessárias.
 
 * **Digite o** [**ID da Aplicação**](../faq/general-questions/em-andamento-como-posso-obter-o-id-do-meu-bot.md) (para bots do Discord).
 * **Digite o** [**Nome do Arquivo Principal**](../faq/general-questions/em-andamento-qual-e-o-arquivo-principal.md) (ex.: `index.js`, `main.py`, `main.go`).
-*   **Especifique a RAM** para seu bot (ex.: `100` para 100MB).
+* **Especifique a RAM** para seu bot (ex.: `100` para 100MB).
 
-    ````
-    {% hint style="info" %}
-    Ao especificar a quantidade de RAM, você não precisa incluir unidades como "MB". Basta inserir o valor numérico, por exemplo, "100" para 100MB.
+{% hint style="info" %}
+Ao especificar a quantidade de RAM, você não precisa incluir unidades como "MB". Basta inserir o valor numérico, por exemplo, "100" para 100MB.
 
-    ```
-               BOTs requerem um mínimo de 100MB de RAM.
-    ```
-    {% endhint %}
-    ```
-    ````
+```
+           Sites requerem um mínimo de 512MB de RAM.
+```
+{% endhint %}
+{% endstep %}
 
-\` \{% endstep %\}
+{% step %}
+Envie seu arquivo [`.zip`](../faq/general-questions/em-andamento-como-comprimir.md) quando solicitado.
+{% endstep %}
+{% endstepper %}
+{% endtab %}
 
-\{% step %\} Envie seu arquivo [`.zip`](../faq/general-questions/em-andamento-como-comprimir.md) quando solicitado. \{% endstep %\} \{% endstepper %\} \{% endtab %\}
+{% tab title="🌐 Site" %}
 
-\{% tab title="🌐 Site" %\} \{% stepper %\} \{% step %\} Prepare seu projeto.
+
+{% stepper %}
+{% step %}
+Prepare seu projeto.
 
 * Certifique-se de que os arquivos da sua aplicação estejam estruturados corretamente.
-* Comprima seu projeto em um arquivo [`.zip`](../faq/general-questions/em-andamento-como-comprimir.md). \{% endstep %\}
+* Comprima seu projeto em um arquivo [`.zip`](../faq/general-questions/em-andamento-como-comprimir.md).
+{% endstep %}
 
-\{% step %\} Faça upload do seu projeto.
+{% step %}
+Faça upload do seu projeto.
 
 * Vá para [**`#🔌・commands`**](https://discord.com/channels/584490943034425391/1051126795883261962) no **Servidor Discord da Discloud**.
 *   Execute o seguinte comando:
 
-    ````
     ```
     .upsite
     ```
-    ````
+{% endstep %}
 
-\{% endstep %\}
-
-\{% step %\} Forneça as Informações Necessárias.
+{% step %}
+Forneça as Informações Necessárias.
 
 * **Escolha um** [**Subdomínio**](../faq/general-questions/em-andamento-como-criar-um-subdominio.md).
 * **Digite o** [**Nome do Arquivo Principal**](../faq/general-questions/em-andamento-qual-e-o-arquivo-principal.md) (ex.: `index.html`, `index.php`).
-*   **Especifique a RAM** para seu bot (ex.: `512` para 512MB).\\
+* **Especifique a RAM** para seu bot (ex.: `512` para 512MB).
 
-    ````
-    {% hint style="info" %}
-    Ao especificar a quantidade de RAM, você não precisa incluir unidades como "MB". Basta inserir o valor numérico, por exemplo, "512" para 512MB.
+{% hint style="info" %}
+Ao especificar a quantidade de RAM, você não precisa incluir unidades como "MB". Basta inserir o valor numérico, por exemplo, "512" para 512MB.
 
-    ```
-               Sites requerem um mínimo de 512MB de RAM.
-    ```
-    {% endhint %}
-    ```
-    ````
+```
+           Sites requerem um mínimo de 512MB de RAM.
+```
+{% endhint %}
+{% endstep %}
 
-\` \{% endstep %\}
-
-\{% step %\} Envie seu arquivo \[\`
-
-.zip\`]\(../faq/general-questions/em-andamento-como-comprimir.md) quando solicitado.
+{% step %}
+Envie seu arquivo [`.zip`](../faq/general-questions/em-andamento-como-comprimir.md) quando solicitado.
 {% endstep %}
 {% endstepper %}
 {% endtab %}
