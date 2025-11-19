@@ -8,6 +8,8 @@
 
 * [\[EM ANDAMENTO\] Bots](how-to-host/bots.md)
 * [\[EM ANDAMENTO\] Websites e APIs](how-to-host/websites-e-apis.md)
+* [Frameworks](how-to-host/frameworks/README.md)
+  * [Next.js](how-to-host/frameworks/nextjs.md)
 
 ## Como Hospedar, Usando <a href="#how-to-host-using" id="how-to-host-using"></a>
 
