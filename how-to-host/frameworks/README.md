@@ -1,7 +1,7 @@
 ---
-description: Guias completos para hospedar diferentes frameworks e plataformas na Discloud.
+description: Guias completos para hospedar diferentes frameworks na Discloud.
 icon: window
-hidden: false
 ---
 
 # Frameworks
+
