@@ -1,6 +1,7 @@
 ---
-description: Complete guides to host different frameworks and platforms on Discloud.
+description: Complete guides to host different frameworks on Discloud.
 icon: window
 ---
 
 # Frameworks
+
