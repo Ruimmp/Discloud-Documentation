@@ -26,7 +26,7 @@ Este guia assume que você já tem um projeto Next.js funcionando localmente.
 {% endhint %}
 
 {% hint style="success" %}
-Regras importantes da Discloud para websites e APIs:
+### Regras importantes da Discloud para websites e APIs:
 
 - Um **subdomínio deve ser criado** antes do deploy.
 - A aplicação deve **escutar na porta `8080`**.
