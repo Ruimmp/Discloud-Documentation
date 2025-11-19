@@ -249,14 +249,6 @@ const apiUrl = process.env.NEXT_PUBLIC_API_URL;
 
 ***
 
-## 🚀 Fazendo o deploy na Discloud
-
-Você pode fazer deploy do seu app Next.js usando qualquer um dos métodos suportados:
-
-<table data-card-size="large" data-view="cards"><thead><tr><th data-card-target data-type="content-ref"></th><th align="center"></th><th data-hidden></th><th data-hidden></th><th data-hidden></th></tr></thead><tbody><tr><td><a href="../../how-to-host-using/dashboard.md">dashboard.md</a></td><td align="center">Envie o `.zip` pelo Painel da Discloud.</td><td></td><td></td><td></td></tr><tr><td><a href="../../how-to-host-using/discord-bot.md">discord-bot.md</a></td><td align="center">Faça upload usando comandos do bot no Discord.</td><td></td><td></td><td></td></tr><tr><td><a href="../../how-to-host-using/visual-studio-code.md">visual-studio-code.md</a></td><td align="center">Envie direto pelo VS Code com a extensão oficial.</td><td></td><td></td><td></td></tr><tr><td><a href="../../how-to-host-using/cli.md">cli.md</a></td><td align="center">Automatize deploys com a CLI da Discloud.</td><td></td><td></td><td></td></tr></tbody></table>
-
-***
-
 ## 🗂️ Estrutura final recomendada do projeto
 
 Uma estrutura típica de projeto Next.js para a Discloud pode ser:
@@ -277,18 +269,11 @@ my-next-app/
 
 ***
 
-## 📄 Exemplo completo de `discloud.config`
+## 🚀 Fazendo o deploy na Discloud
 
-Para a **Opção A (recomendada)**, um exemplo completo seria:
+Você pode fazer deploy do seu app Next.js usando qualquer um dos métodos suportados:
 
-```
-TYPE=site
-BUILD=npm run build
-START=npm run start
-RAM=512
-VERSION=latest
-ID=meu-nextjs-app
-```
+<table data-card-size="large" data-view="cards"><thead><tr><th data-card-target data-type="content-ref"></th><th align="center"></th><th data-hidden></th><th data-hidden></th><th data-hidden></th></tr></thead><tbody><tr><td><a href="../../how-to-host-using/dashboard.md">dashboard.md</a></td><td align="center">Envie o `.zip` pelo Painel da Discloud.</td><td></td><td></td><td></td></tr><tr><td><a href="../../how-to-host-using/discord-bot.md">discord-bot.md</a></td><td align="center">Faça upload usando comandos do bot no Discord.</td><td></td><td></td><td></td></tr><tr><td><a href="../../how-to-host-using/visual-studio-code.md">visual-studio-code.md</a></td><td align="center">Envie direto pelo VS Code com a extensão oficial.</td><td></td><td></td><td></td></tr><tr><td><a href="../../how-to-host-using/cli.md">cli.md</a></td><td align="center">Automatize deploys com a CLI da Discloud.</td><td></td><td></td><td></td></tr></tbody></table>
 
 ***
 
