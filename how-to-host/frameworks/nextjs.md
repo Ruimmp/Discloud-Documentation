@@ -12,10 +12,10 @@ Este guia passo a passo mostra como preparar, configurar e fazer o deploy de uma
 
 Existem duas abordagens principais:
 
-* **Opção A (recomendada)** – usar o `next build` + `next start` **sem servidor custom** (apenas o server interno do Next.js).
-* **Opção B** – usar um **servidor custom** com **Express**, útil se você precisa de **rotas extras, middlewares customizados ou integrações específicas**.
+* [**Opção A (recomendada)**](nextjs.md#opcao-a-deploy-sem-servidor-custom-next.js-built-in) – usar o `next build` + `next start` **sem servidor custom** (apenas o server interno do Next.js).
+* [**Opção B**](nextjs.md#opcao-b-custom-server-com-express) – usar um **servidor custom** com **Express**, útil se você precisa de **rotas extras, middlewares customizados ou integrações específicas**.
 
-Além disso, mostramos uma **alternativa com export estático**, ideal para sites puramente estáticos.
+Além disso, mostramos uma [**alternativa com export estático**](nextjs.md#alternativa-export-estatico-next.js-como-site-estatico), ideal para sites puramente estáticos.
 
 {% hint style="info" %}
 Este guia assume que você já tem um projeto Next.js funcionando localmente.
@@ -50,7 +50,7 @@ Se ainda não tiver familiaridade com o ambiente, confira:
 
 ## 🧹 Preparando os arquivos do projeto
 
-Antes de compactar seu projeto em `.zip`, crie um arquivo **`.discloudignore`** na raiz do projeto para excluir arquivos e pastas desnecessárias do upload:
+Antes de compactar seu projeto em `.zip`, crie um arquivo [**`.discloudignore`**](../../configurations/.discloudignore.md) na raiz do projeto para excluir arquivos e pastas desnecessárias do upload:
 
 ```
 node_modules/
@@ -63,7 +63,7 @@ package-lock.json
 ```
 
 {% hint style="info" %}
-O arquivo [`.discloudignore`](../../configurations/.discloudignore.md) funciona de forma semelhante a um `.gitignore`, mas é usado pela Discloud para ignorar arquivos no momento do upload.
+O arquivo `.discloudignore` funciona de forma semelhante a um `.gitignore`, mas é usado pela Discloud para ignorar arquivos no momento do upload.
 {% endhint %}
 
 ***
@@ -109,9 +109,7 @@ Nesta opção, você usa somente o servidor interno do Next (`next start`), sem 
     ```
 3. Se tudo estiver funcionando, preparar o `.zip` e enviar para a Discloud.
 
-### ⚙️ `discloud.config` (exemplo)
-
-Crie o arquivo `discloud.config` na raiz do projeto com algo similar a:
+### ⚙️ [`discloud.config`](../../configurations/discloud.config/) (exemplo)
 
 ```
 TYPE=site
@@ -121,13 +119,6 @@ RAM=512
 VERSION=latest
 ID=meu-nextjs-app
 ```
-
-**Campos importantes:**
-
-* `TYPE=site` – indica que é um site/aplicação web.
-* `BUILD` – comando executado antes de iniciar a aplicação.
-* `START` – comando que inicializa o app (aqui chama `next start -p 8080`).
-* `RAM` – quantidade de memória, ajuste conforme seu projeto.
 
 </details>
 
@@ -182,7 +173,7 @@ Atualize seus scripts para utilizar o `server.js` em produção:
 }
 ```
 
-### ⚙️ `discloud.config` (custom server)
+### ⚙️ [`discloud.config`](../../configurations/discloud.config/) (custom server)
 
 ```
 TYPE=site
@@ -218,7 +209,7 @@ Se o seu projeto não depende de **SSR** ou **API Routes**, você pode usar o `n
 }
 ```
 
-### ⚙️ `discloud.config` (estático)
+### ⚙️ [`discloud.config`](../../configurations/discloud.config/) (estático)
 
 ```
 TYPE=site
@@ -255,10 +246,6 @@ Usando em componentes:
 ```js
 const apiUrl = process.env.NEXT_PUBLIC_API_URL;
 ```
-
-{% hint style="danger" %}
-Não faça upload de arquivos `.env` no ZIP. Configure as variáveis diretamente na Discloud.
-{% endhint %}
 
 ***
 
