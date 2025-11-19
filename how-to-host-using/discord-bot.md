@@ -182,4 +182,4 @@ Envie seu arquivo [`.zip`](../faq/general-questions/em-andamento-como-comprimir.
 
 ## **❓ Ainda precisa de ajuda?**
 
-Verifique a [**Seção FAQ**](https://github.com/discloud/docs/blob/portuguese-revamp/como-hospedar-usando/broken-reference/README.md) ou junte-se ao nosso [**Servidor Discord**](https://discord.discloudbot.com/) para suporte.
+Verifique a [**Seção FAQ**](faq/where-to-get-help.md) ou junte-se ao nosso [**Servidor Discord**](https://discord.discloudbot.com/) para suporte.

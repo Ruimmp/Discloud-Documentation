@@ -113,4 +113,4 @@ Processo de Upload.
 
 ## **❓** Ainda precisa de ajuda?
 
-Consulte a [Seção de FAQ](https://github.com/discloud/docs/blob/portuguese-revamp/como-hospedar-usando/broken-reference/README.md) ou entre no nosso [servidor Discord](https://discord.discloudbot.com/) para suporte.
+Consulte a [Seção de FAQ](faq/where-to-get-help.md) ou entre no nosso [servidor Discord](https://discord.discloudbot.com/) para suporte.
