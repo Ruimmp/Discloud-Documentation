@@ -102,7 +102,7 @@ Dentro do seu `package.json`, garanta que os scripts principais do Next.js estej
 
 Nesta opção, você usa somente o servidor interno do Next (`next start`), sem precisar de `server.js`.
 
-#### 🔁 Fluxo básico
+**🔁 Fluxo básico**
 
 1.  Rodar o build localmente (opcional, mas recomendado):
 
@@ -116,7 +116,7 @@ Nesta opção, você usa somente o servidor interno do Next (`next start`), sem 
     ```
 3. Se tudo estiver funcionando, preparar o `.zip` e enviar para a Discloud.
 
-#### ⚙️ [`discloud.config`](../../configurations/discloud.config) (exemplo)
+**⚙️** [**`discloud.config`**](../../configurations/discloud.config) **(exemplo)**
 
 ```
 TYPE=site
@@ -135,7 +135,7 @@ ID=meu-nextjs-app
 
 Se você precisa de **rotas customizadas**, **middlewares** ou integrar outras libs antes de delegar ao Next, pode usar um **servidor Express** que usa o Next internamente.
 
-#### 🧾 `server.js`
+**🧾 `server.js`**
 
 Crie um arquivo `server.js` na raiz do projeto com o seguinte conteúdo:
 
@@ -166,7 +166,7 @@ app.prepare().then(() => {
 });
 ```
 
-#### 📦 `package.json` (com servidor custom)
+**📦 `package.json` (com servidor custom)**
 
 Atualize seus scripts para utilizar o `server.js` em produção:
 
@@ -180,7 +180,7 @@ Atualize seus scripts para utilizar o `server.js` em produção:
 }
 ```
 
-#### ⚙️ [`discloud.config`](../../configurations/discloud.config) (custom server)
+**⚙️** [**`discloud.config`**](../../configurations/discloud.config) **(custom server)**
 
 ```
 TYPE=site
@@ -204,7 +204,7 @@ Use esta opção apenas se realmente precisar de um servidor custom. Para a maio
 
 Se o seu projeto não depende de **SSR** ou **API Routes**, você pode usar o `next export` para gerar um site totalmente **estático**.
 
-#### 📦 `package.json` (export estático)
+**📦 `package.json` (export estático)**
 
 ```json
 {
@@ -216,7 +216,7 @@ Se o seu projeto não depende de **SSR** ou **API Routes**, você pode usar o `n
 }
 ```
 
-#### ⚙️ [`discloud.config`](../../configurations/discloud.config) (estático)
+**⚙️** [**`discloud.config`**](../../configurations/discloud.config) **(estático)**
 
 ```
 TYPE=site
@@ -280,8 +280,20 @@ my-next-app/
 
 Você pode fazer deploy do seu app Next.js usando qualquer um dos métodos suportados.
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+{% content-ref url="../../how-to-host-using/dashboard.md" %}
+[dashboard.md](../../how-to-host-using/dashboard.md)
+{% endcontent-ref %}
+
+{% content-ref url="../../how-to-host-using/discord-bot.md" %}
+[discord-bot.md](../../how-to-host-using/discord-bot.md)
+{% endcontent-ref %}
+
+{% content-ref url="../../how-to-host-using/visual-studio-code.md" %}
+[visual-studio-code.md](../../how-to-host-using/visual-studio-code.md)
+{% endcontent-ref %}
+
+{% content-ref url="../../how-to-host-using/cli.md" %}
+[cli.md](../../how-to-host-using/cli.md)
 {% endcontent-ref %}
 
 ***
