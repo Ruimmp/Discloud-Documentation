@@ -1,6 +1,6 @@
 ---
 description: Guia prático para hospedar aplicações Next.js na Discloud.
-hidden: true
+hidden: false
 icon: 'n'
 ---
 
