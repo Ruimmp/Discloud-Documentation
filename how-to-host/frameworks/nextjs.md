@@ -314,9 +314,3 @@ ID=meu-nextjs-app
 | **Subdomínio não configurado**        | Certifique-se de ter seguido o guia de **subdomínio** antes do deploy.                                                                                                                                           |
 | **Erros de build**                    | <ul><li>Execute localmente: <code>npm run build</code> e corrija qualquer erro antes de enviar.</li><li>Confira se todas as <strong>dependências</strong> estão listadas no <code>package.json</code>.</li></ul> |
 | **Erros ao iniciar (`START`)**        | <ul><li>Verifique se o script <code>start</code> está correto.</li><li>Acompanhe os <strong>logs da Discloud</strong> para ver a mensagem de erro exata.</li></ul>                                               |
-
-Para problemas mais específicos, consulte também:
-
-{% content-ref url="../../faq/troubleshooting-solutions/diagnosing-offline-applications.md" %}
-[diagnosing-offline-applications.md](../../faq/troubleshooting-solutions/diagnosing-offline-applications.md)
-{% endcontent-ref %}
