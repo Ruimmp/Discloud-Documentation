@@ -8,6 +8,8 @@
 
 * [\[WIP\] Bots](how-to-host/bots.md)
 * [\[WIP\] Websites & APIs](how-to-host/websites-and-apis.md)
+* [Frameworks](how-to-host/frameworks/README.md)
+  * [Next.js](how-to-host/frameworks/nextjs.md)
 
 ## How to Host, Using
 
