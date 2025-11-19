@@ -21,12 +21,20 @@ Além disso, mostramos uma [**alternativa com export estático**](nextjs.md#alte
 Este guia assume que você já tem um projeto Next.js funcionando localmente.
 {% endhint %}
 
-{% hint style="success" %}
-### Regras importantes da Discloud para websites e APIs:
+***
 
-* Um **subdomínio deve ser criado** antes do deploy.
-* A aplicação deve **escutar na porta `8080`**.
-* Hospedagem de websites/APIs geralmente exige **plano Platinum ou superior**.
+## 📋 Requisitos
+
+{% hint style="success" %}
+[Plano Platinum ou superior](https://discloud.com/plans) é necessário para hospedar websites ou APIs.
+{% endhint %}
+
+{% hint style="success" %}
+[Um subdomínio deve ser criado](../../../faq/general-questions/em-andamento-como-criar-um-subdominio.md) antes do deploy.
+{% endhint %}
+
+{% hint style="danger" %}
+Porta `8080` é obrigatória – As aplicações devem escutar nesta porta.
 {% endhint %}
 
 ***
