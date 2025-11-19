@@ -4,4 +4,4 @@ icon: window
 hidden: true
 ---
 
-# Frameworks e Plataformas
+# Frameworks
