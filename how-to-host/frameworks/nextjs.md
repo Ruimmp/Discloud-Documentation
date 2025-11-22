@@ -1,6 +1,6 @@
 ---
 description: Practical guide to host Next.js applications on Discloud.
-icon: "n"
+icon: 'n'
 ---
 
 # Next.js
@@ -11,8 +11,8 @@ This step-by-step guide shows how to prepare, configure, and deploy a **Next.js*
 
 There are two main approaches:
 
-- [**Option A (recommended)**](nextjs.md#option-a-deploy-without-custom-server-nextjs-built-in) – use `next build` + `next start` **without a custom server** (only the built-in Next.js server).
-- [**Option B**](nextjs.md#option-b-custom-server-with-express) – use a **custom server** with **Express**, useful when you need **extra routes, custom middleware, or specific integrations**.
+* [**Option A (recommended)**](nextjs.md#option-a-deploy-without-custom-server-nextjs-built-in) – use `next build` + `next start` **without a custom server** (only the built-in Next.js server).
+* [**Option B**](nextjs.md#option-b-custom-server-with-express) – use a **custom server** with **Express**, useful when you need **extra routes, custom middleware, or specific integrations**.
 
 Additionally, we show an [**alternative with static export**](nextjs.md#alternative-static-export-nextjs-as-a-static-site), ideal for purely static websites.
 
@@ -20,7 +20,7 @@ Additionally, we show an [**alternative with static export**](nextjs.md#alternat
 This guide assumes you already have a Next.js project running locally.
 {% endhint %}
 
----
+***
 
 ## 📋 Requirements
 
@@ -36,16 +36,16 @@ A [Platinum plan or higher](https://discloud.com/plans) is required to host webs
 Port `8080` is mandatory – applications must listen on this port.
 {% endhint %}
 
----
+***
 
 ## 🧱 Local prerequisites
 
 Before continuing, you will need:
 
-- **Node.js** installed on your machine.
-- A **Next.js project** created (e.g. `npx create-next-app`).
-- A **Discloud account** with a **configured subdomain**.
-- Optionally: **Git**, **VSCode**, and/or the **Discloud CLI** to make the workflow easier.
+* **Node.js** installed on your machine.
+* A **Next.js project** created (e.g. `npx create-next-app`).
+* A **Discloud account** with a **configured subdomain**.
+* Optionally: **Git**, **VSCode**, and/or the **Discloud CLI** to make the workflow easier.
 
 If you are not yet familiar with the local environment, check:
 
@@ -53,7 +53,7 @@ If you are not yet familiar with the local environment, check:
 [nodejs.md](../../development-environment/local-environment/nodejs.md)
 {% endcontent-ref %}
 
----
+***
 
 ## 🧹 Preparing project files
 
@@ -73,7 +73,7 @@ package-lock.json
 The `.discloudignore` file works similarly to `.gitignore`, but it is used by Discloud to ignore files at upload time.
 {% endhint %}
 
----
+***
 
 ## 📦 `package.json` – recommended scripts
 
@@ -94,7 +94,7 @@ Inside your `package.json`, make sure the main Next.js scripts are defined. A ba
 It is important that the **`start` script uses port `8080`** (`next start -p 8080`), as this is the default port required by Discloud for websites.
 {% endhint %}
 
----
+***
 
 <details>
 
@@ -102,23 +102,21 @@ It is important that the **`start` script uses port `8080`** (`next start -p 808
 
 In this option you only use the internal Next server (`next start`), without needing a `server.js`.
 
-#### 🔁 Basic flow
+**🔁 Basic flow**
 
 1.  Run the build locally (optional but recommended):
 
     ```bash
     npm run build
     ```
-
 2.  Test locally:
 
     ```bash
     npm run start
     ```
+3. If everything works, prepare the `.zip` and upload it to Discloud.
 
-3.  If everything works, prepare the `.zip` and upload it to Discloud.
-
-#### ⚙️ [`discloud.config`](../../configurations/discloud.config) (example)
+**⚙️** [**`discloud.config`**](../../configurations/discloud.config/) **(example)**
 
 ```
 TYPE=site
@@ -137,7 +135,7 @@ ID=my-nextjs-app
 
 If you need **custom routes**, **middleware**, or to integrate other libs before delegating to Next, you can use an **Express server** that runs Next internally.
 
-#### 🧾 `server.js`
+**🧾 `server.js`**
 
 Create a `server.js` file in the project root with the following content:
 
@@ -168,7 +166,7 @@ app.prepare().then(() => {
 });
 ```
 
-#### 📦 `package.json` (with custom server)
+**📦** [**`package.json`**](../../development-environment/supported-languages/javascript/package.json.md) **(with custom server)**
 
 Update your scripts to use `server.js` in production:
 
@@ -182,7 +180,7 @@ Update your scripts to use `server.js` in production:
 }
 ```
 
-#### ⚙️ [`discloud.config`](../../configurations/discloud.config) (custom server)
+**⚙️** [**`discloud.config`**](../../configurations/discloud.config/) **(custom server)**
 
 ```
 TYPE=site
@@ -206,7 +204,7 @@ Use this option only if you really need a custom server. For most projects, **Op
 
 If your project does not depend on **SSR** or **API Routes**, you can use `next export` to generate a fully **static** site.
 
-#### 📦 `package.json` (static export)
+**📦** [**`package.json`**](../../development-environment/supported-languages/javascript/package.json.md) **(static export)**
 
 ```json
 {
@@ -218,7 +216,7 @@ If your project does not depend on **SSR** or **API Routes**, you can use `next 
 }
 ```
 
-#### ⚙️ [`discloud.config`](../../configurations/discloud.config) (static)
+**⚙️** [**`discloud.config`**](../../configurations/discloud.config/) **(static)**
 
 ```
 TYPE=site
@@ -234,14 +232,14 @@ Static sites usually consume **less RAM** and are ideal for blogs, landing pages
 
 </details>
 
----
+***
 
 ## 🔐 Environment variables
 
 In Next.js, public environment variables must start with `NEXT_PUBLIC_`.
 
-- Define variables via the **Discloud Dashboard**, **CLI**, or **API**.
-- Everything that starts with `NEXT_PUBLIC_` is embedded into the bundle during the **build**.
+* Define variables via the **Discloud Dashboard**, **CLI**, or **API**.
+* Everything that starts with `NEXT_PUBLIC_` is embedded into the bundle during the **build**.
 
 Example:
 
@@ -256,7 +254,7 @@ Using in components:
 const apiUrl = process.env.NEXT_PUBLIC_API_URL;
 ```
 
----
+***
 
 ## 🗂️ Recommended final project structure
 
@@ -276,7 +274,7 @@ my-next-app/
 			└─ hello.js
 ```
 
----
+***
 
 ## 🚀 Deploying to Discloud
 
@@ -298,14 +296,14 @@ You can deploy your Next.js app using any of the supported methods.
 [cli.md](../../how-to-host-using/cli.md)
 {% endcontent-ref %}
 
----
+***
 
 ## 🛠️ Troubleshooting (common errors)
 
-|                                    |                                                                                                                                                                                 |
-| ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **App does not open / wrong port** | Check if Next is using port `8080` (`next start -p 8080` or `PORT=8080`).                                                                                                       |
-| **Plan / permission error**        | Confirm that your account has the **correct plan** for websites/APIs.                                                                                                           |
-| **Subdomain not configured**       | Make sure you followed the **subdomain guide** before deploying.                                                                                                                |
-| **Build errors**                   | <ul><li>Run locally: <code>npm run build</code> and fix any errors before uploading.</li><li>Check that all **dependencies** are listed in <code>package.json</code>.</li></ul> |
-| **Errors when starting (`START`)** | <ul><li>Verify that the <code>start</code> script is correct.</li><li>Follow the **Discloud logs** to see the exact error message.</li></ul>                                    |
+|                                    |                                                                                                                                                                                              |
+| ---------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **App does not open / wrong port** | Check if Next is using port `8080` (`next start -p 8080` or `PORT=8080`).                                                                                                                    |
+| **Plan / permission error**        | Confirm that your account has the **correct plan** for websites/APIs.                                                                                                                        |
+| **Subdomain not configured**       | Make sure you followed the **subdomain guide** before deploying.                                                                                                                             |
+| **Build errors**                   | <ul><li>Run locally: <code>npm run build</code> and fix any errors before uploading.</li><li>Check that all <strong>dependencies</strong> are listed in <code>package.json</code>.</li></ul> |
+| **Errors when starting (`START`)** | <ul><li>Verify that the <code>start</code> script is correct.</li><li>Follow the <strong>Discloud logs</strong> to see the exact error message.</li></ul>                                    |
