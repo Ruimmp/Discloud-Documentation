@@ -77,7 +77,7 @@ O arquivo `.discloudignore` funciona de forma semelhante a um `.gitignore`, mas 
 
 ## 📦 `package.json` – scripts recomendados
 
-Dentro do seu `package.json`, garanta que os scripts principais do Next.js estejam definidos. Um exemplo básico:
+Dentro do seu [`package.json`](../../development-environment/supported-languages/javascript/package.json.md), garanta que os scripts principais do Next.js estejam definidos. Um exemplo básico:
 
 ```json
 {
