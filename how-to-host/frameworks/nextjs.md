@@ -11,10 +11,10 @@ This step-by-step guide shows how to prepare, configure, and deploy a **Next.js*
 
 There are two main approaches:
 
-* [**Option A (recommended)**](nextjs.md#option-a-deploy-without-custom-server-nextjs-built-in) – use `next build` + `next start` **without a custom server** (only the built-in Next.js server).
+* [**Option A (recommended)**](nextjs.md#option-a-deploy-without-custom-server-next.js-built-in) – use `next build` + `next start` **without a custom server** (only the built-in Next.js server).
 * [**Option B**](nextjs.md#option-b-custom-server-with-express) – use a **custom server** with **Express**, useful when you need **extra routes, custom middleware, or specific integrations**.
 
-Additionally, we show an [**alternative with static export**](nextjs.md#alternative-static-export-nextjs-as-a-static-site), ideal for purely static websites.
+Additionally, we show an [**alternative with static export**](nextjs.md#alternative-static-export-next.js-as-a-static-site), ideal for purely static websites.
 
 {% hint style="info" %}
 This guide assumes you already have a Next.js project running locally.
@@ -29,7 +29,7 @@ A [Platinum plan or higher](https://discloud.com/plans) is required to host webs
 {% endhint %}
 
 {% hint style="success" %}
-[A subdomain must be created](../../faq/general-questions/em-andamento-como-criar-um-subdominio.md) before deployment.
+[A subdomain must be created](../../faq/general-questions/wip-how-to-create-a-subdomain.md) before deployment.
 {% endhint %}
 
 {% hint style="danger" %}
@@ -77,7 +77,7 @@ The `.discloudignore` file works similarly to `.gitignore`, but it is used by Di
 
 ## 📦 `package.json` – recommended scripts
 
-Inside your `package.json`, make sure the main Next.js scripts are defined. A basic example:
+Inside your [`package.json`](../../development-environment/supported-languages/javascript/package.json.md), make sure the main Next.js scripts are defined. A basic example:
 
 ```json
 {
