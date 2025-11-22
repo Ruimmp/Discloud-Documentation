@@ -1,6 +1,7 @@
 ---
-description: Complete guide to host TypeScript applications on Discloud.
 hiddenn: true
+description: Complete guide to host TypeScript applications on Discloud.
+hidden: true
 ---
 
 # TypeScript
@@ -29,10 +30,10 @@ Ensure the following files and directories are not included in your [`.zip`](../
 <summary>📦 About the dist folder (TypeScript: bot and site)</summary>
 
 {% hint style="info" %}
-For TypeScript apps, the `dist/` folder is reserved for Discloud's BUILD output on both `TYPE=bot` and `TYPE=site`. If you set `BUILD=...` in your [`discloud.config`](../../../configurations/discloud.config/), Discloud generates the `dist/` folder for you. Do not compress `dist/` or upload files into it.
+For TypeScript apps, the `dist/` folder is reserved for Discloud's BUILD output on both `TYPE=bot` and `TYPE=site`. If you set `BUILD=...` in your [`discloud.config`](../../../configurations/discloud.config), Discloud generates the `dist/` folder for you. Do not compress `dist/` or upload files into it.
 {% endhint %}
 
-#### ⚙️ Automatic build (recommended)
+**⚙️ Automatic build (recommended)**
 
 1. Add `BUILD` in `discloud.config` (e.g., `BUILD=npm run build`).
 2. Configure `tsconfig.json` to output to `dist/` and add scripts to `package.json`.
@@ -62,7 +63,7 @@ RAM=512
 VERSION=latest
 ```
 
-#### 👜 Pre-built
+**👜 Pre-built**
 
 1. Produce output in `build/` (do not use `dist/`).
 2. Omit `BUILD` from `discloud.config`.
@@ -90,7 +91,7 @@ VERSION=latest
 
 </details>
 
----
+***
 
 ## ⚙️ Project Setup for TypeScript
 
@@ -134,7 +135,7 @@ You will typically compile TypeScript to JavaScript with `tsc` and run the compi
 Discloud installs dependencies defined in your project. Ensure `typescript` is present (devDependency is fine) so the `BUILD` step can run `tsc`.
 {% endhint %}
 
----
+***
 
 ## 🌐 Hosting Websites & APIs with Express (TypeScript)
 
@@ -167,7 +168,7 @@ const PORT = Number(process.env.PORT) || 8080;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
 ```
 
----
+***
 
 ## ✍️ Deploying Your Application
 
@@ -175,11 +176,11 @@ Once your project is configured and compressed, you can choose one of the follow
 
 <table data-card-size="large" data-view="cards"><thead><tr><th data-card-target data-type="content-ref"></th><th align="center"></th><th data-hidden></th><th data-hidden></th><th data-hidden></th></tr></thead><tbody><tr><td><a href="../../../how-to-host-using/dashboard.md">dashboard.md</a></td><td align="center">Upload and manage your application via the web interface.</td><td></td><td></td><td></td></tr><tr><td><a href="../../../how-to-host-using/discord-bot.md">discord-bot.md</a></td><td align="center">Deploy directly through Discloud’s Discord bot commands.</td><td></td><td></td><td></td></tr><tr><td><a href="../../../how-to-host-using/visual-studio-code.md">visual-studio-code.md</a></td><td align="center">Integrate with VS Code for seamless project management.</td><td></td><td></td><td></td></tr><tr><td><a href="../../../how-to-host-using/cli.md">cli.md</a></td><td align="center">Use the command-line interface for quick and efficient deployment.</td><td></td><td></td><td></td></tr></tbody></table>
 
----
+***
 
 ## 🔎 Quick recap of TypeScript specifics on Discloud
 
-- `dist/` is reserved for Discloud builds on both `TYPE=bot` and `TYPE=site`.
-- If you pre-build locally, output to `build/` and point `MAIN` to `build/...`.
-- For TypeScript, always provide `BUILD` and `START` in `discloud.config` when shipping sources; `MAIN` should point to the runtime JS entry (usually `dist/index.js`).
-- For websites/APIs, your server must listen on port `8080`.
+* `dist/` is reserved for Discloud builds on both `TYPE=bot` and `TYPE=site`.
+* If you pre-build locally, output to `build/` and point `MAIN` to `build/...`.
+* For TypeScript, always provide `BUILD` and `START` in `discloud.config` when shipping sources; `MAIN` should point to the runtime JS entry (usually `dist/index.js`).
+* For websites/APIs, your server must listen on port `8080`.
