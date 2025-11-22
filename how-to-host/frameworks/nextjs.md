@@ -116,7 +116,7 @@ Nesta opção, você usa somente o servidor interno do Next (`next start`), sem 
     ```
 3. Se tudo estiver funcionando, preparar o `.zip` e enviar para a Discloud.
 
-**⚙️** [**`discloud.config`**](https://discloud.config) **(exemplo)**
+**⚙️** [**`discloud.config`**](../../configurations/discloud.config/) **(exemplo)**
 
 ```
 TYPE=site
@@ -204,7 +204,7 @@ Use esta opção apenas se realmente precisar de um servidor custom. Para a maio
 
 Se o seu projeto não depende de **SSR** ou **API Routes**, você pode usar o `next export` para gerar um site totalmente **estático**.
 
-**📦 `package.json` (export estático)**
+**📦** [**`package.json`**](../../development-environment/supported-languages/javascript/package.json.md) **(export estático)**
 
 ```json
 {
