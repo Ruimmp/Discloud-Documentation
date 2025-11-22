@@ -116,7 +116,7 @@ Nesta opção, você usa somente o servidor interno do Next (`next start`), sem 
     ```
 3. Se tudo estiver funcionando, preparar o `.zip` e enviar para a Discloud.
 
-**⚙️** [**`discloud.config`**](../../configurations/discloud.config) **(exemplo)**
+**⚙️** [**`discloud.config`**](https://discloud.config) **(exemplo)**
 
 ```
 TYPE=site
@@ -166,7 +166,7 @@ app.prepare().then(() => {
 });
 ```
 
-**📦 `package.json` (com servidor custom)**
+**📦** [**`package.json`**](../../development-environment/supported-languages/javascript/package.json.md) **(com servidor custom)**
 
 Atualize seus scripts para utilizar o `server.js` em produção:
 
@@ -180,7 +180,7 @@ Atualize seus scripts para utilizar o `server.js` em produção:
 }
 ```
 
-**⚙️** [**`discloud.config`**](../../configurations/discloud.config) **(custom server)**
+**⚙️** [**`discloud.config`**](../../configurations/discloud.config/) **(custom server)**
 
 ```
 TYPE=site
@@ -216,7 +216,7 @@ Se o seu projeto não depende de **SSR** ou **API Routes**, você pode usar o `n
 }
 ```
 
-**⚙️** [**`discloud.config`**](../../configurations/discloud.config) **(estático)**
+**⚙️** [**`discloud.config`**](../../configurations/discloud.config/) **(estático)**
 
 ```
 TYPE=site
