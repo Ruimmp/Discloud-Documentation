@@ -58,7 +58,7 @@ Certifique-se de que você tenha [NodeJS](../development-environment/local-envir
 Instale a CLI.
 
 ```bash
-npm install -g discloud.app
+npm install -g discloud-cli
 ```
 {% endstep %}
 
@@ -80,7 +80,7 @@ Se a versão da CLI for exibida, a instalação foi bem-sucedida.
 {% endhint %}
 
 {% hint style="info" %}
-**Atualização da CLI**
+#### **Atualização da CLI**
 
 Para atualizar a CLI, execute o seguinte comando:
 
@@ -102,7 +102,7 @@ discloud --login
 {% endstepper %}
 
 {% hint style="info" %}
-**Repositório Oficial da CLI**
+#### **Repositório Oficial da CLI**
 
 A CLI do NodeJS é um projeto de código aberto. Você pode contribuir, relatar bugs e sugerir melhorias no repositório oficial.
 
@@ -140,7 +140,7 @@ discloud up
 * Uma vez concluído, sua aplicação irá **começar a funcionar** na Discloud.
 
 {% hint style="info" %}
-**Para verificar o status do seu app, use:**
+#### **Para verificar o status do seu app, use:**
 
 ```sh
 discloud status
