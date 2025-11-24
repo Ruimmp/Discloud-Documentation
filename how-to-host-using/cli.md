@@ -56,7 +56,7 @@ Ensure you have [NodeJS](../development-environment/local-environment/nodejs.md)
 Install the CLI.
 
 ```bash
-npm install -g discloud.app
+npm install -g discloud-cli
 ```
 {% endstep %}
 
