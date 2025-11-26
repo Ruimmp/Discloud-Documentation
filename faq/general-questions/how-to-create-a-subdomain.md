@@ -59,7 +59,7 @@ Clique no botão `+ Subdomínio` para criar um novo subdomínio.
 Insira o nome desejado para o subdomínio (ex.: `meuapp`, `dashboard`, `api`).
 
 {% hint style="info" %}
-#### Regras para nomear o subdomínio
+#### **Regras para nomear o subdomínio**
 
 * Máximo de **20 caracteres**
 * Apenas caracteres alfanuméricos (A–Z, 0–9) e hífens (-)
@@ -74,7 +74,7 @@ Seu subdomínio agora está registrado e seu estado aparecerá como **Disponíve
 
 ***
 
-## 📝 Configure seu[discloud.config](../../configurations/discloud.config/)
+## 📝 Configure seu [discloud.config](../../configurations/discloud.config/)
 
 Depois que o seu subdomínio estiver registrado, você deve adicioná-lo ao arquivo `discloud.config` para que a Discloud possa direcionar o tráfego para o aplicativo correto.
 
@@ -85,11 +85,9 @@ ID=seusubdominio
 ```
 
 {% hint style="warning" %}
-#### Como especificar o subdomínio no arquivo `discloud.config`?
+#### **Como especificar o subdomínio no arquivo `discloud.config`?**
 
 Use apenas o nome do subdomínio, não o domínio completo (por exemplo, use `meuapp`, e não `meuap.discloud.app`).
-
-
 
 Exemplo:
 
@@ -101,8 +99,8 @@ Exemplo:
 
 Após atualizar o `discloud.config`, **faça o deploy da sua aplicação** para que as alterações entrem em vigor.
 
-{% content-ref url="/broken/pages/O5pVEWDT7gNKYk0bG6Y8" %}
-[Broken link](/broken/pages/O5pVEWDT7gNKYk0bG6Y8)
+{% content-ref url="/broken/pages/Ag26vcjOXVPlfmI7oBS1" %}
+[Broken link](/broken/pages/Ag26vcjOXVPlfmI7oBS1)
 {% endcontent-ref %}
 
 ***
@@ -112,7 +110,7 @@ Após atualizar o `discloud.config`, **faça o deploy da sua aplicação** para 
 Seu subdomínio registrado pode ter dois estados:
 
 {% hint style="info" %}
-#### 🔵 Ativo
+#### **🔵 Ativo**
 
 * O subdomínio está **registrado e em uso**.
 * Uma aplicação está atualmente em deploy e acessível em `https://seusubdominio.discloud.app`.
@@ -120,7 +118,7 @@ Seu subdomínio registrado pode ter dois estados:
 {% endhint %}
 
 {% hint style="info" %}
-#### 🟢 Disponível
+#### **🟢 Disponível**
 
 * O subdomínio está **registrado e disponível**.
 * Nenhuma aplicação está usando ele no momento.
