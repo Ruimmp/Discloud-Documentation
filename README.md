@@ -1,58 +1,66 @@
 # 📚 Discloud Docs
 
-<div align="center"><img src="https://i.imgur.com/za9JTHz.png" alt="Discloud Logo" width="150"></div>
+<div align="center">
+  <img src="https://i.imgur.com/za9JTHz.png" alt="Discloud Logo" width="150">
+</div>
 
-<p align="center"><a href="https://github.com/discloud/docs"><img src="https://img.shields.io/badge/GitHub-Repository-blue?style=flat-square&#x26;logo=github" alt="GitHub"> </a><a href="https://docs.discloud.com"><img src="https://img.shields.io/badge/GitBook-Documentation-green?style=flat-square&#x26;logo=gitbook" alt="GitBook"></a></p>
+<p align="center">
+  <a href="https://github.com/discloud/docs">
+    <img src="https://img.shields.io/badge/GitHub-Repository-blue?style=flat-square&amp;logo=github" alt="GitHub">
+  </a>
+  <a href="https://docs.discloud.com">
+    <img src="https://img.shields.io/badge/Documentation-Discloud-blue?style=flat-square&amp;logo=read-the-docs" alt="Documentation">
+  </a>
+</p>
 
-## 🌍 Documentação Multi-idioma
+## 🌍 Multi-language Hub
 
-Este repositório contém a documentação oficial da **Discloud**.
+This repository holds the official **Discloud** documentation across multiple languages. Each locale gets its own README so contributors can dive straight into the instructions they need, and every translation maintains identical slug and routing rules.
 
-***
+### 📚 Languages
 
-## 📖 Idiomas Disponíveis
+- **Português** 🇧🇷 – [Leia a versão traduzida](README.pt.md)
 
-A documentação está organizada em branches separadas por idioma:
+## 🗂️ Documentation branches
 
-* **🇧🇷** [**Português**](https://github.com/discloud/docs/tree/portuguese) - Documentação completa em português
-* **🇺🇸** [**English**](https://github.com/discloud/docs/tree/english) - Complete documentation in English
+The docs live on three branches so each language can ship its own full set alongside this repository index:
 
-***
+- `portuguese` – contains the complete Portuguese documentation tree (`https://docs.discloud.com`).
+- `english` – contains the complete English documentation tree (`https://docs.discloud.com/en`).
 
-## 🧭 Regras de Rotas (obrigatório)
+## 📘 Slug & Routing Guidelines
 
-Mantenha rotas (slugs/permalinks) em inglês, iguais às da versão em inglês, em todos os idiomas.
+Routes (slugs/permalinks) must remain in English and mirror the English documentation to keep relative links, bookmarks, and automation stable across languages. The slug is the path portion after the domain (e.g., `/getting-started/install`).
 
-### 💡 Porquê manter em inglês?
+### 📝 Managing slugs in Markdown
 
-* Uma única rota funciona para todos os idiomas (ferramentas e automações ficam mais simples para apontar para as diferentes páginas).
-* Ao trocar de idioma na documentação, você permanece na mesma seção da página sem perder a posição.
-* Em inglês, há maior consistência.
+Because most contributors work directly in Markdown, the slug is driven by how you organize `SUMMARY.md`:
 
-### 📘 Escopo e definições
+1. Create a section title that represents the group or landing page name.
+2. If you need an anchor link on that section, append an explicit HTML anchor to match the slug you intend to publish.
+3. List each Markdown file in English; the entry’s melody determines the published route.
 
-* Rota/Slug: caminho após o domínio (ex.: `/getting-started/install`).
+Example snippet from `SUMMARY.md`:
 
-## 🛠️ Guia passo a passo
+```markdown
+## How to Host Using <a href="#how-to-host-using" id="how-to-host-using"></a>
 
-### 🛣️ Rotas (Slug) da página
+- [Control Panel](how-to-host-using/dashboard.md)
+```
 
-1. No espaço do GitBook, localize a página na "Table of contents".
-2. Passe o mouse sobre a página e clique em “more actions” (…), depois escolha “Rename”.
-3. Edite o campo “Slug” para o valor em inglês, igual ao da versão inglesa.
+The link above resolves to `https://docs.discloud.com/how-to-host-using/dashboard`, so the Markdown file’s location, its English name, and the optional anchor must stay synchronized with the English slug.
 
-<figure><img src="https://content.gitbook.com/content/Ua3kTfM3iWAoECzM0u90/blobs/yU1zUcOogJqZ3l5I90Lc/CleanShot%202024-01-23%20at%2017.28.03@2x.png" alt="How to change the slug in your URL" width="600"><figcaption></figcaption></figure>
+### 🧭 Best practices for slugs
 
-4. Clique em "Save" para refletir a mudança.
+- Keep every slug in English and never include diacritics, spaces, or trailing slashes.
+- Use kebab-case (`how-to-host-using`) for readability and URL hygiene.
+- Do not translate or vary slugs between languages—only the page content changes.
+- Evaluate SEO and existing links before renaming a route; coordinate with the team if a change is required.
 
-#### ✅ Boas práticas (slug):
+## 🌐 Need a translation?
 
-* Mantenha em inglês; use kebab-case; sem acentos/espaços; sem trailing slash.
-* Não traduza nem varie o slug entre idiomas.
-* Se precisar alterar, avalie impactos de SEO e links existentes.
+If you need to read these guidelines in Portuguese, open `README.pt.md` for the localized version and keep linking back to this English reference when aligning slugs.
 
-Referência: [https://gitbook.com/docs/help-center/published-documentation/custom-domains/how-can-i-change-the-slug-in-the-url](https://gitbook.com/docs/help-center/published-documentation/custom-domains/how-can-i-change-the-slug-in-the-url)
-
-***
+---
 
 <p align="center">Made with ❤️ by the Discloud Team</p>
