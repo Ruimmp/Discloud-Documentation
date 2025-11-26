@@ -1,5 +1,8 @@
 ---
-description: Learn how to register and manage custom Discloud subdomains for your applications.
+description: >-
+  Learn how to register and manage custom Discloud subdomains for your
+  applications.
+icon: globe
 ---
 
 # How to Create a Subdomain?
@@ -12,12 +15,9 @@ To allow external access to your app, Discloud offers the option to create a **c
 
 ### 📡 How it Works
 
-<figure>
-  <img src="../../.gitbook/assets/subdomain-flow.png" alt="Discloud subdomain flow">
-  <figcaption></figcaption>
-</figure>
+<figure><img src="../../.gitbook/assets/subdomain-flow.png" alt="Discloud subdomain flow"><figcaption></figcaption></figure>
 
----
+***
 
 ## ✅ Requirements
 
@@ -35,7 +35,7 @@ To register and use a Discloud subdomain, you must meet the following requiremen
 **Discloud Config** – Your app must include a properly configured [`discloud.config`](../../configurations/discloud.config/) file
 {% endhint %}
 
----
+***
 
 ## 🚀 Register Your Subdomain
 
@@ -49,106 +49,105 @@ Open the [**Discloud Dashboard**](https://discloud.com/dashboard).
 {% step %}
 Click on the `Subdomain` tab at the top of the application page.
 
-<figure>
-  <img src="../../.gitbook/assets/dashboard-subdomain-tab.png" alt="Dashboard Subdomain tab">
-  <figcaption></figcaption>
-</figure>
+<figure><img src="../../.gitbook/assets/dashboard-subdomain-tab.png" alt="Dashboard Subdomain tab"><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 Click the `+ Subdomain` button to create a new subdomain.
 
-<figure>
-  <img src="../../.gitbook/assets/dashboard-subdomain-button.png" alt="Add Subdomain button">
-  <figcaption></figcaption>
-</figure>
+<figure><img src="../../.gitbook/assets/dashboard-subdomain-button.png" alt="Add Subdomain button"><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 Enter your desired subdomain name (e.g., `myapp`, `dashboard`, `api`).
 
 {% hint style="info" %}
-**Subdomain naming rules:**
-- Maximum **20 characters**
-- Only alphanumeric characters (A–Z, 0–9) and hyphens (-)
-- No spaces, underscores, or special characters allowed
-- Example: ✅ `my-app-v1` | ❌ `my_app_v1` | ❌ `my app`
+#### **Subdomain naming rules**
+
+* Maximum **20 characters**
+* Only alphanumeric characters (A–Z, 0–9) and hyphens (-)
+* No spaces, underscores, or special characters allowed
 {% endhint %}
 {% endstep %}
 
 {% step %}
-Click **Create** and wait for confirmation. Your subdomain is now registered and its state will show as **Available**.
-
-<figure>
-  <img src="../../.gitbook/assets/dashboard-subdomain-available.png" alt="Subdomain registered and available">
-  <figcaption></figcaption>
-</figure>
+Your subdomain is now registered and its state will show as **Available**.
 {% endstep %}
-
 {% endstepper %}
 
-{% endstepper %}
+***
 
----
-
-## 📝 Configure Your discloud.config
+## 📝 Configure Your [discloud.config](../../configurations/discloud.config/)
 
 Once your subdomain is registered, you **must** add it to your `discloud.config` file so Discloud routes traffic to the correct app.
 
 Open your `discloud.config` file and locate the `ID` field:
 
 ```ini
-ID=your-subdomain-name
+ID=yoursubdomain
 ```
 
 {% hint style="warning" %}
-**Important:** Use only the subdomain name, **not** the full domain (e.g., use `myapp`, not `myapp.discloud.app`).
+#### How to specify the subdomain in the `discloud.config` file?
 
-{% code title="discloud.config" %}
+Use only the subdomain name, **not** the full domain (e.g., use `myapp`, not `myapp.discloud.app`).
 
-Example configuration:
 
-```ini
-TYPE=site
-MAIN=index.js
-RAM=256
-ID=myapp
-APT=nginx
-```
 
-{% endcode %}
+Example:
 
+<pre class="language-ini" data-title="discloud.config"><code class="lang-ini"><strong>ID=myapp
+</strong>TYPE=site
+<a data-footnote-ref href="#user-content-fn-1"># ...</a>
+</code></pre>
 {% endhint %}
 
 After updating `discloud.config`, **deploy your application** for the changes to take effect.
 
-{% content-ref url="../../configurations/discloud.config/" %}
-[discloud.config](../../configurations/discloud.config/)
+{% content-ref url="/broken/pages/QvqZ6Pb1ujOR3SKgK1bU" %}
+[Broken link](/broken/pages/QvqZ6Pb1ujOR3SKgK1bU)
 {% endcontent-ref %}
 
----
+***
 
 ## 🔄 Subdomain States
 
 Your registered subdomain can have two states:
 
-| State            | Description                                                                                                                                                                    |
-| ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 🟢 **Available** | The subdomain is **registered and available**. No app is currently using it (no active deployment). You can deploy an app to activate it at any time.                          |
-| 🔵 **Active**    | The subdomain is **registered and in use**. An app is currently deployed and accessible at `https://subdomain.discloud.app`. Traffic is being routed to your app on port 8080. |
+{% hint style="info" %}
+#### 🔵 **Active**
 
----
+* The subdomain is **registered and in use**.&#x20;
+* An app is currently deployed and accessible at `https://yoursubdomain.discloud.app`.&#x20;
+* Traffic is being routed to your app on port 8080.
+{% endhint %}
+
+{% hint style="info" %}
+#### 🟢 **Available**
+
+* The subdomain is **registered and available**.
+* No app is currently using it.
+* You can deploy an app to activate it at any time.
+{% endhint %}
+
+***
 
 ## 🌍 Access Your Site
 
 Once your subdomain is **Active**, you can access it via:
 
 ```
-https://your-subdomain-name.discloud.app
+https://yoursubdomain.discloud.app
 ```
 
----
+***
 
-## ⚙️ Advanced: Custom Domain
+## ⚙️ Custom Domain
 
-If you want to use your own domain (e.g., `myapp.com`) instead of a Discloud subdomain, check out our [**Custom Domain Guide**](../../api-and-integrations/custom-domain.md).
+If you want to use your own domain (e.g., `yourdomaind.com`) instead of a Discloud subdomain, check:
+
+{% content-ref url="../../api-and-integrations/custom-domain.md" %}
+[custom-domain.md](../../api-and-integrations/custom-domain.md)
+{% endcontent-ref %}
+
+[^1]: **Note:** The ... only indicate the continuation of other previous or subsequent options that are not relevant to mention on this page.
