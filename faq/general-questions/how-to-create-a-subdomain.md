@@ -47,7 +47,7 @@ Open the [**Discloud Dashboard**](https://discloud.com/dashboard).
 {% endstep %}
 
 {% step %}
-Click on the **Subdomain** tab at the top of the application page.
+Click on the `Subdomain` tab at the top of the application page.
 
 <figure>
   <img src="../../.gitbook/assets/dashboard-subdomain-tab.png" alt="Dashboard Subdomain tab">
@@ -56,7 +56,7 @@ Click on the **Subdomain** tab at the top of the application page.
 {% endstep %}
 
 {% step %}
-Click the **+ Subdomain** button to create a new subdomain.
+Click the `+ Subdomain` button to create a new subdomain.
 
 <figure>
   <img src="../../.gitbook/assets/dashboard-subdomain-button.png" alt="Add Subdomain button">
@@ -66,7 +66,26 @@ Click the **+ Subdomain** button to create a new subdomain.
 
 {% step %}
 Enter your desired subdomain name (e.g., `myapp`, `dashboard`, `api`).
+
+{% hint style="info" %}
+**Subdomain naming rules:**
+- Maximum **20 characters**
+- Only alphanumeric characters (A–Z, 0–9) and hyphens (-)
+- No spaces, underscores, or special characters allowed
+- Example: ✅ `my-app-v1` | ❌ `my_app_v1` | ❌ `my app`
+{% endhint %}
 {% endstep %}
+
+{% step %}
+Click **Create** and wait for confirmation. Your subdomain is now registered and its state will show as **Available**.
+
+<figure>
+  <img src="../../.gitbook/assets/dashboard-subdomain-available.png" alt="Subdomain registered and available">
+  <figcaption></figcaption>
+</figure>
+{% endstep %}
+
+{% endstepper %}
 
 {% endstepper %}
 
