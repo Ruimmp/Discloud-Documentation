@@ -1,6 +1,5 @@
 ---
 description: Learn how to register and manage custom Discloud subdomains for your applications.
-icon: globe
 ---
 
 # How to Create a Subdomain?
