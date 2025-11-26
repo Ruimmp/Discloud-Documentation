@@ -13,9 +13,9 @@
   </a>
 </p>
 
-## 🌍 Multi-language Hub
+## 🚀 Introduction
 
-This repository holds the official **Discloud** documentation across multiple languages. Each locale gets its own README so contributors can dive straight into the instructions they need, and every translation maintains identical slug and routing rules.
+This repository holds the official **Discloud** documentation.
 
 ### 📚 Languages
 

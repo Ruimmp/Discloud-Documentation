@@ -13,9 +13,9 @@
   </a>
 </p>
 
-## 🌍 Hub multilíngue
+## 🚀 Introdução
 
-Este repositório mantém documentação oficial da **Discloud** em vários idiomas. Cada idioma ganha seu próprio README para seguir as mesmas regras de slug e roteamento, e esta versão em português complementa o guia canônico em inglês.
+Este repositório mantém documentação oficial da **Discloud**.
 
 ### 📚 Idiomas
 
