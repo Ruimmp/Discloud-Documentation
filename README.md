@@ -8,7 +8,7 @@
   <a href="https://github.com/discloud/docs">
     <img src="https://img.shields.io/badge/GitHub-Repository-blue?style=flat-square&amp;logo=github" alt="GitHub">
   </a>
-  <a href="https://docs.discloud.com">
+  <a href="https://docs.discloud.com/en">
     <img src="https://img.shields.io/badge/Documentation-Discloud-blue?style=flat-square&amp;logo=read-the-docs" alt="Documentation">
   </a>
 </p>
