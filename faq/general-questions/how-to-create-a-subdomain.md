@@ -47,10 +47,6 @@ Open the [**Discloud Dashboard**](https://discloud.com/dashboard).
 {% endstep %}
 
 {% step %}
-Navigate to **Applications** and select the app you want to register a subdomain for.
-{% endstep %}
-
-{% step %}
 Click on the **Subdomain** tab at the top of the application page.
 
 <figure>
