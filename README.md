@@ -23,7 +23,7 @@ This repository holds the official **Discloud** documentation.
 
 ## 🗂️ Documentation branches
 
-The docs live on three branches so each language can ship its own full set alongside this repository index:
+The documentation is divided into 2 branches so that each language maintains its own complete tree:
 
 - `portuguese` – contains the complete Portuguese documentation tree (`https://docs.discloud.com`).
 - `english` – contains the complete English documentation tree (`https://docs.discloud.com/en`).
@@ -54,12 +54,8 @@ The link above resolves to `https://docs.discloud.com/how-to-host-using/dashboar
 
 - Keep every slug in English and never include diacritics, spaces, or trailing slashes.
 - Use kebab-case (`how-to-host-using`) for readability and URL hygiene.
-- Do not translate or vary slugs between languages—only the page content changes.
-- Evaluate SEO and existing links before renaming a route; coordinate with the team if a change is required.
-
-## 🌐 Need a translation?
-
-If you need to read these guidelines in Portuguese, open `README.pt.md` for the localized version and keep linking back to this English reference when aligning slugs.
+- Do not translate or vary slugs between languages, only the page content changes.
+- Evaluate SEO and existing links before renaming a route.
 
 ---
 

@@ -23,7 +23,7 @@ Este repositório mantém documentação oficial da **Discloud**.
 
 ## 🗂️ Branches da documentação
 
-As páginas ficam divididas em três branches para que cada idioma mantenha a própria árvore completa:
+A documentação está dividida em 2 branches para que cada idioma mantenha a própria árvore completa:
 
 - `portuguese` – agrupa toda a documentação em português (`https://docs.discloud.com`).
 - `english` – agrupa toda a documentação em inglês (`https://docs.discloud.com/en`).
@@ -54,12 +54,8 @@ O vínculo acima gera `https://docs.discloud.com/how-to-host-using/dashboard`, p
 
 - Deixe cada slug em inglês, sem acentos, espaços ou barras finais.
 - Prefira kebab-case (`how-to-host-using`) para manter URLs limpas.
-- Não traduza nem altere slugs entre idiomas — apenas o conteúdo muda.
-- Avalie impactos de SEO ou links existentes antes de renomear rotas; coordene qualquer mudança com a equipe.
-
-## 🌐 Precisa confirmar algo em inglês?
-
-Abra `README.md` para consultar o guia oficial em inglês e manter os slugs sincronizados entre as línguas.
+- Não traduza nem altere slugs entre idiomas, apenas o conteúdo muda.
+- Avalie impactos de SEO ou links existentes antes de renomear rotas.
 
 ---
 
