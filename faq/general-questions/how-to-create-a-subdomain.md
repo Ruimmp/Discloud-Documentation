@@ -2,7 +2,6 @@
 description: >-
   Learn how to register and manage custom Discloud subdomains for your
   applications.
-icon: globe
 ---
 
 # How to Create a Subdomain?
@@ -38,8 +37,6 @@ To register and use a Discloud subdomain, you must meet the following requiremen
 ***
 
 ## 🚀 Register Your Subdomain
-
-### Via Dashboard
 
 {% stepper %}
 {% step %}
@@ -117,7 +114,7 @@ Your registered subdomain can have two states:
 {% hint style="info" %}
 #### 🔵 **Active**
 
-* The subdomain is **registered and in use**.&#x20;
+* The subdomain is **registered and in use**.
 * An app is currently deployed and accessible at `https://yoursubdomain.discloud.app`.&#x20;
 * Traffic is being routed to your app on port 8080.
 {% endhint %}
