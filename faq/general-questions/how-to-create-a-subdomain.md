@@ -85,11 +85,9 @@ ID=yoursubdomain
 ```
 
 {% hint style="warning" %}
-#### How to specify the subdomain in the `discloud.config` file?
+#### **How to specify the subdomain in the `discloud.config` file?**
 
 Use only the subdomain name, **not** the full domain (e.g., use `myapp`, not `myapp.discloud.app`).
-
-
 
 Example:
 
@@ -101,8 +99,8 @@ Example:
 
 After updating `discloud.config`, **deploy your application** for the changes to take effect.
 
-{% content-ref url="/broken/pages/QvqZ6Pb1ujOR3SKgK1bU" %}
-[Broken link](/broken/pages/QvqZ6Pb1ujOR3SKgK1bU)
+{% content-ref url="/broken/pages/xVqMa6zo7nc967JtePJ0" %}
+[Broken link](/broken/pages/xVqMa6zo7nc967JtePJ0)
 {% endcontent-ref %}
 
 ***
@@ -112,15 +110,15 @@ After updating `discloud.config`, **deploy your application** for the changes to
 Your registered subdomain can have two states:
 
 {% hint style="info" %}
-#### 🔵 **Active**
+#### **🔵 Active**
 
 * The subdomain is **registered and in use**.
-* An app is currently deployed and accessible at `https://yoursubdomain.discloud.app`.&#x20;
+* An app is currently deployed and accessible at `https://yoursubdomain.discloud.app`.
 * Traffic is being routed to your app on port 8080.
 {% endhint %}
 
 {% hint style="info" %}
-#### 🟢 **Available**
+#### **🟢 Available**
 
 * The subdomain is **registered and available**.
 * No app is currently using it.
