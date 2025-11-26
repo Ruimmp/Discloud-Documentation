@@ -19,7 +19,7 @@ This repository holds the official **Discloud** documentation across multiple la
 
 ### 📚 Languages
 
-- **Português** 🇧🇷 – [Leia a versão traduzida](README.pt.md)
+- 🇧🇷 **Português** – [Leia a versão traduzida](README.pt.md)
 
 ## 🗂️ Documentation branches
 

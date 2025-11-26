@@ -19,7 +19,7 @@ Este repositório mantém documentação oficial da **Discloud** em vários idio
 
 ### 📚 Idiomas
 
-- **English** 🇬🇧 – [Read the English version](README.md)
+- 🇬🇧 **English** – [Read the English version](README.md)
 
 ## 🗂️ Branches da documentação
 
