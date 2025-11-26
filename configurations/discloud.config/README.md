@@ -78,7 +78,7 @@ VERSION=latest
 * `VERSION` - especifica a [versão da linguagem](versions.md) do seu projeto.
 
 {% hint style="info" %}
-Se o `TYPE` estiver definido como **site**, você também deve definir a opção `ID` com seu subdomínio. [Veja mais aqui.](../../faq/general-questions/em-andamento-como-criar-um-subdominio.md)
+Se o `TYPE` estiver definido como **site**, você também deve definir a opção `ID` com seu subdomínio. [Veja mais aqui.](../../faq/general-questions/how-to-create-a-subdomain.md)
 {% endhint %}
 
 <pre class="language-properties" data-title="discloud.config"><code class="lang-properties"><strong>TYPE=site
@@ -116,7 +116,7 @@ APT=tools
 {% endtabs %}
 
 {% hint style="info" %}
-#### **⚠️ Opções obrigatórias no seu `discloud.config`**
+**⚠️ Opções obrigatórias no seu `discloud.config`**
 
 **Apenas um campo é obrigatório**:
 

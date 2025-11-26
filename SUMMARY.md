@@ -80,7 +80,7 @@
   * [O que é a raiz do projeto?](faq/general-questions/what-is-the-root-of-the-project.md)
   * [\[EM ANDAMENTO\] Arquivo .env](faq/general-questions/em-andamento-arquivo-.env.md)
   * [\[EM ANDAMENTO\] Qual é o arquivo principal?](faq/general-questions/em-andamento-qual-e-o-arquivo-principal.md)
-  * [\[EM ANDAMENTO\] Como Criar um Subdomínio?](faq/general-questions/em-andamento-como-criar-um-subdominio.md)
+  * [Como Criar um Subdomínio?](faq/general-questions/how-to-create-a-subdomain.md)
   * [\[EM ANDAMENTO\] Como posso obter o ID do meu bot?](faq/general-questions/em-andamento-como-posso-obter-o-id-do-meu-bot.md)
   * [\[EM ANDAMENTO\] Como comprimir?](faq/general-questions/em-andamento-como-comprimir.md)
   * [\[EM ANDAMENTO\] Como fazer commit?](faq/general-questions/em-andamento-como-fazer-commit.md)

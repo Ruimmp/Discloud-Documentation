@@ -29,10 +29,10 @@ Certifique-se de que os seguintes arquivos e diretórios **não** sejam incluíd
 <summary>📦 Sobre a pasta dist (apenas TYPE=site)</summary>
 
 {% hint style="info" %}
-Para apps `TYPE=site`, **`dist/` é reservada** para a saída do `BUILD`. Se você define `BUILD=...` no [`discloud.config`](../../../configurations/discloud.config/), nós geramos a pasta `dist/` pra você. **Não compacte `dist/`** ou envie arquivos para lá.
+Para apps `TYPE=site`, **`dist/` é reservada** para a saída do `BUILD`. Se você define `BUILD=...` no [`discloud.config`](../../../configurations/discloud.config), nós geramos a pasta `dist/` pra você. **Não compacte `dist/`** ou envie arquivos para lá.
 {% endhint %}
 
-#### ⚙️ Build automático
+**⚙️ Build automático**
 
 1. `BUILD` no `discloud.config` (ex.: `BUILD=npm run build`).
 2. Script gera arquivos em `dist/` (Vite, Vue, etc. já fazem isso).
@@ -50,7 +50,7 @@ VERSION=latest
 ID=meusite
 ```
 
-#### 👜 Pré-build
+**👜 Pré-build**
 
 1. Gere a saída em **`build/`** (não use `dist/`).
 2. Omitir `BUILD` no `discloud.config`.
@@ -79,7 +79,7 @@ Antes de fazer deploy do seu website ou API na Discloud, certifique-se de que vo
 {% endhint %}
 
 {% hint style="success" %}
-[Um subdomínio deve ser criado](../../../faq/general-questions/em-andamento-como-criar-um-subdominio.md) antes do deploy.
+[Um subdomínio deve ser criado](../../../faq/general-questions/how-to-create-a-subdomain.md) antes do deploy.
 {% endhint %}
 
 {% hint style="danger" %}

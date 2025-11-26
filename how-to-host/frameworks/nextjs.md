@@ -29,7 +29,7 @@ Este guia assume que você já tem um projeto Next.js funcionando localmente.
 {% endhint %}
 
 {% hint style="success" %}
-[Um subdomínio deve ser criado](../../faq/general-questions/em-andamento-como-criar-um-subdominio.md) antes do deploy.
+[Um subdomínio deve ser criado](../../faq/general-questions/how-to-create-a-subdomain.md) antes do deploy.
 {% endhint %}
 
 {% hint style="danger" %}
@@ -116,7 +116,7 @@ Nesta opção, você usa somente o servidor interno do Next (`next start`), sem 
     ```
 3. Se tudo estiver funcionando, preparar o `.zip` e enviar para a Discloud.
 
-**⚙️** [**`discloud.config`**](../../configurations/discloud.config/) **(exemplo)**
+**⚙️** [**`discloud.config`**](../../configurations/discloud.config) **(exemplo)**
 
 ```
 TYPE=site
@@ -180,7 +180,7 @@ Atualize seus scripts para utilizar o `server.js` em produção:
 }
 ```
 
-**⚙️** [**`discloud.config`**](../../configurations/discloud.config/) **(custom server)**
+**⚙️** [**`discloud.config`**](../../configurations/discloud.config) **(custom server)**
 
 ```
 TYPE=site
@@ -216,7 +216,7 @@ Se o seu projeto não depende de **SSR** ou **API Routes**, você pode usar o `n
 }
 ```
 
-**⚙️** [**`discloud.config`**](../../configurations/discloud.config/) **(estático)**
+**⚙️** [**`discloud.config`**](../../configurations/discloud.config) **(estático)**
 
 ```
 TYPE=site

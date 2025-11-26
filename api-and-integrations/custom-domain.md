@@ -7,7 +7,7 @@ icon: globe
 
 ## 🧭 Visão Geral
 
-Você pode mapear seu próprio domínio (ex. `seudominio.com`) ou um subdomínio (ex. `dash.seudominio.com`) para uma aplicação hospedada na Discloud. A plataforma serve tráfego através do [subdomínio Discloud](../faq/general-questions/em-andamento-como-criar-um-subdominio.md) da sua app usando um registro CNAME e valida a propriedade via registros TXT.
+Você pode mapear seu próprio domínio (ex. `seudominio.com`) ou um subdomínio (ex. `dash.seudominio.com`) para uma aplicação hospedada na Discloud. A plataforma serve tráfego através do [subdomínio Discloud](../faq/general-questions/how-to-create-a-subdomain.md) da sua app usando um registro CNAME e valida a propriedade via registros TXT.
 
 <figure><img src="../.gitbook/assets/custom-domain-flow.png" alt="Diagrama de fluxo de domínio personalizado"><figcaption></figcaption></figure>
 
