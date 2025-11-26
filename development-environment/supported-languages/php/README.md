@@ -73,7 +73,7 @@ Antes de fazer deploy do seu website ou API na Discloud, certifique-se de que vo
 {% endhint %}
 
 {% hint style="success" %}
-[Um subdomínio deve ser criado](../../../faq/general-questions/em-andamento-como-criar-um-subdominio.md) antes do deploy.
+[Um subdomínio deve ser criado](../../../faq/general-questions/how-to-create-a-subdomain.md) antes do deploy.
 {% endhint %}
 
 {% hint style="danger" %}
