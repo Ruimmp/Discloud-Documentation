@@ -11,7 +11,7 @@ This step-by-step guide shows how to prepare, configure, and deploy a **NestJS**
 
 The process involves building your TypeScript code into the `dist` folder and running the compiled JavaScript on port `8080`. NestJS apps are straightforward to deploy because the framework handles routing, dependency injection, and module organization automatically.
 
----
+***
 
 ## 📋 Requirements
 
@@ -27,16 +27,16 @@ A [Platinum plan or higher](https://discloud.com/plans) is required to host webs
 Port `8080` is mandatory – applications must listen on this port.
 {% endhint %}
 
----
+***
 
 ## 🧱 Local prerequisites
 
 Before continuing, you will need:
 
-- **Node.js** installed on your machine.
-- A **NestJS project** created (e.g. `nest new my-app`).
-- A **Discloud account** with a **configured subdomain**.
-- Optionally: **Git**, **VSCode**, and/or the **Discloud CLI** to make the workflow easier.
+* **Node.js** installed on your machine.
+* A **NestJS project** created (e.g. `nest new my-app`).
+* A **Discloud account** with a **configured subdomain**.
+* Optionally: **Git**, **VSCode**, and/or the **Discloud CLI** to make the workflow easier.
 
 If you are not yet familiar with the local environment, check:
 
@@ -44,7 +44,7 @@ If you are not yet familiar with the local environment, check:
 [nodejs.md](../../development-environment/local-environment/nodejs.md)
 {% endcontent-ref %}
 
----
+***
 
 ## 🧹 Preparing project files
 
@@ -64,7 +64,7 @@ package-lock.json
 The `.discloudignore` file works similarly to `.gitignore`, but it is used by Discloud to ignore files at upload time.
 {% endhint %}
 
----
+***
 
 ## 🔧 TypeScript Configuration – `tsconfig.build.json`
 
@@ -87,7 +87,7 @@ Ensure your `tsconfig.build.json` (or `tsconfig.json`) is set to output to the `
 It is important that **`compilerOptions.outDir`** is set to `"dist"`, as Discloud will look for your compiled app there.
 {% endhint %}
 
----
+***
 
 ## 🚀 Main entry point – `src/main.ts`
 
@@ -109,13 +109,13 @@ bootstrap();
 ```
 
 {% hint style="danger" %}
-**Important:**
+#### **Important**
 
-- **Port 8080 is mandatory.** Even if you set `PORT` in your `.env` file, it must be `8080`.
-- Bind to `0.0.0.0` (not `localhost`) so external traffic can reach your app.
-  {% endhint %}
+* **Port 8080 is mandatory.** Even if you set `PORT` in your `.env` file, it must be `8080`.
+* Bind to `0.0.0.0` (not `localhost`) so external traffic can reach your app.
+{% endhint %}
 
----
+***
 
 ## 📦 `package.json` – recommended scripts
 
@@ -132,13 +132,12 @@ Inside your [`package.json`](../../development-environment/supported-languages/j
 ```
 
 {% hint style="info" %}
+* `build` – compiles TypeScript to `dist` via the Nest CLI.
+* `start` – runs the compiled app from the `dist` folder.
+* `start:dev` – runs in watch mode locally (not needed for Discloud).
+{% endhint %}
 
-- `build` – compiles TypeScript to `dist` via the Nest CLI.
-- `start` – runs the compiled app from the `dist` folder.
-- `start:dev` – runs in watch mode locally (not needed for Discloud).
-  {% endhint %}
-
----
+***
 
 ## ⚙️ `discloud.config` – example
 
@@ -163,7 +162,7 @@ For detailed information about each configuration parameter and all available op
 Make sure to adjust the `ID` field to match your registered subdomain from the Discloud dashboard.
 {% endhint %}
 
----
+***
 
 ## 🧪 Testing locally (production build)
 
@@ -195,14 +194,13 @@ Stop the server and proceed to deployment.
 {% endstep %}
 {% endstepper %}
 
----
+***
 
 ## 🔐 Environment variables
 
 In NestJS, environment variables are typically accessed via `process.env`:
 
-- Define variables via the **Discloud Dashboard**, **CLI**, or **API**.
-- Common patterns include `DATABASE_URL`, `API_KEY`, `REDIS_URL`, etc.
+* Common patterns include `DATABASE_URL`, `API_KEY`, `REDIS_URL`, etc.
 
 Example in a service:
 
@@ -221,7 +219,7 @@ export class ConfigService {
 For better type safety and validation, consider using the `@nestjs/config` package to manage environment variables.
 {% endhint %}
 
----
+***
 
 ## 🗂️ Recommended final project structure
 
@@ -242,7 +240,7 @@ my-nest-app/
 └─ dist/  (generated after build)
 ```
 
----
+***
 
 ## 🚀 Deploying to Discloud
 
@@ -264,15 +262,14 @@ You can deploy your NestJS app using any of the supported methods.
 [cli.md](../../how-to-host-using/cli.md)
 {% endcontent-ref %}
 
----
+***
 
 ## 🛠️ Troubleshooting (common errors)
 
-|                                    |                                                                                                                                                           |
-| ---------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **App does not open / wrong port** | Check if NestJS is listening on port `8080` (`process.env.PORT \|\| 8080` in `main.ts`).                                                                  |
-| **`dist` folder not found**        | Verify `tsconfig.build.json` has `"outDir": "./dist"` and run `npm run build` locally to confirm.                                                         |
-| **Plan / permission error**        | Confirm that your account has the **correct plan** for websites/APIs.                                                                                     |
-| **Subdomain not configured**       | Make sure you followed the **subdomain guide** before deploying.                                                                                          |
-| **Build errors**                   | <ul><li>Run locally: `npm run build` and fix any errors before uploading.</li><li>Check that all **dependencies** are listed in `package.json`.</li></ul> |
-| **Errors when starting (`START`)** | <ul><li>Verify that the `start` script is correct.</li><li>Follow the **Discloud logs** to see the exact error message.</li></ul>                         |
+|                                    |                                                                                                                                                                                              |
+| ---------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **App does not open / wrong port** | Check if NestJS is listening on port `8080` (`process.env.PORT \|\| 8080` in `main.ts`).                                                                                                     |
+| **Plan / permission error**        | Confirm that your account has the **correct plan** for websites/APIs.                                                                                                                        |
+| **Subdomain not configured**       | Make sure you followed the **subdomain guide** before deploying.                                                                                                                             |
+| **Build errors**                   | <ul><li>Run locally: <code>npm run build</code> and fix any errors before uploading.</li><li>Check that all <strong>dependencies</strong> are listed in <code>package.json</code>.</li></ul> |
+| **Errors when starting (`START`)** | <ul><li>Verify that the <code>start</code> script is correct.</li><li>Follow the <strong>Discloud logs</strong> to see the exact error message.</li></ul>                                    |
