@@ -37,7 +37,7 @@ Stay in the server to be notified when your ticket is answered and when the veri
 
 There are **two ways** to deploy an application using the Discloud Bot:
 
-<table><thead><tr><th width="212">Method</th><th>Best For</th><th>How It Works</th></tr></thead><tbody><tr><td><a href="discord-bot.md#advanced-setup"><strong>⚙️ Advanced Setup</strong></a></td><td>Users who want a <strong>one-command</strong> deployment with pre-configured settings.</td><td>Configure everything in the <a href="https://github.com/discloud/docs/blob/english-revamp/configurations/discloud.config"><code>discloud.config</code></a> file and use <code>.upconfig</code>.</td></tr><tr><td><a href="discord-bot.md#quick-setup-step-by-step-guide"><strong>⚡ Quick Setup (legacy)</strong></a></td><td>Users who <strong>prefer a guided setup</strong> via the bot’s prompts.</td><td>The bot will ask for the necessary details after running <code>.up</code>.</td></tr></tbody></table>
+<table><thead><tr><th width="212">Method</th><th>Best For</th><th>How It Works</th></tr></thead><tbody><tr><td><a href="discord-bot.md#advanced-setup"><strong>⚙️ Advanced Setup</strong></a></td><td>Users who want a <strong>one-command</strong> deployment with pre-configured settings.</td><td>Configure everything in the <a href="../configurations/discloud.config/"><code>discloud.config</code></a> file and use <code>.upconfig</code>.</td></tr><tr><td><a href="discord-bot.md#quick-setup-step-by-step-guide"><strong>⚡ Quick Setup (legacy)</strong></a></td><td>Users who <strong>prefer a guided setup</strong> via the bot’s prompts.</td><td>The bot will ask for the necessary details after running <code>.up</code>.</td></tr></tbody></table>
 
 {% hint style="warning" %}
 #### **Important Notes**
@@ -50,7 +50,7 @@ There are **two ways** to deploy an application using the Discloud Bot:
 {% tab title="📝 Advanced Setup" %}
 {% stepper %}
 {% step %}
-Create the [`discloud.config`](https://github.com/discloud/docs/blob/english-revamp/configurations/discloud.config) file.
+Create the [`discloud.config`](../configurations/discloud.config/) file.
 {% endstep %}
 
 {% step %}
@@ -168,4 +168,4 @@ Send your [`.zip`](../faq/general-questions/wip-how-to-compress.md) file when pr
 
 ## **❓ Still need help?**
 
-Check the [**FAQ Section**](https://github.com/discloud/docs/blob/english-revamp/how-to-host-using/broken-reference/README.md) or join our [**Discord Server**](https://discord.discloudbot.com/) for support.
+Check the [**FAQ Section**](/broken/pages/XnfTZsmKo9RRBUwNSPYU) or join our [**Discord Server**](https://discord.discloudbot.com/) for support.

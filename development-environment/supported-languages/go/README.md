@@ -11,7 +11,7 @@ Before uploading your project, you must **exclude unnecessary files** to optimiz
 
 #### ❌ **Files to Exclude**
 
-Ensure the following files and directories are **not** included in your [`.zip`](https://github.com/Ruimmp/Discloud-Documentation/blob/English/development-environment/supported-languages/go/broken-reference/README.md):
+Ensure the following files and directories are **not** included in your [`.zip`](../../../faq/general-questions/wip-how-to-compress.md):
 
 ```diff
 - bin/
@@ -34,7 +34,7 @@ Before deploying your website or API on Discloud, ensure that you meet the follo
 {% endhint %}
 
 {% hint style="success" %}
-[A subdomain must be created](../../../faq/general-questions/wip-how-to-create-a-subdomain.md) before deployment.
+[A subdomain must be created](/broken/pages/tOZppdIRGABWAzzGcvLs) before deployment.
 {% endhint %}
 
 {% hint style="danger" %}
