@@ -11,7 +11,7 @@ Antes do deploy, **seu projeto deve ser** [**compilado em um arquivo JAR execut�
 
 #### ❌ **Arquivos a Excluir**
 
-Certifique-se de que os seguintes arquivos e diretórios **não** sejam incluídos no seu [`.zip`](https://github.com/discloud/docs/blob/portuguese-revamp/faq/general-questions/wip-how-to-compress.md):
+Certifique-se de que os seguintes arquivos e diretórios **não** sejam incluídos no seu [`.zip`](../../faq/general-questions/em-andamento-como-comprimir.md):
 
 ```diff
 - package-lock.json
@@ -58,7 +58,7 @@ Renomeie seu arquivo JAR para um nome simples como `app.jar` para evitar problem
 
 ## 📝 **Configurando o Arquivo Principal**
 
-O parâmetro `MAIN` no seu arquivo [`discloud.config`](https://github.com/discloud/docs/blob/portuguese-revamp/configuracoes/discloud.config) deve apontar para o seu arquivo JAR executável. Por exemplo:
+O parâmetro `MAIN` no seu arquivo [`discloud.config`](../../configurations/discloud.config/) deve apontar para o seu arquivo JAR executável. Por exemplo:
 
 ```ini
 MAIN=app.jar

@@ -10,7 +10,7 @@ description: >-
 
 `Gemfile` lista as gems (bibliotecas) que sua aplicação Ruby precisa. A Discloud usa o **Bundler** durante o deploy para instalá-las antes de iniciar sua aplicação.
 
----
+***
 
 ## 🛠️ Criando um `Gemfile` (Início Rápido)
 
@@ -32,7 +32,6 @@ Adicione dependências diretamente via Bundler:
 bundle add sinatra
 bundle add puma
 ```
-
 {% endstep %}
 
 {% step %}
@@ -41,7 +40,6 @@ Instale (respeitando o Gemfile):
 ```bash
 bundle install
 ```
-
 {% endstep %}
 {% endstepper %}
 
@@ -49,7 +47,7 @@ bundle install
 Instale o Bundler se estiver faltando: `gem install bundler`.
 {% endhint %}
 
----
+***
 
 ## 🧪 Grupos de Ambiente
 
@@ -70,14 +68,13 @@ Pule a instalação de grupos dev/test no momento do deploy se desejado:
 bundle install --without development test
 ```
 
----
+***
 
 ## 🧩 Exemplos de Gemfiles
 
 {% tabs %}
 {% tab title="Rails (Site/API)" %}
 {% code title="Gemfile" %}
-
 ```ruby
 source 'https://rubygems.org'
 
@@ -99,13 +96,11 @@ end
 
 gem 'bundler', '~> 2.4'
 ```
-
 {% endcode %}
 {% endtab %}
 
 {% tab title="Sinatra (Site/API)" %}
 {% code title="Gemfile" %}
-
 ```ruby
 source 'https://rubygems.org'
 ruby '3.2.2'
@@ -118,13 +113,11 @@ group :development do
 	gem 'rerun'
 end
 ```
-
 {% endcode %}
 {% endtab %}
 
 {% tab title="discordrb (Bot)" %}
 {% code title="Gemfile" %}
-
 ```ruby
 source 'https://rubygems.org'
 ruby '3.2.2'
@@ -136,13 +129,11 @@ group :development do
 	gem 'pry'
 end
 ```
-
 {% endcode %}
 {% endtab %}
 
 {% tab title="Bot Mínimo" %}
 {% code title="Gemfile" %}
-
 ```ruby
 source 'https://rubygems.org'
 ruby '3.2.2'
@@ -150,17 +141,15 @@ ruby '3.2.2'
 # Adicione apenas o que você realmente precisa
 gem 'httparty', '~> 0.21'
 ```
-
 {% endcode %}
 {% endtab %}
 {% endtabs %}
 
----
+***
 
 ## 🧾 Exemplo de `config.ru` (Site Sinatra / Rack)
 
 {% code title="config.ru" %}
-
 ```ruby
 require 'bundler/setup'
 require 'sinatra'
@@ -175,12 +164,11 @@ end
 
 run Sinatra::Application
 ```
-
 {% endcode %}
 
-Para bots, você normalmente NÃO precisa de `config.ru`; em vez disso, apenas aponte `MAIN` no [`discloud.config`](https://github.com/discloud/docs/blob/portuguese-revamp/configuracoes/discloud.config) para sua entrada Ruby (ex.: `bot.rb`).
+Para bots, você normalmente NÃO precisa de `config.ru`; em vez disso, apenas aponte `MAIN` no [`discloud.config`](../../../configurations/discloud.config/) para sua entrada Ruby (ex.: `bot.rb`).
 
----
+***
 
 ## 🧪 Atualizando Dependências
 
@@ -197,7 +185,7 @@ bundle outdated
 
 Patches de segurança: monitore avisos (ex.: RubySec / Dependabot) e agende `bundle update --patch` periodicamente.
 
----
+***
 
 ## 🧰 Referência de Comandos Comuns
 

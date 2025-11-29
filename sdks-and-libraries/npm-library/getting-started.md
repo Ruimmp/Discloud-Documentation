@@ -157,5 +157,5 @@ main();
 ***
 
 {% hint style="success" %}
-**Pronto para começar!** Você configurou com sucesso a biblioteca discloud.app. Confira [Exemplos de Uso](https://github.com/discloud/docs/blob/portuguese-revamp/sdks-e-bibliotecas/biblioteca-npm/usage-examples.md) para ver o que você pode construir!
+**Pronto para começar!** Você configurou com sucesso a biblioteca discloud.app. Confira [Exemplos de Uso](usage-examples.md) para ver o que você pode construir!
 {% endhint %}

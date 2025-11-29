@@ -37,7 +37,7 @@ Fique no servidor para ser notificado quando o seu ticket for respondido e ser n
 
 Há **duas maneiras** de fazer o upload de uma aplicação usando o Bot da Discloud:
 
-<table><thead><tr><th width="212">Método</th><th>Melhor Para</th><th>Como Funciona</th></tr></thead><tbody><tr><td><a href="discord-bot.md#configuracao-avancada"><strong>⚙️ Configuração Avançada</strong></a></td><td>Usuários que querem uma <strong>upload de um comando</strong> com configurações pré-definidas.</td><td>Configure tudo no arquivo <a href="https://github.com/discloud/docs/blob/portuguese-revamp/configuracoes/discloud.config"><code>discloud.config</code></a> e use <code>.upconfig</code>.</td></tr><tr><td><a href="discord-bot.md#configuracao-rapida-guia-passo-a-passo"><strong>⚡ Configuração Rápida (legado)</strong></a></td><td>Usuários que <strong>preferem uma configuração guiada</strong> através dos prompts do bot.</td><td>O bot perguntará os detalhes necessários após executar <code>.up</code>.</td></tr></tbody></table>
+<table><thead><tr><th width="212">Método</th><th>Melhor Para</th><th>Como Funciona</th></tr></thead><tbody><tr><td><a href="discord-bot.md#configuracao-avancada"><strong>⚙️ Configuração Avançada</strong></a></td><td>Usuários que querem uma <strong>upload de um comando</strong> com configurações pré-definidas.</td><td>Configure tudo no arquivo <a href="../configurations/discloud.config/"><code>discloud.config</code></a> e use <code>.upconfig</code>.</td></tr><tr><td><a href="discord-bot.md#configuracao-rapida-guia-passo-a-passo"><strong>⚡ Configuração Rápida (legado)</strong></a></td><td>Usuários que <strong>preferem uma configuração guiada</strong> através dos prompts do bot.</td><td>O bot perguntará os detalhes necessários após executar <code>.up</code>.</td></tr></tbody></table>
 
 {% hint style="warning" %}
 #### **Notas Importantes**
@@ -50,7 +50,7 @@ Há **duas maneiras** de fazer o upload de uma aplicação usando o Bot da Discl
 {% tab title="📝 Configuração Avançada" %}
 {% stepper %}
 {% step %}
-Crie o arquivo [`discloud.config`](https://github.com/discloud/docs/blob/portuguese-revamp/configuracoes/discloud.config).
+Crie o arquivo [`discloud.config`](../configurations/discloud.config/).
 {% endstep %}
 
 {% step %}
