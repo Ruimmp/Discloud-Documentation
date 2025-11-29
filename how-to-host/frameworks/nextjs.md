@@ -29,7 +29,7 @@ A [Platinum plan or higher](https://discloud.com/plans) is required to host webs
 {% endhint %}
 
 {% hint style="success" %}
-[A subdomain must be created](../../faq/general-questions/wip-how-to-create-a-subdomain.md) before deployment.
+[A subdomain must be created](../../faq/general-questions/how-to-create-a-subdomain.md) before deployment.
 {% endhint %}
 
 {% hint style="danger" %}
