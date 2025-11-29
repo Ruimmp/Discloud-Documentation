@@ -78,7 +78,7 @@ VERSION=latest
 * `VERSION` - specifies the [language version](versions.md) of your project.
 
 {% hint style="info" %}
-If the `TYPE` is set to **site**, you must also define the `ID` option with your subdomain. [See more here.](/broken/pages/tOZppdIRGABWAzzGcvLs)
+If the `TYPE` is set to **site**, you must also define the `ID` option with your subdomain. [See more here.](../../faq/general-questions/how-to-create-a-subdomain.md)
 {% endhint %}
 
 <pre class="language-properties" data-title="discloud.config"><code class="lang-properties"><strong>TYPE=site
