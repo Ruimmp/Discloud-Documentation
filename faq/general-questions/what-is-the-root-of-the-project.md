@@ -8,7 +8,7 @@ description: >-
 
 ## 🧾 Overview
 
-The project root ("root directory") is the **top-level folder of your application,** the place you compress and upload to Discloud. It contains the configuration file ([`discloud.config`](https://github.com/discloud/docs/blob/english-revamp/configurations/discloud.config)), dependency manifest (e.g. [`package.json`](../../development-environment/supported-languages/javascript/package.json.md), [`requirements.txt`](../../development-environment/supported-languages/python/requirements.txt.md), [`Cargo.toml`](../../development-environment/supported-languages/rust/cargo.toml.md), [`Gemfile`](../../development-environment/supported-languages/ruby/gemfile.md)), optional [`.env`](wip-.env-file.md), and the folders with your source code (e.g. `src/`).
+The project root ("root directory") is the **top-level folder of your application,** the place you compress and upload to Discloud. It contains the configuration file ([`discloud.config`](../../configurations/discloud.config/)), dependency manifest (e.g. [`package.json`](../../development-environment/supported-languages/javascript/package.json.md), [`requirements.txt`](../../development-environment/supported-languages/python/requirements.txt.md), [`Cargo.toml`](../../development-environment/supported-languages/rust/cargo.toml.md), [`Gemfile`](../../development-environment/supported-languages/ruby/gemfile.md)), optional [`.env`](wip-.env-file.md), and the folders with your source code (e.g. `src/`).
 
 If the structure is wrong (for example, you zip a folder that contains another single folder that actually holds the files), Discloud may fail to detect the main file or dependencies.
 
