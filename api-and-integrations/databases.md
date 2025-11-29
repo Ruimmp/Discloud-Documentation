@@ -39,7 +39,7 @@ Hospede. Credenciais / strings de conexão ficam disponíveis para a configuraç
 {% endstepper %}
 
 {% hint style="info" %}
-#### **📨 Precisa de Outro Template?**
+#### **Precisa de Outro Template?**
 
 Abra um [ticket de suporte](https://discord.com/channels/@me/930852077045940224/) no [servidor Discord](https://discord.discloudbot.com/) com o nome do motor, versão e caso de uso. A equipe avalia a viabilidade e pode adicioná-lo ao catálogo.
 {% endhint %}

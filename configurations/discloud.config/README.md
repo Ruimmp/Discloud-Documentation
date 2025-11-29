@@ -115,8 +115,8 @@ APT=tools
 {% endtab %}
 {% endtabs %}
 
-{% hint style="info" %}
-**⚠️ Opções obrigatórias no seu `discloud.config`**
+{% hint style="warning" %}
+#### **Opções obrigatórias no seu `discloud.config`**
 
 **Apenas um campo é obrigatório**:
 

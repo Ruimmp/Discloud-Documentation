@@ -50,7 +50,7 @@ const puppeteer = require("puppeteer");
 ```
 
 {% hint style="info" %}
-#### 🚨 **Por que `--no-sandbox`?**
+#### **Por que `--no-sandbox`?**
 
 Executar Puppeteer dentro de um container **requer desabilitar o sandbox** para impedir que restrições de segurança bloqueiem a execução.
 {% endhint %}
@@ -74,7 +74,7 @@ client.initialize();
 ```
 
 {% hint style="info" %}
-#### **🚨 Solução de Problemas com Código QR:**
+#### **Solução de Problemas com Código QR:**
 
 * Se o **código QR não aparecer** nos logs da Discloud, **aumente a RAM alocada**.
 * Quanto mais complexas suas interações com o WhatsApp, **mais RAM o Puppeteer precisará** para funcionar adequadamente.
