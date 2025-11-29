@@ -40,7 +40,7 @@ There are **two ways** to deploy an application using the Discloud Bot:
 <table><thead><tr><th width="212">Method</th><th>Best For</th><th>How It Works</th></tr></thead><tbody><tr><td><a href="discord-bot.md#advanced-setup"><strong>⚙️ Advanced Setup</strong></a></td><td>Users who want a <strong>one-command</strong> deployment with pre-configured settings.</td><td>Configure everything in the <a href="https://github.com/discloud/docs/blob/english-revamp/configurations/discloud.config"><code>discloud.config</code></a> file and use <code>.upconfig</code>.</td></tr><tr><td><a href="discord-bot.md#quick-setup-step-by-step-guide"><strong>⚡ Quick Setup (legacy)</strong></a></td><td>Users who <strong>prefer a guided setup</strong> via the bot’s prompts.</td><td>The bot will ask for the necessary details after running <code>.up</code>.</td></tr></tbody></table>
 
 {% hint style="warning" %}
-**Important Notes:**
+#### **Important Notes**
 
 * If your [**main file**](../faq/general-questions/wip-what-is-the-main-file.md) **is not in the** [**root directory**](../faq/general-questions/what-is-the-root-of-the-project.md), you **must** use Advanced Setup or move it to the root.
 * If you are hosting a **bot without an ID** (e.g., WhatsApp or Telegram), use Advanced Setup and Discloud will generate the ID automatically.
@@ -142,7 +142,7 @@ Upload your project.
 {% step %}
 \*\*Provide the Required Information.\*\*
 
-* **Choose a** [**Subdomain**](../faq/general-questions/wip-how-to-create-a-subdomain.md).
+* **Choose a** [**Subdomain**](/broken/pages/tOZppdIRGABWAzzGcvLs).
 * **Enter the** [**Main File Name**](../faq/general-questions/wip-what-is-the-main-file.md) (e.g., `index.html`, `index.php`).
 *   **Specify the RAM** for your bot (e.g., `512` for 512MB).
 

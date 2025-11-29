@@ -78,7 +78,7 @@ VERSION=latest
 * `VERSION` - specifies the [language version](versions.md) of your project.
 
 {% hint style="info" %}
-If the `TYPE` is set to **site**, you must also define the `ID` option with your subdomain. [See more here.](../../faq/general-questions/wip-how-to-create-a-subdomain.md)
+If the `TYPE` is set to **site**, you must also define the `ID` option with your subdomain. [See more here.](/broken/pages/tOZppdIRGABWAzzGcvLs)
 {% endhint %}
 
 <pre class="language-properties" data-title="discloud.config"><code class="lang-properties"><strong>TYPE=site
@@ -115,8 +115,8 @@ APT=tools
 {% endtab %}
 {% endtabs %}
 
-{% hint style="info" %}
-## ⚠️ Mandatory options in your **`discloud.config`**
+{% hint style="warning" %}
+## Mandatory options in your **`discloud.config`**
 
 **Only one field is required**:
 

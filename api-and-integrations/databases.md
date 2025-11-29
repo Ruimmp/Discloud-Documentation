@@ -38,7 +38,7 @@ Deploy. Credentials / connection strings become available for your app configura
 {% endstepper %}
 
 {% hint style="info" %}
-#### **📨 Need Another Template?**
+#### **Need Another Template?**
 
 Open a [support ticket](https://discord.com/channels/@me/930852077045940224/) in the [Discord server](https://discord.discloudbot.com/) with the engine name, version, and use case. The team evaluates feasibility and may add it to the catalog.
 {% endhint %}

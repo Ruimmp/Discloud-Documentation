@@ -472,7 +472,7 @@ try {
 ```
 
 {% hint style="warning" %}
-**RAM Requirements:**
+#### **RAM Requirements**
 
 * Bot applications: minimum 100MB
 * Website applications: minimum 512MB
@@ -497,7 +497,7 @@ try {
 ```
 
 {% hint style="warning" %}
-**Profile Update Details:**
+#### **Profile Update Details**
 
 * `name`: Optional. New name for your application (maximum 30 characters).
 * `avatarURL`: Optional. URL of the new avatar image. Supported formats: GIF, JPG, JPEG, PNG.

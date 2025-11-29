@@ -107,7 +107,7 @@ npm -v
 ```
 {% endtab %}
 
-{% tab title="NVM (Recommended)" %}
+{% tab title="NVM" %}
 ```bash
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
 source ~/.bashrc 2>/dev/null || source ~/.zshrc 2>/dev/null
