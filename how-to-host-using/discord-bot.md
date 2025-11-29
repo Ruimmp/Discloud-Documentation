@@ -108,7 +108,7 @@ Forneça as Informações Necessárias.
 Ao especificar a quantidade de RAM, você não precisa incluir unidades como "MB". Basta inserir o valor numérico, por exemplo, "100" para 100MB.
 
 ```
-           Sites requerem um mínimo de 512MB de RAM.
+          BOTs requerem um mínimo de 100MB de RAM.
 ```
 {% endhint %}
 {% endstep %}
