@@ -98,19 +98,19 @@ Upload your project.
 {% endstep %}
 
 {% step %}
-\*\*Provide the Required Information.\*\*
+Provide the Required Information.
 
 * **Enter the** [**Application ID**](../faq/general-questions/wip-how-can-i-get-my-bots-id.md) (for Discord bots).
 * **Enter the** [**Main File Name**](../faq/general-questions/wip-what-is-the-main-file.md) (e.g., `index.js`, `main.py`, `main.go`).
-*   **Specify the RAM** for your bot (e.g., `100` for 100MB).
+* **Specify the RAM** for your bot (e.g., `100` for 100MB).
 
-    \{% hint style="info" %\} When specifying the amount of RAM, you do not need to include units like "MB". Simply enter the numeric value, for example, "100" for 100MB.
+{% hint style="info" %}
+When specifying the amount of RAM, **you do not need** to include units like "MB". Simply enter the numeric value, for example, "100" for 100MB.
 
-    ```
-               BOTs require a minimum of 100MB of RAM.
-    ```
-
-    \{% endhint %\}
+```
+           BOTs require a minimum of 100MB of RAM.
+```
+{% endhint %}
 {% endstep %}
 
 {% step %}
@@ -140,16 +140,19 @@ Upload your project.
 {% endstep %}
 
 {% step %}
-\*\*Provide the Required Information.\*\*
+Provide the Required Information.
 
 * **Choose a** [**Subdomain**](../faq/general-questions/how-to-create-a-subdomain.md).
 * **Enter the** [**Main File Name**](../faq/general-questions/wip-what-is-the-main-file.md) (e.g., `index.html`, `index.php`).
-*   **Specify the RAM** for your bot (e.g., `512` for 512MB).
+* **Specify the RAM** for your bot (e.g., `512` for 512MB).
 
+{% hint style="info" %}
+When specifying the amount of RAM, **you do not need** to include units like "MB". Simply enter the numeric value, for example, "512" for 512MB.
 
-
-    <div data-gb-custom-block data-tag="hint" data-style="info" class="hint hint-info"><p>When specifying the amount of RAM, <strong>you do not need</strong> to include units like "MB". Simply enter the numeric value, for example, "512" for 512MB.</p><pre><code>           Websites require a minimum of 512MB of RAM.
-    </code></pre></div>
+```
+           Websites require a minimum of 512MB of RAM.
+```
+{% endhint %}
 {% endstep %}
 
 {% step %}
@@ -158,8 +161,6 @@ Send your [`.zip`](../faq/general-questions/wip-how-to-compress.md) file when pr
 {% endstepper %}
 {% endtab %}
 {% endtabs %}
-
-
 {% endtab %}
 {% endtabs %}
 
