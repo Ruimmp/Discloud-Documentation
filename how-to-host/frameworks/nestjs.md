@@ -11,7 +11,7 @@ Este guia passo a passo mostra como preparar, configurar e fazer o deploy de uma
 
 O processo envolve compilar seu código TypeScript para a pasta `dist` e executar o JavaScript compilado na porta `8080`. Aplicações NestJS são simples de fazer deploy porque o framework gerencia rotas, injeção de dependências e organização de módulos automaticamente.
 
----
+***
 
 ## 📋 Requisitos
 
@@ -27,16 +27,16 @@ O processo envolve compilar seu código TypeScript para a pasta `dist` e executa
 Porta `8080` é obrigatória – As aplicações devem escutar nesta porta.
 {% endhint %}
 
----
+***
 
 ## 🧱 Pré-requisitos locais
 
 Antes de continuar, você vai precisar:
 
-- **Node.js** instalado na sua máquina.
-- Um **projeto NestJS** criado (ex.: `nest new meu-app`).
-- Uma **conta na Discloud** com **subdomínio configurado**.
-- Opcionalmente: **Git**, **VSCode** e/ou **CLI da Discloud** para facilitar o fluxo.
+* **Node.js** instalado na sua máquina.
+* Um **projeto NestJS** criado (ex.: `nest new meu-app`).
+* Uma **conta na Discloud** com **subdomínio configurado**.
+* Opcionalmente: **Git**, **VSCode** e/ou **CLI da Discloud** para facilitar o fluxo.
 
 Se ainda não tiver familiaridade com o ambiente, confira:
 
@@ -44,7 +44,7 @@ Se ainda não tiver familiaridade com o ambiente, confira:
 [nodejs.md](../../development-environment/local-environment/nodejs.md)
 {% endcontent-ref %}
 
----
+***
 
 ## 🧹 Preparando os arquivos do projeto
 
@@ -64,7 +64,7 @@ package-lock.json
 O arquivo `.discloudignore` funciona de forma semelhante a um `.gitignore`, mas é usado pela Discloud para ignorar arquivos no momento do upload.
 {% endhint %}
 
----
+***
 
 ## 🔧 Configuração TypeScript – `tsconfig.build.json`
 
@@ -87,7 +87,7 @@ Garanta que seu `tsconfig.build.json` (ou `tsconfig.json`) esteja configurado pa
 É importante que **`compilerOptions.outDir`** esteja definido como `"dist"`, pois a Discloud procurará pela sua aplicação compilada lá.
 {% endhint %}
 
----
+***
 
 ## 🚀 Ponto de entrada principal – `src/main.ts`
 
@@ -109,14 +109,13 @@ bootstrap();
 ```
 
 {% hint style="danger" %}
-
 #### **Importante**
 
-- **Porta 8080 é obrigatória.** Mesmo que você defina `PORT` no seu arquivo `.env`, ele deve ser `8080`.
-- Vincule a `0.0.0.0` (não `localhost`) para que o tráfego externo possa chegar ao seu app.
-  {% endhint %}
+* **Porta 8080 é obrigatória.** Mesmo que você defina `PORT` no seu arquivo `.env`, ele deve ser `8080`.
+* Vincule a `0.0.0.0` (não `localhost`) para que o tráfego externo possa chegar ao seu app.
+{% endhint %}
 
----
+***
 
 ## 📦 `package.json` – scripts recomendados
 
@@ -133,13 +132,12 @@ Dentro do seu [`package.json`](../../development-environment/supported-languages
 ```
 
 {% hint style="info" %}
+* `build` – compila TypeScript para `dist` via o CLI do Nest.
+* `start` – executa a aplicação compilada a partir da pasta `dist`.
+* `start:dev` – executa em modo watch localmente (não necessário para Discloud).
+{% endhint %}
 
-- `build` – compila TypeScript para `dist` via o CLI do Nest.
-- `start` – executa a aplicação compilada a partir da pasta `dist`.
-- `start:dev` – executa em modo watch localmente (não necessário para Discloud).
-  {% endhint %}
-
----
+***
 
 ## ⚙️ `discloud.config` – exemplo
 
@@ -164,7 +162,7 @@ Para informações detalhadas sobre cada parâmetro de configuração e todas as
 Certifique-se de ajustar o campo `ID` para corresponder ao seu subdomínio registrado no painel da Discloud.
 {% endhint %}
 
----
+***
 
 ## 🧪 Testando localmente (build para produção)
 
@@ -196,13 +194,13 @@ Pare o servidor e proceda com o deploy.
 {% endstep %}
 {% endstepper %}
 
----
+***
 
 ## 🔐 Variáveis de ambiente
 
 No NestJS, variáveis de ambiente são tipicamente acessadas via `process.env`:
 
-- Padrões comuns incluem `DATABASE_URL`, `API_KEY`, `REDIS_URL`, etc.
+* Padrões comuns incluem `DATABASE_URL`, `API_KEY`, `REDIS_URL`, etc.
 
 Exemplo em um serviço:
 
@@ -221,7 +219,7 @@ export class ConfigService {
 Para melhor segurança de tipo e validação, considere usar o pacote `@nestjs/config` para gerenciar variáveis de ambiente.
 {% endhint %}
 
----
+***
 
 ## 🗂️ Estrutura final recomendada do projeto
 
@@ -242,7 +240,7 @@ meu-nest-app/
 └─ dist/  (gerado após o build)
 ```
 
----
+***
 
 ## 🚀 Fazendo o deploy na Discloud
 
@@ -264,7 +262,7 @@ Você pode fazer deploy do seu app NestJS usando qualquer um dos métodos suport
 [cli.md](../../how-to-host-using/cli.md)
 {% endcontent-ref %}
 
----
+***
 
 ## 🛠️ Troubleshooting (erros comuns)
 
@@ -276,9 +274,3 @@ Você pode fazer deploy do seu app NestJS usando qualquer um dos métodos suport
 | **Subdomínio não configurado**        | Certifique-se de ter seguido o guia de **subdomínio** antes do deploy.                                                                                                                                           |
 | **Erros de build**                    | <ul><li>Execute localmente: <code>npm run build</code> e corrija qualquer erro antes de enviar.</li><li>Confira se todas as <strong>dependências</strong> estão listadas no <code>package.json</code>.</li></ul> |
 | **Erros ao iniciar (`START`)**        | <ul><li>Verifique se o script <code>start</code> está correto.</li><li>Acompanhe os <strong>logs da Discloud</strong> para ver a mensagem de erro exata.</li></ul>                                               |
-
----
-
-## ❓ Precisa de ajuda?
-
-Confira a [**seção FAQ**](../../faq/where-to-get-help.md) ou junte-se ao nosso [**servidor Discord**](https://discord.discloudbot.com/) para suporte.
